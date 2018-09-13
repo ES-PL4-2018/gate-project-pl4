@@ -1,2 +1,1 @@
-# es-pl4-2018-projeto
-"O sonho é uma constante da vida" -- António Gedeão
+# Projeto de Eng. Software PL4/2018 
