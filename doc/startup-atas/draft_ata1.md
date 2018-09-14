@@ -6,7 +6,7 @@
 
 
 ##### Presenças
-Alexandre, Guilherme ,  Carlos ,  Catarina M, Catarina P, Claudio Gomes, Guilherme
+Alexandre, Carlos, Catarina M, Catarina P, Claudio Gomes, Guilherme
 Jessica M, João Gonçalves, João Mendes, João Montenegro, Joao Silva, Joao Soares
 Jose Henrique, Madalena, Maria, Pedro Fernandes, Pedro M, Pedro Sa
 Pedro Silva, Sergii, Tiago, Vitor C, Vitor H
