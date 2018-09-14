@@ -1,0 +1,27 @@
+ideas for QA manual
+## TODO
+(ENV??)urgent-> git allow? or git ignore needed -> prevent all artifacts ! 
+
+Code desing guide lines (MUST!)
+
+chain to map process since start to finish
+1 req team feature described
+2 Code written - if possible to meet the required feature...
+3 check by lead dev? OK(goto .4) NOK(goto 2??)
+4 testing - passes all tests? OK(goto 5) NOK(goto 2??)
+5 check by lead test? OK(goto 6) NOK(goto 2??)
+6 quality approved? OK(goto 7) NOK(goto 2??)
+7 DEPLOY!!!
+
+continuous testing for continuous deployment -> moar performance !
+
+each role has to be described -> prevent overlapping 
+
+Cards to arrange workflow -> preventing backlog
+
+Performace evaluation markers
+
+team rules
+
+risk assessment? what risk? worth it?
+
