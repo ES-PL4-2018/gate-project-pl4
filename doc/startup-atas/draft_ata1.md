@@ -6,7 +6,7 @@
 
 
 ##### Presenças
-Guilherme ,  Carlos ,  Catarina M, Catarina P, Claudio Gomes, Guilherme
+Alexandre, Guilherme ,  Carlos ,  Catarina M, Catarina P, Claudio Gomes, Guilherme
 Jessica M, João Gonçalves, João Mendes, João Montenegro, Joao Silva, Joao Soares
 Jose Henrique, Madalena, Maria, Pedro Fernandes, Pedro M, Pedro Sa
 Pedro Silva, Sergii, Tiago, Vitor C, Vitor H
@@ -27,7 +27,7 @@ Após breve apresentação dos vários elementos constituintes da equipa, foi de
 
 Gestao Projeto | Requisitos | Implementação | Testes | Qualidade | Ambiente
 :---: | :---: | :---: | :---: | :---: | :---:
- **Guilherme** | **Pedro M** | **Alenxanre** | **Jessica M** | **Madalena** | **Vitor C**
+ **Guilherme** | **Pedro M** | **Alexandre** | **Jessica M** | **Madalena** | **Vitor C**
 Claudio Gomes | Carlos | Joao Gonçalves | Catarina M | Joao Silva | Jose Henrique
 Joao Mendes | Catarina P | Joao Montenegro | Pedro Sa | Joao Soares | Pedro Silva
  | Tiago | | Ricardo Paiva | Maria |  Vitor H
