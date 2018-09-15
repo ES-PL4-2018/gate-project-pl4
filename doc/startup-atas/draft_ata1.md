@@ -18,7 +18,7 @@ Rita Salema, Roman Walls
 
 ##### Faltas
 Flavio Fernandes, Duarte Silva, Guilherme Cruz, Joao Oliveira, Pedro Moraes, Tomas Martins
-
+ <br/>
 
 ###### - - - INICIO REUNIAO @ 14:08 - - -
 
@@ -34,4 +34,28 @@ Joao Mendes | Catarina P | Joao Montenegro | Pedro Sa | Joao Soares | Pedro Silv
  | | | | Pedro Fernandes | 
  | | | | Sergii | 
 
- 
+A distribuição não é fixa, sendo possível a sua alteração entre cada sprint, possibilitando aos elementos passarem pelas várias unidades, não sendo recomendável a troca completa de uma unidade completa de forma a matner sempre algum(ns) elemento(s). 
+
+ <br/>
+Concluída a distribuição dos elementos pelas equipas, foram defenidas algumas prioridades a tratar de imediato para permitir uma organização e comunicação mais eficiente:
+* Criação de repositório GIT para gestão documentação e código;
+* Criação de equipa no Slack para facilitar comunicação;
+* Troca de contactos diretos (email e telefónicos);
+
+Tendo sido finalizadas as prioridades, foram definidas algumas metas para a serem cumpridas para a semana seguinte:
+* Criação de nome para a equipa;
+* Produção de logotipo;
+* Levantamento de requesitos junto do cliente;
+* . . .
+
+Concluidos todos os procedimentos, ficou concluida a reunião para os *non lead*? , ficando os restantes reunidos.
+
+###### - - - FIM? REUNIAO @ 15:30ish - - -
+
+###### - - - INICIO REUNIAO LEAD @ 15:30ish - - -
+
+```
+insert relevant meeting content
+```
+
+###### - - - FIM REUNIAO LEAD @ - - : - -  - - -
