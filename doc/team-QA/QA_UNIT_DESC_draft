@@ -1,0 +1,37 @@
+Disclaimer - this document is only a DRAFT and has to be discussed in meeting to properly acess all the functions accurately and their placement on each team!!
+
+
+PM
+{
+	Risk;
+	HR;
+	Teamvork!!
+}
+
+REQ
+{
+	Creative side (graphics =?);
+	Build requirements docs
+}
+
+DEV
+{
+	Implement the code necessary to meet the requirements and pass the tests
+}
+
+TST
+{
+	Code testting, aproving and deploying
+}
+
+QUA
+{
+	SQUA plan (build monitoring and improve);
+	Integrate team's processes and procedures on a QUA pov;
+}
+
+ENV
+{
+	Manage team platforms
+	assets/tools needed for project development
+}
