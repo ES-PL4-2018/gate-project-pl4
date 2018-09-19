@@ -6,22 +6,27 @@ PM
 	Risk;
 	HR;
 	Teamvork!!
+	Always knowing everything about the project
+	Spokesperson
+
 }
 
 REQ
 {
 	Creative side (graphics =?);
 	Build requirements docs
+	Communication with the client
 }
 
 DEV
 {
 	Implement the code necessary to meet the requirements and pass the tests
+	Development testing by all the DEV members before shipping to TST
 }
 
 TST
 {
-	Code testting, aproving and deploying
+	Code testing, aproving and deploying
 }
 
 QUA
