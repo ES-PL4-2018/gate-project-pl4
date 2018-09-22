@@ -2,7 +2,7 @@
 
 ## 1º Sprint
 
-###Product goals
+### Product goals
 Two focus areas delivered:
 
 - A profile page for user ‘researcher’ (requires registration).
@@ -38,7 +38,7 @@ Two focus areas delivered:
 
 
 
-###TST (testing and product quality)
+### TST (testing and product quality)
 - Delivery of product (to client) according to requirements.
 
 - Baseline of TST processes.
