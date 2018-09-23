@@ -11,6 +11,9 @@
 ### # Páginas:
 
 
+### Descrição das tarefas
+**Tarefa #1**: Testar log-in
+**Tarefa #2**: ..
 
 ### Tabela de distribuição de tarefas
 
@@ -28,11 +31,11 @@
 | Tarefa # | Autor       | Bugs encontrados                                             | Data  |
 | :------: | :---------- | ------------------------------------------------------------ | :---: |
 |    1     | Elemento #2 | - Botão log-in não funciona<br />- Nome de utilizador pode ser números | 23/09 |
-|          |             |                                                              |       |
+|   ...    |             |                                                              |       |
 |          |             |                                                              |       |
 
 
 
 #### Notas
 
-Tarefa #1: Foi notado que o problema do botão de log in foi na linha #235, class "Java"
+Tarefa #1: Foi notado que o problema do botão de log in foi na linha #235, class "Java" [colocar link do commit]
