@@ -1,5 +1,5 @@
 ## Exemplo Template Relatório de Revisão de Código [Rascunho]
-Nota: Os dados **não** são verídicos, apenas um exemplo de como usar o template
+**Nota:** Os dados **não** são verídicos, apenas um exemplo de como usar o template
 
 
 ### # Sprint:
