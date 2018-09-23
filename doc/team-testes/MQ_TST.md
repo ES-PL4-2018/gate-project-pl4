@@ -65,6 +65,9 @@ Todos os elementos da equipa devem participar nas reuniões. Caso algum elemento
 ### Critério de saída:
 A reunião está terminada, todas as tarefas foram feitas, os documentos foram aceites e a ata validada por todos.
 
+### Outputs:
+- Ata da reunião guardada no GitHub (colocar exemplo de nome)
+- Lista de tarefas fazer guardadas nos documentos xxxx
 
 ##### 
 
@@ -105,7 +108,8 @@ Este processo descreve a verificação e validação do código através da desc
 
 Apoós conclusão de todas as tarefas estipuladas na reunião este processo termina.
 
-
+### Outputs:
+- Documento xxx que contém uma tabela com as tarefas realizadas e os seus resultados.
 
 #####
 ### MQ_TST_RESULTADOS
@@ -141,4 +145,8 @@ Sempre que a equipa de Implementação submeter código, este passará pelos tes
 ### Critério de saída:
 
 O processo termina com a entrega do documento a equipa responsável pela resolução dos problemas.
+
+### Outputs:
+
+- Documento xxx contém os resultados finais a serem entregues a equipa responsável
 
