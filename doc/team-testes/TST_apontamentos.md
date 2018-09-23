@@ -1,5 +1,5 @@
 # Rascunho de informações
-
+Este documento ainda está a ser alterado. É usado como rascunho pelos demais elementos da equipa.
 ## 1º Sprint
 
 ### Product goals
