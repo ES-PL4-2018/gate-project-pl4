@@ -62,11 +62,16 @@ Todos os elementos da equipa devem participar nas reuniões. Caso algum elemento
 - Distribuição das tarefas por cada elemento da equipa
 - Estipulação de prazo para entrega de resultados
 
-### Critério de saída de uma reunião:
+### Critério de saída:
 A reunião está terminada, todas as tarefas foram feitas, os documentos foram aceites e a ata validada por todos.
 
 
 ##### 
+
+
+
+
+
 ### MQ_TST_TESTES_CÓDIGO
 
 **Estado:** Incompleto		**Data:** 24/09/2018		**Versão:** v0.1
@@ -76,6 +81,31 @@ A reunião está terminada, todas as tarefas foram feitas, os documentos foram a
 ### Descrição do processo:
 
 Este processo descreve a verificação e validação do código através da descoberta de erros, pela parte da equipa de Testes. Caso o código contenha erros ou os requisitos não estejam a ser cumpridos a equipa de testes deve apresentar um relatório deste a equipa de implementação.
+
+### Responsáveis:
+
+| Nome            | Curso | Contacto                   |
+| --------------- | ----- | -------------------------- |
+| Catarina Mestre | LEI   | mestrekata@hotmail.com     |
+| João Oliveira   | LEI   | jdoliveira579@gmail.com    |
+| Pedro Sá        | LEI   | sa@student.dei.uc.pt       |
+| Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt  |
+
+### Input:
+- Template xxxxx que serve para posterior apresentação de resultados 
+
+### Critério de entrada/ativação:
+- Após término de uma reunião
+
+### Descrição das Tarefas:
+- Realização dos testes necessário para aprovação/reprovação de cada tarefa a si atríbuida
+- Escrita dos resultados no template xxxxx
+
+### Critério de saída:
+
+Apoós conclusão de todas as tarefas estipuladas na reunião este processo termina.
+
+
 
 #####
 ### MQ_TST_RESULTADOS
@@ -91,3 +121,24 @@ Este processo descreve a validação do código e a descoberta de erros, pela pa
 Sempre que a equipa de Implementação submeter código, este passará pelos testes (?????)
 
 ### Responsáveis:
+| Nome            | Curso | Contacto                   |
+| --------------- | ----- | -------------------------- |
+| Jessica Cunha   | LEI   | jessicacunha98@hotmail.com |
+| Maravilhoso Adjunto | LEI   |      |
+
+
+### Input:
+- Template xxxxx para apresentação dos resultados reunidos por todos os testers. 
+
+### Critério de entrada/ativação:
+- Este processo inicia-se com o fim do prazo estipulado na última reunião.
+
+### Descrição das Tarefas:
+- Agrupar toda a informação fornecida pelos testers verificando a sua veracidade.
+- Validação do documento
+- Entrega da documento a equipa rsponsável (implementação/qualidade).
+
+### Critério de saída:
+
+O processo termina com a entrega do documento a equipa responsável pela resolução dos problemas.
+
