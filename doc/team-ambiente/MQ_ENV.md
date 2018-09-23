@@ -119,6 +119,52 @@ Relatório formal detalhando o problema e a solução encontrada assim como poss
 
 <div style="page-break-after: always;"></div>
 
+## 3.2 MQ_ENV_DIV_DI
+
+Disciplina: ENV | Data: 2018.09.23 | Coordenador: Victor Moraes
+| - | - | - |
+**Estado:** incompleto | **Versão:** v0.1 |
+
+### **Descrição do Processo**:
+O processo de documentação interna é responsável por definir as guidelines gerais de escrita de quaisquer documentos da equipa.
+
+### **Lista de Responsáveis:**
+| Nome | Curso | Função | Contacto |
+| -    | -     | -      | -        |
+| Victor Carvalho       | LEI | Coordenador |contato@victorcarvalho.pt|
+| José Henrique Pereira | LEI | Ambiente    |jhdpereira@gmail.com |
+| Pedro Silva           | LEI | Ambiente    |pmsilva1@gmail.com  |
+| Roman Walls           | LEI | Ambiente    |nsake@hotmail.com  |
+| Vitor Ribeiro         | LEI | Ambiente    |vitorribeiro98@gmail.com |
+
+### **Inputs**:
+* Discussões em reuniões sobre que tipo de documentos precisa de guidelines e como esta é feita. 
+
+### **Critério de Entrada/Ativação**:
+* Início do projeto. Essencial para uma boa organização inicial da equipa.
+* Necessidade de elaboração de um novo tipo de documento.
+
+### **Ciclo de vida dos artefactos**:
+Os documentos/ficheiros produzidos como guidelines são armazenados no git.
+
+### **Descrição das Tarefas**:
+* O coordenador de equipa decide se é necessário mais guidelines para documentação e traz o assunto a uma reunião interna para discutir.
+* Após haver um consenso na maneira em que os documentos serão escritos, uma das pessoas irá elaborar o documento template e disponibilizá-lo no git para a equipa interna poder usar.
+
+### **Validação**:
+* A documentação é válida se estiver escrita em markdown e se for simples de usar e que facilmente se perceba.
+* A documentação terá de seguir os requisitos discutidos pela equipa para poder englobar os tópicos e necessidades todas de um documento.
+* O gestor da equipa decide se aprova ou se é necessário alterar algum tópico no template disponibilizado.
+
+### **Outputs Gerados(Artefactos)**:
+* Templates de documentos.
+* Tutoriais ou regras gerais de _Good Practices_ para usar em todos os documentos.
+ 
+### **Monitorização deste processo pela equipa de qualidade**:
+Todos os templates e guidelines criados neste processo estão disponíveis no git e, assim, a equipa de qualidade tem acesso permanente a estes e está sempre a par de todos os documentos produzidos por este processo.
+
+<div style="page-break-after: always;"></div>
+
 ## NOME DO PROCESSO
 ### **Descrição do processo:**
 ### **Lista de Responsáveis:**
