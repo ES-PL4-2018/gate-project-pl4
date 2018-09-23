@@ -97,6 +97,7 @@ Este processo descreve a verificação e validação do código através da desc
 
 ### Input:
 - Template xxxxx que serve para posterior apresentação de resultados 
+- Código fornecido pela equipa de Implementação sujeito a teste
 
 ### Critério de entrada/ativação:
 - Após término de uma reunião
