@@ -25,13 +25,14 @@
 3. Processo de Resultados 													  MQ_TST_RESULTADOS
 
 
-- equipa discute que testes serão feitos, sendo que cada um tem de ser testado por, pelo menos 2 pessoas
+- A equipa discute que testes serão feitos, sendo que cada um tem de ser testado por, pelo menos 2 pessoas
 - O gestor da equipa terá de distribuir os testes por cada elemento da equipa
 - Será redigido um relatório com os aspectos em falha e o que foi testado, sendo que este só será lançado, com a aprovação do gestor de equipa.
 - A equipa de testes é que decide se o projeto corresponde aos requisitos, e juntamente com a equipa de qualidade, se este pode ser entregue ao cliente
 - No caso da deteção de um erro trivial durante os testes, será possível a sua correção com o consentimento dos vários elementos da equipa;
 - Para haver alteração do código, será necessário criar um pull request no git, que seguirá para a aprovação do Gestor da Implementação
-
+- Será imposto pelo gestor de equipa um prazo máximo para a realização de cada teste e entrega da sua parte do relatório.
+- Se o gestor de equipa não estiver a ir de encontro com os objetivos do seu cargo, este deve ser destituído. Dentro da equipa deverá ser escolhido um novo elemento para o substituir, por voluntariado ou votação.
 
 
 ### MQ_TST_REUNIOES
