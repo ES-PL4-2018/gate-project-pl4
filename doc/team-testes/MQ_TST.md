@@ -20,9 +20,9 @@
 
 #### Processos utilizados por esta unidade:
 
-1. Processo de Revisão de Código								MQ_TST_TESTES_CODIGO
-2. Processo de 
-
+1. Processo de Reuniões 															MQ_TST_REUNIOES
+2. Processo de Testes/Revisão de Código								MQ_TST_TESTES_CODIGO
+3. Processo de Resultados 													  MQ_TST_RESULTADOS
 
 
 - equipa discute que testes serão feitos, sendo que cada um tem de ser testado por, pelo menos 2 pessoas
@@ -34,29 +34,60 @@
 
 
 
+### MQ_TST_REUNIOES
+
+**Estado:** Incompleto		**Data:** 24/09/2018		**Versão:** v0.1
+
+------
+
+### Descrição do processo:
+
+O processo de reuniões serve para discussão de tarefas e distribuição destas por todos os elementos, assim como decisões a tomar nos próximos dias. Embora não sejam obrigatórios estas devem ser feitas regularmente, quer sejam feitas semanalmente ou após libertação de código por parte da equipa de implementação.
+
+### Responsáveis:
+
+Todos os elementos da equipa devem participar nas reuniões. Caso algum elemento não posso comparecer deve informar-se sobre tudo o que foi dito na reunião.
+
+### Input:
+- Template Atas
+- Métricas/requisitos
+- Documentos relacionados com a disciplina guardados no GitHub
+
+### Critério de entrada/ativação:
+- Necessidade de tomada de decisões importantes por parte do Gestor
+- Após libertação de código por parte da equipa de implementação
+
+### Descrição das Tarefas:
+- Criação da lista de tarefas a realizar
+- Distribuição das tarefas por cada elemento da equipa
+- Estipulação de prazo para entrega de resultados
+
+### Critério de saída de uma reunião:
+A reunião está terminada, todas as tarefas foram feitas, os documentos foram aceites e a ata validada por todos.
 
 
-
-
-
-
-
-
+##### 
 ### MQ_TST_TESTES_CÓDIGO
 
 **Estado:** Incompleto		**Data:** 24/09/2018		**Versão:** v0.1
 
 ------
 
-##### Descrição do processo:
+### Descrição do processo:
+
+Este processo descreve a verificação e validação do código através da descoberta de erros, pela parte da equipa de Testes. Caso o código contenha erros ou os requisitos não estejam a ser cumpridos a equipa de testes deve apresentar um relatório deste a equipa de implementação.
+
+#####
+### MQ_TST_RESULTADOS
+
+**Estado:** Incompleto		**Data:** 24/09/2018		**Versão:** v0.1
+
+------
+
+### Descrição do processo:
 
 Este processo descreve a validação do código e a descoberta de erros, pela parte da equipa de Testes.
 
 Sempre que a equipa de Implementação submeter código, este passará pelos testes (?????)
 
-
-
-Como será avaliado, falar de que se usará o template para mostarr o que fizemos, 
-
-
-
+### Responsáveis:
