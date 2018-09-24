@@ -1,4 +1,4 @@
-## Exemplo Template Relatório de Revisão de Código Individual [Rascunho]
+## Template Relatório de Revisão de Código Individual [Rascunho]
 **Nota:** Os dados **não** são verídicos, apenas um exemplo de como usar o template
 
 ### Ref: TST_REVISAO_NOME
@@ -23,6 +23,7 @@
 
 ### Sugestão de correção
 
+
 ## Tarefa 2:
 
 ### Método de revisão:
@@ -30,3 +31,5 @@
 ### Defeitos encontrados:
 
 ### Sugestão de correção
+
+### Observações:
