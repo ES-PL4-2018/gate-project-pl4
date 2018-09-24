@@ -21,6 +21,7 @@
 1. Processo de Reuniões 															MQ_TST_REUNIOES
 2. Processo de Testes/Revisão de Código								MQ_TST_TESTES_CODIGO
 3. Processo de Resultados 													  MQ_TST_RESULTADOS
+4. Processo de revisão de documentos                  MQ_TST_REVISAO
 
 
 - A equipa discute que testes serão feitos, sendo que cada um tem de ser testado por, pelo menos 2 pessoas
@@ -109,3 +110,17 @@ Após conclusão de todas as tarefas estipuladas na reunião este processo termi
 
 ### Outputs:
 - Documento xxx que contém uma tabela com as tarefas realizadas e os seus resultados.
+
+
+
+# TODO
+
+
+### MQ_TST_REVISAO
+
+**Estado:** Incompleto		**Data:** 24/09/2018		**Versão:** v0.1
+
+------
+
+### Descrição do processo:
+Método de revisão de documentos internos à equipa
