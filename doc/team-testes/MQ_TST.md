@@ -42,6 +42,7 @@
 ### Descrição do processo:
 
 O processo de reuniões serve para discussão de tarefas e distribuição destas por todos os elementos, assim como decisões a tomar nos próximos dias. Embora não sejam obrigatórios estas devem ser feitas regularmente, quer sejam feitas semanalmente ou após libertação de código por parte da equipa de implementação.
+No início da reunião será decidido duas pessoas para escreverem a ata.
 
 ### Responsáveis:
 
