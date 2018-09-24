@@ -10,12 +10,8 @@
 
 ### Duration: 1:20
 
- <br/>
-
 ### # pages: 1
 
-<br/> 
-<br/>
 
 #### Meeting attendance
 
@@ -25,16 +21,13 @@ Catarina Mestre, Jessica Cunha, João Oliveira, Pedro Sá, Ricardo Paiva
 
 | Rev # | Author | Description              | Date |
 | ----- | ------ | ------------------------ | ---- |
-| rev   | author | things donne on revision | when |
+| 0.1   | Jessica | pequenas correções gramaticais | 24/09 |
 
-<br/>
 
 #### Meeting agenda / subject
 
 - Manual de qualidade
 - Regras de revisão de documentos
-
-<br/> <br/>
 
 ##### Templates para revisão de código
 
@@ -48,4 +41,4 @@ Catarina Mestre, Jessica Cunha, João Oliveira, Pedro Sá, Ricardo Paiva
 
 #### Decisões
 
-A partir da data de hoje, será feita uma reunião antes de ser necessário fazer testes, para atribuição de tarefas por cada elemento, e o prazo, com o documento REPORT_TST_ #1.md. Durante a realização das tarefas, cada elemento terá de prencher o template REVISAO_TST_NOME.md, que será concatenado ao dos restantes elementos, por um elemento a definir na reunião, num template final (RESULTADOS_TST_#1.md) de entrega à Implementação/Qualidade.
+A partir da data de hoje, será feita uma reunião antes de ser necessário fazer testes, para atribuição de tarefas por cada elemento, e o prazo, com o documento TST_REPORT_ #1.md. Durante a realização das tarefas, cada elemento terá de prencher o template TST_REVISAO_NOME.md, que será concatenado ao dos restantes elementos, por um elemento a definir na reunião, num template final (TST_RESULTADOS_#1.md) de entrega à Implementação/Qualidade.
