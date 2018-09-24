@@ -33,8 +33,7 @@ Além disso, a unidade é responsável pelas formações do resto da equipa no q
 
 |2 - Formação da Equipa | MQ_ENV_FE |
 | - | - |
-| 2.1 - Realização de Workshop     | MQ_ENV_FE_WORK |
-| 2.2 - Formulação de manuais      | MQ_ENV_FE_MAN  |
+| 2.1 - Formulação de manuais      | MQ_ENV_FE_MAN  |
 
 |3 - Diversos                    | MQ_ENV_DIV |
 | - | - |
@@ -43,7 +42,7 @@ Além disso, a unidade é responsável pelas formações do resto da equipa no q
 
 <div style="page-break-after: always;"></div>
 
-## MQ_ENV_FB
+## 1 MQ_ENV_FB
 | Estado: Incompleto | Data: 24/09/2018 | Versão: v0.1 |
 | - | - | - |
 
@@ -84,7 +83,7 @@ O processo termina quando houver uma solução escolhida e esta estiver em confo
 <div style="page-break-after: always;"></div>
 
 
-## MQ_ENV_FB_MF
+## 1.1 MQ_ENV_FB_MF
 ### **Descrição do processo:**
 Este processo tem como objetivo manter as ferramentas e scripts utilizados em pleno funcionamento de modo que a equipa tenha estabilidade e consiga depender confiar nas plataformas disponibilizadas.
 
@@ -118,6 +117,47 @@ O processo termina quando o problema encontrado é resolvido e reportado para o 
 Relatório formal detalhando o problema e a solução encontrada assim como possíveis cursos de ação para evitá-los caso sua resolução não for total ou um problem periódico.
 
 <div style="page-break-after: always;"></div>
+
+## 2.1 MQ_ENV_FE_MAN
+### **Descrição do processo:**
+A formação dos elementos da equipa/unidade é essencial para o sucesso do projeto. Para o reforço dos conhecimento adquiridos após uma formação é essencial um documento que refresque a memória sobre o assunto e seja disponível num período perto da formação.
+
+### **Lista de Responsáveis:**
+| Nome | Curso | Função | Contacto |
+| -    | -     | -      | -        |
+| Victor Carvalho       | LEI | Coordenador |contato@victorcarvalho.pt|
+| José Henrique Pereira | LEI | Ambiente    |jhdpereira@gmail.com |
+| Pedro Silva           | LEI | Ambiente    |pmsilva1@gmail.com  |
+| Roman Walls           | LEI | Ambiente    |nsake@hotmail.com  |
+| Vitor Ribeiro         | LEI | Ambiente    |vitorribeiro98@gmail.com |
+
+### **Critério de Entrada/Ativação:**
+* Introdução a novas ferramentas essenciais para o desenvolvimento da equipa e do projeto
+* Realização de um novo workshop
+
+### **Descrição das Tarefas:**
+* O coordenador da equipa analisa se há necessidade de formalizar as informações apresentadas dado a complexidade do assunto da formação
+* No caso de haver necessidade, verificar se há algum elemento na equipa com aptidão sobre o assunto
+* O membro escolhido disponibilza no canal de comunicação interno o rascunho do documento para revisões
+* Após aprovação o manual é publicado ao resto da equipa e armazenado no Github
+
+### **Validação:**
+A confecção do manual é valida quando são seguidos todos os passos expostos na seção `Descrição das Tarefas`.
+
+
+### **Critério de Saída:**
+O processo termina quando o manual é publicado ao resto da equipa e armazenado
+
+### **Métricas de avaliação deste processo:**
+* Rapidez da confecção do Manual
+* Nível de satisfação do Manual disponibilizado
+
+### **Outputs gerados:**
+* Manual técnico detalhado sobre a utilização de uma ferramenta/tecnologia ou práticas de desenvolvimento
+
+
+<div style="page-break-after: always;"></div>
+
 
 ## 3.2 MQ_ENV_DIV_DI
 
@@ -176,4 +216,3 @@ Todos os templates e guidelines criados neste processo estão disponíveis no gi
 ### **Outputs gerados:**
 
 <div style="page-break-after: always;"></div>
-
