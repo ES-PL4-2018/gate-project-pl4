@@ -118,7 +118,7 @@ Relatório formal detalhando o problema e a solução encontrada assim como poss
 
 <div style="page-break-after: always;"></div>
 
-## 2.1 MQ_ENV_FE
+## 2 MQ_ENV_FE
 ### **Descrição do processo:**
 A formação dos elementos da equipa/unidade é essencial para o sucesso do projeto. A formação, essencialmente através de workshops, tem como objetivo o enriquecimento dos conhecimentos dos elementos e a aquisição de novos conhecimentos. A formação poderá ser interna (ao nível dos elementos da equipa para a equipa) ou externa (envolvendo alguém externo à equipa). Estas também poderão ser ao nível da unidade ou ao nível de toda a equipa.
 
