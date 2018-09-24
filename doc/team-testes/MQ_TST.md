@@ -2,7 +2,7 @@
 
 | Disciplina: Tst        | Data: 24/09/2018 | Coordenador: Jessica Cunha |
 | ---------------------- | ---------------- | -------------------------- |
-| **Estado:** Incompleto | **Versão:** v0.1 |                            |
+| **Estado:** Incompleto | **Versão:** v0.3 |                            |
 
 #### Lista de membros:
 
@@ -15,39 +15,36 @@
 | Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt  |
 
 #### Objetivos da unidade de TST:
+- Fazer testes ao código, sendo que cada um tem de ser testado por pelo menos 2 pessoas
+- Detetar erros existentes na aplicação, fornecendo essa informação a equipa de implementação 
+- Determinar se a aplicação está pronto para ser entregue ao cliente
 
 #### Processos utilizados por esta unidade:
 
 1. Processo de Reuniões 															MQ_TST_REUNIOES
 2. Processo de Testes/Revisão de Código								MQ_TST_TESTES_CODIGO
-3. Processo de Resultados 													  MQ_TST_RESULTADOS
-4. Processo de revisão de documentos                  MQ_TST_REVISAO
-
-
-- A equipa discute que testes serão feitos, sendo que cada um tem de ser testado por, pelo menos 2 pessoas
-- O gestor da equipa terá de distribuir os testes por cada elemento da equipa
-- Será redigido um relatório com os aspectos em falha e o que foi testado, sendo que este só será lançado, com a aprovação do gestor de equipa.
-- A equipa de testes é que decide se o projeto corresponde aos requisitos, e juntamente com a equipa de qualidade, se este pode ser entregue ao cliente
-- No caso da deteção de um erro trivial durante os testes, será possível a sua correção com o consentimento dos vários elementos da equipa;
-- Para haver alteração do código, será necessário criar um pull request no git, que seguirá para a aprovação do Gestor da Implementação
-- Será imposto pelo gestor de equipa um prazo máximo para a realização de cada teste e entrega da sua parte do relatório.
-- Se o gestor de equipa não estiver a ir de encontro com os objetivos do seu cargo, este deve ser destituído. Dentro da equipa deverá ser escolhido um novo elemento para o substituir, por voluntariado ou votação.
+3. Processo de revisão de documentos                  MQ_TST_REVISAO
 
 
 ### MQ_TST_REUNIOES
 
-**Estado:** Incompleto		**Data:** 24/09/2018		**Versão:** v0.2
+**Estado:** Incompleto		**Data:** 24/09/2018		**Versão:** v0.3
 
 ------
 
 ### Descrição do processo:
 
-O processo de reuniões serve para discussão de tarefas e distribuição destas por todos os elementos, assim como decisões a tomar nos próximos dias. As reuniões devem ser feitas regularmente, quer sejam feitas semanalmente ou após libertação de código por parte da equipa de implementação. Neste segundo caso, a reunião irá ser baseada na distribuição de tarefas/testes pelos membros da equipa, sendo redigido um relatório com todas as funções.
-No início da reunião será decidido duas pessoas para escreverem a ata.
+O processo de reuniões serve para discussão de tarefas e distribuição destas por todos os elementos, assim como decisões a tomar nos próximos dias. O gestor da equipa está encarregue de distribuir os testes por cada elemento da equipa. As reuniões devem ser feitas regularmente, quer sejam feitas semanalmente ou após libertação de código por parte da equipa de implementação. Neste segundo caso, a reunião irá ser baseada na distribuição de tarefas/testes pelos membros da equipa, sendo redigido um relatório com todas as funções e a respetiva data de entrega, atribuida pelo gestor de equipa. No início da reunião será decidido duas pessoas para escreverem a ata.
 
 ### Responsáveis:
 
-Todos os elementos da equipa devem participar nas reuniões. Caso algum elemento não posso comparecer, este deve ler a ata da reunião, e perguntar aos restantes membros das equipas no caso de dúvidas.
+| Nome            | Curso | Contacto                   |
+| --------------- | ----- | -------------------------- |
+| Jessica Cunha   | LEI   | jessicacunha98@hotmail.com |
+| Catarina Mestre | LEI   | mestrekata@hotmail.com     |
+| João Oliveira   | LEI   | jdoliveira579@gmail.com    |
+| Pedro Sá        | LEI   | sa@student.dei.uc.pt       |
+| Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt  |
 
 ### Input:
 - TST_TEMPLATE_TASKS_#1.md
@@ -84,7 +81,17 @@ A reunião está terminada, todas as tarefas foram feitas, os documentos foram a
 
 ### Descrição do processo:
 
-Este processo descreve a verificação e validação do código através da descoberta de erros e ver se corresponde aos requisitos, pela parte da equipa de Testes. No final será apresentado um relatório deste à equipa de implementação.
+Este processo descreve a verificação e validação do código através da descoberta de erros/bugs. Cada elemento apresenta um relatório individual (Ex: TST_REVISAO_NOME.md) com os resultados dos testes efetuados, resultados que serão concatenados no relatório (Ex:TST_RESULTADOS_#1.md) e este será enviado à equipa de implementação.
+
+### Responsáveis:
+
+| Nome            | Curso | Contacto                   |
+| --------------- | ----- | -------------------------- |
+| Jessica Cunha   | LEI   | jessicacunha98@hotmail.com |
+| Catarina Mestre | LEI   | mestrekata@hotmail.com     |
+| João Oliveira   | LEI   | jdoliveira579@gmail.com    |
+| Pedro Sá        | LEI   | sa@student.dei.uc.pt       |
+| Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt  |
 
 ### Input:
 
@@ -117,6 +124,16 @@ Após conclusão de todas as tarefas estipuladas na reunião, e realização do 
 
 ### Descrição do processo:
 Método de revisão de documentos internos à equipa
+
+### Responsáveis:
+
+| Nome            | Curso | Contacto                   |
+| --------------- | ----- | -------------------------- |
+| Jessica Cunha   | LEI   | jessicacunha98@hotmail.com |
+| Catarina Mestre | LEI   | mestrekata@hotmail.com     |
+| João Oliveira   | LEI   | jdoliveira579@gmail.com    |
+| Pedro Sá        | LEI   | sa@student.dei.uc.pt       |
+| Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt  |
 
 ### Input:
 - Documento TST_RESULTADOS_#1.md que contém o resumo dos testes e os respetivos resultados.
