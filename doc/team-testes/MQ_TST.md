@@ -111,7 +111,7 @@ Após conclusão de todas as tarefas estipuladas na reunião, e realização do 
 
 ### MQ_TST_REVISAO
 
-**Estado:** Incompleto		**Data:** 24/09/2018		**Versão:** v0.1
+**Estado:** Incompleto		**Data:** 24/09/2018		**Versão:** v0.2
 
 ------
 
@@ -121,13 +121,13 @@ Método de revisão de documentos internos à equipa
 ### Input:
 - Documento TST_RESULTADOS_#1.md que contém o resumo dos testes e os respetivos resultados.
 - Atas ATA_TST_#1.md que corresponde às atas elaboradas em cada uma das reuniões de equipa.
-- Documento TST_TASKS_#1.md que é constituído pela divisão de tarefas ao fim de cada reunião.
+- Documento TST_TASKS_#1.md que é constituído pela divisão de tarefas/testes ao fim de cada reunião.
 
 ### Critério de entrada/ativação:
-- Após término da elaboração do documento em causa.
+- Após colocação do documento em causa num novo branch no git, e aviso à restante equipa através do Slack.
 
 ### Descrição das Tarefas:
-- Assegurar que os documentos seguem a estrutura das templates criadas;
+- Assegurar que os documentos seguem a estrutura dos templates existentes;
 - Assegurar que os documentos não têm erros ortográficos;
 - Garantir que a informação fornecida através dos relatórios/atas é informativa, esclarecedora e enquadrada com o que é pretendido;
 
@@ -139,6 +139,6 @@ Método de revisão de documentos internos à equipa
 Após assegurar que o documento respeita todas as regras, este processo termina.
 
 ###  Output:
-Documento validado pronto para fazer pull request para ser publicado pelo master.
+Documento validado, pronto para fazer merge no master, fazendo pull request.
 
 ---------
