@@ -35,7 +35,7 @@ Além disso, a unidade é responsável pelas formações do resto da equipa no q
 | - | - |
 | 2.1 - Formulação de manuais      | MQ_ENV_FE_MAN  |
 
-|3 - Diversos                    | MQ_ENV_DIV |
+| Diversos                    | MQ_ENV_DIV |
 | - | - |
 |3.1 - Reunião Semanal           | MQ_ENV_DIV_REU |
 |3.2 - Documentação Interna      | MQ_ENV_DIV_DI|
@@ -158,6 +158,49 @@ O processo termina quando o manual é publicado ao resto da equipa e armazenado
 
 <div style="page-break-after: always;"></div>
 
+## 3.1 MQ_ENV_DIV_REU
+| Estado: Incompleto | Data: 24/09/2018 | Versão: v0.1 |
+| - | - | - |
+
+### **Descrição do processo:**
+O processo está responsável por reunir a equipa semanalmente de modo a verificar o progresso atual das tarefas e definir objetivos para a semana seguinte.
+
+### **Lista de Responsáveis:**
+| Nome | Curso | Função | Contacto |
+| -    | -     | -      | -        |
+| Victor Carvalho       | LEI | Coordenador |contato@victorcarvalho.pt|
+| José Henrique Pereira | LEI | Ambiente    |jhdpereira@gmail.com |
+| Pedro Silva           | LEI | Ambiente    |pmsilva1@gmail.com  |
+| Roman Walls           | LEI | Ambiente    |nsake@hotmail.com  |
+| Vitor Ribeiro         | LEI | Ambiente    |vitorribeiro98@gmail.com |
+
+### **Critério de Entrada/Ativação:**
+* Última reunião realizada
+
+### **Inputs:**
+* Lista de tarefas não realizadas dentro da última semana
+* Lista de objetivos definidos para a próxima semana do Sprint
+* Requisições de trabalho feitas mas não processadas
+
+### **Descrição das Tarefas:**
+* Discussão das Tarefas não realizadas
+* Distribuição de Tarefas
+* Revisão dos Processos
+* Marcação da Próxima reunião
+
+### **Critério de Saída:**
+Realização de todas as tarefas descritas na seção `Descrição das Tarefas`
+
+### **Métricas de avaliação deste processo:**
+* Nível de atraso das Tarefas
+* Novas Tarefas a realizar
+* Tempo da reunião
+
+### **Outputs gerados:**
+* Ata da reunião
+* Criação e separação de tarefas no Trello
+
+<div style="page-break-after: always;"></div>
 
 ## 3.2 MQ_ENV_DIV_DI
 
