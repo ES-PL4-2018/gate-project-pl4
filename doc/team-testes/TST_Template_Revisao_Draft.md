@@ -28,14 +28,19 @@
 
 ### Revisão de Tarefas
 
-| Tarefa # | Autor       | Bugs encontrados                                             | Data  |
+| Tarefa # | Autor       | Apontamentos                                           | Data  |
 | :------: | :---------- | ------------------------------------------------------------ | :---: |
 |    1     | Elemento #2 | - Botão log-in não funciona<br />- Nome de utilizador pode ser números | 23/09 |
 |   ...    |             |                                                              |       |
 |          |             |                                                              |       |
 
+Apontamentos:
+- Fixed components
+- Returned components
+- Returning components
 
 
 #### Notas
 
 Tarefa #1: Foi notado que o problema do botão de log in foi na linha #235, class "Java" [colocar link do commit]
+
