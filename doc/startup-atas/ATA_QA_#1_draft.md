@@ -63,7 +63,21 @@ v1 | Madalena | Ordem de trabalhos | 24 set, 12h
             5. Elaboração de atas
             6. Avaliações semanais
             7. Possibilidade de alteração do documento
-        5. Elaboração de templates para a descrição de cada equipa
+        5. Elaboração de templates
+
+3. Esclarecimentos
+    1. Somos nós a elaborar todos os documentos? 
+        * Cena que o cláudio me enviou
+        * Tabela para realização de testes
+    * Quais são as cenas que temos que pôr na nossa parte do MQ? Quais são os processos? Qual é a linha que separa as funções dos recursos humanos das nossas?
+        * Validação de diferentes processos: marcação de reuniões, redação de documentos (atas, relatórios, outros), cumprimento das regras gerais da equipa
+            * Relatórios semanais (tabelas onde é verificado o cumprimento das regras por cada membro, equipa)
+                * Notas devem ser os problemas/acontecimentos que estiveram contra as regras
+                * Métricas:
+        * Entrada/saída de membros para a equipa a meio do projeto
+            * Tópicos gerais
+            * O que é preciso fornecer/falar com o novo membro dependendo da equipa onde se vai integrar
+        * Falhas no cumprimento de tarefas
 
 
 <br/> 
