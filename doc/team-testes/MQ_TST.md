@@ -16,8 +16,6 @@
 
 #### Objetivos da unidade de TST:
 
-
-
 #### Processos utilizados por esta unidade:
 
 1. Processo de Reuniões 															MQ_TST_REUNIOES
@@ -67,12 +65,10 @@ Todos os elementos da equipa devem participar nas reuniões. Caso algum elemento
 A reunião está terminada, todas as tarefas foram feitas, os documentos foram aceites e a ata validada por todos.
 
 ### Outputs:
-- Ata da reunião guardada no GitHub (colocar exemplo de nome)
-- Lista de tarefas fazer guardadas nos documentos xxxx
+- Ata da reunião guardada no GitHub ATA_TST_#1.md
+- Lista de tarefas a fazer, colocadas no trello
 
 ##### 
-
-
 
 
 
@@ -84,7 +80,7 @@ A reunião está terminada, todas as tarefas foram feitas, os documentos foram a
 
 ### Descrição do processo:
 
-Este processo descreve a verificação e validação do código através da descoberta de erros, pela parte da equipa de Testes. Caso o código contenha erros ou os requisitos não estejam a ser cumpridos a equipa de testes deve apresentar um relatório deste a equipa de implementação.
+Este processo descreve a verificação e validação do código através da descoberta de erros, e verificar se corresponde aos requisitos, pela parte da equipa de Testes. No final será apresentado um relatório deste à equipa de implementação.
 
 ### Responsáveis:
 
@@ -96,7 +92,7 @@ Este processo descreve a verificação e validação do código através da desc
 | Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt  |
 
 ### Input:
-- Template xxxxx que serve para posterior apresentação de resultados 
+- Template TST_Template_Revisao.md que serve para posterior apresentação de resultados 
 - Código fornecido pela equipa de Implementação sujeito a teste
 
 ### Critério de entrada/ativação:
@@ -104,51 +100,11 @@ Este processo descreve a verificação e validação do código através da desc
 
 ### Descrição das Tarefas:
 - Realização dos testes necessário para aprovação/reprovação de cada tarefa a si atríbuida
-- Escrita dos resultados no template xxxxx
+- Escrita dos resultados no template TST_Template_Revisao.md
 
 ### Critério de saída:
 
-Apoós conclusão de todas as tarefas estipuladas na reunião este processo termina.
+Após conclusão de todas as tarefas estipuladas na reunião este processo termina.
 
 ### Outputs:
 - Documento xxx que contém uma tabela com as tarefas realizadas e os seus resultados.
-
-#####
-### MQ_TST_RESULTADOS
-
-**Estado:** Incompleto		**Data:** 24/09/2018		**Versão:** v0.1
-
-------
-
-### Descrição do processo:
-
-Este processo descreve a validação do código e a descoberta de erros, pela parte da equipa de Testes.
-
-Sempre que a equipa de Implementação submeter código, este passará pelos testes (?????)
-
-### Responsáveis:
-| Nome            | Curso | Contacto                   |
-| --------------- | ----- | -------------------------- |
-| Jessica Cunha   | LEI   | jessicacunha98@hotmail.com |
-| Maravilhoso Adjunto | LEI   |      |
-
-
-### Input:
-- Template xxxxx para apresentação dos resultados reunidos por todos os testers. 
-
-### Critério de entrada/ativação:
-- Este processo inicia-se com o fim do prazo estipulado na última reunião.
-
-### Descrição das Tarefas:
-- Agrupar toda a informação fornecida pelos testers verificando a sua veracidade.
-- Validação do documento
-- Entrega da documento a equipa rsponsável (implementação/qualidade).
-
-### Critério de saída:
-
-O processo termina com a entrega do documento a equipa responsável pela resolução dos problemas.
-
-### Outputs:
-
-- Documento xxx contém os resultados finais a serem entregues a equipa responsável
-
