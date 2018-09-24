@@ -117,3 +117,28 @@ Após conclusão de todas as tarefas estipuladas na reunião, e realização do 
 
 ### Descrição do processo:
 Método de revisão de documentos internos à equipa
+
+### Input:
+- Documento TST_RESULTADOS_#1.md que contém o resumo dos testes e os respetivos resultados.
+- Atas ATA_TST_#1.md que corresponde às atas elaboradas em cada uma das reuniões de equipa.
+- Documento TST_TASKS_#1.md que é constituído pela divisão de tarefas ao fim de cada reunião.
+
+### Critério de entrada/ativação:
+- Após término da elaboração do documento em causa.
+
+### Descrição das Tarefas:
+- Assegurar que os documentos seguem a estrutura das templates criadas;
+- Assegurar que os documentos não têm erros ortográficos;
+- Garantir que a informação fornecida através dos relatórios/atas é informativa, esclarecedora e enquadrada com o que é pretendido;
+
+### Métricas:
+- Número de documentos validados;
+- Se o documento não for validado ao fim de 24h após a sua conclusão será dado como inválido.
+
+### Critério de saída:
+Após assegurar que o documento respeita todas as regras, este processo termina.
+
+###  Output:
+Documento validado pronto para fazer pull request para ser publicado pelo master.
+
+---------
