@@ -14,6 +14,12 @@
 ### Objetivo:
 Este documento serve para a equipa se guiar durante cada fase de testes. Será redigido durante uma reunião onde todos os membros irão decidir quais são os testes a realizar e ver todos os detalhes possíveis.
 
+#### Revisions
+
+Rev # | Author | Description | Date
+--- | --- | --- | ---
+rev | author | things donne on revision | when
+
 
 ### Descrição detalhada de cada tarefa
 **Tarefa #1**:
