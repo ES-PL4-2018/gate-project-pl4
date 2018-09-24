@@ -1,6 +1,4 @@
 ## Exemplo Template Relatório de Revisão de Código [Rascunho]
-**Nota:** Os dados **não** são verídicos, apenas um exemplo de como usar o template
-
 
 ### # Sprint:
 
@@ -10,32 +8,26 @@
 
 ### # Páginas:
 
-
 ### Descrição das tarefas
-**Tarefa #1**: Testar log-in
-**Tarefa #2**: ..
+
+**Tarefa #1**: ...
 
 ### Tabela de distribuição de tarefas
 
-|           | Elemento #1 | Elemento #2 | Elem #3 | Elem #4 | Elem #5 |
-| :-------: | :---------: | :---------: | :-----: | :-----: | :-----: |
-| Tarefa #1 |             |      X      |         |    X    |         |
-| Tarefa #2 |      X      |             |    X    |         |         |
-| Tarefa #3 |             |      X      |         |         |    X    |
-|    ...    |             |             |         |         |         |
-
-
+|           | Elemento #1 | Elemento #2 | Elem #3 | Elem #4 | ...  |
+| --------- | ----------- | ----------- | ------- | ------- | ---- |
+| Tarefa #1 |             | X           |         | X       |      |
+| Tarefa #2 | X           |             | X       |         |      |
+| Tarefa #3 |             | X           |         |         | X    |
+| ...       |             |             |         |         |      |
 
 ### Revisão de Tarefas
 
 | Tarefa # | Autor       | Bugs encontrados                                             | Data  |
-| :------: | :---------- | ------------------------------------------------------------ | :---: |
-|    1     | Elemento #2 | - Botão log-in não funciona<br />- Nome de utilizador pode ser números | 23/09 |
-|   ...    |             |                                                              |       |
-|          |             |                                                              |       |
-
-
+| -------- | ----------- | ------------------------------------------------------------ | ----- |
+| 1        | Elemento #X | Ex: - Local onde o programa deixa de funcionar - Situações que são aceites pelo programa e não deviam -Situações que deveriam ser aceites pelo programa e não o acontece | xx/xx |
+| ...      |             |                                                              |       |
 
 #### Notas
 
-Tarefa #1: Foi notado que o problema do botão de log in foi na linha #235, class "Java" [colocar link do commit]
+Tarefa #1: ...
