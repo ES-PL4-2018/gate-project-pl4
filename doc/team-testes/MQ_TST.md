@@ -36,65 +36,60 @@
 
 ### MQ_TST_REUNIOES
 
-**Estado:** Incompleto		**Data:** 24/09/2018		**Versão:** v0.1
+**Estado:** Incompleto		**Data:** 24/09/2018		**Versão:** v0.2
 
 ------
 
 ### Descrição do processo:
 
-O processo de reuniões serve para discussão de tarefas e distribuição destas por todos os elementos, assim como decisões a tomar nos próximos dias. Embora não sejam obrigatórios estas devem ser feitas regularmente, quer sejam feitas semanalmente ou após libertação de código por parte da equipa de implementação.
+O processo de reuniões serve para discussão de tarefas e distribuição destas por todos os elementos, assim como decisões a tomar nos próximos dias. As reuniões devem ser feitas regularmente, quer sejam feitas semanalmente ou após libertação de código por parte da equipa de implementação. Neste segundo caso, a reunião irá ser baseada na distribuição de tarefas/testes pelos membros da equipa, sendo redigido um relatório com todas as funções.
 No início da reunião será decidido duas pessoas para escreverem a ata.
 
 ### Responsáveis:
 
-Todos os elementos da equipa devem participar nas reuniões. Caso algum elemento não posso comparecer deve informar-se sobre tudo o que foi dito na reunião.
+Todos os elementos da equipa devem participar nas reuniões. Caso algum elemento não posso comparecer, este deve ler a ata da reunião, e perguntar aos restantes membros das equipas no caso de dúvidas.
 
 ### Input:
-- Template Atas
+- TST_TEMPLATE_TASKS_#1.md
+- template_ata.md
 - Métricas/requisitos
-- Documentos relacionados com a disciplina guardados no GitHub
+- Tópicos a discutir inseridos no Trello
 
 ### Critério de entrada/ativação:
-- Necessidade de tomada de decisões importantes por parte do Gestor
-- Após libertação de código por parte da equipa de implementação
+- Necessidade de tomada de decisões importantes por parte do Gestor de equipa
+- Após libertação de código por parte da equipa de Implementação
 
 ### Descrição das Tarefas:
 - Criação da lista de tarefas a realizar
 - Distribuição das tarefas por cada elemento da equipa
 - Estipulação de prazo para entrega de resultados
+- Escolha de um elemento para fazer a concatenação dos relatórios de revisão de código individuais
 
 ### Critério de saída:
 A reunião está terminada, todas as tarefas foram feitas, os documentos foram aceites e a ata validada por todos.
 
 ### Outputs:
 - Ata da reunião guardada no GitHub ATA_TST_#1.md
-- Lista de tarefas a fazer, colocadas no trello
+- Documento de tarefas para os testes, caso necessário, TST_TASKS_#1.md
+- Lista de tarefas a fazer, colocadas no Trello
 
 ##### 
 
 
-
 ### MQ_TST_TESTES_CÓDIGO
 
-**Estado:** Incompleto		**Data:** 24/09/2018		**Versão:** v0.1
+**Estado:** Incompleto		**Data:** 24/09/2018		**Versão:** v0.2
 
 ------
 
 ### Descrição do processo:
 
-Este processo descreve a verificação e validação do código através da descoberta de erros, e verificar se corresponde aos requisitos, pela parte da equipa de Testes. No final será apresentado um relatório deste à equipa de implementação.
-
-### Responsáveis:
-
-| Nome            | Curso | Contacto                   |
-| --------------- | ----- | -------------------------- |
-| Catarina Mestre | LEI   | mestrekata@hotmail.com     |
-| João Oliveira   | LEI   | jdoliveira579@gmail.com    |
-| Pedro Sá        | LEI   | sa@student.dei.uc.pt       |
-| Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt  |
+Este processo descreve a verificação e validação do código através da descoberta de erros e ver se corresponde aos requisitos, pela parte da equipa de Testes. No final será apresentado um relatório deste à equipa de implementação.
 
 ### Input:
-- Template TST_Template_Revisao.md que serve para posterior apresentação de resultados 
+
+- Template TST_TASKS#1.md que serve para cada elemento se guiar no que tem de fazer, e o que os restantes membros têm de fazer.
+- Template TST_REVISAO_NOME.md para apresentação de resultados individual
 - Código fornecido pela equipa de Implementação sujeito a teste
 
 ### Critério de entrada/ativação:
@@ -102,19 +97,17 @@ Este processo descreve a verificação e validação do código através da desc
 
 ### Descrição das Tarefas:
 - Realização dos testes necessário para aprovação/reprovação de cada tarefa a si atríbuida
-- Escrita dos resultados no template TST_Template_Revisao.md
+- Escrita dos resultados no template TST_REVISAO_NOME.md
+- Concatenação dos relatórios individuais num só usando o TST_TEMPLATE_RESULTADOS#1.md, por parte de um membro a definir na reunião.
 
 ### Critério de saída:
 
-Após conclusão de todas as tarefas estipuladas na reunião este processo termina.
+Após conclusão de todas as tarefas estipuladas na reunião, e realização do relatório final, este processo termina.
 
 ### Outputs:
-- Documento xxx que contém uma tabela com as tarefas realizadas e os seus resultados.
+- Documento TST_RESULTADOS_#1.md que contém o resumo do trabalho feito, e das conclusões chegadas.
 
-
-
-# TODO
-
+# TO-DO
 
 ### MQ_TST_REVISAO
 
