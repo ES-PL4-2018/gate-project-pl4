@@ -302,15 +302,3 @@ Os documentos/ficheiros produzidos como guidelines são armazenados no git.
 Todos os templates e guidelines criados neste processo estão disponíveis no git e, assim, a equipa de qualidade tem acesso permanente a estes e está sempre a par de todos os documentos produzidos por este processo.
 
 <div style="page-break-after: always;"></div>
-
-## NOME DO PROCESSO
-### **Descrição do processo:**
-### **Lista de Responsáveis:**
-### **Inputs:**
-### **Critério de Entrada/Ativação:**
-### **Descrição das Tarefas:**
-### **Critério de Saída:**
-### **Métricas de avaliação deste processo:**
-### **Outputs gerados:**
-
-<div style="page-break-after: always;"></div>
