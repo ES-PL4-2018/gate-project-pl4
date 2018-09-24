@@ -35,7 +35,7 @@ Além disso, a unidade é responsável pelas formações do resto da equipa no q
 | - | - |
 | 2.1 - Formulação de manuais      | MQ_ENV_FE_MAN  |
 
-| Diversos                    | MQ_ENV_DIV |
+|3 - Diversos                    | MQ_ENV_DIV |
 | - | - |
 |3.1 - Reunião Semanal           | MQ_ENV_DIV_REU |
 |3.2 - Documentação Interna      | MQ_ENV_DIV_DI|
@@ -195,6 +195,7 @@ Realização de todas as tarefas descritas na seção `Descrição das Tarefas`
 * Nível de atraso das Tarefas
 * Novas Tarefas a realizar
 * Tempo da reunião
+* Qualidade geral da Ata
 
 ### **Outputs gerados:**
 * Ata da reunião
