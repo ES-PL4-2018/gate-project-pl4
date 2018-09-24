@@ -1,4 +1,4 @@
-## Template Relatório de Revisão de Código Individual [Rascunho]
+## Template de Revisão de Código Individual [Rascunho]
 **Nota:** Os dados **não** são verídicos, apenas um exemplo de como usar o template
 
 ### Ref: TST_REVISAO_NOME
