@@ -1,11 +1,85 @@
-# 3.2.3 MQ_REQ_SRS:
+# **Unidade de Requisitos (REQ)**
+| Disciplina: REQ | Data: 25/09/2018 | Coordenador: Pedro Marcelino |
+| - | - | - |
+| **Estado:** Incompleto | **Versão** v0.1 |
 
-### **Disciplina:**  Requisitos      **Coordenador**: Pedro Marcelino
-### **Status:** Concluido não validado           **Vice:** Catarina Pires
+## **Lista de membros:**
+| Nome | Curso | Função | Contacto |
+| -    | -     | -      | -        |
+| Carlos Poiares       | LEI | Colaborador |cpoiares@student.uc.pt|
+| Catarina Pires | LEI | Colaborador    |cjrpires@student.uc.pt |
+| Duarte Silva           | LEI | Colaborador    |dpjcsilva@gmail.com  |
+| Pedro Marcelino          | LDM |  Coordenador   |marcelino@student.dei.uc.pt  |
+| Tiago Brito        | LEI | Colaborador    |tiagobrito@student.dei.uc.pt |
 
+## Objetivos da unidade de REQ:
+  A unidade de Requisitos é responsável pela comunicação entre a equipa e o cliente, produz mockups, organiza a tabela de requisitos, que será utilizada como base na criação do software e redigir o documento de Requisitos. 
+
+
+## Processos utilizados por esta unidade:
+1. Preenchimento da Tabela de Requisitos
+2. Desenvolvimento de mockups
+3. Construção do Documento de Requisitos
+4. Reuniões com o Cliente
+
+
+## **1. Tabela de Requisitos**
+## Descrição:
+Processo utilizado para indicar o modo de elaboração da tabela de requisitos.
+
+## **Membros e funções:**
+x - Responsável pela elaboração da tabela de requisitos
+y - Colaborador na elaboração da tabela, principal revisor
+
+## **Critério de Arranque:**
+Qualquer nova informação ou pedido de alteração relativo aos requisitos.
+
+## **Inputs:**
+-	Atas de reunião com o cliente
+-	Apontamentos reunidos entre a equipa de Requisitos
+-	Problemas que surjam relativos à equipa de Implementação
+
+## **Periodicidade de execução:**
+Após reuniões com o cliente ou pedido da equipa de Implementação.
+
+## **Tarefas:**
+-	Dois membros da equipa de Requisitos, preferencialmente o gestor, devem reunir com o cliente para esclarecer duvidas sobre o projeto ou indicar como está a correr o progresso do mesmo
+-	Em caso de necessidade, reunir com a equipa de Implementação para uma análise dos requisitos novos ou modificados esclarecendo a sua exequibilidade
+-	Modificar a tabela, assim que as informações estejam disponíveis. Para cada requisito deverá ser indicada uma referência, um nome, uma descrição e comentários, a prioridade e obrigatoriedade.
+-	Validar a tabela – Mostrar a tabela aos respetivos responsáveis.
+-	Colocar a tabela pronta no GitHub
+
+## **Validação:**
+A tabela deve ser validada pela equipa de Requisitos e pelo gestor da equipa de Qualidade.
+Deve também ser revista pelo líder da Implementação, principalmente para perceber se a equipa tem capacidade/ tempo para suportar os novos requisitos.
+Se tudo estiver correto e revisto por todos os membros acima indicados, consideramos a tabela como válida. Se a validação falhar, procedemos a uma reformulação do documento.
+
+## **Métricas:**
+?
+
+## **Outputs:**
+Nova versão da tabela de Requisitos.
+
+## **Monitorização deste processo pela equipa de Qualidade:**
+?
+
+## **2. Desenvolvimento de Mockups**
+## **Descrição:**
+## **Membros e funções:**
+## **Critério de Arranque:**
+## **Inputs:**
+## **Periodicidade de execução:**
+## **Tarefas:**
+## **Validação:**
+## **Métricas:**
+## **Outputs:**
+## **Monitorização deste processo pela equipa de Qualidade:**
+
+## **3. Construção do Documento de Requisitos**
+## **Descrição:**
 Este Documento constitui uma parte vital da unidade de requisitos, contendo a tabela de requisitos, a estrutura dos mockups, os próprios mockups legendados e o fluxo de interação da plataforma. O documento de requisitos será a chave para toda a realização do produto, servindo como input para todas as unidades pois contém toda a informação do cliente relativa ao produto.
 
-## **Pessoas e os seus roles:**
+## **Membros e funções:**
 * Tiago Brito (LEI): Responsável pela elaboração da tabela de requisitos.
 * Pedro Marcelino (LDM): Responsável pela elaboração dos mockups e respetiva legenda.
 * Catarina Pires: Elaboração da estrutura do documento de requisitos, colaboradora no desenvolvimento da tabela de requisitos.
@@ -42,9 +116,46 @@ O documento de requisitos.
 ## **Monitorização deste processo pela equipa de qualidade:**
 (?) Um elemento da unidade de qualidade ficará responsável que, após a validação por parte do lider da unidade de requisitos, irá verificar as condições apresentadas em ETVX (Entra-Task-Validation-Exit) e se o documento +pode ser aprensentado.
 
+
+
+## **4. Reuniões com o Cliente**
+
+## **Descrição:**
+Periodicamente é necessário reunir com o cliente para esclarecer dúvidas ou simplesmente validar o projeto atual.
+
+## **Membros e funções:**
+Um a dois membros da equipa de Requisitos, preferencialmente o coordenador Pedro Marcelino.
+
+## **Critério de Arranque:**
+Existência de dúvidas relativas ao projeto ou necessidade de esclarecer se estamos a avançar na direção correta.
+
+## **Inputs:**
+- Tabela de Requisitos
+- Apontamentos e dúvidas recolhidas em reuniões de equipa de REQ ou da equipa de Implementação.
+
+## **Periodicidade de execução:**
+Sempre que for necessário esclarecer requisitos ou validar o trabalho realizado até ao momento.
+
+## **Tarefas:**
+- Preparação da reunião com o cliente: formular questões concisas, reunir os mockups
+- Marcação da reunião com o cliente e decisão de quem irá estar presente e realizará a ata da mesma
+
+## **Validação:**
+Deve ser feita pelos intervenientes na reunião e gestor da equipa de Qualidade. 
+
+## **Métricas:**
+- Alterações na tabela de requisitos
+- Mockups validados
+
+## **Outputs:**
+- Ata da reunião
+- Alterções na Tabela de Requisitos
+
+## **Monitorização deste processo pela equipa de Qualidade:**
+(?)
+
 ## _**Processos de caso específicos**_
 ###**Entrada de um membro para a equipa a meiop do projeto**
 (?) Acertar com a equipa de qualidade.
 ###**Falha no cumprimento de tarefas**
 (?) Acertar com a equipa de qualidade.
-
