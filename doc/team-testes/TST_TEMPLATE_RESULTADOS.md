@@ -1,17 +1,20 @@
 ## Template de Resultados de Testes
 **Nota:** Os dados **não** são verídicos, apenas um exemplo de como usar o template
 
-### Ref: TST_RESULTADOS_#1
+#### Ref: TST_RESULTADOS_#1
 
-### # Sprint:
+#### # Sprint:
 
-### Data revisão:
+#### Elementos:
 
-### Elementos:
+#### Autor:
 
-### # Páginas:
+#### # Páginas:
 
-#### Revisions
+### Objetivo:
+O seguinte documento será redigido pós todos os elementos terem completado as tarefas/testes, e será a junção de todos os dados obtidos através dos relatórios individuais (TST_REVISAO_NOME.md).
+
+### Revisions
 
 Rev # | Author | Description | Date
 --- | --- | --- | ---
@@ -43,6 +46,6 @@ rev | author | things donne on revision | when
 
 
 
-#### Notas/Extras
+### Notas/Extras
 
 Tarefa #1: Foi notado que o problema do botão de log in foi na linha #235, class "Java" [colocar link do commit]
