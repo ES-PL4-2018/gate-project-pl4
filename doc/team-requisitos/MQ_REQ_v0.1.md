@@ -13,10 +13,12 @@
 | Tiago Brito        | LEI | Colaborador    |tiagobrito@student.dei.uc.pt |
 
 ## Objetivos da unidade de REQ:
-  A unidade de Requisitos é responsável pela comunicação entre a equipa e o cliente, produz mockups, organiza a tabela de requisitos, que será utilizada como base na criação do software e redigir o documento de Requisitos. 
+  A unidade de Requisitos é responsável pela comunicação entre a equipa e o cliente, por produzir mockups, organizar a tabela de requisitos, que será utilizada como base na criação do software e redigir o documento de Requisitos.
+  
 
 
 ## Processos utilizados por esta unidade:
+
 1. Preenchimento da Tabela de Requisitos
 2. Desenvolvimento de mockups
 3. Construção do Documento de Requisitos
