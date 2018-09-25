@@ -1,15 +1,15 @@
 ## Template de Revisão de Código Individual [Rascunho]
 **Nota:** Os dados **não** são verídicos, apenas um exemplo de como usar o template
 
-### Ref: TST_REVISAO_NOME
+#### Ref: TST_REVISAO_NOME
 
-### # Sprint:
+#### # Sprint:
 
-### Data revisão:
+#### Data revisão:
 
-### Elemento:
+#### Autor:
 
-### # Páginas:
+#### # Páginas:
 
 ### Tarefas:
 **Tarefa #1**: Testar log-in
@@ -21,7 +21,7 @@
 
 ### Defeitos encontrados:
 
-### Sugestão de correção
+### Sugestão de correção:
 
 
 ## Tarefa 2:
@@ -32,4 +32,5 @@
 
 ### Sugestão de correção
 
-### Observações:
+
+## Observações:
