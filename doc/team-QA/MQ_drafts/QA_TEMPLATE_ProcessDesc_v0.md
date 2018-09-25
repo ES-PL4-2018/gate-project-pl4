@@ -13,6 +13,7 @@ Serve o presente documento para utilização por parte dos membros da equipa sem
 
 
 ####TABELA DE VERSÕES
+
 | VERSÃO | DATA | AUTORES | DESCRIÇÃO |
 |--------|------|---------|-----------|
 |        |      |         |           |
@@ -26,13 +27,22 @@ Serve o presente documento para utilização por parte dos membros da equipa sem
 | UNIDADE | COORDENADOR | STATUS |
 |---------|-------------|--------|
 |         |             |        |
+
+
 <br></br><br></br><br></br>
+
+
 ###DESCRIÇÃO DO PROCESSO
+
+
 <tópicos sobre a importância do processo + informações gerais + quem pode/está responsável por implementar este processo>
 
 
 <br></br><br></br><br></br><br></br>
+
+
 ###RESPONSÁVEIS
+
 
 | NOME | CURSO | CARGO |
 |------|-------|-------|
