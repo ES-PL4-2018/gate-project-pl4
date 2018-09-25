@@ -9,20 +9,19 @@ Serve o presente documento para utilização por parte dos membros da equipa sem
 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 
 ####TABELA DE VERSÕES
-
 | VERSÃO | DATA | AUTORES | DESCRIÇÃO |
-| --- | --- | --- | --- |
-| <v3> | <data> | <lista de autores> | <alterações> |
-| <v2> | <data> | <lista de autores> | <alterações> |
+|--------|------|---------|-----------|
+|        |      |         |           |
+|        |      |         |           |
+|        |      |         |           |
 
 
 
 <br>
 
-|UNIDADE: | COORDENADOR: <coordenador da unidade> |
-| ---- | ---- | ---- |
-| STATUS: <estado do processo> | RESPONSÁVEIS: <responsáveis pela descrição do processo> |
-
+| UNIDADE | COORDENADOR | STATUS |
+|---------|-------------|--------|
+|         |             |        |
 <br></br><br></br><br></br>
 ###DESCRIÇÃO DO PROCESSO
 <tópicos sobre a importância do processo + informações gerais>
@@ -32,10 +31,9 @@ Serve o presente documento para utilização por parte dos membros da equipa sem
 ###RESPONSÁVEIS
 
 | NOME | CURSO | CARGO |
-| --- | --- | --- |
-| <v3> | <data> | <lista de autores> |
-| <v2> | <data> | <lista de autores> |
-
+|------|-------|-------|
+|      |       |       |
+|      |       |       |
 <o coordenador é o coordenador da unidade, os colaboradores são os elementos da mesma unidade que contribuiram para a descrição do processo>
 
 
