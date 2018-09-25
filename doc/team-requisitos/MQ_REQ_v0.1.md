@@ -25,6 +25,7 @@
 
 ## **1. Tabela de Requisitos**
 ## Descrição:
+
 ## **Membros e funções:**
 ## **Critério de Arranque:**
 ## **Inputs:**
@@ -88,16 +89,10 @@ O documento de requisitos.
 ## **Monitorização deste processo pela equipa de qualidade:**
 (?) Um elemento da unidade de qualidade ficará responsável que, após a validação por parte do lider da unidade de requisitos, irá verificar as condições apresentadas em ETVX (Entra-Task-Validation-Exit) e se o documento +pode ser aprensentado.
 
-## _**Processos de caso específicos**_
-###**Entrada de um membro para a equipa a meiop do projeto**
-(?) Acertar com a equipa de qualidade.
-###**Falha no cumprimento de tarefas**
-(?) Acertar com a equipa de qualidade.
-
-
 
 
 ## **4. Reuniões com o Cliente**
+
 ## **Descrição:**
 Periodicamente é necessário reunir com o cliente para esclarecer dúvidas ou simplesmente validar o projeto atual.
 
@@ -115,12 +110,25 @@ Existência de dúvidas relativas ao projeto ou necessidade de esclarecer se est
 Sempre que for necessário esclarecer requisitos ou validar o trabalho realizado até ao momento.
 
 ## **Tarefas:**
+- Preparação da reunião com o cliente: formular questões concisas, reunir os mockups
+- Marcação da reunião com o cliente e decisão de quem irá estar presente e realizará a ata da mesma
 
 ## **Validação:**
+Deve ser feita pelos intervenientes na reunião e gestor da equipa de Qualidade. 
 
 ## **Métricas:**
+- Alterações na tabela de requisitos
+- Mockups validados
 
 ## **Outputs:**
+- Ata da reunião
+- Alterções na Tabela de Requisitos
 
 ## **Monitorização deste processo pela equipa de Qualidade:**
+(?)
 
+## _**Processos de caso específicos**_
+###**Entrada de um membro para a equipa a meiop do projeto**
+(?) Acertar com a equipa de qualidade.
+###**Falha no cumprimento de tarefas**
+(?) Acertar com a equipa de qualidade.
