@@ -1,5 +1,5 @@
 # Rascunho de informações
-
+Este documento ainda está a ser alterado. É usado como rascunho pelos demais elementos da equipa.
 ## 1º Sprint
 
 ### Product goals
@@ -35,6 +35,8 @@ Two focus areas delivered:
 - O gestor da equipa terá de distribuir os testes por cada elemento da equipa
 - Será redigido um relatório com os aspectos em falha e o que foi testado, sendo que este só será lançado, com a aprovação do gestor de equipa.
 - A equipa de testes é que decide se o projeto corresponde aos requisitos, e juntamente com a equipa de qualidade, se este pode ser entregue ao cliente
+- Será imposto pelo gestor de equipa um prazo máximo para a realização de cada teste e entrega da sua parte do relatório.
+- Se o gestor de equipa não estiver a ir de encontro com os objetivos do seu cargo, este deve ser destituído. Dentro da equipa deverá ser escolhido um novo elemento para o substituir, por voluntariado ou votação.
 
 
 

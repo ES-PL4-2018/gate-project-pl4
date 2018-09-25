@@ -65,10 +65,9 @@ A branch Nightly possuí mínimo de duas aprovações, ambas para review da feat
 
 As tags serão usadas tanto para Issues e nomes de branches para melhor indentificação do trabalho que está sendo feito e a quem este trabalho interessa de um modo geral.
 
-Gestão
-|Equipa/Assunto   | Tag  |
-|---|---|
-|Gestão   | GES  |
+| Equipa/Assunto  | Tag |
+| --- | --- |
+| Gestão| GES |
 |Requisitos   | REQ  |
 |Implementação   |DEV  |
 |Testes   | TST  |
