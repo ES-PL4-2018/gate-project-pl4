@@ -19,9 +19,9 @@
 
 #### Meeting attendance
 
-Alexandre Brito
-João Montenegro
-João Gonçalves
+Alexandre Brito,
+João Montenegro,
+João Gonçalves,
 Flávio Fernandes
 
 #### Revisions
