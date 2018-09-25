@@ -21,9 +21,9 @@ rev | author | things donne on revision | when
 
 ### Descrição detalhada de cada tarefa
 **Tarefa #1**:
- <Testar log-in>
- <Não esquecer de verificar erros na palavra passe>
- <Ver se aceita um espaço como nome de utilizador>
+ - Testar log-in
+ - Não esquecer de verificar erros na palavra passe
+ - Ver se aceita um espaço como nome de utilizador
  
 **Tarefa #2**: 
  - ..
