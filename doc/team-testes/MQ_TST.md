@@ -114,7 +114,6 @@ Após conclusão de todas as tarefas estipuladas na reunião, e realização do 
 ### Outputs:
 - Documento TST_RESULTADOS_#1.md que contém o resumo do trabalho feito, e das conclusões chegadas.
 
-# TO-DO
 
 ### MQ_TST_REVISAO
 
