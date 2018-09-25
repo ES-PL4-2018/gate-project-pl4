@@ -1,7 +1,19 @@
-# 3.2.3 MQ_REQ_SRS:
+# **Unidade de Requisitos (REQ)**
+| Disciplina: REQ | Data: 25/09/2018 | Coordenador: Pedro Marcelino |
+| - | - | - |
+| **Estado:** Incompleto | **Versão** v0.1 |
 
-### **Disciplina:**  Requisitos      **Coordenador**: Pedro Marcelino
-### **Status:** Concluido não validado           **Vice:** Catarina Pires
+## **Lista de membros:**
+| Nome | Curso | Função | Contacto |
+| -    | -     | -      | -        |
+| Carlos Poiares       | LEI | Colaborador |cpoiares@student.uc.pt|
+| Catarina Pires | LEI | Colaborador    |cjrpires@student.uc.pt |
+| Duarte Silva           | LEI | Colaborador    |dpjcsilva@gmail.com  |
+| Pedro Marcelino          | LDM |  Coordenador   |marcelino@student.dei.uc.pt  |
+| Tiago Brito        | LEI | Colaborador    |tiagobrito@student.dei.uc.pt |
+
+
+## **3.2.3 MQ_REQ_SRS:**
 
 Este Documento constitui uma parte vital da unidade de requisitos, contendo a tabela de requisitos, a estrutura dos mockups, os próprios mockups legendados e o fluxo de interação da plataforma. O documento de requisitos será a chave para toda a realização do produto, servindo como input para todas as unidades pois contém toda a informação do cliente relativa ao produto.
 
