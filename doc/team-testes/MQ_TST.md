@@ -61,6 +61,7 @@ O processo de reuniões serve para discussão de tarefas e distribuição destas
 - Distribuição das tarefas por cada elemento da equipa
 - Estipulação de prazo para entrega de resultados
 - Escolha de um elemento para fazer a concatenação dos relatórios de revisão de código individuais
+- Verificar se os requisitos são cumpridos
 
 ### Critério de saída:
 A reunião está terminada, todas as tarefas foram feitas, os documentos foram aceites e a ata validada por todos.
@@ -75,7 +76,7 @@ A reunião está terminada, todas as tarefas foram feitas, os documentos foram a
 
 ### MQ_TST_TESTES_CÓDIGO
 
-**Estado:** Incompleto		**Data:** 24/09/2018		**Versão:** v0.2
+**Estado:** Incompleto		**Data:** 24/09/2018		**Versão:** v0.3
 
 ------
 
@@ -106,6 +107,7 @@ Este processo descreve a verificação e validação do código através da desc
 - Realização dos testes necessário para aprovação/reprovação de cada tarefa a si atríbuida
 - Escrita dos resultados no template TST_REVISAO_NOME.md
 - Concatenação dos relatórios individuais num só usando o TST_TEMPLATE_RESULTADOS#1.md, por parte de um membro a definir na reunião.
+- Verificar se os requisitos são cumpridos
 
 ### Critério de saída:
 
