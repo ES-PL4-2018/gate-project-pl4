@@ -17,7 +17,7 @@
 #### Objetivos da unidade de TST:
 - Fazer testes ao código, sendo que cada um tem de ser testado por pelo menos 2 pessoas
 - Detetar erros existentes na aplicação, fornecendo essa informação a equipa de implementação 
-- Determinar se a aplicação está pronto para ser entregue ao cliente
+- Determinar se a aplicação está pronta para ser entregue ao cliente, de acordo com os requisitos impostos pelo mesmo
 
 #### Processos utilizados por esta unidade:
 
