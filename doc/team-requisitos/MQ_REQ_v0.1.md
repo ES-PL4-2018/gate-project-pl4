@@ -12,12 +12,46 @@
 | Pedro Marcelino          | LDM |  Coordenador   |marcelino@student.dei.uc.pt  |
 | Tiago Brito        | LEI | Colaborador    |tiagobrito@student.dei.uc.pt |
 
+## Objetivos da unidade de REQ:
+  A unidade de Requisitos é responsável pela comunicação entre a equipa e o cliente, produz mockups, organiza a tabela de requisitos, que será utilizada como base na criação do software e redigir o documento de Requisitos. 
 
-## **3.2.3 MQ_REQ_SRS:**
 
+## Processos utilizados por esta unidade:
+1. Preenchimento da Tabela de Requisitos
+2. Desenvolvimento de mockups
+3. Construção do Documento de Requisitos
+4. Reuniões com o Cliente
+
+
+## **1. Tabela de Requisitos**
+## Descrição:
+## **Membros e funções:**
+## **Critério de Arranque:**
+## **Inputs:**
+## **Periodicidade de execução:**
+## **Tarefas:**
+## **Validação:**
+## **Métricas:**
+## **Outputs:**
+## **Monitorização deste processo pela equipa de Qualidade:**
+
+## **2. Desenvolvimento de Mockups**
+## **Descrição:**
+## **Membros e funções:**
+## **Critério de Arranque:**
+## **Inputs:**
+## **Periodicidade de execução:**
+## **Tarefas:**
+## **Validação:**
+## **Métricas:**
+## **Outputs:**
+## **Monitorização deste processo pela equipa de Qualidade:**
+
+## **3. Construção do Documento de Requisitos**
+## **Descrição:**
 Este Documento constitui uma parte vital da unidade de requisitos, contendo a tabela de requisitos, a estrutura dos mockups, os próprios mockups legendados e o fluxo de interação da plataforma. O documento de requisitos será a chave para toda a realização do produto, servindo como input para todas as unidades pois contém toda a informação do cliente relativa ao produto.
 
-## **Pessoas e os seus roles:**
+## **Membros e funções:**
 * Tiago Brito (LEI): Responsável pela elaboração da tabela de requisitos.
 * Pedro Marcelino (LDM): Responsável pela elaboração dos mockups e respetiva legenda.
 * Catarina Pires: Elaboração da estrutura do documento de requisitos, colaboradora no desenvolvimento da tabela de requisitos.
@@ -59,4 +93,34 @@ O documento de requisitos.
 (?) Acertar com a equipa de qualidade.
 ###**Falha no cumprimento de tarefas**
 (?) Acertar com a equipa de qualidade.
+
+
+
+
+## **4. Reuniões com o Cliente**
+## **Descrição:**
+Periodicamente é necessário reunir com o cliente para esclarecer dúvidas ou simplesmente validar o projeto atual.
+
+## **Membros e funções:**
+Um a dois membros da equipa de Requisitos, preferencialmente o coordenador Pedro Marcelino.
+
+## **Critério de Arranque:**
+Existência de dúvidas relativas ao projeto ou necessidade de esclarecer se estamos a avançar na direção correta.
+
+## **Inputs:**
+- Tabela de Requisitos
+- Apontamentos e dúvidas recolhidas em reuniões de equipa de REQ ou da equipa de Implementação.
+
+## **Periodicidade de execução:**
+Sempre que for necessário esclarecer requisitos ou validar o trabalho realizado até ao momento.
+
+## **Tarefas:**
+
+## **Validação:**
+
+## **Métricas:**
+
+## **Outputs:**
+
+## **Monitorização deste processo pela equipa de Qualidade:**
 
