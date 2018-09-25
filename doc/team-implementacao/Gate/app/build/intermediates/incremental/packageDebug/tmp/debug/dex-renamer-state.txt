@@ -1,0 +1,7 @@
+#Mon Sep 24 14:55:48 BST 2018
+base.0=C\:\\Users\\alex_\\Desktop\\Trabalhos\\3Ano\\1Semestre\\ES\\Gate\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\Users\\alex_\\Desktop\\Trabalhos\\3Ano\\1Semestre\\ES\\Gate\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12

@@ -44,7 +44,7 @@ public class Feed extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        new Connection();
+        new Connection("10.0.2.2", 9001);
     }
 
     @Override

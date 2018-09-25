@@ -1,28 +1,33 @@
 package es.gate;
 
+import android.os.AsyncTask;
 import java.io.IOException;
 import java.net.Socket;
 
-public class Connection implements Runnable{
+public class Connection extends AsyncTask<Void, Void, Void> {
 
-    Thread t;
-    public Connection(){
-        t = new Thread(this);
-        t.start();
+    String serverAddress;
+    int serverPort;
+
+    public Connection(String addr, int port) {
+
+        serverAddress = addr;
+        serverPort = port;
     }
 
-    public void run(){
-        int socketPort = 9001;
-        String socketHost = "localhost";
-        try{
-            Socket socket = new Socket(socketHost, socketPort);
+    @Override
+    protected Void doInBackground(Void... arg0) {
+
+        System.out.println("lalallaallaallalallalalala");
+        Socket cltSocket = null;
+
+        try {
+            cltSocket = new Socket(serverAddress, serverPort);
             System.out.println("Connection attempted");
         }catch(IOException e){
-            //TODO
-            System.out.println("rip");
-
+            System.out.println("IO" + e);
         }
+
+        return null;
     }
-
-
 }

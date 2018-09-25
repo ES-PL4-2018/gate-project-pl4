@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Mon Sep 24 14:55:49 BST 2018
+1.base=C\:\\Users\\alex_\\Desktop\\Trabalhos\\3Ano\\1Semestre\\ES\\Gate\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=C\:\\Users\\alex_\\Desktop\\Trabalhos\\3Ano\\1Semestre\\ES\\Gate\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
+1.path=classes.dex
