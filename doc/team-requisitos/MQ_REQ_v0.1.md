@@ -28,8 +28,10 @@
 Processo utilizado para indicar o modo de elaboração da tabela de requisitos.
 
 ### **Membros e funções:**
-x - Responsável pela elaboração da tabela de requisitos
-y - Colaborador na elaboração da tabela, principal revisor
+- Tiago Brito (LEI) - Responsável pela elaboração da tabela de requisitos.
+- Carlos Poiares (LEI) - Colaboradora na elaboração da tabela.
+- Catarina Pires (LEI) - Colaborador na elaboração da tabela.
+
 
 ### **Critério de Arranque:**
 Qualquer nova informação ou pedido de alteração relativo aos requisitos.
