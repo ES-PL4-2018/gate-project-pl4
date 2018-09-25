@@ -71,6 +71,7 @@ Nova versão da tabela de Requisitos.
 
 ### **Membros e funções:**
 - Pedro Marcelino (LDM) - Responsável pela criação dos mockups.
+- Duarte Silva (LEI) - Rever se os mockups estão a ir de acordo com o que pedem os requisitos.
 
 ### **Critério de Arranque:**
 - O processo inicia após a elaboração de uma lista de requisitos.
@@ -79,11 +80,15 @@ Nova versão da tabela de Requisitos.
 - Lista dos Requisitos do Cliente. Notas das reuniões com o cliente.
 
 ### **Periodicidade de execução:**
+- Quando um novo requisito influencia o que seria apresentado no ecrã;
+- Quando um mockup é rejeitado pelo cliente.
 
 ### **Tarefas:**
+- Analise dos requisitos por parte de quem vai desenvolver o mockup;
+- Desenvolvimento dos mockups dos diversos ecrãs utilizando o Adobe Illustrator.
 
 ### **Validação:**
-- A validação dos mockups será feita pelo cliente Mário Rela.
+- A validação dos mockups será feita pelos membros da equipa de Requisitos e posteriormente pelo cliente Mário Rela.
 
 ### **Métricas:**
 - Número de alterações por versão nos mockups.
@@ -103,10 +108,10 @@ Este Documento constitui uma parte vital da unidade de requisitos, contendo a ta
 
 ### **Membros e funções:**
 * Tiago Brito (LEI): Responsável pela elaboração da tabela de requisitos.
-* Pedro Marcelino (LDM): Responsável pela elaboração dos mockups e respetiva legenda.
-* Catarina Pires: Elaboração da estrutura do documento de requisitos, colaboradora no desenvolvimento da tabela de requisitos.
-* Carlos Poiares: 
-* Duarte Silva: 
+* Pedro Marcelino (LDM): Responsável pela elaboração dos mockups, pela adição dos mesmos ao documento e respetiva legenda.
+* Catarina Pires (LEI): Elaboração da estrutura geral do documento de requisitos, colaboradora no desenvolvimento da tabela de requisitos.
+* Carlos Poiares (LEI): Elaboração da estrutura geral do documento de requisitos, colaborador no desenvolvimento da tabela de requisitos.
+* Duarte Silva (LEI): Colaborador e revisor geral do documento de Requisitos.
 
 ### **Inputs:**
 Os documentos criados pelos processos anteriore(como a lista de requisitos e os mockups desenvolvidos).
