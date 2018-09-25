@@ -8,6 +8,10 @@ Serve o presente documento para utilização por parte dos membros da equipa sem
 
 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 
+>NOME DO PROCESSO<
+===
+
+
 ####TABELA DE VERSÕES
 | VERSÃO | DATA | AUTORES | DESCRIÇÃO |
 |--------|------|---------|-----------|
@@ -24,7 +28,7 @@ Serve o presente documento para utilização por parte dos membros da equipa sem
 |         |             |        |
 <br></br><br></br><br></br>
 ###DESCRIÇÃO DO PROCESSO
-<tópicos sobre a importância do processo + informações gerais>
+<tópicos sobre a importância do processo + informações gerais + quem pode/está responsável por implementar este processo>
 
 
 <br></br><br></br><br></br><br></br>
