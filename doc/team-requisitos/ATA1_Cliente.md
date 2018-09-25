@@ -3,9 +3,11 @@
 
 ## ATA Reunião 1 
 
-### Data de Inicio: 15:10
+### Data: 17 de Setembro de 2018
 
-### Data de Término: 15:54
+### Hora de Inicio: 15:10
+
+### Hora de Término: 15:54
 
 ### Local: Lobby de Entrada do Edificio dos CISUC, Departamento de Engenharia Informática 
 
