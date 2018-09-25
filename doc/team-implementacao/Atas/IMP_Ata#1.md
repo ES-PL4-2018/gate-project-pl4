@@ -1,14 +1,14 @@
-# <TEAM NAME>
+# Implementação
 
 ## ATA Reunião
 
-### Ref: <unique id for doc>
+### Ref: ATA_IMP_#1
 
-### Project: <project name>
+### Project: Gate
 
-### Date / Time: <insert date_dime>
+### Date / Time : 24/09/2018 18:04
 
-### Duration: <duration of meeting>
+### Duration: 22 min.
  
  <br/>
 
@@ -19,53 +19,60 @@
 
 #### Meeting attendance
 
-.<People atending the meeting>
-
+Alexandre Brito
+João Montenegro
+João Gonçalves
+Flávio Fernandes
 
 #### Revisions
 
-Rev # | Author | Description | Date
+Rev  | Author | Description | Date
 --- | --- | --- | ---
-rev | author | things donne on revision | when
+1 | Alexandre | Creation | 25/09/2018
 
 <br/>
 
 #### Meeting agenda / subject
 
-Moar detailed meeting agenda bla bla
+Discussão sobre tecnologias a utilizar
+Distribuição de Tarefas
+Conversa sobre processos da equipa
+
 
 
 <br/> 
 <br/>
 
 
-#### Point x
+#### Tecnologias a usar
 ##### Discussion
-things discussed about point x
+Plataforma para o qual o produto será desenvolvido
+IDE a utilizar
 ##### Decisions
-things decided about point x
+No final ficou decidido o desenvolvimento de uma aplicação android
+IDE será Android Studio
 
 <br/>
 
-#### Point y
+#### Distribuição de Tarefas
 ##### Discussion
-things discussed about point y
+Tarefas e objetivos a realizar até a próxima apresentação formal e até ao fim do sprint
 ##### Decisions
-things decided about point y
+Das quatro tarefas existentes cada elemento ficou responsável de uma, tanto front-end como back-end
 
 <br/>
 
-#### Point z
+#### Processos da Equipa
 ##### Discussion
-things discussed about point z
+Apresentação e discussão sobre o MQ referente à unidade de IMP
 ##### Decisions
-things decided about point z
+Documento conforme standarts e nada novo necessário a acrescentar
 
 <br/> 
 <br/>
 
 #### Meeting metrics
-Attendance -> summoned vs present<br/>
-Duration -> expected vs real<br/>
-Agenda topics discussed x out of y<br/>
-Meeting global evaluation 1 out of 10<br/>
+Attendance -> 4 vs 4<br/>
+Duration -> 30min vs 22min<br/>
+Agenda topics discussed 3 out of 3<br/>
+Meeting global evaluation 9 out of 10<br/>
