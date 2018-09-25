@@ -24,7 +24,7 @@ rev | author | things donne on revision | when
  - <Testar log-in>
  - <Não esquecer de verificar erros na palavra passe>
  - <Ver se aceita um espaço como nome de utilizador>
- - ...
+ 
 **Tarefa #2**: 
  - ..
 
