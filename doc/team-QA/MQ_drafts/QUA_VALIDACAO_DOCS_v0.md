@@ -9,6 +9,9 @@
 O processo relata qual a metodologia para a validação de qualquer documento.
 Todos os documentos precisam de ser validados pela unidade de Qualidade antes de serem dados como definitivos, para tal existirá um elemento encarregue de fazer a revisão do mesmo, onde será analisado a sua estrutura e seu o conteúdo. A revisão final será feita pelo coordenador.
 
+### **Responsáveis**
+| Nome | Curso | Cargo |
+
 ### **Membros do processo:**
 Qualquer membro da unidade de Qualidade pode ficar encarregue de fazer a validação de um certo documento.
 
