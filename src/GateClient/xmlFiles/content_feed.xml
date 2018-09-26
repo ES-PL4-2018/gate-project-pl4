@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/feed_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Feed"
+    tools:showIn="@layout/app_bar_feed">
+
+    <ImageView
+        android:id="@+id/feed_friends_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/feed_guideline_left"
+        app:layout_constraintStart_toStartOf="@+id/feed_guideline_left"
+        app:srcCompat="@mipmap/friends_icon_color_black_xhdpi" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/feed_guideline_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.125" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/feed_guideline_mid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/feed_guideline_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.875" />
+
+    <ImageView
+        android:id="@+id/feed_notif_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/feed_guideline_mid"
+        app:layout_constraintStart_toStartOf="@+id/feed_guideline_mid"
+        app:srcCompat="@mipmap/notif_icon_color_black_xhdpi" />
+
+    <ImageView
+        android:id="@+id/feed_user_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/feed_guideline_right"
+        app:layout_constraintStart_toStartOf="@+id/feed_guideline_right"
+        app:srcCompat="@mipmap/user_icon_color_black_xhdpi" />
+
+    <View
+        android:id="@+id/divider_bottom_icons"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/feed_notif_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/divider_top"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="28dp"
+        android:background="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/feed_post_user_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/feed_guideline_post_user"
+        app:layout_constraintStart_toStartOf="@+id/feed_guideline_post_user"
+        app:layout_constraintTop_toBottomOf="@+id/divider_top"
+        app:srcCompat="@mipmap/stock_user_cropped_very_small" />
+
+    <TextView
+        android:id="@+id/feed_post_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Martin	Larson"
+        app:layout_constraintBottom_toBottomOf="@+id/feed_post_user_image"
+        app:layout_constraintStart_toEndOf="@+id/feed_post_user_image" />
+
+    <TextView
+        android:id="@+id/feed_post_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/feed_post_lorem_ipsum"
+        app:layout_constraintEnd_toStartOf="@+id/feed_guideline_mid"
+        app:layout_constraintStart_toStartOf="@+id/feed_guideline_post_user"
+        app:layout_constraintTop_toBottomOf="@+id/feed_post_user_name" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/feed_guideline_post_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.065" />
+
+    <ImageView
+        android:id="@+id/feed_post_ivestigation_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/feed_post_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/feed_post_content"
+        app:layout_constraintTop_toTopOf="@+id/feed_post_content"
+        app:srcCompat="@mipmap/invest_photo_small" />
+
+    <View
+        android:id="@+id/divider_mid"
+        android:layout_width="368dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="56dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/divider_bottom_icons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/feed_post_like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/divider_mid"
+        app:layout_constraintEnd_toStartOf="@+id/feed_guideline_left"
+        app:layout_constraintStart_toStartOf="@+id/feed_guideline_left"
+        app:srcCompat="@mipmap/like_icon_smaller" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/divider_mid"
+        app:layout_constraintEnd_toStartOf="@+id/feed_guideline_mid"
+        app:layout_constraintStart_toStartOf="@+id/feed_guideline_mid"
+        app:srcCompat="@mipmap/comment_icon_small" />
+
+    <ImageView
+        android:id="@+id/feed_post_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/divider_mid"
+        app:layout_constraintEnd_toStartOf="@+id/feed_guideline_right"
+        app:layout_constraintStart_toStartOf="@+id/feed_guideline_right"
+        app:srcCompat="@mipmap/plus_icon_small" />
+
+</android.support.constraint.ConstraintLayout>
