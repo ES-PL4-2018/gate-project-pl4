@@ -15,6 +15,8 @@ Inicialmente é necessária a autorização do cliente. Em relação à entrada 
 
 ### **Responsáveis**
 | Nome | Curso | Cargo |
+|-|-|-|
+|||
 
 ### **Membros do processo:**
 Para o processo de orgânica os membros responsáveis são o cliente que aprova a ação, o coordenador da unidade em questão e o gestor de projeto que tem de coordenadar todo o método.
