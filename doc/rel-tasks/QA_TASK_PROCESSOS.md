@@ -5,7 +5,7 @@
 | **Estado: Completo** |  **Coordenador: Madalena Santos**|
 
 #### **Responsáveis pela tarefa e respetiva função**
-  * Maria Pereira - Redação do processo QUA_ORGANICA
+  * Maria Pereira - Redação do processo QUA_ORGANICA e QUA_VALIDACAO_DOCS.
  
 #### **Requisitos / Descrição do processo**
 Para a realização desta tarefa foi seguido o template de redação de processos. Nesses documentos foi explicado como cada processo funciona.
