@@ -12,7 +12,7 @@
 Inicialmente foi feito um esquema de como seria organizado o documento de Requisitos. Após termos acesso às primeiras versões de mockups e da tabela de requisitos, adicionamos ambos ao ficheiro, organizando assim a primeira versão do SRS.
 
 #### **Entradas**
-Lista de Requisitos;
+Tabela de Requisitos;
 Mockups do produto.
 
 #### **Data limite**
