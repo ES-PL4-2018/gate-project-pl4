@@ -77,7 +77,7 @@ De forma a melhor perceber a diferença de importância entre os diferentes requ
 ### **3.3 Requisitos não-funcionais**
 
 |[RNF001] XXX|
-|:-:|
+|-:|
 **Descrição:**
 
 **Prioridade:**
@@ -85,7 +85,7 @@ De forma a melhor perceber a diferença de importância entre os diferentes requ
 **Origem:**
 
 |[RNF002] XXX|
-|:-:|
+|-:|
 **Descrição:**
 
 **Prioridade:**
