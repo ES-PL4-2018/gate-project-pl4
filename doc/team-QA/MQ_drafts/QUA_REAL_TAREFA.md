@@ -1,18 +1,5 @@
-TEMPLATE: DESCRIÇÃO FORMAL DE UM PROCESSO
+QUAL_REAL_TAREFAS
 ======
-
-
-
-Serve o presente documento para utilização por parte dos membros da equipa sempre que seja necessária a descrição formal de um processo.
-
-
-
-
-NOME DO PROCESSO
-
-
-===
-
 
 ## *TABELA DE VERSÕES*
 
@@ -20,18 +7,12 @@ NOME DO PROCESSO
 
 | VERSÃO | DATA | AUTORES | DESCRIÇÃO |
 |--------|------|---------|-----------|
-|        |      |         |           |
-|        |      |         |           |
-|        |      |         |           |
+|   0.1     |    26/09/2018  |    João Silva     |       Criação do processo    |
+<br>
 
-
-
-
-
-
-| UNIDADE | COORDENADOR | STATUS |
-|---------|-------------|--------|
-|         |             |        |
+| UNIDADE | COORDENADOR |
+|---------|-------------|
+|    QUA     |    Madalena Santos    |     
 
 
 
@@ -39,7 +20,7 @@ NOME DO PROCESSO
 ## *DESCRIÇÃO DO PROCESSO*
 
 
-<tópicos sobre a importância do processo + informações gerais + quem pode/está responsável por implementar este processo>
+Este processo é responsável por definir os procedimentos a tomar durante a realização de uma tarefa. 
 
 
 
@@ -51,26 +32,26 @@ NOME DO PROCESSO
 |------|-------|-------|
 |      |       |       |
 |      |       |       |
-<o coordenador é o coordenador da unidade, os colaboradores são os elementos da mesma unidade que contribuiram para a descrição do processo>
 
 
 ## *INPUTS*
 
-<documentos/informações/objetos necessários ao desenrolar deste processo>
-
+- Designação de um responsável, por parte do coordenador da unidade, para a realização da tarefa.
 
 
 ## *CRITÉRIO DE ATIVAÇÃO/TRIGGER*
 
 
-<quais são as circunstâncias em que este processo ocorre? o que é necessário que aconteça para que haja necessidade de executar o processo?>
+Este processo é ativado quando é necessária a realização de uma tarefa.
 
 
 
 ## *DESCRIÇÃO DAS TAREFAS*
 
 
-<informação sobre o trabalho a ser feito para que o processo decorra>
+- O coordenador da unidade deve designar um responsável para a realização da tarefa;
+- Antes da elaboração do relatório o coordenador da unidade deve fazer uma verificação de modo a confirmar se a tarefa foi executada com sucesso;
+- Após confirmação por parte do coordenador, deve ser realizado o relatório sobre a tarefa realizada.
 
 
 
@@ -79,7 +60,7 @@ NOME DO PROCESSO
 
 
 
-<Qual o processo pelo qual os artefactos da entrada passam até à saída do processo? Apresentar na forma de esquema, caso aplicável>
+
 
 
 
@@ -87,28 +68,29 @@ NOME DO PROCESSO
 ## *OUTPUTS*
 
 
-<documentos de saída do processo; o que resta depois do processo ser concluído: relatórios, mapas de esforço, documentos objetivo>
-
+- Relatório sobre a tarefa realizada, de acordo com o template definido para o efeito.
 
 
 ## *CRITÉRIO DE SAÍDA*
 
 
-<em que condições o processo acaba?>
+O processo acaba quando é publicado no GitHub o relatório sobre a realização da tarefa.
 
 
 
 ## *MÉTRICAS*
 
 
-<lista de maneiras de avaliar a qualidade do processo: nº horas de esforço, nº de documentos elaborados, racio de tarefas concluídas, etc>
+- Número de horas para realização da tarefa.
+- Número de alterações necessárias.
+
 
 
 
 ## *APROVAÇÃO E VALIDAÇÃO*
 
 
-<a unidade de QUA está encarregue da validação dos processos. geralmente, a qualidade de um processo é determinada em função das métricas de avaliação e na redação de relatórios de esforço para as tarefas realizadas durante um processo. no entanto, todos os processos devem ser aprovados pela sub-equipa responsável, e caso necessário, por toda a equipa>
+O relatório sobre a realização da tarefa deve ser revisto pela unidade de QUA de forma a confirmar a sua publicitação na plataforma GitHub.
 
 
 
