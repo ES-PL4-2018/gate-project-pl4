@@ -11,6 +11,8 @@ Todos os documentos precisam de ser validados pela unidade de Qualidade antes de
 
 ### **Responsáveis**
 | Nome | Curso | Cargo |
+|-|-|-|
+|||
 
 ### **Membros do processo:**
 Qualquer membro da unidade de Qualidade pode ficar encarregue de fazer a validação de um certo documento.
