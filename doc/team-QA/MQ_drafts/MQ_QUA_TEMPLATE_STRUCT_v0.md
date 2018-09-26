@@ -6,6 +6,7 @@
 | Versão | Data | Autores | Descrição
 |---|---|---|---
 |0.1 | 2018/09/25 | jmsoares | Criação processo
+|0.2 | 2018/09/26 | jmsoares | Revisão processo
 
 <br>
 
@@ -36,16 +37,20 @@ Sempre que exitam dados/artefatos a serem arquivados que não se enquadrem em ne
 
 ### DESCRIÇÃO DAS TAREFAS
 
-Deverá ser criado um template utilizando o modelo de estrutura base com a codificação QUA_TEMPLATE_STRUCT
+1. Discução da estrutura mais indicada de suporte aos dados e seu enquadramento (listas, tabelas, esquemas, criação de estatistica etc)
+2. Deverá ser criado um template utilizando o modelo de estrutura base com a codificação QUA_TEMPLATE_STRUCT, com "dummy data" para prova de conceito
+3. Aprovação do template pela QUA (Se não aprovado volta ao ponto 1)
+4. Caso seja considerado necessário pela QUA deverá ser criado igualmente um processo para normalizar a utilização do template, referir ao processo QA_TEMPLATE_ProcessDesc_v0
+5. Codificação do templeate pela QUA
 
 <br>
 
 ### CICLO DE VIDA DOS ARTEFACTOS
 
-1. Discução da estrutura mais indicada de suporte aos dados e seu enquadramento (listas, tabelas, esquemas, criação de estatistica etc)
-2. Elaboração do template com "dummy data" para prova de conceito;
-3. Aprovação do template pela QUA (em caso de não aceite, volta ao ponto 1);
-4. Codificação do template e arquivo no git;
+1. Novo template criado (Draft)
+2. Verificação pela QUA (Se não aprovado volta ao ponto 1)
+3. Template aprovado pela QUA é codificado
+4. Arquivo no GIT para utilização pela equipa;
 
 <br>
 
@@ -63,5 +68,5 @@ Aprovação do template pela QUA e sua codificação para arquivo
 
 ### MÉTRICAS
 
-Nº de revisões que o template foi sujeito para aprovação
-Nº horas esforço para conclusao da tarefa
+- Nº de revisões que o template foi sujeito para aprovação
+- Nº horas esforço para conclusao da tarefa
