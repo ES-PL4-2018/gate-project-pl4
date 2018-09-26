@@ -1,15 +1,15 @@
-# GATE_Coordenação
+# COORDENAÇÃO
 
 ## ATA Reunião
 
-### Ref: ATA_COORD_#3
+### Ref: ATA\_COORD\_#3
 
-### Project: GATE
+### Project: GATE PROJECT
 
-### Date / Time: 26/09/2018 12h00
+### Date / Time: 26 SET, 12H15
 
-### Duration: 1h30
-
+### Duration: <duration of meeting>
+ 
  <br/>
 
 ### # pages: 1
@@ -19,64 +19,67 @@
 
 #### Meeting attendance
 
-Jessica Cunha, Guilherme Tavares, Victor Moraes, Pedro Marcelino, Madalena Santos, Alexandre Brito
+Madalena Santos, Jessica Mégane, Alexandre, Guilherme Tavares, Victor Carvalho, Pedro Marcelino
+
 
 #### Revisions
 
-| Rev # | Author | Description              | Date |
-| ----- | ------ | ------------------------ | ---- |
-| rev   | author | things donne on revision | when |
+Rev # | Author | Description | Date
+--- | --- | --- | ---
+0.1 | Madalena | Primeiro rascunho | 26 sept
+0.2 | Jessica | Assuntos adicionados | 26 sept
+1.0 | Madalena | Versão final | 26 sept
 
 <br/>
 
 #### Meeting agenda / subject
+* Trabalho realizado durante a semana
+* Workflow do GitHub
+* Relatórios de esforço
+* Discussão sobre os cargos para o próximo sprint
 
-- Preparação da apresentação de amanhã
-- Mockups
-- Discussão dos cargos
-- Manual de qualidade dos requisitos
-- Documento de requisitos
-
-- Relatório de esforço
 
 <br/> 
 <br/>
 
-#### Preparação de apresentação de amanhã
 
-Já está a ser feito um ppt de apresentação, pela parte da Gestão
-
-#### Mockups
-
-Apresentação dos mockups à equipa
-
-Como guardar o login automaticamente
-
-Envio do mail manual, quando se perde a password
+#### Trabalho realizado durante a semana
+##### Discussion
+* Requisitos
+	* Mockups: os rascunhos já existem, mas está tudo um pouco atrasado.
+	* Discussão sobre as dificuldades na equipa de requisitos
+	* É preciso fazer uma tabela de requisitos para apresentar à implementação ASAP.
+* Manual de Qualidade 
+	
+	
+##### Decisions
+* Ficou decidido que os requisitos têm que apresentar resultados muito mais cedo. No próximo sprint, os documentos e os mockups têm que estar prontos no máximo no fim da 1ª semana.
+* Na reunião, tem que ser apresentada uma versão formal do documento de requisitos.
 
 <br/>
 
-#### Manual de qualidade - Requisitos
+#### Workflow do GitHub
+##### Discussion
+* Sugestões sobre workflows a adaptar
 
-O que é a tabela de requisitos, e para que serve?
+##### Decisions
+* O workflow escolhido foi o seguinte: no início de cada sprint, são criados 2 branches (documentos vs código). Todos os documentos são trabalhados em branches que variam da branch "documentos", e o mesmo para o código. À medida que os documentos/código são validados, vão sendo merged para a branch respetiva. No fim de cada sprint, merge para o master, e volta-se a repetir o processo.
 
+<br/>
 
-
-#### Documento de requisitos
-
-Necessário estar pronto até à próxima semana
-
-
-
-#### Relatório de esforço
-
-Cada pessoa redige o seu documento, envia-se para aprovação da qualidade, e a gestão reúne a informação, para apresentação ao cliente.
+#### Relatórios 
+##### Discussion
+* Possibilidade de haver simplesmente uma lista de tarefas executadas para ser apresentada ao cliente
+* Necessidade de haver um relatório formal para justificar todo o esforço que foi feito
 
 
+##### Decisions
+* Todas as tarefas merecem um relatório de esforço (redigido pela pessoa que faz a tarefa). Estes relatórios estão todos na mesma pasta, e em cada semana, o GP faz um resumo daquilo que foi feito com base nos relatórios redigidos.
 
-#### Meetin metrics
+<br/> 
+<br/>
 
-Attendance -> summoned vs present<br/>
-Duration -> expected vs real<br/>
-Agenda topics discussed x out of y<br/>
-Meeting global evaluation 1 out of 10<br/>
+#### Meeting metrics
+Attendance -> 6/6<br/>
+Duration -> 1h vs 1h<br/>
+Agenda topics discussed -> 100%
