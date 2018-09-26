@@ -12,8 +12,7 @@
 Foi desenvolvido um documento com a primeira versão do Manual de Qualidade relativo aos processos da equipa de Requisitos.
 
 #### **Entradas**
-Lista de Requisitos;
-Mockups do produto.
+-
 
 #### **Data limite**
 25/09/2018
