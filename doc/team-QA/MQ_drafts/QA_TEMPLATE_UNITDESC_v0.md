@@ -11,7 +11,7 @@ unit acronym | date | team lead | team co-lead
 
 Status | Version
 --- | ---
-document status | version |
+document status | version
 
 ### Members
 
