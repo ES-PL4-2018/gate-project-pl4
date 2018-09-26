@@ -13,10 +13,12 @@
 | Tiago Brito        | LEI | Colaborador    |tiagobrito@student.dei.uc.pt |
 
 ## Objetivos da unidade de REQ:
-  A unidade de Requisitos é responsável pela comunicação entre a equipa e o cliente, produz mockups, organiza a tabela de requisitos, que será utilizada como base na criação do software e redigir o documento de Requisitos. 
+  A unidade de Requisitos é responsável pela comunicação entre a equipa e o cliente, por produzir mockups, organizar a tabela de requisitos, que será utilizada como base na criação do software e redigir o documento de Requisitos.
+  
 
 
 ## Processos utilizados por esta unidade:
+
 1. Preenchimento da Tabela de Requisitos
 2. Desenvolvimento de mockups
 3. Construção do Documento de Requisitos
@@ -28,8 +30,9 @@
 Processo utilizado para indicar o modo de elaboração da tabela de requisitos.
 
 ### **Membros e funções:**
-x - Responsável pela elaboração da tabela de requisitos
-y - Colaborador na elaboração da tabela, principal revisor
+- Tiago Brito (LEI) - Responsável pela elaboração da tabela de requisitos.
+- Carlos Poiares (LEI) - Colaborador na elaboração da tabela.
+- Catarina Pires (LEI) - Colaboradora na elaboração da tabela.
 
 ### **Critério de Arranque:**
 Qualquer nova informação ou pedido de alteração relativo aos requisitos.
@@ -55,7 +58,8 @@ Deve também ser revista pelo líder da Implementação, principalmente para per
 Se tudo estiver correto e revisto por todos os membros acima indicados, consideramos a tabela como válida. Se a validação falhar, procedemos a uma reformulação do documento.
 
 ### **Métricas:**
-?
+- Número de alterações e adições na tabela
+- ?
 
 ### **Outputs:**
 Nova versão da tabela de Requisitos.
@@ -71,19 +75,25 @@ Nova versão da tabela de Requisitos.
 
 ### **Membros e funções:**
 - Pedro Marcelino (LDM) - Responsável pela criação dos mockups.
+- Duarte Silva (LEI) - Rever se os mockups estão a correr de acordo com o descrito nos requisitos.
 
 ### **Critério de Arranque:**
 - O processo inicia após a elaboração de uma lista de requisitos.
 
 ### **Inputs:**
-- Lista dos Requisitos do Cliente. Notas das reuniões com o cliente.
+- Lista de Requisitos.
+- Notas das reuniões com o cliente.
 
 ### **Periodicidade de execução:**
+- Quando um novo requisito influencia o que seria apresentado no ecrã;
+- Quando um mockup é rejeitado pelo cliente.
 
 ### **Tarefas:**
+- Analise dos requisitos por parte de quem vai desenvolver o mockup;
+- Desenvolvimento dos mockups dos diversos ecrãs utilizando o Adobe Illustrator.
 
 ### **Validação:**
-- A validação dos mockups será feita pelo cliente Mário Rela.
+- A validação dos mockups será feita pelos membros da equipa de Requisitos e posteriormente pelo cliente Mário Rela.
 
 ### **Métricas:**
 - Número de alterações por versão nos mockups.
@@ -103,28 +113,28 @@ Este Documento constitui uma parte vital da unidade de requisitos, contendo a ta
 
 ### **Membros e funções:**
 * Tiago Brito (LEI): Responsável pela elaboração da tabela de requisitos.
-* Pedro Marcelino (LDM): Responsável pela elaboração dos mockups e respetiva legenda.
-* Catarina Pires: Elaboração da estrutura do documento de requisitos, colaboradora no desenvolvimento da tabela de requisitos.
-* Carlos Poiares: 
-* Duarte Silva: 
+* Pedro Marcelino (LDM): Responsável pela elaboração dos mockups, pela adição dos mesmos ao documento e respetiva legenda.
+* Catarina Pires (LEI): Elaboração da estrutura geral do documento de requisitos, colaboradora no desenvolvimento da tabela de requisitos.
+* Carlos Poiares (LEI): Elaboração da estrutura geral do documento de requisitos, colaborador no desenvolvimento da tabela de requisitos.
+* Duarte Silva (LEI): Colaborador e revisor geral do documento de Requisitos.
 
 ### **Inputs:**
-Os documentos criados pelos processos anteriore(como a lista de requisitos e os mockups desenvolvidos).
+Os documentos criados pelos processos anteriores (como a lista de requisitos e os mockups desenvolvidos).
 
 ### **Critério de entrada/ativação:**
 Unificar a visão final do produto, quer para a equipa quer para o cliente. Um documento único que procura unir a tabela de requisitos a uma explicação detalhada com mockups do aspeto visual final do produto.
 
 ### **Descrição das tarefas:**
-*   _Preparação:_ Verificar os inputs deste documento e a sua relativa validação.
-*   _Implementação:_ A vice gestora da unidade de requisitos junta toda a informação num só documento pedindo a membros da unidade para contribuirem com a elaboração dos textos necessários.
-*   _Validação:_ (?) O Documento será colocado em versão de teste na plataforma GitHub/Slack para ser validado pelos presidentes de cada unidade.
-*   _Conclusão:_ Uma vez validade o documento é dado como terminado e submetido na plataforma de entrega.
+*   Verificar os inputs deste documento e a sua relativa validação.
+*   É agrupada toda a informação num só documento, no qual os membros da unidade contribuirão com a elaboração de textos ou alterações necessárias.
+*   O documento será colocado em versão de teste na plataforma GitHub/Slack para ser validado.
+*   Uma vez validado, o documento é dado como terminado.
 
 ### **Validação:**
-A validação é feita pelas equipas de qualidade, requisitos e pelo professor da cadeira. É necessário que o documento apresente uma boa estrutura e paginação, com toda a imagem legendada,com os textos sem erros ortográficos ou incoerência. É necessário apresentar a tabela de requisitos completa e validade assim como todos os mockups validados.
+A validação é feita pela equipa de Requisitos, pela equipa de Qualidade e pelo professor da cadeira. A estrutura do documento deve ser organizada, com os mockups legendados, sem erros ortográficos ou incoerências. É necessário apresentar a tabela de requisitos e os mockups, ambos previamente validados.
 
 ### **Critério de saída:**
-A conclusão do documento é dada aquando a sua validação. Todo o conteúdo do documento deve ser legível para toda a equipa, tendo em especial atenção a unidade de implementação para uma clara visão do projeto a desenvolver. Este documento representa uma referência para todas as unidades em geral, resumindo todo o projeto.
+A conclusão do documento é dada quando a sua validação estiver terminada. Todo o conteúdo do documento deve estar organizado, de modo a ser de fácil interpretação para toda a equipa, em especial para a unidade de implementação. Este documento resume todo o projeto.
 
 ### **Métricas de avaliação:**
 (?) Ainda não há métricas estabelecidas.
@@ -132,12 +142,11 @@ A conclusão do documento é dada aquando a sua validação. Todo o conteúdo do
 ### **Outputs:**
 O documento de requisitos.
 
-### Lifecycle:
+### Lifecycle: ?
 (*) Sendo que este artefacto baseado na tabela de requisitos e no documento de mockups, este terá o mesmo ciclo de vida que esses documentos. O SRS será atualizado sempre que for necessária uma alteração dos seus inputs. 
 
 ### **Monitorização deste processo pela equipa de qualidade:**
 (?) Um elemento da unidade de qualidade ficará responsável que, após a validação por parte do lider da unidade de requisitos, irá verificar as condições apresentadas em ETVX (Entra-Task-Validation-Exit) e se o documento +pode ser aprensentado.
-
 
 
 ## **4. Reuniões com o Cliente**
