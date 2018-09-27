@@ -2,14 +2,14 @@
 
 | Equipa: Testes | Data: 26/09/2018 
 | ------ | ------ | 
-| **Estado: (Concluído) |  **Coordenador: Jessica Mégane|
+| **Estado: (Concluído)** |  **Coordenador: Jessica Cunha**|
 
 #### **Responsáveis pela tarefa e respetiva função**
   * Ricardo Paiva 
 
   * Pedro Sá
 
-  * Jessica Mégane 
+  * Jessica Cunha
 
   * João Oliveira 
 
