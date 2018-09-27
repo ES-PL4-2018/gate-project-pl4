@@ -1,7 +1,7 @@
 # MQ_VAL_PROC (Validação de processos)
 
-Estado: Incompleto | Data: 24/09/2018 | Versão: v0.1 |
---- | --- | --- |
+Estado: Incompleto | Versão: v0.1
+--- | --- |
 
 ## **Descrição do processo:**
 Este processo consiste na constante revisão da forma como a equipa trabalha, de acordo com o Manual de Qualidade.
