@@ -5,7 +5,7 @@
 | **Estado:** Terminado|  **Coordenador:** Madalena|
 
 #### **Responsáveis pela tarefa e respetiva função**
-  * Madalena
+  * Madalena Santos
  
 #### **Requisitos / Descrição do processo**
 * Breve pesquisa para orientação dos colaboradores
@@ -15,8 +15,8 @@
 * Documentos inforestudante
 * Assuntos pesquisados na internet
 
-#### **Data limite**
-(não aplicável)
+#### **Duração da tarefa**
+2h
 
 #### **Métricas de avaliação**
 * Qualidade da reunião feita com base na pesquisa/organização
