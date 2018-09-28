@@ -29,7 +29,7 @@ O nosso produto tem como público alvo todos os investigadores à volta do mundo
 
 ### **1.3 Descrição**
 
-O projeto irá culminar numa aplicação android, capaz de mostrar ao utilizador noticias ou discussões relacionadas com as suas áreas de interesse/investigação.
+O projeto irá culminar numa aplicação android, capaz de mostrar ao utilizador notícias ou discussões relacionadas com as suas áreas de interesse/investigação.
 
 ## **2. Descrição geral do sistema e sistemas relacionados**
 (?)

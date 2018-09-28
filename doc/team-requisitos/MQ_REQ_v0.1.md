@@ -65,7 +65,7 @@ Se tudo estiver correto e revisto por todos os membros acima indicados, consider
 Nova versão da tabela de Requisitos.
 
 ### **Monitorização deste processo pela equipa de Qualidade:**
-?
+Sempre que for concluida uma nova versão da Tabela de Requisitos, esta deverá ser aprovada pela equipa de Qualidade.
 
 ## **2. Desenvolvimento de Mockups**
 
@@ -104,7 +104,7 @@ Nova versão da tabela de Requisitos.
 - Registo das Métricas;
 
 ### **Monitorização deste processo pela equipa de Qualidade:**
-TODO: Perguntar ao Gestor de Qualidade quais são as métricas a ser medidas. Em que dia vai analisar. Situações a procurar.
+Quando os mockups estiverem concluidos, deverão ser enviados para a equipa de Qualidade para a devida aprovação.
 
 
 ## **3. Construção do Documento de Requisitos**
@@ -119,7 +119,7 @@ Este Documento constitui uma parte vital da unidade de requisitos, contendo a ta
 * Duarte Silva (LEI): Colaborador e revisor geral do documento de Requisitos.
 
 ### **Inputs:**
-Os documentos criados pelos processos anteriores (como a lista de requisitos e os mockups desenvolvidos).
+Os documentos criados pelos processos anteriores (como a tabela de requisitos e os mockups desenvolvidos).
 
 ### **Critério de entrada/ativação:**
 Unificar a visão final do produto, quer para a equipa quer para o cliente. Um documento único que procura unir a tabela de requisitos a uma explicação detalhada com mockups do aspeto visual final do produto.
@@ -137,16 +137,16 @@ A validação é feita pela equipa de Requisitos, pela equipa de Qualidade e pel
 A conclusão do documento é dada quando a sua validação estiver terminada. Todo o conteúdo do documento deve estar organizado, de modo a ser de fácil interpretação para toda a equipa, em especial para a unidade de implementação. Este documento resume todo o projeto.
 
 ### **Métricas de avaliação:**
-(?) Ainda não há métricas estabelecidas.
+-
 
 ### **Outputs:**
 O documento de requisitos.
 
-### Lifecycle: ?
+### Lifecycle: ????
 (*) Sendo que este artefacto baseado na tabela de requisitos e no documento de mockups, este terá o mesmo ciclo de vida que esses documentos. O SRS será atualizado sempre que for necessária uma alteração dos seus inputs. 
 
 ### **Monitorização deste processo pela equipa de qualidade:**
-(?) Um elemento da unidade de qualidade ficará responsável que, após a validação por parte do lider da unidade de requisitos, irá verificar as condições apresentadas em ETVX (Entra-Task-Validation-Exit) e se o documento +pode ser aprensentado.
+Sempre que for concluida uma nova versão do Documento de Requisitos, esta terá de conter aprovação da equipa de Qualidade.
 
 
 ## **4. Reuniões com o Cliente**
@@ -182,11 +182,3 @@ Deve ser feita pelos intervenientes na reunião e gestor da equipa de Qualidade.
 - Ata da reunião
 - Alterções na Tabela de Requisitos
 
-### **Monitorização deste processo pela equipa de Qualidade:**
-(?)
-
-## _**Processos de caso específicos**_
-###**Entrada de um membro para a equipa a meiop do projeto**
-(?) Acertar com a equipa de qualidade.
-###**Falha no cumprimento de tarefas**
-(?) Acertar com a equipa de qualidade.
