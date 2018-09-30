@@ -6,13 +6,17 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SectionsPageAdapter extends FragmentPagerAdapter {
+public class SectionsPageAdapter extends FragmentPagerAdapter implements Serializable{
 
     private SectionsPageAdapter mSectionsPageAdapter;
+
+    private static final String TAG = "MyActivity";
 
     private final List<Fragment> mFragmentList = new ArrayList<>();
     private final List<String> mFragmentTitleList = new ArrayList<>();
@@ -22,6 +26,7 @@ public class SectionsPageAdapter extends FragmentPagerAdapter {
     }
 
     public void addFragment(Fragment fragment, String title){
+        Log.d(TAG, "Added fragment to FragmentList");
         mFragmentList.add(fragment);
         mFragmentTitleList.add(title);
     }
@@ -33,6 +38,7 @@ public class SectionsPageAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
+        Log.d(TAG, "Getting fragment in position " + position);
         return mFragmentList.get(position);
     }
 

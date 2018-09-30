@@ -1,13 +1,8 @@
 package es.gate;
 
-import android.app.Activity;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.view.ViewPager;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,28 +11,25 @@ import java.io.Serializable;
 
 /**
  * Joao Montenegro
- * 26-09-18
- * Classe associada ao layout do feed Home
+ * 28/09/18
  */
 
-public class FeedHomeFragment extends Fragment implements Serializable {
+public class ByCategoryFragment extends Fragment implements Serializable{
 
-    private View thisView;
-
-    private static final String TAG = "MyActivity";
+    View thisView;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.category_feed, container, false);
         super.onCreateView(inflater, container, savedInstanceState);
-        View view = inflater.inflate(R.layout.content_feed, container, false);
 
         thisView = view;
+
         return view;
     }
 
     public View getView(){
         return thisView;
     }
-
 }
