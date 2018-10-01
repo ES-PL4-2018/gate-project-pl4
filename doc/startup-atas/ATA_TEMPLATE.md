@@ -1,28 +1,41 @@
+#TEMPLATE PARA REDAÇÃO DE ATA DE REUNIÃO
+
+Este documento serve como modelo para todas as atas redigidas pela equipa. Deve ser copiado, preenchido e colocado na pasta "startup-atas"
+
+O nome do documento (ref) deve ser "ATA_<EQUIPA>_#.md"
+
+
+###TABELA DE VERSÕES
+|**Versão**|**Autor**|**Data**|**Notas**|
+|---|---|---|---|
+|0.1|Madalena|18/09|Versão inicial inglesa|
+|0.2|Madalena|1/10|Versão portuguesa + tabela de versões|
+
+
+<início do template>
 # <TEAM NAME>
 
 ## ATA Reunião
 
 ### Ref: <unique id for doc>
 
-### Project: <project name>
+### Data & Hora: <insert date_dime>
 
-### Date / Time: <insert date_dime>
-
-### Duration: <duration of meeting>
+### Duração: <duration of meeting>
  
  <br/>
 
-### # pages: <total page count>
+### # páginas: <total page count>
 
 <br/> 
 <br/>
 
-#### Meeting attendance
+#### ASSIDUIDADE
 
-.<People atending the meeting>
+<People atending the meeting>
 
 
-#### Revisions
+#### TABELA DE REVISÕES
 
 Rev # | Author | Description | Date
 --- | --- | --- | ---
@@ -30,9 +43,9 @@ rev | author | things donne on revision | when
 
 <br/>
 
-#### Meeting agenda / subject
+#### ORDEM DE TRABALHOS
 
-Moar detailed meeting agenda bla bla
+More detailed meeting agenda bla bla
 
 
 <br/> 
@@ -40,32 +53,26 @@ Moar detailed meeting agenda bla bla
 
 
 #### Point x
-##### Discussion
+##### DISCUSSÃO
 things discussed about point x
-##### Decisions
+##### DECISÕES
 things decided about point x
 
 <br/>
 
 #### Point y
-##### Discussion
+##### DISCUSSÃO
 things discussed about point y
-##### Decisions
+##### DECISÕES
 things decided about point y
 
 <br/>
 
-#### Point z
-##### Discussion
-things discussed about point z
-##### Decisions
-things decided about point z
-
 <br/> 
 <br/>
 
-#### Meeting metrics
-Attendance -> summoned vs present<br/>
-Duration -> expected vs real<br/>
-Agenda topics discussed x out of y<br/>
-Meeting global evaluation 1 out of 10<br/>
+#### MÉTRICAS PARA A REUNIÃO
+Assiduidade -> summoned vs present<br/>
+Duração -> expected vs real<br/>
+Nº de tópicos discutidos dos previstos<br/>
+Avaliação global<br/>
