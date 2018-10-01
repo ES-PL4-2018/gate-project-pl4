@@ -6,20 +6,24 @@
 
 ### Project: GATE
 
-### Date / Time: 24 set, 18h00
+### Date / Time: 24 set, 18h10
 
-### Duration: <duration of meeting>
- 
+### Duration: 1:20h
+
  <br/>
 
 ### # pages: <total page count>
 
-<br/> 
+<br/>
 <br/>
 
 #### Meeting attendance
-
-<People atending the meeting>
+* Madalena Santos
+* Maria Pereira
+* João Soares
+* Joao Silva
+* Pedro Fernandes
+* Sergii Mykolyshyn
 
 
 #### Revisions
@@ -27,6 +31,7 @@
 Rev # | Author | Description | Date
 --- | --- | --- | ---
 v1 | Madalena | Ordem de trabalhos | 24 set, 12h
+v2 | Sergii | Redação da ata | 24 set, 18:10h
 
 <br/>
 
@@ -66,7 +71,7 @@ v1 | Madalena | Ordem de trabalhos | 24 set, 12h
         5. Elaboração de templates
 
 3. Esclarecimentos
-    1. Somos nós a elaborar todos os documentos? 
+    1. Somos nós a elaborar todos os documentos?
         * Cena que o cláudio me enviou
         * Tabela para realização de testes
     * Quais são as cenas que temos que pôr na nossa parte do MQ? Quais são os processos? Qual é a linha que separa as funções dos recursos humanos das nossas?
@@ -80,33 +85,62 @@ v1 | Madalena | Ordem de trabalhos | 24 set, 12h
         * Falhas no cumprimento de tarefas
 
 
-<br/> 
+<br/>
 <br/>
 
 
-#### Point x
+#### Point 1
+Discussão sobre organização do projeto em geral e da equipa.
+
 ##### Discussion
-things discussed about point x
+* Workflow das tarefas, organização interna;
+* Brainstorming para a lista de processos que tem como objetivo ajudar a redação do manual de qualidade de cada equipa (redação de documentos, reuniões, tomada de decisões, etc);
+* Gestão do git.
+
 ##### Decisions
-things decided about point x
+* Criação de diferentes branches para o caso de as coisas não correrem bem;
+* Criar um branch só para a parte da documentação para evitar conflitos/confusões com os branches do código. Depois de tudo estar revisto e direito vai para o branch master;
+* Deve sempre haver um relatório das tarefas.
 
 <br/>
 
-#### Point y
-##### Discussion
-things discussed about point y
+#### Point 2
+* Definição de responsáveis para redação de rascunhos de processos gerais
+
 ##### Decisions
-things decided about point y
+* Foram criados processos no trello e ficou decidido que cada elemento ia fazer 2 cards (tarefas).
 
 <br/>
 
-#### Point z
-##### Discussion
-things discussed about point z
-##### Decisions
-things decided about point z
+#### Point 3
+Avaliação semanal dentro das equipas
 
-<br/> 
+##### Discussion
+* Foi discutido que para além de haver uma avaliação semanal de toda a equipa, iria haver também uma avaliação dentro das unidades específicas.
+
+##### Decisions
+* Avaliação semanal deve estar documentada dentro do manual de qualidade.
+
+#### Point 4
+Manual de qualidade
+
+##### Discussion
+* Sobre a necessidade de haver pessoas responsáveis pela revisão do manual de qualidade.
+
+##### Decisions
+* Decidiu-se que a revisão do manual de qualidade deve ser feita pela pessoa que o faz, coordenador da unidade e uma terceira pessoa **(vice-presidente??)**, devido à grande quantidade de informação que pode surgir.
+
+#### Point 5
+Nomenclatura dos documentos e as respetivas versões
+
+##### Discussion
+* Falou-se na necessidade de cada unidade ser identificada por respetivas siglas.
+
+##### Decisions
+* No inicio dos relatórios devem constar siglas a identificar cada unidade responsável pelo processo;
+* Definição das siglas gerais.
+
+<br/>
 <br/>
 
 #### Meeting metrics
