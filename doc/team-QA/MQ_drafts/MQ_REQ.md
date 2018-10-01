@@ -74,7 +74,7 @@ Sempre que for concluida uma nova versão da Tabela de Requisitos, esta deverá 
 
 ### **Membros e funções:**
 - Pedro Marcelino (LDM) - Responsável pela criação dos mockups.
-- Duarte Silva (LEI) - Rever se os mockups estão a correr de acordo com o descrito nos requisitos.
+- Duarte Silva (LEI) - Rever se os mockups estão a evoluir de acordo com o descrito nos requisitos.
 
 ### **Critério de Arranque:**
 - O processo inicia após a elaboração de uma lista de requisitos.
