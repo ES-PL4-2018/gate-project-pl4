@@ -59,7 +59,6 @@ Se tudo estiver correto e revisto por todos os membros acima indicados, consider
 
 ### **Métricas:**
 - Número de alterações e adições na tabela
-- ?
 
 ### **Outputs:**
 Nova versão da tabela de Requisitos.
@@ -89,7 +88,7 @@ Sempre que for concluida uma nova versão da Tabela de Requisitos, esta deverá 
 - Quando um mockup é rejeitado pelo cliente.
 
 ### **Tarefas:**
-- Analise dos requisitos por parte de quem vai desenvolver o mockup;
+- Análise dos requisitos por parte de quem vai desenvolver o mockup;
 - Desenvolvimento dos mockups dos diversos ecrãs utilizando o Adobe Illustrator.
 
 ### **Validação:**
