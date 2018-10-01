@@ -1,8 +1,24 @@
+##TEMPLATE PARA RELATÓRIO DE ESFORÇO/TAREFA
+
+A preencher por cada elemento da equipa sempre que seja feita uma tarefa.
+Este template deve ser **copiado** para a pasta de relatórios do sprint + semana respetivos, e posteriormente preenchido.
+Como é comum a todos os documentos, a designação do relatório deve ser a seguinte: "<EQUIPA>_REL_TASKS_<NomeDaTarefa>.md"
+
+
+##TABELA DE VERSÕES DO TEMPLATE
+
+| Versão | Autores | Data | Notas |
+| --- | --- | --- | --- |
+| 0.1 | Sergii + Pedro Fernandes | 24/09 | Versão inicial |
+| 0.2 | Madalena Santos | 1/10 | Tabela de versões + descrição |
+
+
+<início do relatório, apagar tudo antes daqui>
 # **_Nome da tarefa_**
 
-| Equipa: (Qualidade)(Requisitos)(etc) | Data: 00/00/0000 
+| **Equipa:** | **Data:** | 
 | ------ | ------ | 
-| **Estado: (Concluído)(Em desenvolvimento)(etc)** |  **Coordenador: (nome do coordenador)**|
+| **Estado:** <tarefa concluída?> |  **Coordenador:** |
 
 #### **Responsáveis pela tarefa e respetiva função**
   * pessoa1 - função da pessoa1
