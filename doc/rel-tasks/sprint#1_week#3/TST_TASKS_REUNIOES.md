@@ -2,7 +2,7 @@
 
 | Equipa: Testes        | Data: 25/09/2018                |
 | --------------------- | ------------------------------- |
-| **Estado: Concluído** | **Coordenador: Jéssica Mégane** |
+| **Estado: Concluído** | **Coordenador: Jessica Cunha** |
 
 #### **Responsáveis pela tarefa e respetiva função**
 
