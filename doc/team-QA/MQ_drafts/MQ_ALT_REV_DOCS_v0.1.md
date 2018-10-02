@@ -33,6 +33,7 @@ Este processo é responsável por definir os procedimentos a tomar quando é nec
 ## *INPUTS*
 
 - Nomeação de um ou vários responsáveis pela revisão ou alteração do documento.
+- Documento a ser revisto.
 
 ## *CRITÉRIO DE ATIVAÇÃO/TRIGGER*
 
@@ -42,11 +43,10 @@ Este processo é ativado quando o coordenador da unidade nomeia um ou vários re
 ## *DESCRIÇÃO DAS TAREFAS*
 
 
-- Após a alteração do documento a versão (lado direito) do mesmo deve ser alterada.
-- Após uma revisão total do documento é alterada a versão (lado esquerdo).
+- Após a alteração ou revisão do documento a sua versão deve ser alterada. (Por ex. v0.1 passa a v0.2)
+- Caso seja feita uma revisão geral do documento antes da sua publicação a versão também deve ser incrementada. (Por ex. v0.3 passa a v1.0)
 
 ## *OUTPUTS*
-
 
 - Um relatório com as alterações feitas ao documento.
 - O documento revisto/alterado com a sua versão atualizada.
@@ -60,6 +60,7 @@ O processo é finalizado quando é publicado o relatório sobre a revisão/alter
 
 
 - Número de horas para realização da tarefa.
+- Qualidade do trabalho produzido.
 
 
 
