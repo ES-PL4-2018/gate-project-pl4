@@ -1,4 +1,4 @@
-package com.example.j.es;
+package es.gate;
 
 import android.app.Activity;
 import android.app.AlertDialog;
