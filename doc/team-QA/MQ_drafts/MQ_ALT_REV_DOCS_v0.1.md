@@ -1,4 +1,4 @@
-QUAL_ALT_REV_DOCS
+﻿QUAL_ALT_REV_DOCS
 ======
 
 ## *TABELA DE VERSÕES*
@@ -45,6 +45,12 @@ Este processo é ativado quando o coordenador da unidade nomeia um ou vários re
 
 - Após a alteração ou revisão do documento a sua versão deve ser alterada. (Por ex. v0.1 passa a v0.2)
 - Caso seja feita uma revisão geral do documento antes da sua publicação a versão também deve ser incrementada. (Por ex. v0.3 passa a v1.0)
+
+## *CICLO DE VIDA DOS ARTEFACTOS*
+
+1. Alteração/Verificação do documento.
+2. Aprovação por parte do coordenador. (Caso não seja aprovado regressa ao ponto 1)
+3. Publicação da nova versão do documento no GitHub.
 
 ## *OUTPUTS*
 

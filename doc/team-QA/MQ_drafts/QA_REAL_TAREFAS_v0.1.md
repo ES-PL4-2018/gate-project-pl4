@@ -1,4 +1,4 @@
-QA_REAL_TAREFAS
+﻿QA_REAL_TAREFAS
 ======
 
 ## *TABELA DE VERSÕES*
@@ -58,11 +58,8 @@ Este processo é ativado quando é necessária a realização de uma tarefa.
 
 ## *CICLO DE VIDA DOS ARTEFACTOS*
 
-
-
-
-
-
+1. Realização da tarefa.
+2. Verificação por parte do coordenador. (Caso não seja aprovado regressa ao ponto 1)
 
 
 ## *OUTPUTS*
