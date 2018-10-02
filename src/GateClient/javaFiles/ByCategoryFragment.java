@@ -12,6 +12,7 @@ import java.io.Serializable;
 /**
  * Joao Montenegro
  * 28/09/18
+ * Fragmento que contem a lista de categorias no TabLayout.
  */
 
 public class ByCategoryFragment extends Fragment implements Serializable{

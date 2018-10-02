@@ -2,6 +2,7 @@ package es.gate;
 
 import android.app.Activity;
 import android.content.Context;
+import android.support.transition.TransitionManager;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -26,6 +27,7 @@ public class PostCardsAdapter extends RecyclerView.Adapter<PostCardsAdapter.Card
     private static final String TAG = "MyActivity";
     List<FeedPost> feedPosts;
     Feed mainActivity;
+    private int mExpandedPosition = -1;
 
     PostCardsAdapter(List<FeedPost> feedPosts, Feed mainActivity){
         this.feedPosts = feedPosts;
@@ -39,16 +41,21 @@ public class PostCardsAdapter extends RecyclerView.Adapter<PostCardsAdapter.Card
 
     @Override
     public void onBindViewHolder(CardViewHolder postsCardView, int i) {
+        postsCardView.cv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mainActivity.onClick(view);
+            }
+        });
         postsCardView.username.setText(feedPosts.get(i).getUsername());
         postsCardView.category.setText(feedPosts.get(i).getCategory());
         postsCardView.contentFeed.setText(feedPosts.get(i).getContent());
-        /*postsCardView.like.setOnClickListener(new View.OnClickListener() {
+        postsCardView.userPhoto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.i(TAG, "Like was triggered (PostCardsAdapter)");
                 mainActivity.onClick(view);
             }
-        });*/
+        });
     }
 
     @Override
@@ -68,7 +75,7 @@ public class PostCardsAdapter extends RecyclerView.Adapter<PostCardsAdapter.Card
         TextView username;
         TextView category;
         TextView contentFeed;
-        //ImageView like;
+        ImageView userPhoto;
 
 
         CardViewHolder(View itemView) {
@@ -77,7 +84,7 @@ public class PostCardsAdapter extends RecyclerView.Adapter<PostCardsAdapter.Card
             username = itemView.findViewById(R.id.feed_post_card_username);
             category = itemView.findViewById(R.id.feed_post_card_category);
             contentFeed = itemView.findViewById(R.id.feed_post_card_content);
-            //like = itemView.findViewById(R.id.feed_post_card_like);
+            userPhoto = itemView.findViewById(R.id.feed_post_card_userphoto);
         }
     }
 

@@ -17,7 +17,7 @@ import java.io.Serializable;
 /**
  * Joao Montenegro
  * 26-09-18
- * Classe associada ao layout do feed Home
+ * Fragmento que contem a lista de publicações no TabLayout
  */
 
 public class FeedHomeFragment extends Fragment implements Serializable {

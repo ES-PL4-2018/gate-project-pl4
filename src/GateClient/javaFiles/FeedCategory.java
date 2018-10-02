@@ -2,6 +2,12 @@ package es.gate;
 
 import java.io.Serializable;
 
+/**
+ * Joao Montenegro
+ * Classe que representa uma categoria.
+ * Cada cardView na lista de categorias tem esta classe associada.
+ */
+
 public class FeedCategory implements Serializable {
     private String category;
 

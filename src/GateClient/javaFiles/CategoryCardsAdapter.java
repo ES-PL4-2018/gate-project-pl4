@@ -9,6 +9,11 @@ import android.widget.TextView;
 
 import java.util.List;
 
+/**
+ * Joao Montenegro
+ * Adaptador do RecyclerView, como o PostCardsAdapter, mas para a lista de categorias
+ */
+
 public class CategoryCardsAdapter extends RecyclerView.Adapter<CategoryCardsAdapter.CardViewHolder> {
 
     List<FeedCategory> feedCategories;

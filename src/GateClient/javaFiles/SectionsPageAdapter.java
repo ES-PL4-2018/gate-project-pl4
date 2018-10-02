@@ -12,6 +12,11 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Joao Montenegro
+ * Adaptador do viewPager, para adicionar tabs ao TabLayout
+ */
+
 public class SectionsPageAdapter extends FragmentPagerAdapter implements Serializable{
 
     private SectionsPageAdapter mSectionsPageAdapter;

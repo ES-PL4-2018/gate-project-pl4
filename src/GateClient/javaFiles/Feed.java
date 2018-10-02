@@ -29,6 +29,14 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Joao Montenegro
+ * Classes mais importantes:
+ * refreshFeedPosts: atualiza as publicações do feed
+ * refreshFeedCategories: atualiza a lista das categorias (sem mockup ate agora)
+ * onClick: Listeners mais importantes (foto de perfil, publicaçoes em si, ....)
+ */
+
 public class Feed extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, Serializable {
 
@@ -296,7 +304,6 @@ public class Feed extends AppCompatActivity
         Log.i(TAG, "Filling with new data");
 
 
-
         feedPosts.add(new FeedPost("Joao", "Livros", "Testetestetestetetste"));
         feedPosts.add(new FeedPost("Joao2", "Livros2", "gsgsgdgddhshjshjsd"));
         feedPosts.add(new FeedPost("Joao3", "Livros3", "alklaklakldfadalskalskalkdlakd"));
@@ -359,12 +366,46 @@ public class Feed extends AppCompatActivity
         }
     }
 
-    /*public void onClick(View view){
+    public void onClick(View view){
         switch (view.getId()){
-            case R.id.feed_post_card_like:
-                CardView cv = (CardView) ((ViewGroup) view.getParent()).getParent();
-                TextView text = cv.findViewById(R.id.feed_post_card_content);
-                Log.i(TAG, "From card with text: " + text.getText());
+            /*Ponto de interrogação no fundo do feed*/
+            case R.id.feed_question_image:
+                Log.i(TAG, "Triggered feed_question_image");
+                break;
+
+            /*Imagem do utilizador no feed*/
+            case R.id.feed_user_image:
+                Log.i(TAG, "Triggered feed_user_image");
+                break;
+
+            /*Search no topo*/
+            case R.id.feed_search:
+                Log.i(TAG, "Triggered feed_search");
+                break;
+            case R.id.feed_search_label:
+                Log.i(TAG, "Triggered feed_search_label");
+                break;
+
+            /*Nova publicação, discussao e evento*/
+            case R.id.feed_new_post:
+                Log.i(TAG, "Triggered feed_new_post");
+                break;
+            case R.id.feed_new_discussion:
+                Log.i(TAG, "Triggered feed_new_discussion");
+                break;
+            case R.id.feed_new_event:
+                Log.i(TAG, "Triggered feed_new_event");
+                break;
+
+            /*Cartões de post em si*/
+            case R.id.cv_post:
+                Log.i(TAG, "Triggered cv_post listener");
+                break;
+
+            /*Foto do user de um post*/
+            case R.id.feed_post_card_userphoto:
+                Log.i(TAG, "Triggered feed_post_card_userphoto");
+                break;
         }
-    }*/
+    }
 }
