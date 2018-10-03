@@ -41,7 +41,7 @@ public class Client implements Runnable {
                         System.out.println("hi");
                         for (Account acc : accounts) {
                             if (acc.checkLoginInfo(strAr[1], strAr[2])) {
-                                writeClient.writeUTF("1");
+                                writeClient.writeUTF(String.format("%s", 1));
                                 curUser = acc;
                                 break;
                             }
