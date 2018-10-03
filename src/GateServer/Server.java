@@ -4,10 +4,13 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.*;
+import java.util.ArrayList;
 
 public class Server {
 
     public static void main(String args[]){
+
+        ArrayList<Account> accountsList = new ArrayList<>();
 
         try {
             DataInputStream in;
@@ -16,32 +19,12 @@ public class Server {
             ServerSocket serverSocket = new ServerSocket(serverPort);
 
             while(true){
-                new Cliente(serverSocket.accept());
+                new Client(serverSocket.accept(), accountsList);
                 System.out.println("New Client");
-
             }
         }catch(IOException e){
             //TODO
         }
 
     }
-}
-
-class Cliente implements Runnable{
-
-    DataInputStream in;
-    DataOutputStream out;
-    Socket clientSocket;
-
-    public Cliente(Socket cltSocket){
-        clientSocket = cltSocket;
-        System.out.println("New Client");
-
-    }
-
-    public void run(){
-
-
-    }
-
 }
