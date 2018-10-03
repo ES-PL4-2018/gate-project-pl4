@@ -16,7 +16,7 @@ Este documento serve para a equipa se guiar durante cada fase de testes. Será r
 
 Rev # | Author | Description | Date
 --- | --- | --- | ---
-rev | author | things donne on revision | when
+0.1 | Jessica | Correções ortográficas | 03/10/2018
 
 
 ### Descrição detalhada de cada tarefa
@@ -45,7 +45,7 @@ rev | author | things donne on revision | when
 - Selecionar mais temas de interesse no uso da app
 - Selecionar obrigatoriamente, no minimo, 3 temas
 - Liberdade de escrever temas novos: testar se aceita numeros
-- Feed de acordo com as preferencias escolhidas
+- Feed de acordo com as preferencas escolhidas
 - Botão "?" com informações, a funcionar em todas as pags
 
 **Tarefa #4:**
