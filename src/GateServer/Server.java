@@ -15,7 +15,7 @@ public class Server {
         try {
             DataInputStream in;
             DataOutputStream out;
-            int serverPort = 9001;
+            int serverPort = 42069;
             ServerSocket serverSocket = new ServerSocket(serverPort);
 
             while(true){
