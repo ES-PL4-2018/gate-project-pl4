@@ -11,6 +11,7 @@ Como é comum a todos os documentos, a designação do relatório deve ser a seg
 | --- | --- | --- | --- |
 | 0.1 | Sergii + Pedro Fernandes | 24/09 | Versão inicial |
 | 0.2 | Madalena Santos | 1/10 | Tabela de versões + descrição |
+|0.3|Madalena Santos|3/10|Adição de duração da tarefa|
 
 
 <início do relatório, apagar tudo antes daqui>
@@ -33,6 +34,9 @@ Como é comum a todos os documentos, a designação do relatório deve ser a seg
 
 #### **Data limite**
 (Data limite da entrega)
+
+#### **Tempo dispendido**
+
 
 #### **Métricas de avaliação**
 (Conjunto de caraterísticas que podem ser usadas para avaliar a qualidade do produto)
