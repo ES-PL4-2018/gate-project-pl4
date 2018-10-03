@@ -38,6 +38,7 @@ public class Client implements Runnable {
                 strAr = auxStr.split("&");    //Client messages come formatted with info separated by "&"
                 switch (strAr[0]) {
                     case "!login": {
+                        System.out.println("hi");
                         for (Account acc : accounts) {
                             if (acc.checkLoginInfo(strAr[1], strAr[2])) {
                                 writeClient.writeUTF("1");
@@ -45,11 +46,12 @@ public class Client implements Runnable {
                                 break;
                             }
                         }
+                        break;
                     }
                     case "!checkUser": {
                         for (Account acc : accounts) {
                             auxInt = acc.checkDuplicateName(strAr[1]);
-                            if (auxInt == 0) {
+                            if (auxInt == 1) {
                                 break;
                             }
                         }
@@ -61,7 +63,7 @@ public class Client implements Runnable {
                     case "!checkEmail": {
                         for (Account acc : accounts) {
                             auxInt = acc.checkDuplicateEmail(strAr[1]);
-                            if (auxInt == 0) {
+                            if (auxInt == 1) {
                                 break;
                             }
                         }
@@ -74,7 +76,7 @@ public class Client implements Runnable {
                     case "!checkOrcid": {
                         for (Account acc : accounts) {
                             auxInt = acc.checkDuplicateORCID(strAr[1]);
-                            if (auxInt == 0) {
+                            if (auxInt == 1) {
                                 break;
                             }
                         }
@@ -89,9 +91,7 @@ public class Client implements Runnable {
                         curUser = new Account(strAr[1], strAr[2], strAr[3], Long.parseLong(strAr[4]), strAr[5], strAr[6], strAr[7], strAr[8], strAr[9], strAr[10]);
 
                         accounts.add(curUser);
-
                         System.out.println("New Registry: " + strAr[1]);
-                        
                         writeClient.writeUTF(String.format("1"));
                         break;
                     }
