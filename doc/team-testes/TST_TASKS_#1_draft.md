@@ -50,7 +50,7 @@ rev | author | things donne on revision | when
 
 **Tarefa #4:**
 
-- Publicar algo no feed, dar log out, dar log in e verificar se aina lá está
+- Publicar algo no feed, dar log out, dar log in e verificar se ainda lá está
 - Post presentar foto, nome e conteudo
 - Aceder ao perfil atraves do feed
 - Alterar info do perfil
