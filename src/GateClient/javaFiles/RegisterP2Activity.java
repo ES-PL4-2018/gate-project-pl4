@@ -75,6 +75,7 @@ public class RegisterP2Activity extends AppCompatActivity {
         findViewById(R.id.Page2to3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.d("Button", "" + nextReady);
                 if(nextReady == 5){
                     registerPage3.putExtra("user", accInfo[0]);
                     registerPage3.putExtra("pass", accInfo[1]);
@@ -190,7 +191,7 @@ public class RegisterP2Activity extends AppCompatActivity {
         inputInstitution.getEditText().setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
-                String inst = inputLastName.getEditText().getText().toString();
+                String inst = inputInstitution.getEditText().getText().toString();
                 boolean problem = false;
                 Log.d("inst", "focuschange");
                 if(!hasFocus){
