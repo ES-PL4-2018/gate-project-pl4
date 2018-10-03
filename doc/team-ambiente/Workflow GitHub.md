@@ -83,7 +83,7 @@ Usar **_feature branches_** não é só mais fiável que editar diretamente cód
 Contém todo o código, os testes e a documentação **finalizados**. É a acumulação de todo o trabalho feito pela equipa e pronto para ser avaliado.
 
 #### **Nightly**
-É principal branch de desenvolvimento. As _features branches_ de funcionalidade partem daqui e seguem o desenvolvimento até que estejam prontas para serem novamentes juntas à branch **nightly**. Estas _features branches_ são _merged_ via **Pull requests**.
+É a principal branch de desenvolvimento. As _features branches_ de funcionalidade partem daqui e seguem o desenvolvimento até que estejam prontas para serem novamentes juntas à branch **nightly**. Estas _features branches_ são _merged_ via **Pull requests**.
 
 #### **Testing**
 Principal branch de testes. A branch `nightly` é merged para a branch `testing` e começa-se os procedimentos da unidade de Teste.
@@ -93,11 +93,11 @@ Principal branch de redação de documentos. Todas os documentos são redigidos 
 
 ### **Pull Requests and Merging Branches**
 ![O Workflow do Git](images/pull-request.png)
-Aqui podemos fazer o merge entre branches. Pull requests tem o objetivo de informar outros sobre as mudanças que foram feitas por si para uma branch num repositório no Github. Assim que um Pull request é aberto, pode-se revisar e discutir as mudanças feitas por cada colaborador e podemos adicionar _commits_ antes das mudanças serem aceitas e _merged_ para a _branch_ de base.
+Aqui podemos fazer o merge entre branches. Pull requests têm o objetivo de informar outros sobre as mudanças que foram feitas por si para uma branch num repositório no Github. Assim que um Pull request é aberto, pode-se revisar e discutir as mudanças feitas por cada colaborador e podemos adicionar _commits_ antes das mudanças serem aceitas e _merged_ para a _branch_ de base.
 
-Pull requets também tem o benefício de serem automaticamente checadas pela qualidade de código e os serviçõs de integração contínua que foram integrados ao repositório, que dão a segurança extra de sabermos que as mudanças feitas seguem um padrao de qualidade esperado e não possuem mudanças com defeitos.
+Pull requests também têm o benefício de serem automaticamente checadas pela qualidade de código e os serviços de integração contínua que foram integrados ao repositório, que dão a segurança extra de sabermos que as mudanças feitas seguem um padrão de qualidade esperado e não possuem mudanças com defeitos.
 
-Para além disto, as Pull resquests são uma extensão de vários processos definidos por cada equipa e ajudam à formaliza-los.
+Para além disto, as Pull resquests são uma extensão de vários processos definidos por cada equipa e ajudam a formaliza-los.
 
 # Tags
 As tags serão usadas tanto para Issues e nomes de branches para melhor indentificação do trabalho que está sendo feito e a quem este trabalho interessa de um modo geral.
