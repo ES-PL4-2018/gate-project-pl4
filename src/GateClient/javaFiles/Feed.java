@@ -1,29 +1,26 @@
 package es.gate;
 
-import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.design.widget.TabLayout;
-import android.support.v4.view.ViewPager;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.util.Log;
-import android.view.View;
+import android.os.Message;
 import android.support.design.widget.NavigationView;
+import android.support.design.widget.TabLayout;
 import android.support.v4.view.GravityCompat;
+import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.ViewGroup;
+import android.view.View;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -37,21 +34,19 @@ import java.util.List;
  * onClick: Listeners mais importantes (foto de perfil, publicaçoes em si, ....)
  */
 
-public class Feed extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener, Serializable {
+public class Feed extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, Serializable {
 
     private static final String TAG = "MyActivity";
-    private Context context;
-    private Feed thisFeed;
-
-    private View feedFragmentView;
-    private View categoryFragmentView;
-
-    private transient ViewPager viewPager;
-    private transient SectionsPageAdapter mSectionsPageAdapter;
-
     //Adapter post cards
     public PostCardsAdapter adapterPosts;
+    private Context context;
+    private Feed thisFeed;
+    private Intent userProfile;
+    private TextView userName;
+    private View feedFragmentView;
+    private View categoryFragmentView;
+    private transient ViewPager viewPager;
+    private transient SectionsPageAdapter mSectionsPageAdapter;
     //Adapter category cards
     private CategoryCardsAdapter adapterCategory;
 
@@ -70,6 +65,14 @@ public class Feed extends AppCompatActivity
     private List<FeedPost> feedPosts;
     //Lista que contem as categorias todas (input feito à mao por agora em refreshFeedCategories)
     private List<FeedCategory> feedCategories;
+    private Handler handler = new  Handler() {
+
+        @Override
+        public void handleMessage(Message msg) {
+            userName.setText(msg.getData().getString("userName"), TextView.BufferType.EDITABLE);
+            super.handleMessage(msg);
+        }
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,7 +81,10 @@ public class Feed extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        userName = ((TextView) findViewById(R.id.feed_user_name));
         toolbar.setVisibility(View.GONE);
+
+        userProfile = new Intent(this, ProfileActivity.class);
 
         try{
             getActionBar().hide();
@@ -115,7 +121,6 @@ public class Feed extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        new Connection("10.0.2.2", 9001);
 
         /*Gets fragment views*/
         context = this;
@@ -212,6 +217,9 @@ public class Feed extends AppCompatActivity
 
             }
         }, 300);
+
+        new Thread(new ServerConnect()).start();
+
     }
 
     @Override
@@ -227,7 +235,7 @@ public class Feed extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.feed, menu);
+        getMenuInflater().inflate(R.menu.activity_feed_drawer, menu);
         return true;
     }
 
@@ -242,10 +250,11 @@ public class Feed extends AppCompatActivity
         if (id == R.id.action_settings) {
             return true;
         }
-
+/*
         if (id == R.id.action_search){
             return true;
         }
+        */
 
 
 
@@ -266,13 +275,9 @@ public class Feed extends AppCompatActivity
 
         } else if (id == R.id.nav_manage) {
 
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
         }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
@@ -376,6 +381,7 @@ public class Feed extends AppCompatActivity
             /*Imagem do utilizador no feed*/
             case R.id.feed_user_image:
                 Log.i(TAG, "Triggered feed_user_image");
+                startActivity(userProfile);
                 break;
 
             /*Search no topo*/
@@ -406,6 +412,26 @@ public class Feed extends AppCompatActivity
             case R.id.feed_post_card_userphoto:
                 Log.i(TAG, "Triggered feed_post_card_userphoto");
                 break;
+        }
+    }
+
+    class ServerConnect implements Runnable{
+
+        @Override
+        public void run(){
+            ServerConnection srv = ServerConnection.getInstance();
+            Log.d("threadRun", "start");
+
+            String communication = String.format("!getFeedInfo");
+
+            communication = srv.sendMessage(communication);
+
+            Log.d("threadRun", communication);
+            Message msg = handler.obtainMessage();
+            Bundle bundle = new Bundle();
+            bundle.putString("userName", communication);
+            msg.setData(bundle);
+            handler.sendMessage(msg);
         }
     }
 }
