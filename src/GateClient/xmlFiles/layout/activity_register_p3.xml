@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RegisterP3Activity"
+        android:background="@drawable/background1"
+        android:descendantFocusability="beforeDescendants"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+    <!-- Choose Themes of Interest -->
+    <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.065"
+            app:layout_constraintHorizontal_bias="0.500"
+            android:visibility="visible"
+            android:textColor="@android:color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="@string/chooseThemes"
+            android:id="@+id/chooseThemes"
+            tools:layout_editor_absoluteY="115dp"/>
+
+
+    <!-- Theme - Computer Science -->
+    <Button
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.25"
+            app:layout_constraintHorizontal_bias="0.18"
+            android:textColor="@android:color/black"
+            android:text="@string/themeCompScience"
+            android:id="@+id/themeCompScience"
+            android:background="@drawable/button_round_corners"/>
+
+
+    <!-- Theme - Mathematics -->
+    <Button
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.25"
+            app:layout_constraintHorizontal_bias="0.82"
+            android:textColor="@android:color/black"
+            android:text="@string/themeMathematics"
+            android:id="@+id/themeMathematics"
+            android:background="@drawable/button_round_corners"/>
+
+
+    <!-- Theme - Physics -->
+    <Button
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.40"
+            app:layout_constraintHorizontal_bias="0.18"
+            android:textColor="@android:color/black"
+            android:text="@string/themePhysics"
+            android:id="@+id/themePhysics"
+            android:background="@drawable/button_round_corners"/>
+
+
+    <!-- Theme - Chemistry -->
+    <Button
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.40"
+            app:layout_constraintHorizontal_bias="0.82"
+            android:textColor="@android:color/black"
+            android:text="@string/themeChemistry"
+            android:id="@+id/themeChemistry"
+            android:background="@drawable/button_round_corners"/>
+
+    <!-- Theme - Biology -->
+    <Button
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.55"
+            app:layout_constraintHorizontal_bias="0.18"
+            android:textColor="@android:color/black"
+            android:text="@string/themeBiology"
+            android:id="@+id/themeBiology"
+            android:background="@drawable/button_round_corners"/>
+
+    <!-- Theme - Geology -->
+    <Button
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.55"
+            app:layout_constraintHorizontal_bias="0.82"
+            android:textColor="@android:color/black"
+            android:text="@string/themeGeology"
+            android:id="@+id/themeGeology"
+            android:background="@drawable/button_round_corners"/>
+
+    <!-- Theme - Chemistry -->
+    <Button
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.70"
+            app:layout_constraintHorizontal_bias="0.18"
+            android:textColor="@android:color/black"
+            android:text="@string/themeNeurology"
+            android:id="@+id/themeNeurology"
+            android:background="@drawable/button_round_corners"/>
+
+    <!-- Theme - Pshychology -->
+    <Button
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.70"
+            app:layout_constraintHorizontal_bias="0.82"
+            android:textColor="@android:color/black"
+            android:text="@string/themePsychology"
+            android:id="@+id/themePsychology"
+            android:background="@drawable/button_round_corners" android:elevation="0dp"/>
+
+
+    <!-- Page Number Text -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.955"
+            app:layout_constraintHorizontal_bias="0.18"
+            android:textSize="20sp"
+            android:textColor="#F98F74"
+            android:text="@string/page3of3"
+            android:id="@+id/Page3of3"/>
+
+    <!-- Register Button-->
+    <Button
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.975"
+            app:layout_constraintHorizontal_bias="0.807"
+            android:textColor="@android:color/black"
+            android:text="@string/registerButtonChoices"
+            android:id="@+id/Register"
+            android:background="@drawable/button_round_corners"/>
+
+</android.support.constraint.ConstraintLayout>
