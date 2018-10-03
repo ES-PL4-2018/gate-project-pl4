@@ -63,15 +63,15 @@ rev | author | things donne on revision | when
 - Estando no feed, retroceder para o feed
 - Abrir todas as páginas e ver se demora mais do que 3 segundos
 - Testar a aba lateral, abrir todas as págs, retroceder
-- Swipe para a direita para abrir a aba lateral (não está nos requisitos, mas está nos mockus dos requisitos)
+- Swipe para a direita para abrir a aba lateral (não está nos requisitos, mas está nos mockups dos requisitos)
 
 ### Tabela de distribuição de tarefas
 
-|           | Elemento #1 | Elemento #2 | Elem #3 | Elem #4 | Elem #5 |
+|           | Jessica C. | Ricardo P. | Pedro Sá | João O. | Catarina M. |
 | :-------: | :---------: | :---------: | :-----: | :-----: | :-----: |
-| Tarefa #1 |             |             |         |         |         |
-| Tarefa #2 |             |             |         |         |         |
-| Tarefa #3 |             |             |         |         |         |
-| Tarefa #4 |             |             |         |         |         |
-| Tarefa #5 |             |             |         |         |         |
+| Tarefa #1 |             |      X      |         |    X    |         |
+| Tarefa #2 |             |             |         |    X    |     X   |
+| Tarefa #3 |       X     |             |         |         |    X    |
+| Tarefa #4 |       X     |             |    X    |         |         |
+| Tarefa #5 |             |      X      |    X    |         |         |
 
