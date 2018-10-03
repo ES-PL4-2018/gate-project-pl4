@@ -58,7 +58,7 @@ Este processo é ativado no início de uma reunião.
 
 1. Redação da ata;
 2. Verificação por parte da equipa de QA (caso não seja aprovado regressa ao ponto 1);
-3. Publicação da ata no GitHub.
+3. Publicação da ata no *GitHub*.
 
 
 ### OUTPUTS
