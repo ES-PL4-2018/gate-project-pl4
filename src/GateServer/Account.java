@@ -29,7 +29,7 @@ public class Account {
         researchUnits = units;
         themesInterest = new ArrayList<>();
 
-        String strAux[] =  themes.split("$");
+        String strAux[] =  themes.split("><");
 
         for(String str : strAux)
             themesInterest.add(str);
@@ -46,15 +46,15 @@ public class Account {
     }
 
     public int checkDuplicateName(String name){
-        return this.userID.equals(name) ? 0 : 1;
+        return this.userID.equals(name) ? 1 : 0;
     }
 
     public int checkDuplicateEmail(String email){
-        return this.userEmail.equals(email) ? 0 : 1;
+        return this.userEmail.equals(email) ? 1 : 0;
     }
 
     public int checkDuplicateORCID(String email){
-        return this.userEmail.equals(email) ? 0 : 1;
+        return this.userEmail.equals(email) ? 1 : 0;
     }
 
     public boolean checkLoginInfo(String ID, String pass){
