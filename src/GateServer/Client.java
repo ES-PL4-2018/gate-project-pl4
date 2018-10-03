@@ -91,6 +91,8 @@ public class Client implements Runnable {
                         accounts.add(curUser);
 
                         System.out.println("New Registry: " + strAr[1]);
+                        
+                        writeClient.writeUTF(String.format("1"));
                         break;
                     }
 
