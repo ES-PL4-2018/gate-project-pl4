@@ -103,7 +103,6 @@ public class RegisterP3Activity extends AppCompatActivity {
                 }
             });
         }
-
         super.onStart();
     }
 
@@ -140,7 +139,7 @@ public class RegisterP3Activity extends AppCompatActivity {
             ServerConnection srv = ServerConnection.getInstance();
             Log.d("threadRun", "start");
 
-            String communication = String.format("!register&%s&%s&%s&%s&%s&%s&%s&%s&%s&%s&", accInfo[0], accInfo[1], accInfo[2], accInfo[3], accInfo[4], accInfo[5], accInfo[6], accInfo[7], accInfo[8], themes);
+            String communication = String.format("!register&%s&%s&%s&%s&%s&%s&%s&%s&%s&%s", accInfo[0], accInfo[1], accInfo[2], accInfo[3], accInfo[4], accInfo[5], accInfo[6], accInfo[7], accInfo[8], themes);
 
             communication = srv.sendMessage(communication);
 
@@ -149,7 +148,6 @@ public class RegisterP3Activity extends AppCompatActivity {
             if(response == 1){
                 startActivity(newsFeed);
             }
-
         }
     }
 
@@ -158,28 +156,28 @@ public class RegisterP3Activity extends AppCompatActivity {
         String themes = "";
 
         if(buttonOn[0] == 1)
-            themes = themes.concat("Computer Science$");
+            themes = themes.concat("Computer Science><");
 
         if(buttonOn[1] == 1)
-            themes = themes.concat("Mathematics$");
+            themes = themes.concat("Mathematics><");
 
         if(buttonOn[2] == 1)
-            themes = themes.concat("Physics$");
+            themes = themes.concat("Physics><");
 
         if(buttonOn[3] == 1)
-            themes = themes.concat("Chemistry$");
+            themes = themes.concat("Chemistry><");
 
         if(buttonOn[4] == 1)
-            themes = themes.concat("Biology$");
+            themes = themes.concat("Biology><");
 
         if(buttonOn[5] == 1)
-            themes = themes.concat("Computer Geology$");
+            themes = themes.concat("Computer Geology><");
 
         if(buttonOn[6] == 1)
-            themes = themes.concat("Neurology$");
+            themes = themes.concat("Neurology><");
 
         if(buttonOn[7] == 1)
-            themes = themes.concat("Psychology$");
+            themes = themes.concat("Psychology><");
 
         return themes;
     }
