@@ -90,10 +90,19 @@ rev | author | things donne on revision | when
 
 | Tarefa # | Autor | Apontamentos                                                 | Data  |
 | :------: | :---- | ------------------------------------------------------------ | :---: |
-|    1     | JO    |  | 03/10 |
+|    1     | JO    | **Método de revisão:** Colocar diferentes palavras de modo a testar os vários erros possíveis. Exemplos: 12334, £££, 123€€€, João.
+ Um mail inválido foi aceite (ex: user12).
+Datas de nascimento aceita qualquer valor para dia (ex: 32), mês (ex: 20) e ano (ex: 3000).
+Primeiro e último nome aceita números (ex: 1234).
+Instituição aceita caracteres especiais e aceita uma instituição só com números (ex: 123, €//).
+Unidades de investigação aceita só números (ex. 123456789).
+**Sugestão:** Sugestão para correção da data: o formato da data podem ser 3 espaços diferentes mas caso queiram deixar assim devem colocar o formato da data (ex. DD/MM/AAAA)| 03/10 |
 |    1     | RP    | Durante o registo, a aplicação ou deixa de funcionar ( stopped) ou volta para a página inicial. <br />Quando conseguimos preencher todos os dados da primeira página e queremos passar para a página seguinte, a aplicação deixa de responder.<br />Aceita emails inválidos.<br />No geral a aplicação fecha sozinha sem razão aparente. | 03/10 |
 |    2     | CM    | Não há botão log-out<br />Não sugere palavra-passe caso erre 3x<br />Não sugere que o username não existe o que faz com que não aconteça nada quando se carrega no botão "continue"<br />Aceita e-mails repetidos | 03/10 |
-|    2     | JO    |                                                              | 03/10 |
+|    2     | JO    | A aplicação não tem log out.
+Depois de efetuado o registo e entrar na conta ao clickar no botão de retroceder do telemóvel volta para o fim do registo (página das research units).
+No login caso a palavra passe esteja errada não há qualquer aviso de que tal aconteceu, o mesmo para o username.
+A aplicação está a detetar que o username e o email já estão em uso mas falta algum aviso ou alteração visual.                                                            | 03/10 |
 |    3     | JC    | Não é possível adicionar mais temas de interesse, apenas editar os existentes, substituindo-os por uma string, não adicionando independentemente.<br />Feed está fixo, não está de acordo com preferencias.<br />Não é possível publicar no feed<br />Botões "?" sem funcionar | 03/10 |
 |    3     | CM    |  Botão "?" só funciona na página inicial do login             |  03/10 |
 |    4     | JC    | Não é possível publicar no feed, nem alterar foto<br />Não é possivel alterar o nome no perfil<br />Não é possivel ver perfil de outros utilizadores<br />Às vezes ao ver o perfil pessoal, o utilizador é um default: "Zé"<br />Botões "?" sem funcionar<br /> | 03/10 |
@@ -116,6 +125,12 @@ A minha visão e avaliação da aplicação fica comprometida pela utilização 
 RP: Muita dificuldade em ligar o smarphone ao servidor; Falta de warnings; Muitos bugs por corrigir; Dificuldade em completar o registo;
 
 CM: Díficil testar a aplicação quando não há warnings, não se percebe se o programa não deixa avançar ou se o botão do telemóvel não funciona.
+
+JO: Dizer número máximo e mínimo caracteres nos diferentes campos. 
+Nomes com til não estão a ser possíveis utilizar (ex: João).
+Aconteceu um bug quando fiz login a terceira vez em que não apareceu a minha informação mas sim a do TestUser
+Quando não se coloca pass está a dar uma exception in thread.
+Era bom ter um botão para Cancelar o registo e voltar a página inicial em vez de retroceder as 3 vezes
 
 ## Conclusão
 
