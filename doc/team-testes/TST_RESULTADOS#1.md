@@ -10,7 +10,7 @@
 #### Data: 04/10
 #### Versão: 0.1.1
 
-# Nota
+# Hiperligações
 
 [Revisão de Tarefas](#revisão-de-tarefas)
 
@@ -21,16 +21,26 @@
 [Conclusão](#conclusão) 
 
 ### Objetivo:
-O seguinte documento será redigido pós todos os elementos terem completado as tarefas/testes, e será a junção de todos os dados obtidos através dos relatórios individuais (TST_REVISAO_NOME.md).
+Este documento foi redigido após todos os elementos da equipa terem avaliado a aplicação. É a junção dos 5 documentos, juntamente com a conclusão se a aplicação está ou não pronta para mostrar ao cliente.
+Documentos utilizados:
+TST_REVISAO_CM_#1.md
+TST_REVISAO_JC#1.md
+TST_REVISAO_RP#1.md
+TST_REVISAO_SA_#1.md
+TST_REVISAO_JO#1.md
 
 ### Revisions
 
 Rev # | Author | Description | Date
 --- | --- | --- | ---
-rev | author | things donne on revision | when
+0.1 | JC | Correções ortográficas | 04/10
+0.2 | JC | Adição da informação do relatório do JO | 04/10
+0.3 | JC | Correção de erros | 04/10
+
 
 
 ### Testes
+Tarefas a verificar se estão a funcionar na aplicação, cada elemento testou duas.
 **Tarefa #1**: Registo
 
  - Não aceitar números nos nomes de registo
