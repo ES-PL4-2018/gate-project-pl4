@@ -11,7 +11,7 @@ QUA | 01/10/2018 | Madalena | -TBD-
 
 Status | Version
 --- | ---
-Draft | 0,1
+Draft | 0.1
 
 ### Membros
 
@@ -36,5 +36,12 @@ Sergii Mykolyshyn | LEI | email@email.com
 
 Description | Name
 --- | ---
-what's it for | encoding (like MQ_REQDOC)
-
+Criação de Templates | MQ_QUA_TEMPLATE_CREATION
+Gestão de Reuniões | MQ_REUN
+Tomada Decisões | MQ_TOMA_DEC
+Validação Processos | MQ_VAL_PROC
+Redação Documentos | QA_PRC_RedDoc
+Realização Tarefas | QA_REAL_TAREFAS
+Workflow Equipa | QA_TEAM_WORKFLOW
+Organiza Equipa | QUA_ORGANICA
+Validação Documentos | QA_VALIDACAO_DOCS

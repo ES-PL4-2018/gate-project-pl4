@@ -15,13 +15,6 @@ Este processo é responsável pela tomada de decisões que ocorrem nas reuniões
 
 <br>
 
-#### RESPONSÁVEIS
-
-| Nome | Curso | Cargo |
-|---|---|---
-
-<br>
-
 #### INPUTS
 
 * Informação sucinta sobre a decisão a tomar;

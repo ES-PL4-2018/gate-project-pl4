@@ -9,7 +9,7 @@
 | Alexandre Brito  | LEI | Coordenador |alex_brito_97@hotmail.com    |
 | Flávio Fernandes | LEI | Colaborador |flavio98.fernandes@gmail.com |
 | João Montenegro  | LEI | Colaborador |jpmontenegro67@gmail.com     |
-| João Gonçalves   | LDM | Coordenador |jpmg411@gmail.com            |
+| João Gonçalves   | LDM | Colaborador |jpmg411@gmail.com            |
 
 
 ## Objetivos da unidade de IMP:
@@ -32,8 +32,8 @@ Cada membro desta equipa tem objetivos diferentes tendo em conta o planeamento s
 
 
 ### **Critério de Entrada/Ativação:**
-* Alterações no manual de requesitos
-* Problemas detetados pela equipa de testes
+* Alterações no manual de requisitos;
+* Problemas detetados pela equipa de testes.
 
 
 ### **Inputs:**
@@ -41,18 +41,18 @@ Cada membro desta equipa tem objetivos diferentes tendo em conta o planeamento s
 
 
 ### **Tarefas:**
-Desenvolvimento de código que segue o manual de requesitos 
+Desenvolvimento de código que segue o manual de requisitos. 
 
 
 ### **Validação:**
-A validação é feita pelo Líder e pelas equipas de teste e qualidade.
+A validação é feita pelo coordenador da unidade e pelas equipas de teste e qualidade.
 
 
 ### **Métricas:**
-* Número de tarefas executadas
-* Número de commits
-* Qualidade das tarefas feitas
+* Número de tarefas executadas;
+* Número de commits;
+* Qualidade das tarefas feitas.
 
 
 ### **Outputs:**
-Código-fonte
+* Código-fonte
