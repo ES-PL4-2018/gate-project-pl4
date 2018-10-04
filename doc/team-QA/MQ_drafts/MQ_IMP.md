@@ -1,5 +1,5 @@
 # **Unidade de Implementação (IMP)**
-| Disciplina: IMP | Data: 23/09/2018 | Coordenador: Alexandre Brito |
+| Disciplina: IMP | Data: 04/10/2018 | Coordenador: Alexandre Brito |
 | - | - | - |
 | **Estado:** Incompleto | **Versão** v0.2 |
 
