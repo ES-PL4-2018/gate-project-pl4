@@ -47,7 +47,7 @@ Além disso, a unidade é responsável pelas formações do resto da equipa no q
 
 | VERSÃO | DATA | AUTORES | DESCRIÇÃO |
 |--------|------|---------|-----------|
-| 0.1 | ? | 24/09/2018 | Criação do processo |
+| 0.1 | 24/09/2018 | ? | Criação do processo |
 | 0.2 | 04/10/2018 | Maria Pereira | Alterações |
 
 | ENV | ? | Estado: Incompleto |
