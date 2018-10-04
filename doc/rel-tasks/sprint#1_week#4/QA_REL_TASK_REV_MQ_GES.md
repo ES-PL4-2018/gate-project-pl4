@@ -22,4 +22,4 @@
 
 #### **Saídas geradas**
 * Documentação revista
-* Documento com sugestão de revisões (se aplicável?)
+* Documento com sugestão de revisões
