@@ -134,15 +134,15 @@ As funcionalidades mais importantes que ainda não funcionavam, que impedem o us
 Funcionalidades de prioridade média que não funcionavam:
 
 - (2) No ato de registo, verificar que o ORCID inserido é válido
-  - Ainda não conectado com a API a verificar se é valido, no entanto aceitava 16 digitos
+  - **Erro:** Ainda não conectado com a API a verificar se é valido, no entanto aceitava 16 digitos
 - (3) O utilizador deve introduzir a sua data de nascimento no registo
-  - Data nascimento sem restrições
+  - **Erro:** Data nascimento sem restrições
 - (6) No registo devem ser sugeridos temas de interesse populares ao utilizador
-  - Para já apenas temas de interesse sugeridos
+  - **Erro:** Para já apenas temas de interesse sugeridos
 - (14) Após o registo, o utilizador é redirecionado para o feed.
-  - Não acontece
+  - **Erro:** Não acontece
 - (19) Clicar no avatar revela aba lateral com várias opções de navegação pela app
-  - Clicar no avatar redireciona para o perfil
-  - Ainda não há menu com opções de navegação
+  - **Erro:** Clicar no avatar redireciona para o perfil
+  - **Erro:** Ainda não há menu com opções de navegação
 - (21) O utilizador pode aceder ao perfil de outro utilizador
-  - Não é possível
+  - **Erro:** Não é possível
