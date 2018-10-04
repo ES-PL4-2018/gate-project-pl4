@@ -1,7 +1,17 @@
 # **Unidade de Implementação (IMP)**
 | Disciplina: IMP | Data: 23/09/2018 | Coordenador: Alexandre Brito |
 | - | - | - |
-| **Estado:** Incompleto | **Versão** v0.1 |
+| **Estado:** Incompleto | **Versão** v0.2 |
+
+#### TABELA DE VERSÕES
+
+
+
+| VERSÃO | DATA | AUTORES | DESCRIÇÃO |
+|--------|------|---------|-----------|
+|   0.1     |    23/09/2018  |    Alexandre Brito     |       Criação do processo    |
+|   0.2     |    04/10/2018  |    João Silva          |           Alterações         |
+<br>
 
 ## **Lista de membros:**
 | Nome | Curso | Função | Contacto |
