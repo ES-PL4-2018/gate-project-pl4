@@ -14,7 +14,7 @@
 
 ## Objetivos da unidade de IMP:
 1. Análise do documento de requisitos.
-2. Implementação, em código, das features pedidas.
+2. Implementação, em código, dos aspectos requisitados.
 
 
 ## Processos utilizados por esta unidade:
@@ -28,7 +28,7 @@ Este processo descreve o desenvolvimento de código fonte.
 
 
 ### **Membros e funções:**
-Cada membro desta equipa tem objetivos diferentes tendo em conta o planeamento semanal e distribuição de tarefas, sendo uma pequena percentagem responsável pelo servidor enquanto o resto fica responsável pelo lado do cliente.
+Cada membro desta equipa tem objetivos diferentes tendo em conta o planeamento semanal e distribuição de tarefas, sendo uma pequena percentagem responsável pelo servidor enquanto os restantes ficam responsáveis pelo lado do cliente.
 
 
 ### **Critério de Entrada/Ativação:**
@@ -50,8 +50,8 @@ A validação é feita pelo coordenador da unidade e pelas equipas de teste e qu
 
 ### **Métricas:**
 * Número de tarefas executadas;
-* Número de commits;
-* Qualidade das tarefas feitas.
+* Número de *commits*;
+* Qualidade das tarefas concluídas.
 
 
 ### **Outputs:**
