@@ -10,7 +10,7 @@
 
 ### Tarefas:
 
-**Tarefa #1**: 
+**Tarefa #2**: 
 
 - Cancelar o processo de registo a qualquer momento
 - Testar log out
@@ -19,7 +19,7 @@
 - Criar conta com username/mail repetido
 - Sugerir recuperar palvra-passe caso erre 3 vezes
 
-**Tarefa #2**: 
+**Tarefa #3**: 
 
 - Sugestão de temas de interesse, no registo
 - Selecionar mais temas de interesse no uso da app
@@ -28,7 +28,7 @@
 - Feed de acordo com as preferencas escolhidas
 - Botão "?" com informações, a funcionar em todas as pags
 
-## Tarefa 1:
+## Tarefa 2:
 
 ### Método de revisão: 
 
@@ -48,7 +48,7 @@ Aceita e-mails repetidos.
 
 
 
-## Tarefa 2:
+## Tarefa 3:
 
 ### Método de revisão:
 
