@@ -43,7 +43,14 @@ Além disso, a unidade é responsável pelas formações do resto da equipa no q
 <div style="page-break-after: always;"></div>
 
 ## 1 MQ_ENV_FB
-| Estado: Incompleto | Data: 24/09/2018 | Versão: v0.1 |
+#### TABELA DE VERSÕES
+
+| VERSÃO | DATA | AUTORES | DESCRIÇÃO |
+|--------|------|---------|-----------|
+| 0.1 | ? | 24/09/2018 | Criação do processo |
+| 0.2 | 04/10/2018 | Maria Pereira | Alterações |
+
+| ENV | ? | Estado: Incompleto |
 | - | - | - |
 
 ### **Descrição do processo:**
