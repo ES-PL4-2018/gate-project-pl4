@@ -8,7 +8,9 @@
 
 #### Autor: João Oliveira
 
-#### # Páginas:
+#### # Páginas: 1
+
+#### Versão: 0.1.1
 
 ### Tarefas:
 
