@@ -80,9 +80,9 @@ rev | author | things donne on revision | when
 
 |           | Jessica C. | Ricardo P. | Pedro Sá | João O. | Catarina M. |
 | :-------: | :--------: | :--------: | :------: | :-----: | :---------: |
-| Tarefa #1 |            |     X      |          |         |      X      |
+| Tarefa #1 |            |     X      |          |    X     |            |
 | Tarefa #2 |            |            |          |    X    |      X      |
-| Tarefa #3 |     X      |            |          |    X    |             |
+| Tarefa #3 |     X      |            |          |         |      X     |
 | Tarefa #4 |     X      |            |    X     |         |             |
 | Tarefa #5 |            |     X      |    X     |         |             |
 
@@ -90,12 +90,12 @@ rev | author | things donne on revision | when
 
 | Tarefa # | Autor | Apontamentos                                                 | Data  |
 | :------: | :---- | ------------------------------------------------------------ | :---: |
-|    1     | CM    | Não há botão log-out<br />Não sugere palavra-passe caso erre 3x<br />Não sugere que o username não existe o que faz com que não aconteça nada quando se carrega no botão "continue"<br />Aceita e-mails repetidos | 03/10 |
+|    1     | JO    |  | 03/10 |
 |    1     | RP    | Durante o registo, a aplicação ou deixa de funcionar ( stopped) ou volta para a página inicial. <br />Quando conseguimos preencher todos os dados da primeira página e queremos passar para a página seguinte, a aplicação deixa de responder.<br />Aceita emails inválidos.<br />No geral a aplicação fecha sozinha sem razão aparente. | 03/10 |
-|    2     | CM    | Sugestão de temas de interesse, no registo<br />Selecionar mais temas de interesse no uso da app<br />Selecionar obrigatoriamente, no minimo, 3 temas<br />Liberdade de escrever temas novos: testar se aceita numeros<br />Feed de acordo com as preferencas escolhidas<br />Botão "?" com informações, a funcionar em todas as pags | 03/10 |
+|    2     | CM    | Não há botão log-out<br />Não sugere palavra-passe caso erre 3x<br />Não sugere que o username não existe o que faz com que não aconteça nada quando se carrega no botão "continue"<br />Aceita e-mails repetidos | 03/10 |
 |    2     | JO    |                                                              | 03/10 |
 |    3     | JC    | Não é possível adicionar mais temas de interesse, apenas editar os existentes, substituindo-os por uma string, não adicionando independentemente.<br />Feed está fixo, não está de acordo com preferencias.<br />Não é possível publicar no feed<br />Botões "?" sem funcionar | 03/10 |
-|    3     | JO    |                                                              |       |
+|    3     | CM    |  Botão "?" só funciona na página inicial do login             |  03/10 |
 |    4     | JC    | Não é possível publicar no feed, nem alterar foto<br />Não é possivel alterar o nome no perfil<br />Não é possivel ver perfil de outros utilizadores<br />Às vezes ao ver o perfil pessoal, o utilizador é um default: "Zé"<br />Botões "?" sem funcionar<br /> | 03/10 |
 |    4     | PS    | Não existência de um butao "logout";<br />Não comprovação da gravação de dados tendo apenas conseguido executar uma vez.<br />Aceder ao perfil é possivel mas não foi possivel mudar os interesses nem ver o perfil dos outros utilizadores.<br />A foto de perfil está predefinida e os restantes campos estao corretos de acordo com os dados inicialmente introduzidos. | 03/10 |
 |    5     | RP    | A aba lateral não existe no momento                          | 03/10 |
