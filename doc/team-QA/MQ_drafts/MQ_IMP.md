@@ -9,7 +9,7 @@
 | Alexandre Brito  | LEI | Coordenador |alex_brito_97@hotmail.com    |
 | Flávio Fernandes | LEI | Colaborador |flavio98.fernandes@gmail.com |
 | João Montenegro  | LEI | Colaborador |jpmontenegro67@gmail.com     |
-| João Gonçalves   | LDM | Coordenador |jpmg411@gmail.com            |
+| João Gonçalves   | LDM | Colaborador |jpmg411@gmail.com            |
 
 
 ## Objetivos da unidade de IMP:
