@@ -18,7 +18,7 @@
 
 #### ASSIDUIDADE
 
-* Madelena Santos
+* Madalena Santos
 * Maria Pereira
 * João Soares
 * João Silva
@@ -29,7 +29,8 @@
 
 Rev # | Author | Description | Date
 --- | --- | --- | ---
-v1 | Maria Pereira | Redação da ata | 1 Out, 18h15
+0.1 | Maria Pereira | Redação da ata | 1/10
+1.0 | Madalena Santos |Validação|4/10
 
 <br/>
 
@@ -38,12 +39,12 @@ v1 | Maria Pereira | Redação da ata | 1 Out, 18h15
 * Discussão sobre a revisão de todos os documentos.
 * Organização do GitHub.
 * Como proceder em relação à junção de todos os ficheiros do manual de qualidade.
-* Elaboração de um relatório sobre o comprimento de todos os processos. 
+* Possibilidade da elaboração de um relatório sobre o cumprimento de todos os processos. 
 
 <br/> 
 <br/>
 
-#### Point 1
+#### Discussão sobre a revisão de todos os documentos
 ##### DISCUSSÃO
 Foi discutido como será feita a revisão dos documentos realizados pelas outras unidades.
 
@@ -52,7 +53,7 @@ Para todos os documentos que serão revistos será criada uma card no Trello, ca
 
 <br/>
 
-#### Point 2
+#### Organização do GitHub
 ##### DISCUSSÃO
 Para a versão 1 do manual de qualidade foi discutido qual o prazo para a validação de todos os documentos, com o objetivo da elaboração final do manual para o sprint #1.
 
@@ -65,7 +66,5 @@ Todos os documento têm de estar validados até dia 2/3 de Outubro, para se proc
 <br/>
 
 #### MÉTRICAS PARA A REUNIÃO
-Assiduidade -> summoned vs present<br/>
-Duração -> expected vs real<br/>
-Nº de tópicos discutidos dos previstos<br/>
-Avaliação global<br/>
+Assiduidade -> 6/6<br/>
+Nº de tópicos discutidos dos previstos -> 100%<br/>
