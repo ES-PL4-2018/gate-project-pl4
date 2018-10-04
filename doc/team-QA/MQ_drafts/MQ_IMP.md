@@ -38,7 +38,7 @@ Este processo descreve o desenvolvimento de código fonte.
 
 
 ### **Membros e funções:**
-Cada membro desta equipa tem objetivos diferentes tendo em conta o planeamento semanal e distribuição de tarefas, sendo uma pequena percentagem responsável pelo servidor enquanto os restantes ficam responsáveis pelo lado do cliente.
+Cada membro desta equipa tem objetivos diferentes tendo em conta o planeamento semanal e distribuição de tarefas, sendo uma parte responsável pelo servidor enquanto os restantes ficam responsáveis pelo lado do cliente.
 
 
 ### **Critério de Entrada/Ativação:**
@@ -47,7 +47,7 @@ Cada membro desta equipa tem objetivos diferentes tendo em conta o planeamento s
 
 
 ### **Inputs:**
-* Manual de Requisitos
+* Manual de Requisitos.
 
 
 ### **Tarefas:**
@@ -65,4 +65,4 @@ A validação é feita pelo coordenador da unidade e pelas equipas de teste e qu
 
 
 ### **Outputs:**
-* Código-fonte
+* Código-fonte.
