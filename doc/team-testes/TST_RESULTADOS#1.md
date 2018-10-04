@@ -1,4 +1,4 @@
-## Template de Resultados de Testes #1
+## Resultados de Testes #1 - versão 0.1.1 da app
 #### Ref: TST_RESULTADOS_#1
 
 #### # Sprint: 1
