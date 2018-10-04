@@ -3,13 +3,13 @@
 
 #### # Sprint: #1
 
-#### Data revisão:
+#### Data revisão: 03/10
 
 #### Autor: Jessica Cunha
 
 #### # Páginas: 1
 
-#### Versão: 0.1
+#### Versão: 0.1.1
 
 ### Tarefas:
 **Tarefa #3:**
