@@ -1,6 +1,6 @@
 ### Unidade de Testing (TST)
 
-| Disciplina: Tst        | Data: 24/09/2018 | Coordenador: Jessica Cunha |
+| Disciplina: TST        | Data: 24/09/2018 | Coordenador: Jessica Cunha |
 | ---------------------- | ---------------- | -------------------------- |
 | **Estado:** Incompleto | **Versão:** v0.3 |                            |
 
