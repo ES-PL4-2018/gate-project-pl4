@@ -32,8 +32,8 @@ Cada membro desta equipa tem objetivos diferentes tendo em conta o planeamento s
 
 
 ### **Critério de Entrada/Ativação:**
-* Alterações no manual de requesitos
-* Problemas detetados pela equipa de testes
+* Alterações no manual de requisitos;
+* Problemas detetados pela equipa de testes.
 
 
 ### **Inputs:**
@@ -41,18 +41,18 @@ Cada membro desta equipa tem objetivos diferentes tendo em conta o planeamento s
 
 
 ### **Tarefas:**
-Desenvolvimento de código que segue o manual de requesitos 
+Desenvolvimento de código que segue o manual de requisitos. 
 
 
 ### **Validação:**
-A validação é feita pelo Líder e pelas equipas de teste e qualidade.
+A validação é feita pelo coordenador da unidade e pelas equipas de teste e qualidade.
 
 
 ### **Métricas:**
-* Número de tarefas executadas
-* Número de commits
-* Qualidade das tarefas feitas
+* Número de tarefas executadas;
+* Número de commits;
+* Qualidade das tarefas feitas.
 
 
 ### **Outputs:**
-Código-fonte
+* Código-fonte
