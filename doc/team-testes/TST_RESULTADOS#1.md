@@ -93,17 +93,13 @@ rev | author | things donne on revision | when
 |    1     | JO    | **Método de revisão:** Colocar diferentes palavras de modo a testar os vários erros possíveis. Exemplos: 12334, £££, 123€€€, João. <br />Um mail inválido foi aceite (ex: user12).<br />Datas de nascimento aceita qualquer valor para dia (ex: 32), mês (ex: 20) e ano (ex: 3000).<br />Primeiro e último nome aceita números (ex: 1234).<br />Instituição aceita caracteres especiais e aceita uma instituição só com números (ex: 123, €//).<br />Unidades de investigação aceita só números (ex. 123456789).<br />**Sugestão:** Sugestão para correção da data: o formato da data podem ser 3 espaços diferentes mas caso queiram deixar assim devem colocar o formato da data (ex. DD/MM/AAAA)| 03/10 |
 |    1     | RP    | Durante o registo, a aplicação ou deixa de funcionar ( stopped) ou volta para a página inicial. <br />Quando conseguimos preencher todos os dados da primeira página e queremos passar para a página seguinte, a aplicação deixa de responder.<br />Aceita emails inválidos.<br />No geral a aplicação fecha sozinha sem razão aparente. | 03/10 |
 |    2     | CM    | Não há botão log-out<br />Não sugere palavra-passe caso erre 3x<br />Não sugere que o username não existe o que faz com que não aconteça nada quando se carrega no botão "continue"<br />Aceita e-mails repetidos | 03/10 |
-|    2     | JO    | A aplicação não tem log out.
-Depois de efetuado o registo e entrar na conta ao clickar no botão de retroceder do telemóvel volta para o fim do registo (página das research units).
-No login caso a palavra passe esteja errada não há qualquer aviso de que tal aconteceu, o mesmo para o username.
-A aplicação está a detetar que o username e o email já estão em uso mas falta algum aviso ou alteração visual.                                                            | 03/10 |
+|    2     | JO    | A aplicação não tem log out.<br />Depois de efetuado o registo e entrar na conta ao clickar no botão de retroceder do telemóvel volta para o fim do registo (página das research units).<br />No login caso a palavra passe esteja errada não há qualquer aviso de que tal aconteceu, o mesmo para o username.<br />A aplicação está a detetar que o username e o email já estão em uso mas falta algum aviso ou alteração visual.| 03/10 |
 |    3     | JC    | Não é possível adicionar mais temas de interesse, apenas editar os existentes, substituindo-os por uma string, não adicionando independentemente.<br />Feed está fixo, não está de acordo com preferencias.<br />Não é possível publicar no feed<br />Botões "?" sem funcionar | 03/10 |
 |    3     | CM    |  Botão "?" só funciona na página inicial do login             |  03/10 |
 |    4     | JC    | Não é possível publicar no feed, nem alterar foto<br />Não é possivel alterar o nome no perfil<br />Não é possivel ver perfil de outros utilizadores<br />Às vezes ao ver o perfil pessoal, o utilizador é um default: "Zé"<br />Botões "?" sem funcionar<br /> | 03/10 |
 |    4     | PS    | Não existência de um butao "logout";<br />Não comprovação da gravação de dados tendo apenas conseguido executar uma vez.<br />Aceder ao perfil é possivel mas não foi possivel mudar os interesses nem ver o perfil dos outros utilizadores.<br />A foto de perfil está predefinida e os restantes campos estao corretos de acordo com os dados inicialmente introduzidos. | 03/10 |
 |    5     | RP    | A aba lateral não existe no momento                          | 03/10 |
 |    5     | PS    | Não tive sucesso na abertura das páginas<br />Aba lateral nao aparece. |  03/10  |
-
 
 
 
