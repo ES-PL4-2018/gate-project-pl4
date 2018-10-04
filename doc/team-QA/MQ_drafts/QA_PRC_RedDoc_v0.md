@@ -1,26 +1,26 @@
-REDAÇÃO DE UM DOCUMENTO
-======
+# REDAÇÃO DE UM DOCUMENTO
 
-###DOC ID: QA\_PRC\_RedDoc\_v0
+**DOC ID:** QA\_PRC\_RedDoc\_v0.2
 
-### TABELA DE VERSÕES
+#### TABELA DE VERSÕES
 
 
 
 | VERSÃO | DATA | AUTORES | DESCRIÇÃO |
 |--------|------|---------|-----------|
 |0.1|26/09|Madalena|Rascunho inicial|
+|0.2|04/10|Pedro Fernandes|Alterações|
 
 
 
-### DESCRIÇÃO DO PROCESSO
+#### DESCRIÇÃO DO PROCESSO
 
 Este processo é utilizado sempre que existe a necessidade de redação de um documento, independentemente do tipo de documento. Todos os documentos formais/técnicos têm que seguir certos parâmetros. Qualquer membro de qualquer unidade pode estar envolvido neste processo.
 
 Na fase final do processo, o documento tem que ser aprovado pelos responsáveis e validado pela unidade de QA.
 
 
-### RESPONSÁVEIS
+#### RESPONSÁVEIS
 
 
 | NOME | CURSO | CARGO |
@@ -29,9 +29,9 @@ Na fase final do processo, o documento tem que ser aprovado pelos responsáveis 
 <o coordenador é o coordenador da unidade, os colaboradores são os elementos da mesma unidade que contribuiram para a descrição do processo>
 
 
-### INPUTS
+#### INPUTS
 
-* Informações necessárias à redação do documento
+* Informações necessárias à redação do documento.
 
 
 
@@ -44,18 +44,18 @@ Na fase final do processo, o documento tem que ser aprovado pelos responsáveis 
 ### DESCRIÇÃO DAS TAREFAS
 
 * Redação de documento segundo as seguintes regras:
-	* Todos os documentos de texto devem estar no formato Markdown (.md)
-	* Todos os documentos técnicos de maior relevância devem possuir uma página de rosto com informações sobre a natureza do documento, o(s) autor(es) e um contacto.
+	* Todos os documentos de texto devem estar no formato Markdown (.md);
+	* Todos os documentos técnicos de maior relevância devem possuir uma página de rosto com informações sobre a natureza do documento, o(s) autor(es) e um contacto;
 	* Todos os documentos técnicos devem possuir um cabeçalho, onde sejam disponbilizadas as informações sobre o título do documento, a unidade em que está inserido (caso aplicável) e a referência única do documento ("UNIDADE\_TIPO-DE-DOC\_NOME-DO-DOC\_VERSÃO);
 	* Todos os documentos devem ter uma designação apropriada (comum com a referência única do documento);
-	* Todos os documentos técnicos devem possuir uma Tabela de Versões onde sejam descriminadas todas as modificações relevantes feitas ao longo do tempo:
+	* Todos os documentos técnicos devem possuir uma Tabela de Versões onde sejam discriminadas todas as modificações relevantes feitas ao longo do tempo:
 
 		| VERSÃO | DATA | AUTORES | DESCRIÇÃO |
 		|--------|------|---------|-----------|
 		|||||
-	* Todos os documentos técnicos devem ter uma formatação limpa e legível, sem erros ortográficos, devem ser coerentes e ter paginação (ver documentação ![Pandoc]());
+	* Todos os documentos técnicos devem ter uma formatação adequada e legível, sem erros ortográficos, devem ser coerentes e ter paginação (ver documentação ![Pandoc]());
 	* Os documentos mais extensos devem-se fazer acompanhar de um índice;
-	* Caso aplicável, o documento deve fazer-se acompanhar de introdução, conclusão, anexos, referências, lista de acrónimos;
+	* Caso aplicável, o documento deve fazer-se acompanhar de introdução, conclusão, anexos, referências e glossário;
 	* Documentos do tipo ata, relatório de esforço, documentos de revisão de documentos, descrição formal de um processo ou de uma unidade devem seguir modelos específicos disponibilizados no repositório *GitHub* da equipa;
 	* Todas as expressões estrangeiras devem estar em *itálico*.
 
@@ -72,8 +72,8 @@ Na fase final do processo, o documento tem que ser aprovado pelos responsáveis 
 ### CICLO DE VIDA DOS ARTEFACTOS
 
 1) O documento é redigido;
-2) O documento é aprovado pela equipa. Caso existam modificações a fazer, seguir passo 1);
-3) O documento é validado pela QA. Caso existam modificações a fazer, seguir passo 1);
+2) O documento é aprovado pela equipa (caso existam modificações a fazer, seguir passo 1);
+3) O documento é validado pela QA (caso existam modificações a fazer, seguir passo 1);
 4) O documento é arquivado.
 
 (acrescentar esquema visual)
@@ -94,8 +94,8 @@ Na fase final do processo, o documento tem que ser aprovado pelos responsáveis 
 
 ### MÉTRICAS
 
-* Nº de horas dispendidas na readação do documento;
-* Nº de erros encontrados nas várias revisões do documento;
+* Nº de horas despendidas na redação do documento;
+* Nº de erros encontrados nas várias revisões do documento.
 
 
 
