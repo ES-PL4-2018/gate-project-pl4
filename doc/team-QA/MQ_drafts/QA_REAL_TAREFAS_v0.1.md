@@ -69,7 +69,7 @@ Este processo é ativado quando é necessária a realização de uma tarefa.
 
 ### CRITÉRIO DE SAÍDA
 
-* O processo acaba quando é publicado no GitHub o relatório sobre a realização da tarefa.
+* O processo acaba quando é publicado no *GitHub* o relatório sobre a realização da tarefa.
 
 <br>
 
@@ -82,6 +82,6 @@ Este processo é ativado quando é necessária a realização de uma tarefa.
 
 ### APROVAÇÃO E VALIDAÇÃO
 
-O relatório sobre a realização da tarefa deve ser revisto pela unidade de QUA de forma a confirmar a sua publicação na plataforma *GitHub*.
+O relatório sobre a realização da tarefa deve ser revisto pela unidade de QA de forma a confirmar a sua publicação na plataforma *GitHub*.
 
 <br>
