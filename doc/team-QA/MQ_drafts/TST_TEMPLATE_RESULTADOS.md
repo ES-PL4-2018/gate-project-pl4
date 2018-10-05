@@ -1,5 +1,5 @@
 ## Template de Resultados de Testes
-**Nota:** Os dados **não** são verídicos, apenas um exemplo de como usar o template
+**Nota:** Os dados **não** são verídicos, apenas um exemplo de como usar o template.
 
 #### Ref: TST_RESULTADOS_#1
 
@@ -14,17 +14,17 @@
 ### Objetivo:
 O seguinte documento será redigido após todos os elementos terem completado as tarefas/testes necessários e será a junção de todos os dados obtidos através dos relatórios individuais (TST_REVISAO_NOME.md).
 
-### Revisions
+### Revisões
 
-Rev # | Author | Description | Date
+Rev # | Autor | Descrição | Data
 --- | --- | --- | ---
-rev | author | things done on revision | when
+revisão | autor | o que foi feito? | quando foi feito?
 
 
 ### Testes
-**Tarefa #1**: Testar log-in
+**Tarefa #1**: Testar log-in.
 <br>
-**Tarefa #2**: ..
+**Tarefa #2**: (...)
 
 ### Tabela de distribuição de tarefas
 
@@ -53,5 +53,4 @@ Apontamentos:
 
 ### Notas/Extras
 
-Tarefa #1: Foi notado que o problema do botão de log in foi na linha #235, class "Java" [colocar link do commit]
-
+Tarefa #1: Foi notado que o problema do botão de log in foi na linha #235, class "Java" [colocar link do commit].
