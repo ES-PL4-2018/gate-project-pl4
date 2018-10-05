@@ -23,6 +23,7 @@ rev | author | things done on revision | when
 
 ### Testes
 **Tarefa #1**: Testar log-in
+<br>
 **Tarefa #2**: ..
 
 ### Tabela de distribuição de tarefas
