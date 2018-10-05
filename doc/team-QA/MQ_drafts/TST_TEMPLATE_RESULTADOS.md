@@ -12,7 +12,7 @@
 #### # Páginas:
 
 ### Objetivo:
-O seguinte documento será redigido pós todos os elementos terem completado as tarefas/testes, e será a junção de todos os dados obtidos através dos relatórios individuais (TST_REVISAO_NOME.md).
+O seguinte documento será redigido após todos os elementos terem completado as tarefas/testes necessários e será a junção de todos os dados obtidos através dos relatórios individuais (TST_REVISAO_NOME.md).
 
 ### Revisions
 
@@ -40,14 +40,14 @@ rev | author | things donne on revision | when
 
 | Tarefa # | Autor       | Apontamentos                                           | Data  |
 | :------: | :---------- | ------------------------------------------------------------ | :---: |
-|    1     | Elemento #2 | - Botão log-in não funciona<br />- Nome de utilizador pode ser números | 23/09 |
+|    1     | Elemento #2 | - Botão log-in não funciona<br />- Nome de utilizador pode conter números | 23/09 |
 |   ...    |             |                                                              |       |
 |          |             |                                                              |       |
 
 Apontamentos:
-- Fixed components
-- Returned components
-- Returning components
+- *Fixed components*
+- *Returned components*
+- *Returning components*
 
 
 ### Notas/Extras
