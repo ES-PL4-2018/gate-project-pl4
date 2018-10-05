@@ -18,7 +18,7 @@ O seguinte documento será redigido após todos os elementos terem completado as
 
 Rev # | Author | Description | Date
 --- | --- | --- | ---
-rev | author | things donne on revision | when
+rev | author | things done on revision | when
 
 
 ### Testes
