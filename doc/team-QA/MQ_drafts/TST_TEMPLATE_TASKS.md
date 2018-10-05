@@ -1,5 +1,5 @@
 ## Template de Distribuição de Tarefas/Testes
-**Nota:** Os dados **não** são verídicos, apenas um exemplo de como usar o template
+**Nota:** Os dados **não** são verídicos, apenas um exemplo de como usar o template.
 
 #### Ref: TST_TASKS_#1
 
@@ -10,20 +10,20 @@
 #### # Páginas:
 
 ### Objetivo:
-Este documento serve para a equipa se guiar durante cada fase de testes. Será redigido durante uma reunião onde todos os membros irão decidir quais são os testes a realizar e ver todos os detalhes possíveis.
+Este documento serve para a equipa se guiar durante cada fase de testes, será redigido durante uma reunião onde todos os membros irão decidir quais os testes a realizar e apontar todos os detalhes relevantes sobre a tarefa.
 
-### Revisions
+### Revisões
 
-Rev # | Author | Description | Date
+Rev # | Autor | Descrição | Data
 --- | --- | --- | ---
-rev | author | things donne on revision | when
+rev | Autor | O que foi feito? | Quando for feito?
 
 
 ### Descrição detalhada de cada tarefa
 **Tarefa #1**:
- - Testar log-in
- - Não esquecer de verificar erros na palavra passe
- - Ver se aceita um espaço como nome de utilizador
+ - Testar log-in.
+ - Verificar erros na palavra passe.
+ - Verificar se o registo aceita um espaço como nome de utilizador.
  
 **Tarefa #2**: 
  - ..
