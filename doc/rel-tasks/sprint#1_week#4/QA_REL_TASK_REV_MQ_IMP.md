@@ -8,7 +8,7 @@
   * João Silva
  
 #### **Requisitos / Descrição do processo**
-* Esta tarefa consiste na revisão ortográfica e do conteúdo dos processos existentes no manual de qualidade da unidade de implentação. 
+* Esta tarefa consiste na revisão ortográfica e do conteúdo dos processos existentes no manual de qualidade da unidade de implementação. 
 
 #### **Entradas**
 * Manual de qualidade da unidade de implementação.
@@ -18,7 +18,7 @@
 
 #### **Métricas de avaliação**
 * Qualidade do documento.
-* Qualidade do processos depois da sua realização.
+* Qualidade dos processos depois da sua realização.
 
 #### **Saídas geradas**
 * Documento revisto e com a versão atualizada.
