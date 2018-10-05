@@ -24,6 +24,7 @@ Catarina Mestre, Jessica Cunha, João Oliveira, Pedro Sá, Ricardo Paiva
 | ----- | -------- | ------------------------------ | ----- |
 | 0.1   | Jessica  | pequenas correções gramaticais | 24/09 |
 | 1.0   | Catarina | pequenas correções gramaticais | 24/09 |
+| 1.1   | João | Leitura e pequenas correções | 24/09 |
 
 #### Meeting agenda / subject
 
@@ -42,4 +43,4 @@ Catarina Mestre, Jessica Cunha, João Oliveira, Pedro Sá, Ricardo Paiva
 
 #### Decisões
 
-A partir da data de hoje, será feita uma reunião antes de ser necessário fazer testes, para atribuição de tarefas por cada elemento e o prazo, com o documento TST_TASKS_ #1.md. Durante a realização das tarefas, cada elemento terá de preencher o template TST_REVISAO_NOME.md, que será concatenado ao dos restantes elementos, por um elemento a definir na reunião, num template final (TST_RESULTADOS_#1.md) de entrega à Implementação/Qualidade.
+A partir da data de hoje, será feita uma reunião antes de ser necessário fazer testes, para atribuição de tarefas por cada elemento e o prazo, com o documento TST_TASKS_ #1.md. Durante a realização das tarefas, cada elemento terá de preencher o template TST_REVISAO_NOME.md, que será concatenado ao dos restantes elementos por um elemento a definir na reunião. Esta informação é colocada num template final (TST_RESULTADOS_#1.md) para entrega às equipas Implementação/Qualidade.
