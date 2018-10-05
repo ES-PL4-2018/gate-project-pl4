@@ -18,7 +18,7 @@ O seguinte documento será redigido após todos os elementos terem completado as
 
 Rev # | Autor | Descrição | Data
 --- | --- | --- | ---
-revisão | autor | o que foi feito? | quando foi feito?
+Revisão | Autor | O que foi feito? | Quando foi feito?
 
 
 ### Testes
