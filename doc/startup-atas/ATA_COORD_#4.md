@@ -100,7 +100,7 @@ Rev # | Author | Description | Date
 * Implementação do produto: 17/10
 * Testes: 22/10
 * Documento de requisitos: 19/10
-* Revisão do manual de requisitos: 20/10
+* Revisão do manual de qualidade: 20/10
 
 
 ####**Team-leaders** para o próximo sprint
