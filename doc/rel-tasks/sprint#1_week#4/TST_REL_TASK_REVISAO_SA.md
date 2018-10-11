@@ -1,6 +1,6 @@
 # **TST_REL_TASK_REVISAO_SA**
 
-| **Equipa:**  Testes   | **Data:** 03/11/18       |
+| **Equipa:**  Testes   | **Data:** 03/10/18       |
 | --------------------- | ------------------------ |
 | **Estado:** concluída | **Coordenador:** Jessica |
 
