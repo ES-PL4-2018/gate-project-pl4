@@ -6,7 +6,7 @@
 
 #### **Responsáveis pela tarefa e respetiva função**
 
-- Catarina Mestre- testes da aplicação, redação do relatório com os resultados obtidos
+- Catarina Mestre
 
 #### **Requisitos / Descrição do processo**
 
