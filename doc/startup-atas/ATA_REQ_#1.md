@@ -12,8 +12,7 @@
 
 ### # páginas: 1
 
-<br/> 
-<br/>
+
 ### ASSIDUIDADE
 
 Victor Carvalho,
