@@ -1,8 +1,8 @@
-# **Reunião do Cliente #2 Sprint #2**
+# **Reunião com o Cliente #2 Sprint #2**
 
 | **Equipa:** Requisitos | **Data:** 12 Outubro 2018| 
 | ------ | ------ | 
-| **Estado:** Incompleto |  **Coordenador:** Victor Carvalho |
+| **Estado:** Completo |  **Coordenador:** Victor Carvalho |
 
 #### **Responsáveis pela tarefa e respetiva função**
   * Catarina Pires  - Discussão da ordem de trabalhos
