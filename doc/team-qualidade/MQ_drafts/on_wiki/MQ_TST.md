@@ -1,8 +1,8 @@
 ### Unidade de Testing (TST)
 
-| Disciplina: TST        | Data: 24/09/2018 | Coordenador: Jessica Cunha |
+| Disciplina: TST        | Data: 15/10/2018 | Coordenador: Jessica Cunha |
 | ---------------------- | ---------------- | -------------------------- |
-| **Estado:** Incompleto | **Versão:** v0.3 |                            |
+| **Estado:** Incompleto | **Versão:** v0.4 |                            |
 
 #### Lista de membros:
 
@@ -13,6 +13,7 @@
 | João Oliveira   | LEI   | jdoliveira579@gmail.com    |
 | Pedro Sá        | LEI   | sa@student.dei.uc.pt       |
 | Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt  |
+| João Silva      | LEI   | joaomiguelbsiva@hotmail.com|
 
 #### Objetivos da unidade de TST:
 - Fazer testes ao código, sendo que cada um tem de ser testado por pelo menos 2 pessoas.
@@ -51,6 +52,7 @@ O processo de reuniões serve para discussão de tarefas e distribuição destas
 | João Oliveira   | LEI   | jdoliveira579@gmail.com    |
 | Pedro Sá        | LEI   | sa@student.dei.uc.pt       |
 | Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt  |
+| João Silva      | LEI   | joaomiguelbsiva@hotmail.com|
 
 ### INPUTS
 - TST_TEMPLATE_TASKS_#1.md.
@@ -103,6 +105,7 @@ Este processo descreve a verificação e validação do código através da desc
 | João Oliveira   | LEI   | jdoliveira579@gmail.com    |
 | Pedro Sá        | LEI   | sa@student.dei.uc.pt       |
 | Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt  |
+| João Silva      | LEI   | joaomiguelbsiva@hotmail.com|
 
 ### INPUTS
 - Template TST_TASKS#1.md que serve para cada elemento se guiar no que tem de fazer, e o que os restantes membros têm de fazer.
@@ -150,6 +153,7 @@ Método de revisão de documentos internos à equipa.
 | João Oliveira   | LEI   | jdoliveira579@gmail.com    |
 | Pedro Sá        | LEI   | sa@student.dei.uc.pt       |
 | Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt  |
+| João Silva      | LEI   | joaomiguelbsiva@hotmail.com|
 
 ### INPUT
 - Documento TST_RESULTADOS_#1.md que contém o resumo dos testes e os respetivos resultados.
