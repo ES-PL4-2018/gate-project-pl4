@@ -18,8 +18,8 @@
 
 | Rev # | Author | Description | Date |
 | --- | --- | --- | --- | 
-| 0.1 | João Soares | Redação inicial | 10 out, 21:30h|
-| 0.5| Carlos Poiares | Correções ortográficas | 13/10/18|
+| 0.1 | João Soares | Redação inicial | 10/10/2018 |
+| 1.0| Carlos Poiares | Revisão e Aprovação | 13/10/18 |
 
 ##### Ordem de trabalhos
 
