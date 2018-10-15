@@ -1,31 +1,23 @@
-#FUNCIONAMENTO DO TRELLO
+# FUNCIONAMENTO DO TRELLO
+
+**DOC ID:** GES_FUNCIONAMENTO_TRELLO
+
+#### TABELA DE VERSÕES
+
+| Versão | Data | Autor(es) | Descrição
+|---|---|---|---
+|0.1|15/10/2018|Madalena|Primeiro rascunho|
+|1.0|15/10/2018João Soares|Revisão e Aprovação
 
 
 
-## *TABELA DE VERSÕES*
-
-
-
-| VERSÃO | DATA | AUTORES | DESCRIÇÃO |
-|--------|------|---------|-----------|
-|0.1|15/10|Madalena|Primeiro rascunho|
-
-
-
-
-| UNIDADE | COORDENADOR | STATUS |
-|---|---|---|
-|ENV?|Pedro Silva|Em desenvolvimento|
-
-
-
-## *DESCRIÇÃO DO PROCESSO*
+#### DESCRIÇÃO DO PROCESSO
 
 Este processo define o funcionamento da plataforma Trello. Esta plataforma é útil à gestão das tarefas em funcionamento e permite a realização de uma avaliação permanente por parte da equipa de Gestão de Projeto. Facilita a delegação de tarefas por parte dos coordenadores de cada unidade e a comunicação entre unidades.
 
 
 
-## *RESPONSÁVEIS*
+#### RESPONSÁVEIS
 
 Todos os elementos da equipa estão responsáveis por seguir este processo. As equipas de Gestão (GES) e Ambiente (ENV) estão responsáveis pela implementação das condições necessária ao cumprimento das regras definidas. A equipa de Qualidade (QUA) está responsável pela monitorização da qualidade deste processo.
 
@@ -37,18 +29,18 @@ Todos os elementos da equipa estão responsáveis por seguir este processo. As e
 |Pedro Silva|LEI|Gestor ENV|
 
 
-## *INPUTS*
+#### INPUTS
 
 É necessário o planeamento por parte dos gestores de cada unidade de forma a poder obter informações necessárias sobre as tarefas a realizar.
 
 
-## *CRITÉRIO DE ATIVAÇÃO/TRIGGER*
+#### CRITÉRIO DE ATIVAÇÃO/TRIGGER
 
 Este processo está sempre ativo.
 
 
 
-## *DESCRIÇÃO DAS TAREFAS*
+#### DESCRIÇÃO DAS TAREFAS
 
 * Todas as tarefas merecem uma _card_ na _board_ da equipa (tarefa=card);
 * Cada coordenador é responsável de verificar que as diretrizes descritas estão a ser implementadas pela sua unidade;
@@ -59,13 +51,13 @@ Este processo está sempre ativo.
 
 
 
-####Listas existentes
+##### Listas existentes
 * Cada unidade tem uma board "To do", onde deve manter as tarefas a realizar num futuro próximo;
 * "In progress" - a partir do momento em que se inicia uma tarefa, deve colocar-se a _card_ respetiva nesta lista;
 * "Done" - existe uma lista para cada sprint, onde se devem colocar as _cards_ relativas às tarefas que são terminadas.
 
 
-####Criação da _card_
+##### Criação da _card_
 * É possível editar o texto utilizando _Markdown_;
 * **Descrição da tarefa**;
 * **Inputs** para a tarefa (documentos/informações que sejam necessários à sua realização);
@@ -78,7 +70,7 @@ Este processo está sempre ativo.
 
 
 
-## *CICLO DE VIDA DOS ARTEFACTOS*
+#### CICLO DE VIDA DOS ARTEFACTOS
 
 * Card entra na lista da unidade respetiva
 * Ao proceder ao início da realização da tarefa, a card é colocada na lista "In progress"
@@ -87,23 +79,23 @@ Este processo está sempre ativo.
 
 
 
-## *OUTPUTS*
+#### OUTPUTS
 
 * Diagrama de Gantt
 
 
-## *CRITÉRIO DE SAÍDA*
+#### CRITÉRIO DE SAÍDA
 
 * Fim do semestre
 
 
 
-## *MÉTRICAS*
+#### MÉTRICAS DE AVALIAÇÃO
 
 * Nº de membros a cumprir as diretrizes
 
 
-## *APROVAÇÃO E VALIDAÇÃO*
+#### APROVAÇÃO E VALIDAÇÃO
 
 
 
