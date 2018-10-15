@@ -1,35 +1,36 @@
-## "Team" NAME
+# Descrição da unidade
 
-Small presentation of the unit - > why is the unit important. "keep short 1-2 lines @ most"
-Example: "QUA is mainly responsable for creating a maintaining a sqa manual and making sure everyone follows the processes descibed in it to ensure that everything is donne by the "company" standarts/policy"
+# Unit Name
 
-Unit | Date | Lead | Co-Lead
---- | --- | --- | ---
-unit acronym | date | team lead | team co-lead
+Breve introdução sobre a unidade e as suas respectivas funções no projeto.
+Example: "QUA é responsável por delinear e garantir os padrões da equipa"
 
-<br/>
+|Unidade(Acronimo)|Lider|Data|
+|:-:|:-:|:-:|
 
-Status | Version
---- | ---
-document status | version
+
+|Status|Versão|
+|:-:|:-:|
 
 ### Members
 
-Name | Course | e-mail
---- | :---: | ---
-PASQuim | IBMLEI | email@email.com
-Tosta | MESQ | email@burn.com
-and | so | on@theend.com
+|Name | e-mail|
+|:-:|:-:|
+|PASQuim|email@email.com|
+
+### Inputs
+* Manual de Qualidade - Processos da Unidade
+* Lista de membros 
 
 ### Objectives
 
-Insert a moar detailed description of the unit so one can understand-it better and its processes 
+Descrição dos principais processos e funções a executar na unidade. Especificalao da importância da unidade face à equipa e ao desenvolvimento do projeto.
 
 ### Processes
 
-Description | Name
---- | ---
-what's it for | encoding (like MQ_REQDOC)
+|Description | Name|
+|:-:|:-:|
+
 
 
 PROCESS LIST WITH CONTENT FOLLOWS
