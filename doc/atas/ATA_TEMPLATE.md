@@ -2,7 +2,7 @@
 
 Este documento serve como modelo para todas as atas redigidas pela equipa. Deve ser copiado, preenchido e colocado na pasta "startup-atas"
 
-O nome do documento (ref) deve ser "ATA_<EQUIPA>_#.md"
+A nomenclatura das atas e como funciona todo o seu processo está descrito no manual de qualidade na unidade de qualidade no processo de atas.
 
 
 ###TABELA DE VERSÕES
