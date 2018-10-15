@@ -1,6 +1,19 @@
+# Template para redação de processos
+
+Este template serve como modelo para a redação dos processos das equipas, devendo ser seguido o respetivo processo de criação de processos
+
+#### TABELA DE VERSÕES
+
+| Versão | Data | Autor(es) | Descrição
+|---|---|---|---
+| 0.1 | 13/10/2018 | Pedro Fernandes | Criação template
+|1.0| 15/10/2018 | João Soares | Revisão e Aprovação
+
+<Inicio do template - Remover linha e tudo o que se encontra acima desta>
+
 # <NOME COMPLETO DO PROCESSO>
 
-**DOC ID:** <ID DO PROCESSO (MESMO QUE O NOME DO FICHEIRO, EX: QA\_REUN\_v1)>
+**DOC ID:** <ID DO PROCESSO (MESMO QUE O NOME DO FICHEIRO, EX: QUA_REUN_v1)>
 
 | UNIDADE | COORDENADOR |
 |---------|-------------|
