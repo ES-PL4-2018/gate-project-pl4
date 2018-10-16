@@ -20,18 +20,15 @@ Pedro Marcelino, Catarina Pires
 | ----- | --------------- | -------------- | ----- |
 | 0.1   | Pedro Marcelino | Redação da ata | 09/10 |
 
-#### Ordem de Trabalhos
 
-1. Inquérito ao cliente sobre as metas a fazer no segundo sprint.
 
-#### Ações e Decisões
+#### Inquérito ao cliente sobre as metas a fazer no segundo sprint.
 
-##### 1. Esclarecimento de dúvidas acerca dos mockups e requisitos pretendidos:
+##### DISCUSSÃO
 
 - Conectar a aplicação ao twitter
 - Através dos interesses do utilizador recolher tweets com hashtags idênticas
 - Apresentar os respetivos tweets no feed do utilizador
-
 - O utilizador pode clicar num tweet e, caso exista um link, deve poder ser aberto num browser
 - Opcionalmente apresentar no post da app imagens presentes no link do tweet
 - A barra lateral apresenta o nome das bookmarks
@@ -39,6 +36,15 @@ Pedro Marcelino, Catarina Pires
 - Ao clicar numa bookmark o utilizador é redirecionado para o link associado
 - O utilizador pode editar o seu perfil.
 
-
+##### DECISÕES
 
 Depois de esclarecer-mos todas as dúvidas com o cliente vamos proceder ao preenchimento da tabela de requisitos e alteração dos mockups.
+
+
+
+#### MÉTRICAS PARA A REUNIÃO
+
+Assiduidade -> Das 2 pessoas presentes estiveram as 2;
+Duração -> Esperávamos ser de 30 min e foi de 18 min;
+1 tópico discutido;
+Correu como previsto.
