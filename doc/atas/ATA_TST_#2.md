@@ -12,13 +12,15 @@
 
 #### ASSIDUIDADE
 
-Jessica Cunha, Catarina Mestre, Pedro Sá, João Oliveira, Ricardo Paiva
+Jessica Cunha, Catarina Mestre, Pedro Sá, João Oliveira, Ricardo Paiva, João Silva
 
 #### TABELA DE REVISÕES
 
 | Rev # | Author          | Description       | Date       |
 | ----- | --------------- | ----------------- | ---------- |
 | 0.1   | Catarina Mestre | Realização da ata | 15/10/2018 |
+| 0.2   | Jessica Cunha | Correção de erros | 16/10/2018 |
+
 
 #### ORDEM DE TRABALHOS
 
@@ -34,7 +36,7 @@ Utilizar o novo método de organização implementado pela equipa de qualidade
 
 ##### DECISÕES
 
-A partir de agora não haverá mais documentos TST_TEMPLATE_TASKS.md com a distribuição de tarefas, em vez disso essas tarefas serão afixadas na plataforma Trello. Os resultados dos testes feitos serão afixados no Trello para a equipa de implementação ver de imediato, acabando assim com os relatórios.
+A partir de agora não haverá mais documentos TST_TEMPLATE_TASKS.md com a distribuição de tarefas, em vez disso essas tarefas serão afixadas na plataforma Trello. Os resultados dos testes feitos serão afixados no Trello para a equipa de implementação ver de imediato, acabando assim com os relatórios. A confirmar com a coordenação e qualidade.
 
 #### Testes a realizar
 
@@ -44,7 +46,7 @@ Usar ao não o Sonar Qube. Ler o manual de requisitos e enumerar os testes a faz
 
 ##### DECISÕES
 
-Voltar a fazer os testes do sprint 1 à aplicação visto que esta não foi aprovada no sprint passado. Vamos utilizar o Sonar Qube.
+Voltar a fazer os testes do sprint 1 à aplicação visto que esta não foi aprovada no sprint passado. Vamos utilizar o Sonar Qube, a implementar pelo ambiente.
 
 #### Distribuição de tarefas
 
@@ -54,7 +56,7 @@ Como serão distribuidos os testes pelos elementos neste sprint.
 
 ##### DECISÕES
 
-A distribuição das tarefas do sprint 1 mantêm-se iguais. A distribuição de tarefas para o sprint 2 será feita conforme a equipa de implementação for lançando novas funcionalidades da aplicação.
+A distribuição das tarefas do sprint 1 mantêm-se iguais. A distribuição de tarefas para o sprint 2 será feita conforme a equipa de implementação for lançando novas funcionalidades da aplicação. 
 
 
 
