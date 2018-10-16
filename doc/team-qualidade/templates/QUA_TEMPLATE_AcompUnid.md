@@ -7,6 +7,7 @@ Este template serve como modelo para a redação do relatório de acompanhamento
 | Versão | Data | Autor(es) | Descrição
 |---|---|---|---
 | 0.1 | 16/10/2018 | Pedro Fernandes | Criação template
+| 1.0 | 16/10/2018 | João Soares | Revisão e Aprovação 
 
 <Inicio do template - Remover linha e tudo o que se encontra acima desta>
 
