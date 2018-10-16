@@ -21,7 +21,8 @@ Jessica Cunha, Catarina Mestre, Pedro Sá, João Oliveira, Ricardo Paiva
 
 | Rev # | Author | Description | Date |
 | ----- | ------ | ----------- | ---- |
-|       |        |             |      |
+| 0.1   |Catarina|Primeira Versão|15 Out|
+| 0.2   |Vítor   |Análise e Aprovação|16 Out|   
 
 
 
