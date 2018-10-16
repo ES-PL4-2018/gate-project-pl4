@@ -1,8 +1,9 @@
-# **Reunião do Cliente #2 Sprint #2**
+# Requisitos
+## **Reunião com o Cliente #2 Sprint #2**
 
 | **Equipa:** Requisitos | **Data:** 12 Outubro 2018| 
 | ------ | ------ | 
-| **Estado:** Incompleto |  **Coordenador:** Victor Carvalho |
+| **Estado:** Completo |  **Coordenador:** Victor Carvalho |
 
 #### **Responsáveis pela tarefa e respetiva função**
   * Catarina Pires  - Discussão da ordem de trabalhos
@@ -12,6 +13,7 @@
 ### TABELA DE VERSÕES
 |**Versão**|**Autor**|**Data**|**Notas**|
 |---|---|---|---|
+|1.1 | Victor Carvalho | 16/10 | Conformidade com o template das atas |
 |1.0 | Catarina Pires | 13/10 | Versão final|
 |0.1 | Victor Carvalho | 12/10 | Versão inicial|
 
