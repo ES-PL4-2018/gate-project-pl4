@@ -1,10 +1,11 @@
 # Descrição da unidade
-**DOC ID:** MQ_UNITDESC_v0.1
+**DOC ID:** QUA_MQ_UNIT_DESC
 #### TABELA DE VERSÕES
 
 | Versão | Data | Autores | Descrição|
 |:-:|:-:|:-:|:-:|
 |0.1 | 2018/10/13 | Carlos Poiares | Criação processo|
+|1.0|2018/10/15|João Soares|Revisão e Aprovação
 
 ### Descrição do processo
 Processo criado de forma a garantir um modelo para a criação do documento para descrever uma unidade.
