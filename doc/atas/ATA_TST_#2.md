@@ -20,6 +20,7 @@ Jessica Cunha, Catarina Mestre, Pedro Sá, João Oliveira, Ricardo Paiva, João 
 | ----- | --------------- | ----------------- | ---------- |
 | 0.1   | Catarina Mestre | Realização da ata | 15/10/2018 |
 | 0.2   | Jessica Cunha | Correção de erros | 16/10/2018 |
+|1.0|Joao Soares | Aprovado | 16/10/2018
 
 
 #### ORDEM DE TRABALHOS
