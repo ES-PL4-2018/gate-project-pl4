@@ -1,4 +1,5 @@
-# **Reunião do Cliente #2 Sprint #2**
+# Requisitos
+## ** ATA Reunião do Cliente #2 Sprint #2**
 
 | **Equipa:** Requisitos | **Data:** 12 Outubro 2018| 
 | ------ | ------ | 
@@ -7,14 +8,6 @@
 #### **Responsáveis pela tarefa e respetiva função**
   * Catarina Pires  - Discussão da ordem de trabalhos
   * Victor Carvalho - Responsável pela ata e discussão da ordem de trabalhos
-
-
-### TABELA DE VERSÕES
-|**Versão**|**Autor**|**Data**|**Notas**|
-|---|---|---|---|
-|0.1 | Victor Carvalho | 12/10 | Versão inicial|
-
-## ATA da Reunião com o Cliente 
 
 ### Data & Hora: 
 12 Outubro 2018
@@ -30,6 +23,11 @@ Fim:    17:53
 
 * Victor Carvalho
 * Catarina Pires
+
+### TABELA DE VERSÕES
+|**Versão**|**Autor**|**Data**|**Notas**|
+|---|---|---|---|
+|0.1 | Victor Carvalho | 12/10 | Versão inicial|
 
 <br/>
 
