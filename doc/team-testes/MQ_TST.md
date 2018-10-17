@@ -119,7 +119,8 @@ Durante a sprint, todos os elementos irão colocar num documento (TST_REVISAO_SP
 
 ### DESCRIÇÃO DAS TAREFAS
 - Realização dos testes necessário para aprovação/reprovação de cada tarefa a si atríbuida.
-- Escrita dos resultados no template TST_REVISAO_SPRINT#.md.
+- Afixação dos aspectos falhados pela aplicação ao longo do sprint na board de implementação do Trello.
+- Escrita dos resultados no template TST_REVISAO_SPRINT#.md no final do sprint.
 - Verificar se os requisitos são cumpridos.
 
 ### OUTPUTS
