@@ -12,8 +12,9 @@
 #### TABELA DE VERSÕES
 |**Versão**|**Autor**|**Data**|**Notas**|
 |---|---|---|---|
-| 1.0  | Catarina Pires | 16/10 | Alterações para estar de acordo com o template das atas. |
 | 0.1  | Pedro Marcelino | 09/10 | Redação da ata. |
+| 0.2  | Catarina Pires | 16/10 | Alterações para estar de acordo com o template das atas. |
+| 1.0 | João Soares | 17/10 | Revisão e Aprovação
 
 ## ATA da Reunião com o Cliente
 
