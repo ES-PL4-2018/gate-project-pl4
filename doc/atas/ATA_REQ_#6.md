@@ -13,9 +13,10 @@
 ### TABELA DE VERSÕES
 |**Versão**|**Autor**|**Data**|**Notas**|
 |---|---|---|---|
-|1.1 | Victor Carvalho | 16/10 | Conformidade com o template das atas |
-|1.0 | Catarina Pires | 13/10 | Versão final|
 |0.1 | Victor Carvalho | 12/10 | Versão inicial|
+|0.2 | Catarina Pires | 13/10 | Versão final|
+|0.3 | Victor Carvalho | 16/10 | Conformidade com o template das atas |
+|1.0 | João Soares | 17/10 | Revisão e Aprovação
 
 ## ATA da Reunião com o Cliente 
 
