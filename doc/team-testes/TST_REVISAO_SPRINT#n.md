@@ -4,7 +4,6 @@
 
 #### # Sprint: 
 
-#### Autor: 
 
 #### # Páginas: 
 
