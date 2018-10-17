@@ -19,6 +19,7 @@ Pedro Marcelino
 | Rev # | Author          | Description    | Date  |
 | ----- | --------------- | -------------- | ----- |
 | 0.1   | Pedro Marcelino | Redação da ata | 16/10 |
+|1.0!Joao Soares|Revisao e Aprovação|17/10
 
 
 
