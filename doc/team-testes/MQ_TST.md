@@ -11,7 +11,7 @@
 | Jessica Cunha   | LEI   | jessicacunha98@hotmail.com |
 | Catarina Mestre | LEI   | mestrekata@hotmail.com     |
 | João Oliveira   | LEI   | jdoliveira579@gmail.com    |
-| João Silva      | LEI   |                            |
+| João Silva      | LEI   | joaomiguelbsilva@hotmail.com|
 | Pedro Sá        | LEI   | sa@student.dei.uc.pt       |
 | Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt  |
 
@@ -50,7 +50,7 @@ O processo de reuniões serve para discussão de tarefas e distribuição destas
 | Jessica Cunha   | LEI   | jessicacunha98@hotmail.com |
 | Catarina Mestre | LEI   | mestrekata@hotmail.com     |
 | João Oliveira   | LEI   | jdoliveira579@gmail.com    |
-| João Silva      | LEI   |                            |
+| João Silva      | LEI   |joaomiguelbsilva@hotmail.com|
 | Pedro Sá        | LEI   | sa@student.dei.uc.pt       |
 | Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt  |
 
@@ -107,7 +107,7 @@ Durante a sprint, todos os elementos irão colocar num documento (TST_REVISAO_SP
 | Jessica Cunha   | LEI   | jessicacunha98@hotmail.com |
 | Catarina Mestre | LEI   | mestrekata@hotmail.com     |
 | João Oliveira   | LEI   | jdoliveira579@gmail.com    |
-| João Silva      | LEI   |                            |
+| João Silva      | LEI   |joaomiguelbsilva@hotmail.com|
 | Pedro Sá        | LEI   | sa@student.dei.uc.pt       |
 | Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt  |
 
@@ -152,7 +152,7 @@ Método de revisão de documentos internos à equipa.
 | Jessica Cunha   | LEI   | jessicacunha98@hotmail.com |
 | Catarina Mestre | LEI   | mestrekata@hotmail.com     |
 | João Oliveira   | LEI   | jdoliveira579@gmail.com    |
-| João Silva      | LEI   |                            |
+| João Silva      | LEI   |joaomiguelbsilva@hotmail.com|
 | Pedro Sá        | LEI   | sa@student.dei.uc.pt       |
 | Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt  |
 
