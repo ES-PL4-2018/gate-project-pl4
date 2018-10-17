@@ -83,7 +83,7 @@ Da análise SWOT ficaram realçados os seguintes pontos:
 <br/> 
 
 #### MÉTRICAS PARA A REUNIÃO
-Assiduidade -> Todos os convocados estiveram presents<br/>
-Duração -> Estimada 0100, Real 0115<br/>
-Nº de tópicos discutidos dos previstos -> foram debatidos no total 5 temas, 2 acima do inicialmente previsto<br/>
-Avaliação global -> 8 / 10<br/>
+- Assiduidade -> Todos os convocados estiveram presents<br/>
+- Duração -> Estimada 0100, Real 0115<br/>
+- Nº de tópicos discutidos dos previstos -> foram debatidos no total 5 temas, 2 acima do inicialmente previsto<br/>
+- Avaliação global -> 8 / 10<br/>
