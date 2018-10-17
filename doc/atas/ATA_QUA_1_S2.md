@@ -2,7 +2,7 @@
 
 ## ATA Reunião
 
-### Ref: "ATA_QA_#3"
+### Ref: "ATA_QUA_1_S2"
 
 ### Data & Hora: 11 Out,15h15
 
@@ -24,8 +24,6 @@
 * Pedro Fernandes
 * Sergii Mykolyshyn
 
-
-
 #### TABELA DE REVISÕES
 
 Rev # | Author | Description | Date
@@ -36,15 +34,13 @@ Rev # | Author | Description | Date
 
 #### ORDEM DE TRABALHOS
 
-*Acolhimento novos elementos na equipa / apresentação
-*Dinâmica da equipa QA durante a Sprint2
-*Debate de pontos chave relativamente aos processos da QA e sua revisão
-*Necessidade de criação de um processo para garantir qualidade na elaboração de processos pelas equipas
-*Possivel revisão de todos os processos tendo em conta a decisão do ponto 2
-*Debate acerca da construção do Manual de Qualidade (Alterações necessárias -> Textos, estruturas)
-*Outros assuntos
-
-
+* Acolhimento novos elementos na equipa / apresentação
+* Dinâmica da equipa QA durante a Sprint2
+* Debate de pontos chave relativamente aos processos da QA e sua revisão
+* Necessidade de criação de um processo para garantir qualidade na elaboração de processos pelas equipas
+* Possivel revisão de todos os processos tendo em conta a decisão do ponto 2
+* Debate acerca da construção do Manual de Qualidade (Alterações necessárias -> Textos, estruturas)
+* Outros assuntos
 
 <br/> 
 <br/>
@@ -58,3 +54,10 @@ a melhorar no Manual de Qualidade, a sua revisão por parte das unidades. Revis�
 Foram tomadas diversas decisões. A revisão total do MQ, através numa fase inicial, da criação por parte da unidade de um processo para desenvolvimento/criação de processos (com urgência), essencial para as outras unidades reverem os seus processos e desta forma reverem os seus capítulos no MQ. Eliminação do relatório de revisão dos documentos, passando para issue no GitHub.Revisão dos processos da unidade. Criação de templates para descrição formal das unidades, criação de processos. Criação de um sistema de nomes para os artefactos produzidos.
 
 <br/>
+
+#### MÉTRICAS PARA A REUNIÃO
+
+* Assiduidade -> Todos presentes;
+* Duração:
+  * Esperada: 1 Hora
+  * Real: 45 Minutos
