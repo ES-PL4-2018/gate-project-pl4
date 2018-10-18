@@ -27,7 +27,8 @@ Este documento é usado para anotar os testes realizados, e mostrar o progresso 
 
 | Rev # | Author | Description                             | Date  |
 | ----- | ------ | --------------------------------------- | ----- |
-| 0.2   | PS     | Revisão de documento (v0.2)                | 18/10 |
+| 0.1   | PS     | Revisão de documento (v0.2)             | 18/10 |
+| 0.2   | JC     | Revisão do documento (v0.2)             | 18/10 |   
 
 
 
@@ -43,7 +44,7 @@ Tarefas a verificar se estão a funcionar na aplicação, cada elemento testa du
 | :-------: | :--------: | :--------: | ------- | :------: | :-----: | :---------: |
 | Tarefa #1 |            |           |         |          |        |             |
 | Tarefa #2 |            |            |        |          |        |            |
-| Tarefa #3 |           |            |         |          |         |            |
+| Tarefa #3 |            |            |         |          |         |            |
 
 
 ### Descrição dos testes
