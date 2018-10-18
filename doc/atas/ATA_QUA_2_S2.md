@@ -23,6 +23,7 @@
 Rev # | Autor|  Descrição | Data
 --- | --- | --- | ---
 0.1 | João Soares | Redação inicial | 17/10
+1.0 | Sergii Mykolyshyn | Validação e aprovação | 18/10
 
 <br/>
 
