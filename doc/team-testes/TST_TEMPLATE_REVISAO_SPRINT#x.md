@@ -11,51 +11,42 @@
 #### Versão: x.x.x
 
 
-
-
-
-Nota: Este é um grannnnnde rascunho do que poderá ser o documento, aletrem de forma a ser mais fácil a utilizar por todos
-
-Se acharem que se deve alterar o nome também, avisem para podermos alterar também no MQ!
-
-bjs, Jess
-
-
-
-
-
 # Hiperligações
 
 ### Objetivo:
-Este documento é usado para mostrar o progresso dos testes ao longo da sprint.
+Este documento é usado para anotar os testes realizados, e mostrar o progresso dos testes ao longo da sprint.
 
-> > completar
 
 ### Revisions
 
 | Rev # | Author | Description                             | Date  |
 | ----- | ------ | --------------------------------------- | ----- |
-| 0.1   | JC     | Correções ortográficas                  | 04/10 |
-| 0.2   | JC     | Adição da informação do relatório do JO | 04/10 |
-| 0.3   | JC     | Correção de erros                       | 04/10 |
-
+| 0.1   | JC     | Redação do rascunho                  | 15/10 |
+| 0.2   | RP     | Edição do documento                  | 16/10 |
 
 
 ### Testes
-Tarefas a verificar se estão a funcionar na aplicação, cada elemento testou duas.
+Tarefas a verificar se estão a funcionar na aplicação, cada elemento testa duas
 **Tarefa #1**: 
 
- - 
+ 
 
 ### Tabela de distribuição de tarefas
 
 |           | Jessica C. | Ricardo P. | João S. | Pedro Sá | João O. | Catarina M. |
 | :-------: | :--------: | :--------: | ------- | :------: | :-----: | :---------: |
-| Tarefa #1 |            |     X      |         |          |    X    |             |
-| Tarefa #2 |            |            | X       |          |    X    |      X      |
-| Tarefa #3 |     X      |            |         |          |         |      X      |
-| Tarefa #4 |     X      |            | X       |    X     |         |             |
-| Tarefa #5 |            |     X      |         |    X     |         |             |
+| Tarefa #1 |            |           |         |          |        |             |
+| Tarefa #2 |            |            |        |          |        |            |
+| Tarefa #3 |           |            |         |          |         |            |
+
+
+### Descrição dos testes
+
+| Tarefa #  | Autor | Testes Realizados                         | Data |
+| --------- | ----- | ----------------------------------------- | ---- |
+| Tarefa #1 | Paiva | Teste manual de escrita de email</br> | dd/mm |
+|           |       |                                           |      |
+
 
 ### Revisão de Tarefas
 
