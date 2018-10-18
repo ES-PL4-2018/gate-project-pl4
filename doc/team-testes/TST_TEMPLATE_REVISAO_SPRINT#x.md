@@ -16,13 +16,19 @@
 ### Objetivo:
 Este documento é usado para anotar os testes realizados, e mostrar o progresso dos testes ao longo da sprint.
 
-
-### Revisions
+### Edição
 
 | Rev # | Author | Description                             | Date  |
 | ----- | ------ | --------------------------------------- | ----- |
 | 0.1   | JC     | Redação do rascunho                  | 15/10 |
 | 0.2   | RP     | Edição do documento                  | 16/10 |
+
+### Revisão
+
+| Rev # | Author | Description                             | Date  |
+| ----- | ------ | --------------------------------------- | ----- |
+| 0.2   | PS     | Revisão de documento (v0.2)                | 18/10 |
+
 
 
 ### Testes
@@ -42,10 +48,10 @@ Tarefas a verificar se estão a funcionar na aplicação, cada elemento testa du
 
 ### Descrição dos testes
 
-| Tarefa #  | Autor | Testes Realizados                         | Data |
-| --------- | ----- | ----------------------------------------- | ---- |
-| Tarefa #1 | Paiva | Teste manual de escrita de email</br> | dd/mm |
-|           |       |                                           |      |
+| Tarefa #  | Testes Realizados                         | Data |
+| --------- | ----------------------------------------- | ---- |
+| Tarefa #1 | Teste manual de escrita de email</br> | dd/mm |
+|           |                                           |      |
 
 
 ### Revisão de Tarefas
