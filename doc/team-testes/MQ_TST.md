@@ -22,9 +22,10 @@
 
 #### Processos utilizados por esta unidade:
 
-1. Processo de Reuniões 													MQ_TST_REUNIOES
-2. Processo de Testes/Revisão de Código								MQ_TST_TESTES_CODIGO
-3. Processo de revisão de documentos                  MQ_TST_REVISAO
+1. Processo de Reuniões 													             MQ_TST_REUNIOES
+2. Processo de Testes/Revisão de Código							          	MQ_TST_TESTES_CODIGO
+3. Processo de revisão de documentos                           MQ_TST_REVISAO
+4. Processo de criação do documento de revisão de código       MQ_TST_DOC_TESTES
 
 
 ### MQ_TST_REUNIOES
@@ -175,3 +176,48 @@ Após assegurar que o documento respeita todas as regras, este processo termina.
 ### MÉTRICAS
 - Número de documentos validados.
 - Se o documento não for validado ao fim de 24h após a sua conclusão será dado como inválido.
+
+
+
+
+### MQ_TST_DOC_TESTES
+### TABELA DE VERSÕES
+| VERSÃO | DATA       | AUTORES       | DESCRIÇÃO           |
+| ------ | ---------- | ------------- | ------------------- |
+| ?      | ?          | ?             | ?                   |
+
+
+| TST | ? | Estado: Incompleto |
+| - | - | - |
+
+------
+
+### DESCRIÇÃO DE PROCESSOS
+Sempre que um elemento complete um teste e coloque a respetiva card no "Done" do Trello, irá colocar no documento TST_REVISAO_SPRINT#1.md todos os dados relativos aos testes realizados, seguidos de apontamentos que poderão ser importantes para a implementação. Quando todos os testes forem concluídos, o coordenador, ou um outro elemento à escolha, irá fazer uma revisão ao documento de forma a este respeitar o processo MQ_TST_REVISAO
+
+### RESPONSÁVEIS
+| Nome            | Curso | Contacto                   |
+| --------------- | ----- | -------------------------- |
+| Jessica Cunha   | LEI   | jessicacunha98@hotmail.com |
+| Catarina Mestre | LEI   | mestrekata@hotmail.com     |
+| João Oliveira   | LEI   | jdoliveira579@gmail.com    |
+| João Silva      | LEI   |joaomiguelbsilva@hotmail.com|
+| Pedro Sá        | LEI   | sa@student.dei.uc.pt       |
+| Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt  |
+
+### INPUTS
+- Após a implementação libertar código
+
+### CRITÉRIO DE ATIVAÇÃO/TRIGGER
+- Completar uma card no trello relatova a testes
+
+### DESCRIÇÃO DAS TAREFAS
+- Escrever os resultados dos testes realizados
+- Escrever que tipos de testes foram feitos
+- Verificar se os requisitos relativos às tarefas foram cumpridos
+
+### OUTPUTS
+- Documento TST_REVISAO_SPRINT#.md
+
+### CRITÉRIO DE SAÍDA
+Após conclusão de todas as tarefas estipuladas na reunião e realização do relatório final, este processo termina.
