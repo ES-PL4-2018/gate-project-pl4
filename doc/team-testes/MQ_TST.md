@@ -26,6 +26,7 @@
 2. Processo de Testes/Revisão de Código							          	MQ_TST_TESTES_CODIGO
 3. Processo de revisão de documentos                           MQ_TST_REVISAO
 4. Processo de criação do documento de revisão de código       MQ_TST_DOC_TESTES
+5. Processo de criação do documento de testes a realizar        MQ_TST_TASKS
 
 
 ### MQ_TST_REUNIOES
@@ -221,3 +222,48 @@ Sempre que um elemento complete um teste e coloque a respetiva card no "Done" do
 
 ### CRITÉRIO DE SAÍDA
 Após conclusão de todas as tarefas estipuladas na reunião e realização do relatório final, este processo termina.
+
+
+
+### MQ_TST_TASKS
+### TABELA DE VERSÕES
+| VERSÃO | DATA       | AUTORES       | DESCRIÇÃO           |
+| ------ | ---------- | ------------- | ------------------- |
+| ?      | ?          | ?             | ?                   |
+
+
+| TST | ? | Estado: Incompleto |
+| - | - | - |
+
+------
+
+### DESCRIÇÃO DE PROCESSOS
+Processo destinado à redação de um documento com os testes a realizar e a sua distribuição pelos elementos da equipa.
+Com base no documento de requisitos, um ou mais elementos irão fazer um rascunho dos testes que poderão ser realizados para testar o produto, que depois serão discutidos numa reunião e por decisão coletiva, o documento será dado como terminado. Após se terem decidido os testes definitivos, estes serão colocados na board do Trello.
+
+
+### RESPONSÁVEIS
+| Nome            | Curso | Contacto                   |
+| --------------- | ----- | -------------------------- |
+| Jessica Cunha   | LEI   | jessicacunha98@hotmail.com |
+| Catarina Mestre | LEI   | mestrekata@hotmail.com     |
+| João Oliveira   | LEI   | jdoliveira579@gmail.com    |
+| João Silva      | LEI   |joaomiguelbsilva@hotmail.com|
+| Pedro Sá        | LEI   | sa@student.dei.uc.pt       |
+| Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt  |
+
+### INPUTS
+- Documento de requisitos
+
+### CRITÉRIO DE ATIVAÇÃO/TRIGGER
+- Documento de requisitos atualizado para a sprint
+
+### DESCRIÇÃO DAS TAREFAS
+- Redação dos testes a realizar conforme os requisitos
+- Delegação dos testes, aos elementos da equipa
+
+### OUTPUTS
+- Documento TST_TASKS#.md
+
+### CRITÉRIO DE SAÍDA
+Após se ter realizado uma reunião e os testes serem aprovados por todos os elementos presentes
