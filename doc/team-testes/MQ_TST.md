@@ -137,7 +137,7 @@ Após conclusão de todas as tarefas estipuladas na reunião e realização do r
 | ?      | ?          | ?             | ?                   |
 | 0.2    | 24/09/2018 | ?             | Criação do processo |
 | 0.4    | 04/10/2018 | Maria Pereira | Alterações          |
-| 0.5    | 20/10/2018 | Maria Pereira | Alterações          |
+| 0.5    | 20/10/2018 | João Oliveira | Alterações          |
 
 | TST | ? | Estado: Incompleto |
 | - | - | - |
