@@ -33,6 +33,7 @@
 **DOC_ID:** MQ_TST_REUNIOES
 
 | Unidade | Coordenador |
+| ---------| -----------|
 | TST | Jessica Cunha |
 
 ### TABELA DE VERSÕES
@@ -108,6 +109,7 @@ A reunião está terminada, todas as tarefas foram feitas, os documentos foram a
 **DOC_ID:** MQ_TST_TESTES CÓDIGO
 
 | Unidade | Coordenador |
+| ---------| -----------|
 | TST | Jessica Cunha |
 
 ### TABELA DE VERSÕES
@@ -173,7 +175,9 @@ Após conclusão de todas as tarefas estipuladas na reunião e realização do r
 **DOC_ID:** MQ_TST_REVISAO
 
 | Unidade | Coordenador |
+| ---------| -----------|
 | TST | Jessica Cunha |
+
 
 ### TABELA DE VERSÕES
 | VERSÃO | DATA       | AUTORES       | DESCRIÇÃO           |
@@ -238,6 +242,7 @@ Após assegurar que o documento respeita todas as regras, este processo termina.
 **DOC_ID:** MQ_TST_DOC_TESTES
 
 | Unidade | Coordenador |
+| ---------| -----------|
 | TST | Jessica Cunha |
 
 ### TABELA DE VERSÕES
@@ -299,6 +304,7 @@ Após conclusão de todas as tarefas estipuladas na reunião e realização do r
 **DOC_ID:** MQ_TST_TASKS
 
 | Unidade | Coordenador |
+| ---------| -----------|
 | TST | Jessica Cunha |
 
 ### TABELA DE VERSÕES
