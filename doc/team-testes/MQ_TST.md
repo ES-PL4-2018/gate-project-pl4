@@ -137,6 +137,7 @@ Após conclusão de todas as tarefas estipuladas na reunião e realização do r
 | ?      | ?          | ?             | ?                   |
 | 0.2    | 24/09/2018 | ?             | Criação do processo |
 | 0.4    | 04/10/2018 | Maria Pereira | Alterações          |
+| 0.5    | 20/10/2018 | Maria Pereira | Alterações          |
 
 | TST | ? | Estado: Incompleto |
 | - | - | - |
@@ -167,6 +168,11 @@ Método de revisão de documentos internos à equipa.
 - Assegurar que os documentos seguem a estrutura dos templates existentes.
 - Assegurar que os documentos não têm erros ortográficos.
 - Garantir que a informação fornecida através dos relatórios/atas é informativa, esclarecedora e enquadrada com o que é pretendido.
+
+### CICLO DE VIDA DOS ARTEFACTOS
+1.Revisão do documento por membros da TST;
+2.Verificação pela QA (Se não aprovado volta ao ponto 1);
+3.Arquivo no github;
 
 ### OUTPUTS
 Documento validado, pronto para fazer merge no master, fazendo pull request.
