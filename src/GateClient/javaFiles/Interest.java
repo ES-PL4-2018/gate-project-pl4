@@ -20,12 +20,19 @@ public class Interest {
         interests.add(new Interest("Informática",
                 "Windows", "Linux", "Internet", "C", "Java", "Python", "Inteligência Artificial",
                 "Segurança", "Hacking", "Bitcoin"));
-        interests.add(new Interest("Matemática"));
-        interests.add(new Interest("Biologia"));
-        interests.add(new Interest("Física"));
-        interests.add(new Interest("Quimíca"));
-        interests.add(new Interest("Medicina"));
-        interests.add(new Interest("Mecânica"));
+        interests.add(new Interest("Matemática",
+                "Euler", "Algebra", "pi", "números complexos", "trigonometria", "estatística",
+                "riemann", "leibniz"));
+        interests.add(new Interest("Biologia", "ADN", "ARN", "microorganismos", "célula", "genes",
+                "darwin", "evolução"));
+        interests.add(new Interest("Física", "matéria", "energia", "partículas", "mecânicas quânticas",
+        "newton", "einstein", "radiação", "gravidade"));
+        interests.add(new Interest("Quimíca", "átomos", "moléculas", "reações químicas",
+                "mol", "energia", "lavoisier"));
+        interests.add(new Interest("Medicina", "doença", "vírus", "anatomia", "medicamentos",
+                "hospital", "bactéria", "vacina", "cirurgia"));
+        interests.add(new Interest("Mecânica", "movimento", "energia cinética", "motor", "velocidade",
+                "atrito", "f=ma", "aceleração"));
     }
 
     public String getInterest(){
