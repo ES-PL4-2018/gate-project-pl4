@@ -94,9 +94,8 @@ A reunião está terminada, todas as tarefas foram feitas, os documentos foram a
 ### MÉTRICAS DE AVALIAÇÃO
 
 - Qualidade das decisões tomadas
-
 - Qualidade das atas elaboradas
-- Assiduidade dos membros
+- Assiduidade dos membros da equipa
 
 
 
