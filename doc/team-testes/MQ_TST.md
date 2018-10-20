@@ -55,7 +55,6 @@ O processo de reuniões serve para discussão de tarefas e distribuição destas
 | Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt  |
 
 ### INPUTS
-- TST_TEMPLATE_TASKS_#1.md.
 - template_ata.md.
 - Métricas/requisitos.
 - Tópicos a discutir inseridos no Trello.
@@ -64,11 +63,9 @@ O processo de reuniões serve para discussão de tarefas e distribuição destas
 - Necessidade de tomada de decisões importantes por parte do Gestor de equipa.
 
 ### DESCRIÇÃO DAS TAREFAS
-- Criação da lista de tarefas a realizar.
+- Criação da lista de tarefas a realizar, colocando-as no Trello.
 - Distribuição das tarefas por cada elemento da equipa.
 - Estipulação de prazo para entrega de resultados.
-- Escolha de um elemento para fazer a concatenação dos relatórios de revisão de código individuais.
-- Verificar se os requisitos são cumpridos.
 
 ### OUTPUTS
 - Ata da reunião guardada no GitHub ATA_TST_#1.md.
@@ -99,8 +96,6 @@ Sempre que os testes forem terminados, o respetivo elemento, irá escrever na de
 
 Durante a sprint, todos os elementos irão colocar num documento (TST_REVISAO_SPRINT#.md), os resultados obtidos, para que qualquer pessoa facilmene consiga ver o estado da aplicação/testes.
 
-
-
 ### RESPONSÁVEIS
 | Nome            | Curso | Contacto                   |
 | --------------- | ----- | -------------------------- |
@@ -128,6 +123,8 @@ Durante a sprint, todos os elementos irão colocar num documento (TST_REVISAO_SP
 
 ### CRITÉRIO DE SAÍDA
 Após conclusão de todas as tarefas estipuladas na reunião e realização do relatório final, este processo termina.
+
+
 
 
 
