@@ -30,6 +30,10 @@
 
 
 ### MQ_TST_REUNIOES
+**DOC_ID:** MQ_TST_REUNIOES
+
+| Unidade | Coordenador |
+| TST | Jessica Cunha |
 
 ### TABELA DE VERSÕES
 
@@ -100,12 +104,19 @@ A reunião está terminada, todas as tarefas foram feitas, os documentos foram a
 
 
 ### MQ_TST_TESTES_CÓDIGO
+
+**DOC_ID:** MQ_TST_TESTES CÓDIGO
+
+| Unidade | Coordenador |
+| TST | Jessica Cunha |
+
 ### TABELA DE VERSÕES
 | VERSÃO | DATA       | AUTORES       | DESCRIÇÃO           |
 | ------ | ---------- | ------------- | ------------------- |
 | ?      | ?          | ?             | ?                   |
 | 0.3    | 24/09/2018 | ?             | Criação do processo |
 | 0.4    | 04/10/2018 | Maria Pereira | Alterações          |
+| 0.5    | 17/10/2018 | Jessica Cunha | Alteração de acordo com o novo método de trabalho |
 
 | TST | ? | Estado: Incompleto |
 | - | - | - |
@@ -141,17 +152,29 @@ Durante a sprint, todos os elementos irão colocar num documento (TST_REVISAO_SP
 - Escrita dos resultados no template TST_REVISAO_SPRINT#.md.
 - Verificar se os requisitos são cumpridos.
 
+### CICLO DE VIDA DOS ARTEFACTOS
+
+
+
+
+
 ### OUTPUTS
 - Documento TST_REVISAO_SPRINT#.md que contém o resumo do trabalho feito e das conclusões chegadas.
 
 ### CRITÉRIO DE SAÍDA
 Após conclusão de todas as tarefas estipuladas na reunião e realização do relatório final, este processo termina.
 
-
+### MÉTRICAS DE AVALIAÇÃO
 
 
 
 ### MQ_TST_REVISAO
+
+**DOC_ID:** MQ_TST_REVISAO
+
+| Unidade | Coordenador |
+| TST | Jessica Cunha |
+
 ### TABELA DE VERSÕES
 | VERSÃO | DATA       | AUTORES       | DESCRIÇÃO           |
 | ------ | ---------- | ------------- | ------------------- |
@@ -192,7 +215,9 @@ Método de revisão de documentos internos à equipa.
 
 ### CICLO DE VIDA DOS ARTEFACTOS
 1.Revisão do documento por membros da TST;
+
 2.Verificação pela QA (Se não aprovado volta ao ponto 1);
+
 3.Arquivo no github;
 
 ### OUTPUTS
@@ -209,10 +234,17 @@ Após assegurar que o documento respeita todas as regras, este processo termina.
 
 
 ### MQ_TST_DOC_TESTES
+
+**DOC_ID:** MQ_TST_DOC_TESTES
+
+| Unidade | Coordenador |
+| TST | Jessica Cunha |
+
 ### TABELA DE VERSÕES
 | VERSÃO | DATA       | AUTORES       | DESCRIÇÃO           |
 | ------ | ---------- | ------------- | ------------------- |
-| ?      | ?          | ?             | ?                   |
+| 0.1    |  20/10/2018| Jessica Cunha  | Rascunho do processo |
+| 0.2   | 20/10/2018| Jessica Cunha | Alterações|
 
 
 | TST | ? | Estado: Incompleto |
@@ -244,19 +276,36 @@ Sempre que um elemento complete um teste e coloque a respetiva card no "Done" do
 - Escrever que tipos de testes foram feitos
 - Verificar se os requisitos relativos às tarefas foram cumpridos
 
+### CICLO DE VIDA DOS ARTEFACTOS
+
+
+
+
+
 ### OUTPUTS
 - Documento TST_REVISAO_SPRINT#.md
 
 ### CRITÉRIO DE SAÍDA
 Após conclusão de todas as tarefas estipuladas na reunião e realização do relatório final, este processo termina.
 
+### MÉTRICAS DE AVALIAÇÃO
+
+
+
 
 
 ### MQ_TST_TASKS
+
+**DOC_ID:** MQ_TST_TASKS
+
+| Unidade | Coordenador |
+| TST | Jessica Cunha |
+
 ### TABELA DE VERSÕES
 | VERSÃO | DATA       | AUTORES       | DESCRIÇÃO           |
 | ------ | ---------- | ------------- | ------------------- |
-| ?      | ?          | ?             | ?                   |
+| 0.1 | 20/10/2018 | Jessica Cunha   | Rascunho do processo |
+| 0.2  | 20/10/2018 | Jessica Cunha  | Alterações |
 
 
 | TST | ? | Estado: Incompleto |
@@ -289,8 +338,23 @@ Com base no documento de requisitos, um ou mais elementos irão fazer um rascunh
 - Redação dos testes a realizar conforme os requisitos
 - Delegação dos testes, aos elementos da equipa
 
+### CICLO DE VIDA DOS ARTEFACTOS
+
+
+
+
+
 ### OUTPUTS
 - Documento TST_TASKS#.md
 
 ### CRITÉRIO DE SAÍDA
 Após se ter realizado uma reunião e os testes serem aprovados por todos os elementos presentes
+
+
+### MÉTRICAS DE AVALIAÇÃO
+
+
+
+
+
+
