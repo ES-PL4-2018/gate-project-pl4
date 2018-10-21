@@ -13,9 +13,6 @@
 | 0.2    | 20/10/2018 | Jessica Cunha | Alterações           |
 | 0.3    | 20/10/2018 | Pedro Sa      | Alterações           |
 
-| TST | ? | Estado: Incompleto |
-| - | - | - |
-
 ------
 
 ### DESCRIÇÃO DE PROCESSOS
@@ -34,7 +31,7 @@ Sempre que um elemento completa um teste e coloca a respetiva card no "Done" do 
 ### INPUTS
 - Após a implementação libertar código
 
-### CRITÉRIO DE ATIVAÇÃO/TRIGGER
+### CRITÉRIO DE ENTRADA/ATIVAÇÃO
 - Completar uma card no trello relatova a testes
 
 ### DESCRIÇÃO DAS TAREFAS
