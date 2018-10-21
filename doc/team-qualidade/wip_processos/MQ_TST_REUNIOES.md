@@ -12,7 +12,7 @@
 | ?      | ?          | ?               | ?                   |
 | 0.3    | 24/09/2018 | ?               | Criação do processo |
 | 0.4    | 04/10/2018 | Maria Pereira   | Alterações          |
-| 0.5    | 20/10/2018 | Catarina Mestre | Alterações          |
+| 1.0    | 20/10/2018 | Catarina Mestre | Alterações          |
 
 ------
 
