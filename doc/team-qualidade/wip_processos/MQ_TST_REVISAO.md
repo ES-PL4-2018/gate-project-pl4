@@ -15,9 +15,6 @@
 | 0.4    | 04/10/2018 | Maria Pereira | Alterações          |
 | 0.5    | 20/10/2018 | João Oliveira | Alterações          |
 
-| TST | ? | Estado: Incompleto |
-| - | - | - |
-
 ------
 
 ### DESCRIÇÃO DE PROCESSOS
@@ -37,7 +34,7 @@ Método de revisão de documentos internos à equipa.
 - Documento TST_REVISAO_SPRINT#.md que contém o resumo dos testes e os respetivos resultados.
 - Atas ATA_TST_#1.md que corresponde às atas elaboradas em cada uma das reuniões de equipa.
 
-### CRITÉRIO DE ATIVAÇÃO/TRIGGER
+### CRITÉRIO DE ENTRADA/ATIVAÇÃO
 - Após colocação do documento em causa num novo branch no git e aviso à restante equipa através do Slack.
 
 ### DESCRIÇÃO DAS TAREFAS
