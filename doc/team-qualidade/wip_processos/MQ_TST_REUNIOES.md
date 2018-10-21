@@ -14,9 +14,6 @@
 | 0.4    | 04/10/2018 | Maria Pereira   | Alterações          |
 | 0.5    | 20/10/2018 | Catarina Mestre | Alterações          |
 
-| TST | ? | Estado: Incompleto |
-| - | - | - |
-
 ------
 
 ### DESCRIÇÃO DO PROCESSO
@@ -40,7 +37,7 @@ O processo de reuniões serve para discussão de tarefas e distribuição destas
 - Métricas/requisitos.
 - Tópicos a discutir inseridos no Trello.
 
-### CRITÉRIO DE ATIVAÇÃO/TRIGGER
+### CRITÉRIO DE ENTRADA/ATIVAÇÃO
 
 - Necessidade de tomada de decisões importantes por parte do Gestor de equipa.
 
