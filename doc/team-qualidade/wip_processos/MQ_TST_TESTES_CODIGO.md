@@ -12,11 +12,8 @@
 | ?      | ?          | ?             | ?                                                      |
 | 0.3    | 24/09/2018 | ?             | Criação do processo                                    |
 | 0.4    | 04/10/2018 | Maria Pereira | Alterações                                             |
-| 0.5    | 17/10/2018 | Jessica Cunha | Alteração de acordo com o novo método de trabalho      |
-| 0.6    | 20/10/2018 | Ricardo Paiva | Add info sobre métricas e ciclo de vida dos artefactos |
-
-| TST | ? | Estado: Incompleto |
-| - | - | - |
+| 1.0    | 17/10/2018 | Jessica Cunha | Alteração de acordo com o novo método de trabalho      |
+| 1.1    | 20/10/2018 | Ricardo Paiva | Add info sobre métricas e ciclo de vida dos artefactos |
 
 ------
 
@@ -55,8 +52,6 @@ Durante a sprint, todos os elementos irão colocar num documento (TST_REVISAO_SP
 - Escrita dos resultados na card do trello;
 - Caso seja aprovada coloca-se card em done e a implementação é avisada;
 - Caso seja reprovada, coloca-se card em done e cria uma card nova para a implementação com a descrição de todos os erros (Volta ao ponto 1);
-
-
 
 ### OUTPUTS
 - Documento TST_REVISAO_SPRINT#.md que contém o resumo do trabalho feito e das conclusões chegadas.
