@@ -14,6 +14,7 @@
 | ----- | -------- | ----------------- | ---------- |
 | 0.1   | Pedro Sá | Realização da ata | 22/10/2018 |
 | 0.2  | Jessica Cunha | Revisão | 22/10/2018 |
+| 1.0  | Vítor Ribeiro | Revisão e Aprovação | 22/10/2018 |
 
 #### ORDEM DE TRABALHOS
 
@@ -29,7 +30,7 @@
 
 #### MÉTRICAS PARA A REUNIÃO
 
-Assiduidade -> 6/6
-Duração -> 1H/40min
-Nº de tópicos discutidos dos previstos -> 2/2
-Avaliação global -> 10/10
+-Assiduidade -> 6/6
+-Duração -> 1H/40min
+-Nº de tópicos discutidos dos previstos -> 2/2
+-Avaliação global -> 10/10
