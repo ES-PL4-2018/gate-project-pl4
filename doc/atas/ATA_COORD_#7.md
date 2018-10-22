@@ -37,10 +37,12 @@ Rev # | Author | Description | Date
 
 3. Estado das Unidades
 
-## Atas
+## Decisões
+
+### Atas
 *   Atas deviam conter quem faltou em vez dos presentes
 
-## Trello
+### Trello
 *   Pessoa responsavel de GES que assegura qualidade no Gantt
 *   Cards que tenham 2 pessoas conseguem ser divididas em duas
 *   Card com trabalhos pequenos acumulados que precisem menos de 15min
