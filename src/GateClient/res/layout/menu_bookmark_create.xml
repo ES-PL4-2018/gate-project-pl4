@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".Menu_Main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bookmark_background">
+
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.15"
+            app:layout_constraintVertical_bias="0.85"
+            android:src="@drawable/all_cancel"
+            android:id="@+id/createBookmarkCancel"/>
+
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.85"
+            app:layout_constraintVertical_bias="0.85"
+            android:src="@drawable/all_check"
+            android:id="@+id/createBookmarkConfirm"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.35"
+            app:layout_constraintHorizontal_bias="0.14"
+            android:text="@string/profileName"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:id="@+id/createBookmarkName"/>
+
+    <EditText
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.41"
+            app:layout_constraintHorizontal_bias="0.35"
+            android:text=""
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/white"
+            android:inputType="textPersonName"
+            android:maxLength="35"
+            android:singleLine="true"
+            android:id="@+id/createBookmarkNameImput"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.475"
+            app:layout_constraintHorizontal_bias="0.16"
+            android:text="@string/profileInstitution"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:id="@+id/createBookmarkLink"/>
+
+    <EditText
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.535"
+            app:layout_constraintHorizontal_bias="0.35"
+            android:text=""
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/white"
+            android:maxLength="35"
+            android:singleLine="true"
+            android:id="@+id/createBookmarkLinkInput"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.60"
+            app:layout_constraintHorizontal_bias="0.187"
+            android:text="@string/profileResearchUnit"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:id="@+id/createBookmarkTags"/>
+
+    <EditText
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.66"
+            app:layout_constraintHorizontal_bias="0.35"
+            android:text=""
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/white"
+            android:maxLength="35"
+            android:singleLine="true"
+            android:id="@+id/createBookmarkTagsInput"/>
+
+</android.support.constraint.ConstraintLayout>

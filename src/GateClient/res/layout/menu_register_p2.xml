@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".Menu_Register_Page2"
+        android:descendantFocusability="afterDescendants"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/register_background">
+
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.025"
+            app:layout_constraintHorizontal_bias="0.065"
+            app:srcCompat="@drawable/all_back"
+            android:onClick="registerP2OnClick"
+            android:id="@+id/registerP2Back"/>
+
+
+    <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.025"
+            app:layout_constraintHorizontal_bias="0.935"
+            app:srcCompat="@drawable/all_cancel"
+            android:onClick="registerP2OnClick"
+            android:id="@+id/registerP2Cancel"/>
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.10"
+            android:text="@string/registerResearchInterText"
+            android:textSize="35sp"
+            android:textAlignment="center"
+            android:id="@+id/registerReshInterText"/>
+
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="295dp"
+            android:layout_height="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.25"
+            android:id="@+id/registerReshSearch"
+            android:theme="@style/TextLabel">
+
+        <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/registerResearchSearch"
+                android:drawableStart="@drawable/register_search"
+                android:singleLine="true"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:maxLength="15"
+                android:textSize="20sp"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_height="375dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.725"
+            android:id="@+id/registerRecyclerView"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.95"
+            app:layout_constraintHorizontal_bias="0.90"
+            android:text="@string/registerNextPage"
+            android:textSize="30sp"
+            android:onClick="registerP2OnClick"
+            android:id="@+id/registerNextPage2"/>
+
+
+</android.support.constraint.ConstraintLayout>
