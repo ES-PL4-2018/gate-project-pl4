@@ -13,6 +13,7 @@
 | Rev # | Autor    | Descrição         | Data       |
 | ----- | -------- | ----------------- | ---------- |
 | 0.1   | Pedro Sá | Realização da ata | 22/10/2018 |
+| 0.2  | Jessica Cunha | Revisão | 22/10/2018 |
 
 #### ORDEM DE TRABALHOS
 
