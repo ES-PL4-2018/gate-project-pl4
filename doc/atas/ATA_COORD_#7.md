@@ -26,6 +26,7 @@
 Rev # | Author | Description | Date
 --- | --- | --- | ---
 0.1 | Pedro Silva | Redação da ata  | 19/10/2018
+1.0 | Vítor Ribeiro | Revista e Aprovada | 22/10/2018
 
 <br/>
 
