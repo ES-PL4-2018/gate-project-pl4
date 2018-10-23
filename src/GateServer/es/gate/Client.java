@@ -77,7 +77,7 @@ public class Client implements Runnable {
                         boolean idFound = false;
 
                         for (Account acc : accounts) {
-                            if (acc.checkDuplicateEmail(id)) {
+                            if (acc.checkDuplicateID(id)) {
                                 idFound = true;
                                 break;
                             }
