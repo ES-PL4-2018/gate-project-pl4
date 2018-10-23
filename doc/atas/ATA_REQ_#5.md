@@ -5,19 +5,12 @@
 | ------ | ------ | 
 | **Estado:** Completo |  **Coordenador:** Victor Carvalho |
 
-#### **Responsáveis pela tarefa e respetiva função**
-  * Catarina Pires  - Discussão da ordem de trabalhos
-  * Victor Carvalho - Responsável pela ata e discussão da ordem de trabalhos
-
 
 ### TABELA DE VERSÕES
 |**Versão**|**Autor**|**Data**|**Notas**|
 |---|---|---|---|
 |0.1 | Tiago Brito | 11/10 | Versão inicial|
 |0.2 | Catarina Pires | 11/10 | Versão final|
-
-
-## ATA da Reunião com o Cliente 
 
 ### Data & Hora: 
 10 Outubro 2018
