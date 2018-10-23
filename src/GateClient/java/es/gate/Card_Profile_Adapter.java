@@ -92,16 +92,20 @@ public class Card_Profile_Adapter extends RecyclerView.Adapter<Card_Profile_Adap
 
     public void setButtonsVisible(){
 
-        for(Button b : buttons){
-            if(interests.get(buttons.indexOf(b)).isSelected()){
-                b.setBackgroundResource(R.drawable.button_white_center);
-                b.setTextColor(view.getResources().getColor(R.color.black, null));
-            }else{
-                b.setBackgroundResource(R.drawable.button_white_outline);
-                b.setTextColor(view.getResources().getColor(R.color.white, null));
+        try {
+            for (Button b : buttons) {
+                if (interests.get(buttons.indexOf(b)).isSelected()) {
+                    b.setBackgroundResource(R.drawable.button_white_center);
+                    b.setTextColor(view.getResources().getColor(R.color.black, null));
+                } else {
+                    b.setBackgroundResource(R.drawable.button_white_outline);
+                    b.setTextColor(view.getResources().getColor(R.color.white, null));
+                }
+                b.setClickable(true);
+                b.setFocusableInTouchMode(true);
             }
-            b.setClickable(true);
-            b.setFocusableInTouchMode(true);
+        }catch (IndexOutOfBoundsException e){
+            //rip
         }
     }
 
