@@ -74,7 +74,6 @@ public class Menu_Login extends AppCompatActivity {
             }
             case R.id.loginRegisterButton: {
                 Log.i(TAG, "Register request");
-                finish();
                 startActivity(openRegister);
                 break;
             }
@@ -103,6 +102,7 @@ public class Menu_Login extends AppCompatActivity {
 
                 inter.setAccount((User_Account)communication.get("accountInfo"));
 
+                finish();
                 startActivity(openMain);
             }else{
                 Message msg = handler.obtainMessage();

@@ -161,21 +161,6 @@ public class Fragment_Profile extends Fragment {
         userInterests.clear();
 
         userInterests.addAll(userAcc.getThemesInterest());
-
-        /*
-
-        ArrayList<String> selected = userAcc.getThemesInterest();
-        for(Card_Interests i : allInterest){
-            System.out.println(i.getInterest());
-            if(selected.contains(i.getInterest())){
-                userInterests.add(i);
-                i.setSelected(true);
-            }else{
-                i.setSelected(false);
-            }
-        }
-        */
-
         cardAdapter.notifyDataSetChanged();
         cardAdapter.setButtonsInvisible();
 

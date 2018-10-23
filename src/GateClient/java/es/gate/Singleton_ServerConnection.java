@@ -13,6 +13,7 @@ public class Singleton_ServerConnection {
     private static final String serverAddress = "192.168.137.1";
     private static final String debuggingAddress = "10.0.2.2";
     private static final String deiAddress = "10.16.1.212";
+    private static final String testAddress = "192.84.13.177";
     private static final int serverPort = 42069;
     private ObjectOutputStream writeServer;
     private ObjectInputStream readServer;
@@ -41,7 +42,7 @@ public class Singleton_ServerConnection {
 
     public HashMap sendMessage(HashMap message){
 
-        if(cltSocket.isClosed()){
+        if(cltSocket == null || cltSocket.isClosed()){
             openConnection();
         }
 
