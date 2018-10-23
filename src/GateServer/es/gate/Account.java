@@ -9,8 +9,8 @@ public class Account {
         account = acc;
     }
 
-    public int checkDuplicateName(String name){
-        return this.account.getUserID().equals(name) ? 1 : 0;
+    public boolean checkDuplicateID(String name){
+        return this.account.getUserID().equals(name);
     }
 
     public boolean checkDuplicateEmail(String email){
