@@ -9,9 +9,9 @@
 
 | VERSÃO | DATA       | AUTORES         | DESCRIÇÃO           |
 | ------ | ---------- | --------------- | ------------------- |
-| ?      | ?          | ?               | ?                   |
-| 0.3    | 24/09/2018 | ?               | Criação do processo |
-| 0.4    | 04/10/2018 | Maria Pereira   | Alterações          |
+| 0.1      | 23/09/2018          | Catarina Mestre            | Criação do processo  |
+| 0.2    | 24/09/2018 | Jessica Cunha               | Alterações |
+| 0.3    | 04/10/2018 | Maria Pereira   | Alterações          |
 | 1.0    | 20/10/2018 | Catarina Mestre | Alterações          |
 
 ------
