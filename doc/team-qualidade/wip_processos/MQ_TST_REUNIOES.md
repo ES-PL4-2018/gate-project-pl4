@@ -67,3 +67,6 @@ A reunião está terminada, todas as tarefas foram feitas, os documentos foram a
 - Qualidade das decisões tomadas
 - Qualidade das atas elaboradas
 - Assiduidade dos membros da equipa
+
+### APROVAÇÃO E VALIDAÇÃO
+Os documentos produzidos são validados pela equipa de qualidade.
