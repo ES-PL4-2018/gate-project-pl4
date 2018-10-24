@@ -145,10 +145,13 @@ public class Fragment_Feed extends Fragment implements Runnable, SwipeRefreshLay
                 result = twitter.search(query);
             } catch (TwitterException e) {
                 e.printStackTrace();
-            }
-            for (Status status : result.getTweets()) {
-                tweets.add(new Card_Feed(status.getText(), status.getUser(), status.getId(), status.getRetweetCount(), status.getFavoriteCount(), status.getCreatedAt()));
-                System.out.println("@" + status.getUser().getScreenName() + ":" + status.getText());
+            }try {
+                for (Status status : result.getTweets()) {
+                    tweets.add(new Card_Feed(status.getText(), status.getUser(), status.getId(), status.getRetweetCount(), status.getFavoriteCount(), status.getCreatedAt()));
+                    System.out.println("@" + status.getUser().getScreenName() + ":" + status.getText());
+                }
+            }catch(NullPointerException e){
+                //TODO
             }
         }
 

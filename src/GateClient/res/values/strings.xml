@@ -47,5 +47,10 @@
     <string name="profileResearchInterests">Research Interests</string>
 
 
+    <!--            Bookmarks               -->
+    <string name="bookmarkName">Name</string>
+    <string name="bookmarkURL">URL</string>
+    <string name="bookmarkTags">Tags</string>
+
     <string name="allPlaceholderText">[PH]toChange</string>
 </resources>

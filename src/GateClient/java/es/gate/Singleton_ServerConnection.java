@@ -53,6 +53,7 @@ public class Singleton_ServerConnection {
                 System.out.println(message = (HashMap)readServer.readObject());
             }catch(ClassNotFoundException e){ }
             Log.d(TAG, "Message received");
+            cltSocket.close();
             return message;
         }catch(IOException e){
             Log.d("IOException", e.toString());
