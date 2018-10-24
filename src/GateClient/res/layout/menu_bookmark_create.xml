@@ -41,7 +41,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.35"
             app:layout_constraintHorizontal_bias="0.14"
-            android:text="@string/profileName"
+            android:text="@string/bookmarkName"
             android:textSize="25sp"
             android:textColor="@color/black"
             android:id="@+id/createBookmarkName"/>
@@ -72,8 +72,8 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.475"
-            app:layout_constraintHorizontal_bias="0.16"
-            android:text="@string/profileInstitution"
+            app:layout_constraintHorizontal_bias="0.13"
+            android:text="@string/bookmarkURL"
             android:textSize="25sp"
             android:textColor="@color/black"
             android:id="@+id/createBookmarkLink"/>
@@ -93,7 +93,7 @@
             android:backgroundTint="@color/white"
             android:maxLength="35"
             android:singleLine="true"
-            android:id="@+id/createBookmarkLinkInput"/>
+            android:id="@+id/createBookmarkLinkInput" android:inputType="textUri"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -103,8 +103,8 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.60"
-            app:layout_constraintHorizontal_bias="0.187"
-            android:text="@string/profileResearchUnit"
+            app:layout_constraintHorizontal_bias="0.135"
+            android:text="@string/bookmarkTags"
             android:textSize="25sp"
             android:textColor="@color/black"
             android:id="@+id/createBookmarkTags"/>

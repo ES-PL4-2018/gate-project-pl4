@@ -90,6 +90,7 @@
                 android:layout_height="match_parent"
                 android:hint="@string/registerPassHint"
                 android:singleLine="true"
+                android:inputType="textPassword"
                 android:drawableStart="@drawable/login_pass"
                 android:textSize="20sp"/>
     </android.support.design.widget.TextInputLayout>
@@ -110,6 +111,7 @@
                 android:layout_height="match_parent"
                 android:hint="@string/registerConfirmPassHint"
                 android:singleLine="true"
+                android:inputType="textPassword"
                 android:drawableStart="@drawable/login_pass"
                 android:textSize="20sp"/>
     </android.support.design.widget.TextInputLayout>
