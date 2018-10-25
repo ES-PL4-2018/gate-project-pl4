@@ -12,6 +12,7 @@
 | 0.1    | 20/10/2018 | Jessica Cunha | Rascunho do processo |
 | 0.2    | 20/10/2018 | Jessica Cunha | Alterações           |
 | 0.3    | 20/10/2018 | Pedro Sa      | Alterações           |
+| 0.4    | 25/10/2018 | Pedro Sa      | Alterações           |
 
 ------
 
