@@ -24,7 +24,8 @@ Alexandre Marques, Cláudio Gomes, João Mendes, Madalena Santos, Pedro Moraes
 
 Rev # | Autor|  Descrição | Data
 --- | --- | --- | ---
-1|Madalena|Redação da ata|22/10
+0.1|Madalena|Redação da ata|22/10
+1.0|João Soares|Aprovação|25/10
 
 <br/>
 
