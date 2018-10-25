@@ -3,6 +3,13 @@ sudo: required
 jdk: 
  - oraclejdk8
 
+
+before_install:
+ - wget --no-check-certificate https://www.apache.org/dist/ant/binaries/apache-ant-1.10.1-bin.tar.gz
+ - tar -xzvf apache-ant-1.10.1-bin.tar.gz
+ - export PATH=`pwd`/apache-ant-1.10.1/bin:$PATH
+ - echo $(ant -version)
+    
 env:
  global:
  - ANDROID_API=24
@@ -10,7 +17,6 @@ env:
  - ANDROID_BUILD_TOOLS=24.0.2
  - ADB_INSTALL_TIMEOUT=5 # minutes
  
-
 android:
  components:
  - tools
