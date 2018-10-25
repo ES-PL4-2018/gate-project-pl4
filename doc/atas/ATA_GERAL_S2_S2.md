@@ -21,7 +21,7 @@
 | 0.1 | Victor Carvalho | Versão inicial | 18/10/2018 |
 | 0.2 | Sergii Mykolyshyn | Edição | 18/10/2018 |
 | 0.3 | Pedro Fernandes | Edição e redação final | 18/10/2018 |
-
+| 1.0 | João Soares | Aprovação | 25/10/2018 |
 
 ##### Ordem de trabalhos
 
