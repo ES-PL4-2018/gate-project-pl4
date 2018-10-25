@@ -6,6 +6,7 @@
 |--------|------|---------|-----------|
 | 0.1 | 4/10/2018 | João Soares | Criação do processo |
 | 1.0 | 23/10/2018 | João Gonçalves | Revisão |
+| 1.1 | 25/10/2018 | Alexandre Brito | Revisão |
 
 
 ### Descrição:
@@ -28,19 +29,21 @@ Este processo descreve o desenvolvimento de código fonte. Serve como guia para 
 
 ### **Critério de Entrada/Ativação:**
 * Alterações no manual de requisitos;
-* Problemas detetados pela equipa de testes.
 
 
 ### **Tarefas:**
-Desenvolvimento de código para realizar as funcionalidades pedidas pelos critérios de entrada. As tarefas são distribuidas pelo líder da unidade entre os membros.
+Avaliação inicial do manual de qualidade e planeamento das tarefas a realizar.
+Desenvolvimento de código para realizar as funcionalidades pedidas pelos critérios de entrada. As tarefas podem ser distribuidas pelo líder da unidade entre os membros ou escolhidas por qualquer membro entre as restantes após completar a anterior.
 
 
 ### **Ciclo de vida dos artefactos:**
-Os artefactos de entrada são válidos enquanto as tarefas não estiverem todas implementadas e aprovadas   
+1.Implementação da tarefa pedida
+2.Revisão e aprovação do código pelo coordenador após testes internos
+3.Merge da nova feature com nightly e passagem para a equipa de testes 
 
 
 ### **Validação:**
-A validação é feita pelo coordenador da unidade e pelas equipas de teste e qualidade.
+A validação é feita pelo coordenador da unidade.
 
 
 ### **Outputs:**
@@ -53,6 +56,6 @@ Upload de ficheiros de código no git e validação pelos responsáveis
 
 ### **Métricas:**
 * Número de tarefas executadas;
-* Número de *commits*;
-* Qualidade das tarefas concluídas.
+* Número de *commits* por sprint;
+* Qualidade das tarefas concluídas tendo em conta taxa de aceitação pela equipa de testes.
 
