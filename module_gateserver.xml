@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_gateserver" default="compile.module.gateserver">
+  <dirname property="module.gateserver.basedir" file="${ant.file.module_gateserver}"/>
+  
+  <property name="module.jdk.home.gateserver" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.gateserver" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.gateserver" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.gateserver" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="gateserver.output.dir" value="${module.gateserver.basedir}/out/production/GateServer"/>
+  <property name="gateserver.testoutput.dir" value="${module.gateserver.basedir}/out/test/GateServer"/>
+  
+  <path id="gateserver.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="gateserver.module.production.classpath">
+    <path refid="${module.jdk.classpath.gateserver}"/>
+  </path>
+  
+  <path id="gateserver.runtime.production.module.classpath">
+    <pathelement location="${gateserver.output.dir}"/>
+  </path>
+  
+  <path id="gateserver.module.classpath">
+    <path refid="${module.jdk.classpath.gateserver}"/>
+    <pathelement location="${gateserver.output.dir}"/>
+  </path>
+  
+  <path id="gateserver.runtime.module.classpath">
+    <pathelement location="${gateserver.testoutput.dir}"/>
+    <pathelement location="${gateserver.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.gateserver">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.gateserver">
+    <patternset refid="excluded.from.module.gateserver"/>
+  </patternset>
+  
+  <path id="gateserver.module.sourcepath">
+    <dirset dir="${module.gateserver.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.gateserver" depends="compile.module.gateserver.production,compile.module.gateserver.tests" description="Compile module GateServer"/>
+  
+  <target name="compile.module.gateserver.production" depends="register.custom.compilers" description="Compile module GateServer; production classes">
+    <mkdir dir="${gateserver.output.dir}"/>
+    <javac2 destdir="${gateserver.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.gateserver}/javac">
+      <compilerarg line="${compiler.args.gateserver}"/>
+      <bootclasspath refid="gateserver.module.bootclasspath"/>
+      <classpath refid="gateserver.module.production.classpath"/>
+      <src refid="gateserver.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.gateserver"/>
+    </javac2>
+    
+    <copy todir="${gateserver.output.dir}">
+      <fileset dir="${module.gateserver.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.gateserver.tests" depends="register.custom.compilers,compile.module.gateserver.production" description="compile module GateServer; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.gateserver" description="cleanup module">
+    <delete dir="${gateserver.output.dir}"/>
+    <delete dir="${gateserver.testoutput.dir}"/>
+  </target>
+</project>
