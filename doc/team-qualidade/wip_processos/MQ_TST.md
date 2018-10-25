@@ -1,8 +1,18 @@
 ### Unidade de Testing (TST)
 
-| Disciplina: TST        | Data: 24/09/2018 | Coordenador: Jessica Cunha |
-| ---------------------- | ---------------- | -------------------------- |
-| **Estado:** Incompleto | **Versão:** v0.5 |                            |
+A equipa de Testes é responsável por testar e validar o produto, de acordo com os requisitos, durante o seu desenvolvimento.
+Cabe à unidade interagir com a Implementação de forma a garantir que este processo seja o mais otimizado possível, enumerar e distribuir os mesmos por cada elemento da equipa, sendo cada um encarregue de realizar estes atendendo as requisitos delineados pela equipa de requisitos (RQ).
+O objetivo final desta unidade é a certificação do seu cumprimento dos requisitos sendo tambem responsavél pelo deployment do mesmo.
+
+
+|Unit | Date | Lead | Co-Lead |
+| --- | --- | --- | --- |
+| TST | 24/09/2018 | Jessica | -TBD- |
+
+|Status | Version |
+| Incomplete | 0.5 |
+
+
 
 #### Lista de membros:
 
@@ -15,15 +25,18 @@
 | Pedro Sá        | LEI   | sa@student.dei.uc.pt         |
 | Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt    |
 
+
 #### Objetivos da unidade de TST:
-- Fazer testes ao código, sendo que cada um tem de ser testado por pelo menos 2 pessoas.
+- Enumeração e distribuição dos testes a realizar.
+- Realizar testes ao código, sendo que cada um tem de ser testado por pelo menos 2 pessoas. (check)
 - Detetar erros existentes na aplicação, fornecendo essa informação a equipa de implementação.
 - Determinar se a aplicação está pronta para ser entregue ao cliente, de acordo com os requisitos impostos pelo mesmo.
 
 #### Processos utilizados por esta unidade:
-
-1. Processo de Reuniões 	                                                                   MQ_TST_REUNIOES
-2. Processo de Testes/Revisão de Código				          	MQ_TST_TESTES_CODIGO
-3. Processo de revisão de documentos                                                 MQ_TST_REVISAO
-4. Processo de criação do documento de revisão de código       MQ_TST_DOC_TESTES
-5. Processo de criação do documento de testes a realizar        MQ_TST_TASKS
+| Descrição | Nome |
+| ---- | ---- |
+| Processo de Reuniões | MQ_TST_REUNIOES |
+| Processo de Testes/Revisão de Código | MQ_TST_TESTES_CODIGO |
+| Processo de revisão de documentos | MQ_TST_REVISAO |
+| Processo de criação do documento de revisão de código | MQ_TST_DOC_TESTES |
+| Processo de criação do documento de testes a realizar | MQ_TST_TASKS |
