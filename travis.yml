@@ -1,0 +1,10 @@
+language: java
+jdk: 
+ - oraclejdk8
+
+deploy:
+  provider: heroku
+  on: master
+  # Change this in the future
+  api_key:
+    secure: nKaBKucKgzG7KKlku0O3Ker7Hr6r/eI+FxAYVUJi9IgVIzykdfYSjs1H1bP4XPUcvyckx14m9RnnXJoOxgXSEc9tx+XP3VAq+96a0uWNsfmtXmD+DVon7fszlg9GskbP+QngVY84Ug1vNzKiPtgZMDu7D7wWT0nh0td6OUUt2yJxkTtd66MU0+7T93q5Nyx3ode2EUnUVt4bWrdvSvlikKsjFFFq/2Zg6BtJo78VOYo7YIUMEDsEOW/XdefGj2CzjuC2WLqZGEB4LyEJGLSKVrXPuA973Rns4klCihI7cBqykgTlQL+42YmeA6WIuYxpueGm9jb2Q+AOzmdwfkbdZOkBP3n9oxiplCCu6EgRVegBqeEGH6ivOsGBv8a5VS6bym2exPA65AcaeS3Gq/SVe/HS7GP6m0J1Qt8UgQC4vVDLO4YFrRjfyGx44FDY2oDfV6r6X6zP4u6TK/bZ/fmLMWWCiOPnKX3xBqrzRbiaMci3pfJkEazsvjr8gJJqnuEJDHidx1BDPRsqp42PUXaGJEfyHtdJc4uoiFnY2miN1QR6j/z6Ano1H25b5Uw0Yw+b6HRbz7woX4OGm7XS/JbVAdo0+5IIUjYD0s5TZrynnetdEaZ0+okdkhcNUsd888M+/vW2+j0SYca43rbfLrv/54h7OsLF+k8J49Ed/FYLZlY=
