@@ -1,5 +1,6 @@
 language: android
-install: ant deps
+install: ant bootstrap
+script: ant clean test jar
 sudo: required
 jdk: 
  - oraclejdk8
