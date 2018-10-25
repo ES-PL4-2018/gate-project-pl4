@@ -8,19 +8,20 @@
 
 ### Edição
 
-| Rev # | Author | Description                   | Date  |
+| Rev # | Autor  | Descrição                     | Data  |
 | ----- | ------ | ----------------------------- | ----- |
 | 0.1   | JC     | Redação do rascunho           | 15/10 |
 | 0.2   | RP     | Edição do documento           | 16/10 |
 | 0.3   | JC     | Alterações de acordo com o MQ | 20/10 |
+| 0.4   | JS     | Alterações de acordo com o MQ | 25/10 |
 
 ### Revisão
 
-| Rev # | Author | Description                 | Date  |
-| ----- | ------ | --------------------------- | ----- |
-| 0.1   | PS     | Revisão de documento (v0.2) | 18/10 |
-| 0.2   | JC     | Revisão do documento (v0.2) | 18/10 |
-| 0.3   | JC     | Revisão do documento (v0.3) | 20/10 |
+| Rev # | Autor  | Descrição                    | Data  |
+| ----- | ------ | ---------------------------  | ----- |
+| 0.1   | PS     | Revisão de documento (v0.2)  | 18/10 |
+| 0.2   | JC     | Revisão do documento (v0.2)  | 18/10 |
+| 0.3   | JC     | Revisão do documento (v0.3)  | 20/10 |
 
 
 
