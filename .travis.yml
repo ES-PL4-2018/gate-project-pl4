@@ -1,4 +1,5 @@
 language: android
+script: ant build
 sudo: required
 jdk: 
  - oraclejdk8
