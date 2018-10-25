@@ -56,3 +56,6 @@ Após conclusão de todas as tarefas estipuladas na reunião e realização do r
 - Todos os elementos cumpriram os devidos testes de acordo com a distribuição destes pelos elementos
 - Testes realizados de acordo com os requisitos em causa
 - Descrição detalhada e extensiva dos testes realizados
+
+### APROVAÇÃO E VALIDAÇÃO
+- Validação do documento pela parte da unidade de qualidade.
