@@ -19,7 +19,8 @@ Pedro Marcelino, Victor Carvalho, Catarina Pires, Tiago Brito
 | Rev # | Author          | Description    | Date  |
 | ----- | --------------- | -------------- | ----- |
 | 0.1   | Pedro Marcelino | Redação da ata | 22/10 |
-
+|1.0    |  João Soares    | Aprovação      | 25/10 |
+ 
 
 
 #### Revisão e alteração do manual de qualidade.
