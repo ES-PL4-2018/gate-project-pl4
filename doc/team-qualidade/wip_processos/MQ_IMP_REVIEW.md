@@ -13,12 +13,10 @@
 | 0.1 | 25/10/2018 | Alexandre Brito | Criação do processo |
 
 #### DESCRIÇÃO DO PROCESSO
-
 Este processo descreve o funcionamento de revisão de código com problemas detetados pela equipa de teste
 
 #### RESPONSÁVEIS
-
-Qualquer membro de qualquer unidade.
+Qualquer membro da unidade.
 
 #### INPUTS
 *Erros detetados pela quipa de testes
@@ -27,18 +25,20 @@ Qualquer membro de qualquer unidade.
 *Tickets no trello feita pela equipa de teste de problemas detetados
 
 #### DESCRIÇÃO DAS TAREFAS
+*Atribuição da tarefa, tanto por iniciativa como pelo coordenador.
+*Análise do problema.
 *Deteção e correção dos erros detetados.
 
 #### CICLO DE VIDA DOS ARTEFACTOS
-1.Correção dos erros
-2.Aprovação do código pelo coordenador
-3.Devolução do novo código a testes para revisão
+ 1) Correção dos erros;
+ 2) Aprovação do código pelo coordenador;
+ 3) Devolução do novo código a testes para revisão;
 
 #### OUTPUTS
-*Código-fonte.
+*Correções no código-fonte.
 
 #### CRITÉRIO DE SAÍDA
-Upload de ficheiros de código no git e validação pelos responsáveis
+Upload de ficheiros de código.
 
 #### MÉTRICAS DE AVALIAÇÃO
 *Tempo de horas necessárias tendo em conta a possível complexidade do problema.
