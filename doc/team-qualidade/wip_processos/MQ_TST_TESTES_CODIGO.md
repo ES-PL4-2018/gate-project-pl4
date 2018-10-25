@@ -9,8 +9,7 @@
 ### TABELA DE VERSÕES
 | VERSÃO | DATA       | AUTORES       | DESCRIÇÃO                                              |
 | ------ | ---------- | ------------- | ------------------------------------------------------ |
-| ?      | ?          | ?             | ?                                                      |
-| 0.3    | 24/09/2018 | ?             | Criação do processo                                    |
+| 0.3    | 24/09/2018 | Jessica Cunha | Criação do processo                                    |
 | 0.4    | 04/10/2018 | Maria Pereira | Alterações                                             |
 | 1.0    | 17/10/2018 | Jessica Cunha | Alteração de acordo com o novo método de trabalho      |
 | 1.1    | 20/10/2018 | Ricardo Paiva | Add info sobre métricas e ciclo de vida dos artefactos |
@@ -22,7 +21,7 @@ Este processo descreve a verificação e validação do código através da desc
 
 Sempre que os testes forem terminados, o respetivo elemento, irá escrever na descrição da card quais os testes realizados, a sua duração, e se foi ou não aprovado. No caso de ser aprovado, essa tarefa passará para o "Done", e a implementação será avisada através do slack. No caso de ser reprovado, essa tarefa passará para o "Done", criando uma nova e colocando-a na board da implementação, com os erros encontrados na descrição.
 
-Durante a sprint, todos os elementos irão colocar num documento (TST_REVISAO_SPRINT#.md), os resultados obtidos, para que qualquer pessoa facilmene consiga ver o estado da aplicação/testes.
+Durante a sprint, um dos elementos irá colocar num documento (TST_REVISAO_SPRINT#.md), os resultados obtidos, para que qualquer pessoa facilmente consiga ver o estado da aplicação/testes. Esses resultados estão nas cards do trello referentes a cada requisito.
 
 ### RESPONSÁVEIS
 | Nome            | Curso | Contacto                     |
