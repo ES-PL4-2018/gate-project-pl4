@@ -24,8 +24,7 @@ Madalena Santos, Cláudio Gomes, João Mendes
 
 Rev # | Author | Description | Date
 --- | --- | --- | ---
-0.1 | João Mendes | Realização | 22/10/2018
-1.0 | Joao Soares | Aprovação | 25/10/2018
+1.0 | João Mendes | Realização | 22/10/2018
 
 <br/>
 
