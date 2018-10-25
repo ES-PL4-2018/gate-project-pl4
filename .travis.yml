@@ -1,10 +1,11 @@
 language: android
-install: ant bootstrap
-script: ant clean test jar
 sudo: required
 jdk: 
  - oraclejdk8
     
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install ant
 env:
  global:
  - ANDROID_API=24
