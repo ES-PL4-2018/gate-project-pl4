@@ -10,8 +10,8 @@
 ### TABELA DE VERSÕES
 | VERSÃO | DATA       | AUTORES       | DESCRIÇÃO           |
 | ------ | ---------- | ------------- | ------------------- |
-| ?      | ?          | ?             | ?                   |
-| 0.2    | 24/09/2018 | ?             | Criação do processo |
+| 0.1    | 23/09/2018 | João Oliveira | Criação do processo |
+| 0.2    | 24/09/2018 | João Oliveira | Melhoria do processo|
 | 0.4    | 04/10/2018 | Maria Pereira | Alterações          |
 | 0.5    | 20/10/2018 | João Oliveira | Alterações          |
 
