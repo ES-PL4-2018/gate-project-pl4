@@ -1,5 +1,6 @@
-## **MQ_IMP_CODIGO**
+# Processo de Desenvolvimento de Código
 
+## **MQ_IMP_CODIGO**
 
 ### TABELA DE VERSÕES
 | VERSÃO | DATA | AUTORES | DESCRIÇÃO |
@@ -9,53 +10,40 @@
 | 1.1 | 25/10/2018 | Alexandre Brito | Revisão |
 
 
-### Descrição:
+#### DESCRIÇÃO DO PROCESSO
 Este processo descreve o desenvolvimento de código fonte. Serve como guia para a equipa de implementação se organizar.
+#### RESPONSÁVEIS
+Todos os membros da unidade
 
-
-### **Responsáveis:**
-| Nome             | Curso | Contacto                     |
-| ---------------  | ----- | ---------------------------- |
-| Alexandre Brito  | LEI   | adbrito@student.dei.uc.pt    |
-| Flávio Fernandes | LEI   | ffernandes@student.dei.uc.pt |
-| João Montenegro  | LEI   | montenegro@student.dei.uc.pt |
-| João Gonçalves   | LEI   | jgoncalves@student.dei.uc.pt |
-| Guilherme Tavares| LEI   | guilherme@student.dei.uc.pt  |
-
-
-### **Inputs:**
+#### INPUTS
 * Manual de Requisitos.
 
-
-### **Critério de Entrada/Ativação:**
+#### CRITÉRIO DE ENTRADA/ATIVAÇÃO
 * Alterações no manual de requisitos;
 
-
-### **Tarefas:**
+#### DESCRIÇÃO DAS TAREFAS
 Avaliação inicial do manual de qualidade e planeamento das tarefas a realizar.
 Desenvolvimento de código para realizar as funcionalidades pedidas pelos critérios de entrada. As tarefas podem ser distribuidas pelo líder da unidade entre os membros ou escolhidas por qualquer membro entre as restantes após completar a anterior.
 
-
-### **Ciclo de vida dos artefactos:**
+#### CICLO DE VIDA DOS ARTEFACTOS
 1.Implementação da tarefa pedida
 2.Revisão e aprovação do código pelo coordenador após testes internos
 3.Merge da nova feature com nightly e passagem para a equipa de testes 
 
-
-### **Validação:**
-A validação é feita pelo coordenador da unidade.
-
-
-### **Outputs:**
+#### OUTPUTS
 * Código-fonte.
 
-
-## **Critérios de saída**:
+#### CRITÉRIO DE SAÍDA
 Upload de ficheiros de código no git e validação pelos responsáveis
 
+#### CRITÉRIO DE SAÍDA
+Upload de ficheiros de código no git e validação pelos responsáveis
 
-### **Métricas:**
+#### MÉTRICAS DE AVALIAÇÃO
 * Número de tarefas executadas;
 * Número de *commits* por sprint;
 * Qualidade das tarefas concluídas tendo em conta taxa de aceitação pela equipa de testes.
 
+#### APROVAÇÃO E VALIDAÇÃO
+Aprovação do código pelo coordenador.
+Validação feita pela equipa de testes.
