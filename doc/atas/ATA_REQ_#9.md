@@ -29,6 +29,7 @@
 Rev # | Autor|  Descrição | Data
 --- | --- | --- | ---
 v0.1 | Duarte Silva, Victor Carvalho | Redação da Ata da reunião com o cliente | 26/10/2018
+v1.0 | Pedro Fernandes | Revisão e aprovação da ata | 26/10/2018
 
 <br/>
 
