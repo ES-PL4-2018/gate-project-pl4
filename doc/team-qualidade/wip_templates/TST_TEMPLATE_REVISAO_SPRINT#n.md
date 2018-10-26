@@ -12,18 +12,11 @@
 | ----- | ------ | ----------------------------- | ----- |
 | 0.1   | JC     | Redação do rascunho           | 15/10 |
 | 0.2   | RP     | Edição do documento           | 16/10 |
+| 0.2   | PS     | Revisão do documento          | 18/10 |
+| 0.2   | JC     | Revisão do documento          | 28/10 |
 | 0.3   | JC     | Alterações de acordo com o MQ | 20/10 |
+| 0.3   | JC     | Revisão do documento          | 20/10 |
 | 0.4   | JS     | Alterações de acordo com o MQ | 25/10 |
-
-### Revisão
-
-| Rev # | Autor  | Descrição                    | Data  |
-| ----- | ------ | ---------------------------  | ----- |
-| 0.1   | PS     | Revisão de documento (v0.2)  | 18/10 |
-| 0.2   | JC     | Revisão do documento (v0.2)  | 18/10 |
-| 0.3   | JC     | Revisão do documento (v0.3)  | 20/10 |
-
-
 
 ### Descrição do Processo:
 Este documento é usado para anotar os testes realizados, e mostrar o progresso dos testes ao longo da sprint.
@@ -73,15 +66,14 @@ Tarefas a verificar se estão a funcionar na aplicação, cada elemento testa du
 |          |       |                                                     |       |
 
 
-
 ### Notas/Extras
 
 Tarefa #1: 
 
+
 ## Conclusão
 
 Conclusão sobre se a aplicação poderá ou não ser lançada na sprint.
-
 
 
 #### Requisitos não implementados
