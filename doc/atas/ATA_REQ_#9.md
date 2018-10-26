@@ -18,17 +18,17 @@
 #### ASSIDUIDADE
 
 - Mário Rela
-- Victor Carvalho(Coordenador de Requisitos)
+- Victor Carvalho (Coordenador de Requisitos)
 - Duarte Silva
-- Alexandre Brito(Coordenador de Implementação)
+- Alexandre Brito (Coordenador de Implementação)
 
 <People atending the meeting>
 
 #### TABELA DE REVISÕES
 
-Rev #|Author|  Descrição | Data
-v0.1| Duarte Silva, Victor Carvalho | Redação da Ata da reunião com o cliente | 26/10/2018
-rev| author | things donne on revision | when
+Rev # | Autor|  Descrição | Data
+--- | --- | --- | ---
+v0.1 | Duarte Silva, Victor Carvalho | Redação da Ata da reunião com o cliente | 26/10/2018
 
 <br/>
 
@@ -45,11 +45,9 @@ rev| author | things donne on revision | when
 
 #### Reformulacao do SRS para Manual do Utilizador
 ##### DISCUSSÃO
-A utiização do manual de utilizador como o documento de SRS para as próximas sprints. Foi enviado um artigo para o coordenador da equipa sobre o assunto.
+A utilização do manual de utilizador como o documento de SRS para as próximas sprints. Foi enviado um artigo para o coordenador da equipa sobre o assunto.
 
 ##### DECISÕES
-things decided about point 2
-
 - Leitura do artigo e discussão.
 
 <br/>
@@ -108,15 +106,21 @@ Chegou-se a conclusão que o ORCID é uma ferramenta útil para a simplificaçã
 <br/>
 
 #### MÉTRICAS PARA A REUNIÃO
-Assiduidade <br/>(4/4))<br/>
+Assiduidade (4/4)
+
 - Esperados: Victor Carvalho, Duarte Silva, Alexandre Brito, Mário Rela
 - Presentes: Victor Carvalho, Duarte Silva, Alexandre Brito, Mário Rela
-Duração <br/>-> expected vs real<br/>
+
+Duração
+
 - Esperada: 1h
 - Real: 1h03min
-Nº de tópicos discutidos dos previstos<br/>
+
+Nº de tópicos discutidos dos previstos
+
 - Previstos: 5
 - Discutidos: 5
 - Decisões: 3
-Avaliação global<br/>
+
+Avaliação global
 - A reunião foi positiva.
