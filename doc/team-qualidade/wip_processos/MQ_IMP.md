@@ -10,6 +10,7 @@
 |   0.1     |    23/09/2018  |    Alexandre Brito     |       Criação do processo    |
 |   0.2     |    04/10/2018  |    João Silva          |           Alterações         |
 |   0.3     |    25/10/2018  |    Alexandre Brito     |           Revisão            |
+|   1.0     |    26/10/2018  |    Vítor Ribeiro       |        Revisão e Aprovação   |
 <br>
 
 ## **Lista de membros:**
