@@ -1,20 +1,25 @@
-### Unidade de Testing (TST)
+## Unidade de Testing (TST)
 
 A equipa de Testes é responsável por testar e validar o produto, de acordo com os requisitos, durante o seu desenvolvimento.
 Cabe à unidade interagir com a Implementação de forma a garantir que este processo seja o mais otimizado possível, enumerar e distribuir os mesmos por cada elemento da equipa, sendo cada um encarregue de realizar estes atendendo as requisitos delineados pela equipa de requisitos (RQ).
 O objetivo final desta unidade é a certificação do seu cumprimento dos requisitos sendo tambem responsavél pelo deployment do mesmo.
 
 
-|Unit | Date | Lead | Co-Lead |
+|Unidade | Data | Lead | Co-Lead |
 | --- | --- | --- | --- |
 | TST | 24/09/2018 | Jessica | -TBD- |
 
-|Status | Version |
-| Incomplete | 0.5 |
+
+##### Tabela Revisões 
+
+|Versão|Autor|Desc|Data
+|---|---|---|---
+|0.1|Jessica|Elaboração inicil|25/10/2018
+|1.0|Joao Soares|Aprovado|25/10/2018
 
 
 
-#### Lista de membros:
+##### Lista de membros:
 
 | Nome            | Curso | Contacto                     |
 | --------------- | ----- | ---------------------------- |
