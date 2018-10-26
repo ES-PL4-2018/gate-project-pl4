@@ -1,7 +1,7 @@
 # COORDENAÇÃO
 ## ATA Reunião
 
-### Ref: ATA\_COORD\_\#5
+### Ref: ATA_COORD_#5
 
 ### Data & Hora: 12/10 @ 5:00 PM
 
@@ -28,6 +28,8 @@ Victor Carvalho
 Rev # | Author | Description | Date
 --- | --- | --- | ---
 0.1 |   Pedro   |   Redação da ata  | 12/10
+1.0 | Joao Soares | Revisao e Aprovação | 15/10
+
 
 <br/>
 
@@ -71,7 +73,6 @@ Rev # | Author | Description | Date
 *   Reunião marcada para dia 16/10 às 18h.
 
 <br/> 
-<br/>
 
 #### MÉTRICAS PARA A REUNIÃO
 Assiduidade -> 6/5 <br/>

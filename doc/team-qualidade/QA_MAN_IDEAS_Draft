@@ -1,0 +1,45 @@
+ideas for QA manual
+## TODO
+(ENV??)urgent-> git allow? or git ignore needed -> prevent all artifacts ! 
+
+Code desing guide lines (MUST!)
+
+chain to map process since start to finish
+1 req team feature described
+2 Code written - if possible to meet the required feature...
+3 check by lead dev? OK(goto .4) NOK(goto 2??)
+4 testing - passes all tests? OK(goto 5) NOK(goto 2??)
+5 check by lead test? OK(goto 6) NOK(goto 2??)
+6 quality approved? OK(goto 7) NOK(goto 2??)
+7 DEPLOY!!!
+
+continuous testing for continuous deployment -> moar performance !
+
+each role has to be described -> prevent overlapping 
+
+Cards to arrange workflow -> preventing backlog
+
+Performace evaluation markers
+
+team rules
+
+risk assessment? what risk? worth it?
+
+--------
+- todos os documentos em markdown
+- todas as tarefas: relatório + card no trello (checklists, descrição + esforço, responsáveis) + coordenador colocar tarefa na spreadsheet
+- nomenclatura dos docs no git
+	- sugestão: EQUIPA_ASSUNTO_EstadoDoDocumento, exemplo: QUA_MAN_IDEAS_final / QUA_MISSION_AND_VALUES_draft
+
+
+Funcionamento das reuniões
+
+- Todas as reuniões devem ser marcadas através da avaliação da disponibilidade dos convocados num _doodle_ no respetivo canal do Slack
+- Após ser escolhida a data e hora da reunião, esta deve ser devidamente anunciada no canal do Slack e marcada no calendário da equipa, juntamente com o local.
+- Deve ser elaborada uma ordem de trabalhos para a reunião, que será disponibilizada no repositório do GitHub e posteriormente partilhada no Slack. Juntamente, deve existir uma estimativa para o tempo de duração da reunião
+- Durante a reunião, deve ser elaborada uma ata segundo o template existente no repo do GitHub. Deve ser escolhido um secretário encarregue por esta tarefa antes do início da reunião
+- Todas as "maiores" decisões devem ser tomadas em reunião com a maioria dos membros da equipa presentes
+- As atas elaboradas devem ser partilhadas no GitHub (/doc/startup-atas) no espaço de até 24h depois da dita reunião, e tida como definitiva, caso não sejam apontados erros/falhas dentro de 48h. Este documento deve ser descrito por "Ata Reunião **equipa** - **data**"
+- Depois da reunião, as informações mais importantes devem ser partilhadas no respetivo canal do Slack para conhecimento geral daqueles que não puderam estar presentes e para aprovação por parte dos mesmos
+
+
