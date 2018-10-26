@@ -20,18 +20,6 @@ O SRS é o documento que engloba elementos essenciais do design do produto, nome
 
 Os Testes de Aceitação certificam que os requisitos estabelecidos no SRS cumprem com a expectativa do cliente.
 
-
-#### RESPONSÁVEIS
-
-| Nome            | Curso | Contacto                   |
-| --------------- | ----- | -------------------------- |
-| Victor Carvalho | LEI   | contato@victorcarvalho.pt  |
-| Catarina Pires  | LEI   | cjrpires@studen.dei.uc.pt  |
-| Pedro Marcelino | LEI   |   |
-| Duarte Silva    | LEI   | dpjusto@studen.dei.uc.pt   |
-| Tiago Brito     | LEI   | tiago.ob27@gmail.com       |
-| Gonçalo Correia | LDM   |                            |
-
 #### INPUTS
 
 * Última versão dos Outputs
