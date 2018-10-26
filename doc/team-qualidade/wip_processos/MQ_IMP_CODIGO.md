@@ -1,6 +1,10 @@
 # Processo de Desenvolvimento de Código
 
-## **MQ_IMP_CODIGO**
+| UNIDADE | COORDENADOR |
+|---------|-------------|
+|   IMP   | Alexandre Brito|
+
+**DOC ID:** MQ_IMP_CODIGO
 
 ### TABELA DE VERSÕES
 | VERSÃO | DATA | AUTORES | DESCRIÇÃO |
@@ -8,10 +12,11 @@
 | 0.1 | 4/10/2018 | João Soares | Criação do processo |
 | 1.0 | 23/10/2018 | João Gonçalves | Revisão |
 | 1.1 | 25/10/2018 | Alexandre Brito | Revisão |
-
+| 2.0 | 26/10/2018 | Maria Pereira | Validação |
 
 #### DESCRIÇÃO DO PROCESSO
 Este processo descreve o desenvolvimento de código fonte. Serve como guia para a equipa de implementação se organizar.
+
 #### RESPONSÁVEIS
 Todos os membros da unidade
 
