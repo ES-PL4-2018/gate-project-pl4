@@ -36,7 +36,7 @@ Durante a sprint, um dos elementos irá colocar num documento (TST_REVISAO_SPRIN
 ### INPUTS
 - Código fornecido pela equipa de Implementação sujeito a teste
 
-### CRITÉRIO DE ATIVAÇÃO/TRIGGER
+### CRITÉRIO DE ENTRADA/ATIVAÇÃO
 - Implementação libertar uma card
 
 ### DESCRIÇÃO DAS TAREFAS
