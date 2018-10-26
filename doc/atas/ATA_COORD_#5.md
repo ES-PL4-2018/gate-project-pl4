@@ -30,6 +30,7 @@ Rev # | Author | Description | Date
 0.1 |   Pedro   |   Redação da ata  | 12/10
 1.0 | Joao Soares | Revisao e Aprovação | 15/10
 
+
 <br/>
 
 #### ORDEM DE TRABALHOS
