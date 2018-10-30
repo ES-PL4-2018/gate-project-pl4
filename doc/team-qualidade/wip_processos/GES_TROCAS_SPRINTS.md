@@ -1,16 +1,19 @@
 # TROCA DE ELEMENTOS NAS UNIDADES ENTRE SPRINTS
 
-**DOC ID:** GES_TROCAS_SPRINTS
+**DOC ID:** GES\_TROCAS\_SPRINTS
 
-| UNIDADE | COORDENADOR |
-|---------|-------------|
+
+|UNIDADE|COORDENADOR|
+|---|---|
 |GES|Madalena Santos|
+
 
 #### TABELA DE VERSÕES
 
 | Versão | Data | Autor(es) | Descrição
-|---|---|---|---
+|---|---|---|---|
 |0.1|26/10|Madalena Santos|Redação inicial do processo|
+
 
 #### DESCRIÇÃO DO PROCESSO
 

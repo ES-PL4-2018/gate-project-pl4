@@ -1,6 +1,6 @@
 # Acompanhamento da equipa
 
-**DOC ID:** MQ_GES_RH_ACOMPANHAMENTO
+**DOC ID:** GES\_RH\_ACOMPANHAMENTO
 
 | UNIDADE | COORDENADOR |
 |---------|-------------|
