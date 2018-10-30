@@ -1,9 +1,0 @@
-Apagar processos inúteis da secção de GES
-
-Devem ficar apenas os seguintes processos (para além da descrição da unidade)
-GES_RH_AVAL_APR_SEMANAL
-GES_RH_ACOMPANHAMENTO
-GES_GESTAO_RISCOS
-GES_PROTOCOLO_DELEGACAO_TAREFAS
-GES_FUNCIONAMENTO_TRELLO
-GES_TROCAS_SPRINTS
