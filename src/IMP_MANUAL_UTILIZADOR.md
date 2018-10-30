@@ -13,7 +13,7 @@ Rev # | Autor|  Descrição | Data
 
 
 #### Componentes necessários
-1) GATE apk para android vesão 0.2.1
+1) GATE apk para android versão 0.2.1
 2) Ficheiro .jar GATEServer
 3) É também recomendado o uso de um IDE
 
@@ -26,11 +26,12 @@ Nesta explicação vai ser utilizado o IDE IntelliJ
 3) Clicar com o botão direito do rato em GATEServer.jar e premir Run
 4) Alternativamente, pode selecionar GATEServer.jar e premir Ctrl+Alt+F10
 5) Ao obter a mensagem "Server running" está pronto para utilizar a app
-
+6) Criar um hospot apartir do computador 
 
 #### Como utilizar a aplicação android
 
 1) Garantir que permite instalação de aplicações 'desconhecidas', esta opção está, geralmente, dentro do menu segurança das definições
 2) Instalar a aplicação GATE apartir de GATE.apk
-3) Se tudo correr bem está pronto para utilizar a aplicação em conjunto com o servidor
+3) Conectar ao hospot criado no computador
+4) Se tudo correr bem está pronto para utilizar a aplicação em conjunto com o servidor
 
