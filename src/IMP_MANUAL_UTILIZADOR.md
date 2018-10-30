@@ -7,13 +7,13 @@ Rev # | Autor|  Descrição | Data
 0.1 | Alexandre Brito | Criação inicial | 30/10/2018
 
 
-#### Requesitos mínimos
+#### Requisitos mínimos
 1) Computador com Windows 10
 2) Smartphone com versão Android 6.0 ou mais
 
 
 #### Componentes necessários
-1) GATE apk para android
+1) GATE apk para android vesão 0.2.1
 2) Ficheiro .jar GATEServer
 3) É também recomendado o uso de um IDE
 
