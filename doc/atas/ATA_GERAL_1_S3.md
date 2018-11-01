@@ -2,7 +2,7 @@
 
 ## Ata Reunião
 
-### Ref: ATA_GERA_1_S3
+### Ref: ATA_GERAL_1_S3
 
 ### Data & Hora: 25 Outubro 2018 @ 14:25
 
