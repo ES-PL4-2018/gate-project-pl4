@@ -1,5 +1,8 @@
 package es.gate;
 
+import es.gate.Cards.Bookmark;
+import es.gate.Cards.Interests;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 
@@ -14,8 +17,8 @@ public class User_Account implements Serializable {
     private String institution;
     private String investigation;
     private String researchUnits;
-    private ArrayList<Card_Interests> themesInterest;
-    private ArrayList<Card_Bookmark> userBookmark = new ArrayList<>();
+    private ArrayList<Interests> themesInterest;
+    private ArrayList<Bookmark> userBookmark = new ArrayList<>();
 
     public String getUserID() {
         return userID;
@@ -53,11 +56,11 @@ public class User_Account implements Serializable {
         return researchUnits;
     }
 
-    public ArrayList<Card_Interests> getThemesInterest() {
+    public ArrayList<Interests> getThemesInterest() {
         return themesInterest;
     }
 
-    public ArrayList<Card_Bookmark> getUserBookmark() {
+    public ArrayList<Bookmark> getUserBookmark() {
         return userBookmark;
     }
 
@@ -97,15 +100,15 @@ public class User_Account implements Serializable {
         this.researchUnits = researchUnits;
     }
 
-    public void setThemesInterest(ArrayList<Card_Interests> themesInterest) {
+    public void setThemesInterest(ArrayList<Interests> themesInterest) {
         this.themesInterest = themesInterest;
     }
 
-    public void setUserBookmarks(ArrayList<Card_Bookmark> userBookmark) {
+    public void setUserBookmarks(ArrayList<Bookmark> userBookmark) {
         this.userBookmark = userBookmark;
     }
 
-    public void addUserBookmarks(Card_Bookmark userBookmark){
+    public void addUserBookmarks(Bookmark userBookmark){
         this.userBookmark.add(userBookmark);
     }
 }
