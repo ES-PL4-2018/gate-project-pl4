@@ -7,7 +7,7 @@
 
 </br>
 
-#### Table registo defeitos
+#### Tabela para registo de defeitos
 |Pag|Linha|Tipo|Obervação
 |:---:|:---:|:---:|---
 |2|2|Grave|TEsteObs
