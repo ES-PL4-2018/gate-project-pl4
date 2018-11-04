@@ -2,8 +2,8 @@
 ## Relatório inspeção artefacto
 ### Codificação do artefacto: <codificacao do artefacto inspecionado>
 ### Versão do artefacto: <versao do artefacto>
-#### Nome <Nome de quem inspeciona>
-#### Data <data inspecao>
+#### Nome: <Nome de quem inspeciona>
+#### Data: <data inspecao>
 
 </br>
 
