@@ -11,6 +11,7 @@
 |Pag|Linha|Tipo|Obervação
 |:---:|:---:|:---:|---
 |1|61|Moderado|Alterar CICLO DE VIDA DOS ARTEFACTOS para CICLO DE VIDA DOS DOCUMENTOS.
+|1|67|Grave|Acrescentar esquema visual do ciclo de vida dos documentos.
 
 
 
