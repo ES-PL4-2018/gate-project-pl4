@@ -3,7 +3,14 @@
 ### Codificação do artefacto: QUA
 ### Versão do artefacto: 1.0
 #### Data: 05 Novembro 2018
-#### Presentes: nomes, nomes....
+#### Presentes:
+|Posição|Nome
+|:---:|---
+|Inspetor|Sergii Mykolushyn
+|Moderador|Maria Pereira
+|Autor|João Soares
+|Leitor|Pedro Fernandes
+|Leitor|Vitor Ribeiro
 
 </br>
 

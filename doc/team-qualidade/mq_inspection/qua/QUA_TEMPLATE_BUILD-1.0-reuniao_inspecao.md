@@ -3,7 +3,14 @@
 ### Codificação do artefacto: QUA_TEMPLATE_BUILD
 ### Versão do artefacto: 1.0
 #### Data: 05 Novembro 2018
-#### Presentes: nomes, nomes....
+#### Presentes:
+|Posição|Nome
+|:---:|---
+|Inspetor|Maria Pereira
+|Moderador|Vitor Ribeiro
+|Autor|João Soares
+|Leitor|Sergii Mykolushyn
+|Leitor|Pedro Fernandes
 
 </br>
 

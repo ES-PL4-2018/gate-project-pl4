@@ -3,7 +3,14 @@
 ### Codificação do artefacto: QUA_VALIDACAO_DOCS
 ### Versão do artefacto: 2.0
 #### Data: 05 Novembro 2018
-#### Presentes: nomes, nomes....
+#### Presentes:
+|Posição|Nome
+|:---:|---
+|Inspetor|João Soares
+|Moderador|Pedro Fernandes
+|Autor|Sergii Mykolushyn
+|Leitor|Maria Pereira
+|Leitor|Vitor Ribeiro
 
 </br>
 

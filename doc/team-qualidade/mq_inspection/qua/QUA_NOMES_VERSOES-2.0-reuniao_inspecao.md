@@ -3,7 +3,15 @@
 ### Codificação do artefacto: QUA_NOMES_VERSOES
 ### Versão do artefacto: 2.0
 #### Data: 05 Novembro 2018
-#### Presentes: nomes, nomes....
+#### Presentes:
+|Posição|Nome
+|:---:|---
+|Inspetor|João Soares
+|Moderador|Maria Pereira
+|Autor|Sergii Mykolushyn
+|Leitor|Pedro Fernandes
+|Leitor|Vitor Ribeiro
+
 
 </br>
 

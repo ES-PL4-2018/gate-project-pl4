@@ -2,8 +2,15 @@
 ## Relatório reunião inspeção artefacto
 ### Codificação do artefacto: QUA_CRIACAO_PROCESSO
 ### Versão do artefacto: 2.0
-#### Nome: João Soares
-#### Presentes: nomes, nomes....
+#### Data: 05 Novembro 2018
+#### Presentes:
+|Posição|Nome
+|:---:|---
+|Inspetor|João Soares
+|Moderador|Maria Pereira
+|Autor|Pedro Fernandes
+|Leitor|Sergii Mykolushyn
+|Leitor|Vitor Ribeiro
 
 </br>
 
