@@ -3,7 +3,14 @@
 ### Codificação do artefacto: TEAM_DECISOES
 ### Versão do artefacto: 0.3
 #### Data: 05 Novembro 2018
-#### Presentes: nomes, nomes....
+#### Presentes:
+|Posição|Nome
+|:---:|---
+|Inspetor|João Soares
+|Moderador|Maria Pereira
+|Autor|Vitor Ribeiro
+|Leitor|Sergii Mykolushyn
+|Leitor|Pedro Fernandes
 
 
 </br>

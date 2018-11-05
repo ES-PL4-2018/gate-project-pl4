@@ -3,7 +3,14 @@
 ### Codificação do artefacto: TEAM_ORGANICA
 ### Versão do artefacto: 1.0
 #### Data: 05 Novembro 2018
-#### Presentes: nomes, nomes....
+#### Presentes:
+|Posição|Nome
+|:---:|---
+|Inspetor|Pedro Fernandes
+|Moderador|Maria Pereira
+|Autor|Sergii Mykolushyn
+|Leitor|João Soares
+|Leitor|Vitor Ribeiro
 
 </br>
 
