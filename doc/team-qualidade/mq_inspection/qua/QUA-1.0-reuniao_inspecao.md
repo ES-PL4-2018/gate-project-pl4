@@ -14,7 +14,7 @@
 
 </br>
 
-#### Table registo defeitos
+#### Tabela registo defeitos
 |Pag|Linha|Tipo|Obervação
 |:---:|:---:|:---:|---
 |1|1|Leve|typo palavra, passar para portugues Quality

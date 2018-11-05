@@ -14,7 +14,7 @@
 
 </br>
 
-#### Table registo defeitos
+#### Tabela registo defeitos
 |Pag|Linha|Tipo|Obervação
 |:---:|:---:|:---:|---
 |1||Grave|Erro estrutura - Documento não segue o template (falta doc id, tablea de unidade/lead, formatação incorreta de secções)

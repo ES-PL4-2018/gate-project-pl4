@@ -15,7 +15,7 @@
 
 </br>
 
-#### Table registo defeitos
+#### Tabela registo defeitos
 |Pag|Linha|Tipo|Obervação
 |:---:|:---:|:---:|---
 |1||Grave|Erro estrutura (faltam secções)

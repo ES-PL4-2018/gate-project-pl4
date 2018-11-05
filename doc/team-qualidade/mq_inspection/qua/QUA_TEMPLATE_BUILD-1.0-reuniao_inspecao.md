@@ -14,7 +14,7 @@
 
 </br>
 
-#### Table registo defeitos
+#### Tabela registo defeitos
 |Pag|Linha|Tipo|Obervação
 |:---:|:---:|:---:|---
 |1|9 - 16|Moderado|Nome dos "revisores" está com nickhandle da student e não nome

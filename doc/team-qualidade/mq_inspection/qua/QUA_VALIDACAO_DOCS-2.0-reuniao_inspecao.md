@@ -14,7 +14,7 @@
 
 </br>
 
-#### Table registo defeitos
+#### Tabela registo defeitos
 |Pag|Linha|Tipo|Obervação
 |:---:|:---:|:---:|---
 |1||Grave|Erro estrutura - Documento não tem a secção de responsáveis pelo processo, ciclo de vida dos artefactos e aprovação e validação

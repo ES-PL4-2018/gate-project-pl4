@@ -15,7 +15,7 @@
 
 </br>
 
-#### Table registo defeitos
+#### Tabela registo defeitos
 |Pag|Linha|Tipo|Obervação
 |:---:|:---:|:---:|---
 |1|19|Leve|Já não temos relatórios de esforço. Substituir por nomeação de um artefacto?
