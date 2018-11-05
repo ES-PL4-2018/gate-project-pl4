@@ -10,7 +10,7 @@
 #### Table registo defeitos
 |Pag|Linha|Tipo|Obervação
 |:---:|:---:|:---:|---
-|1|19|Moderado|Alterar para: "...sempre que exista a necessidade de redação de um documento formal utilizando um template..."
+|1|19|Moderado|Alterar para: "...sempre que exista a necessidade de redação de um documento formal utilizando um template..."z
 
 
 #### Outras observações

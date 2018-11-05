@@ -1,9 +1,9 @@
 # GATE
-## Relatório inspeção artefacto
+## Relatório reunião inspeção artefacto
 ### Codificação do artefacto: QUA_NOMES_VERSOES
 ### Versão do artefacto: 2.0
-#### Nome: João Soares
-#### Data: 04 Novembro 2018
+#### Data: 05 Novembro 2018
+#### Presentes: nomes, nomes....
 
 </br>
 
@@ -11,6 +11,7 @@
 |Pag|Linha|Tipo|Obervação
 |:---:|:---:|:---:|---
 |1|19|Leve|Já não temos relatórios de esforço. Substituir por nomeação de um artefacto?
+|1|19|Leve|Correção de linguistica "Procedimento gestap de nomes a atribuir..."
 |1|26|Moderado|Input deveria ser o artefacto redigido
 |1|30|Moderado|Critério deveria ser a necessidade de nomear um artefacto gerado
 |1|73|Moderado|Critério deveria ser o facto de o artefacto se encontrar nomeado
@@ -22,6 +23,8 @@
 - Caso de dar nomes aos templates
 - Regra para nomeação de processos globais á equipa
 - Rever processo da numeração de versões (minor revisions incrementa uma décima, major revisions incrementa um ponto)
+ - Minor erros ortograficos
+ - Alteração de estrutura ou mais de 40% das linhas
 
 </br>
 
