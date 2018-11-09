@@ -3,21 +3,20 @@
 ### Codificação do artefacto: MQ_TST
 ### Versão do artefacto: 1.0
 #### Nome: Jessica Cunha
-#### Data: 07/11/2018
+#### Data: 09/11/2018
 
 </br>
 
 #### Tabela para registo de defeitos
-|Pag|Linha|Tipo|Obervação|
+|Pag|Linha|Tipo|Observação|
 |---|--|---|---|
-|1|X|Leve|falta acento no "à" equipa implementação|
-|1|X|Grave| falta "Fazer o deploy ao cliente"                            |
-|1|x|Leve| retirara a palvra "(check)"                                  |
-|1|x|Grave| Remover processo de reuniões da lista. Já não existe no MQ   |
-|1|x|Grave| Remover o processo MQ_TST_TASKS. Também já não existe no MQ, apenas na tabela |
-||||                                                              |
-||||                                                              |
-||||                                                              |
+|1| 17    |Leve|erro na palavra "inicial"|
+|1|36|Leve| retirar a a palavra "(check)"                                |
+|1| 43    |Grave| Remover processo MQ_TST_REUNIOES da tabela |
+|1|45|Moderado| Remover o processo MQ_TST_REVISAO |
+|1|46|Moderado| Remover o processo MQ_TST_DOC_TESTES |
+|1|47|Moderado| Remover o processo MQ_TST_TASKS |
+|1|38|Moderado| Alterar para "Fazer deploy ao cliente, conforme os resultados dos testes" |
 
 #### Outras observações
 
