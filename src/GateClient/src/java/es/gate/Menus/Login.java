@@ -10,8 +10,13 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 import es.gate.*;
+import es.gate.DatabaseClasses.UsersContacts;
+import es.gate.Discover.DiscoverContacts;
+import io.realm.Realm;
+import io.realm.exceptions.RealmMigrationNeededException;
 
 import java.util.HashMap;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class Login extends AppCompatActivity {
 
@@ -37,8 +42,55 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.menu_login);
+        /*
+        //Teste obter contacts + realm
+        Realm.init(this);
 
-
+        // Multicast tem de ser numa thread porque android nao permite usar sockets na thread principal
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                Realm realm;
+                // Reset realm para nao acumular dados dos testes anteriores
+                Realm.deleteRealm(Realm.getDefaultConfiguration());
+                try {
+                    realm = Realm.getDefaultInstance();
+                } catch (RealmMigrationNeededException e){
+                    System.out.println(e);
+                    Realm.deleteRealm(Realm.getDefaultConfiguration());
+                    realm = Realm.getDefaultInstance();
+                }
+                int size = 10;
+                User_Account[] users = new User_Account[size];
+                for (int i = 0; i < size; i++){
+                    users[i] = new User_Account();
+                    users[i].setUserORCID((long)i);
+                }
+                UsersContacts[] contacts = new UsersContacts[size * 3];
+                for (int i = 0; i < size; i++){
+                    for (int j = 0; j < 3; j++){
+                        contacts[i*3 + j] = new UsersContacts(users[i], users[ThreadLocalRandom.current().nextInt(0, 9)]);
+                        realm.beginTransaction();
+                        realm.copyToRealm(contacts[i*3+j]);
+                        realm.commitTransaction();
+                    }
+                }
+                DiscoverContacts[] dc = new DiscoverContacts[size];
+                for (int i = 0; i < size; i++){
+                    dc[i] = new DiscoverContacts(users[i]);
+                }
+                for (int i = 0; i < size; i++) {
+                    dc[0].requestContacts(users[i].getUserORCID());
+                    try {
+                        Thread.sleep(1000);
+                    } catch (Exception e){
+                        System.out.println("Sleep ex " + e);
+                    }
+                }
+            }
+        }).start();
+*/
+        
         loginUserInput = findViewById(R.id.loginUserInput);
         loginPassInput = findViewById(R.id.loginPassInput);
 
