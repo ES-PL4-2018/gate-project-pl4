@@ -12,7 +12,7 @@
 | Catarina Mestre | LEI   | mestrekata@hotmail.com     |
 | João Oliveira   | LEI   | jdoliveira579@gmail.com    |
 | Pedro Sá        | LEI   | sa@student.dei.uc.pt       |
-| Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt  |
+| Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt  |       
 
 #### Objetivos da unidade de TST:
 - Fazer testes ao código, sendo que cada um tem de ser testado por pelo menos 2 pessoas
