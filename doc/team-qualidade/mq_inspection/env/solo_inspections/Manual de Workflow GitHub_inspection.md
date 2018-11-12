@@ -17,5 +17,5 @@ Correções Ortográficas:
 - Linha 56: "paço" -> "passo" | "Para realmente cometer essas mudanças use" -> "Para efectuar as mudanças"
 - Linha 63: "Suas mudanças agora estão na _HEAD_ da sua cópia local" -> "As suas mudanças estão agora na _HEAD_ da sua cópia local"
 - Linha 98: "automaticamente checados" -> "verificados automaticamente a nível de código"
-
+- Processo do manual de qualidade de implementação!
 </br>
