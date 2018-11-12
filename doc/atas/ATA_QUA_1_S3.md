@@ -30,20 +30,20 @@ Rev # | Autor|  Descrição | Data
 3. Divisão de trabalhos para a inspeção formal de todo o manual de qualidade e para a junção das métricas;
 4. Alterações que serão feitas ao manual de qualidade da secção da qualidade, como processos a generalizar e eliminar;
 
-Ponto 1
+#### Balanço da Sprint 2
 #### DISCUSSÃO
 Foi revisto o que foi feito no sprint 2 e se haveria algo a alterar no método de trabalho e divisão de tarefas.
 #### DECISÕES
 Na reunião ficou acordado por todos os membros presentes que se manteria o método de trabalho da equipa se manteria.
 
-Ponto 2
+#### Avaliação dos objetivos para a Sprint 3 e delineação de tarefas
 #### DISCUSSÃO
 Perante os objetivos para a Sprint 3 foi feita a divisão de tarefas para a mesma.
 
 #### DECISÕES
 As tarefas a realizar ao longo do sprint serão a inspeção formal do manual de qualidade e a reunião das métricas de vários processos.
 
-Ponto 3
+#### Divisão de trabalhos para a inspeção formal de todo o manual de qualidade e para a junção das métricas
 ##### DISCUSSÃO
 Na reunião foi feita a divisão de trabalhos para as restantes secções do manual de qualidade e também a discussão de como a faggan inspection se irá proceder para cada uma.
 
@@ -54,7 +54,7 @@ Na reunião foi feita a divisão de trabalhos para as restantes secções do man
 * O processo de REQ ficou ao cargo do elemento Pedro Fernandes;
 * A secção de ENV ficou ao cargo de Carlos Poiares e Pedro Fernandes, com 4 e 3 processos, respetivamente.
 
-Ponto 4
+#### Alterações que serão feitas ao manual de qualidade da secção da qualidade, como processos a generalizar e eliminar
 ##### DISCUSSÃO
 Na reunião foi discutido que alterações seriam feitas ao manual da secção da unidade, como que processos seriam removidos e se seria necessário a criação de novos processos, para ser possível proceder à faggan inspection.
 
