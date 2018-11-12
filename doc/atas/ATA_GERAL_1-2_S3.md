@@ -24,40 +24,40 @@ Rev # | Autor|  Descrição | Data
 
 #### ORDEM DE TRABALHOS
 
-- Apresentação da Semana 1 Sprint 3
-- Apresentação da Semana 2 Sprint 3
-- Apresentação de planeamentos de tarefas para a semana 3 da Sprint 3
+- Apresentação da Semana 1 Sprint 3;
+- Apresentação da Semana 2 Sprint 3;
+- Apresentação de planeamentos de tarefas para a semana 3 da Sprint 3.
 
 <br/>
 
 #### Apresentação da Semana 1 Sprint 3
 ##### DISCUSSÃO
-- Fazer uma comparação com diagramas de gant para verificar as tarefas planeadas vs cumpridas;
+- Fazer uma comparação com diagramas de gantt para verificar as tarefas planeadas vs cumpridas;
 - Mostrar partes dos produtos do trabalho (Por ex Req mostrou manual Req; Tst mostrou doc testes);
-- Mostrar tarefas que também estejam em curso mas nao terminadas;
+- Mostrar tarefas que também estejam em curso mas nao terminadas.
 
 ##### DECISÕES
-- Avaliar viablidade de integração das sugestões recebidas no formato atual;
+- Avaliar viablidade de integração das sugestões recebidas no formato atual.
 
 <br/>
 
 #### Apresentação da Semana 2 Sprint 3
 ##### DISCUSSÃO
 - Nos slides aparece a palavra "colaborador" e segundo o docente, a palavra significa que é serviço parcial e não total; 
-- Colcoar diagrama de gant nas apresentações;
-- Apresentar gráfico de esforço previsto vs realizado (por cada unidade);
+- Colocar diagrama de gantt nas apresentações;
+- Apresentar gráfico de esforço previsto vs realizado (por cada unidade).
 
 ##### DECISÕES
-- Avaliar viablidade de integração das sugestões recebidas no formato atual;
+- Avaliar viablidade de integração das sugestões recebidas no formato atual.
 
 <br/> 
 
 #### Apresentação de planeamentos de tarefas para a semana 3
 ##### DISCUSSÃO
-- Colocar nas apresentação das tarefas planeadas um diagrama de gant com esse planeamento;
+- Colocar nas apresentação das tarefas planeadas um diagrama de gantt com esse planeamento.
 
 ##### DECISÕES
-- Avaliar viablidade de integração das sugestões recebidas no formato atual;
+- Avaliar viablidade de integração das sugestões recebidas no formato atual.
 
 <br/> 
 
