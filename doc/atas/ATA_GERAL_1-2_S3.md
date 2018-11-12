@@ -8,11 +8,7 @@
 
 ### Duração: 1h
  
-<br/>
-
-### # páginas: 1
-
-<br/> 
+#### # páginas: 1
 
 #### ASSIDUIDADE
 
@@ -30,7 +26,7 @@ Rev # | Autor|  Descrição | Data
 
 - Apresentação da Semana 1 Sprint 3
 - Apresentação da Semana 2 Sprint 3
-- Apresentação de planeamentos de tarefas para a semana 3
+- Apresentação de planeamentos de tarefas para a semana 3 da Sprint 3
 
 <br/>
 
@@ -38,10 +34,10 @@ Rev # | Autor|  Descrição | Data
 ##### DISCUSSÃO
 - Fazer uma comparação com diagramas de gant para verificar as tarefas planeadas vs cumpridas;
 - Mostrar partes dos produtos do trabalho (Por ex Req mostrou manual Req; Tst mostrou doc testes);
-- Mostrar tarefas que também estejam em curso mas nao terminadas? (Sugestão docente);
+- Mostrar tarefas que também estejam em curso mas nao terminadas;
 
 ##### DECISÕES
-?
+- Avaliar viablidade de integração das sugestões recebidas no formato atual;
 
 <br/>
 
@@ -52,7 +48,7 @@ Rev # | Autor|  Descrição | Data
 - Apresentar gráfico de esforço previsto vs realizado (por cada unidade);
 
 ##### DECISÕES
-?
+- Avaliar viablidade de integração das sugestões recebidas no formato atual;
 
 <br/> 
 
@@ -61,12 +57,12 @@ Rev # | Autor|  Descrição | Data
 - Colocar nas apresentação das tarefas planeadas um diagrama de gant com esse planeamento;
 
 ##### DECISÕES
-?
+- Avaliar viablidade de integração das sugestões recebidas no formato atual;
 
 <br/> 
 
 #### MÉTRICAS PARA A REUNIÃO
-Assiduidade -> presentes vs nrinscritos<br/>
+Assiduidade -> 28 / 31<br/>
 Duração -> 1h<br/>
 Nº de tópicos discutidos -> 3<br/>
-Avaliação global - 3,5<br/>
+Avaliação global - 4<br/>
