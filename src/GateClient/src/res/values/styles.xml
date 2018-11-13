@@ -6,9 +6,9 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:textViewStyle">@style/DefaultTextViewFont</item>
+        <!--<item name="android:textViewStyle">@style/DefaultTextViewFont</item>
         <item name="android:editTextStyle">@style/DefaultEditTextFont</item>
-        <item name="android:buttonStyle">@style/DefaultButtonFont</item>
+        <item name="android:buttonStyle">@style/DefaultButtonFont</item> -->
     </style>
 
     <style name="AppTheme.NoActionBar">

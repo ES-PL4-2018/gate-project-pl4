@@ -12,6 +12,11 @@
             android:title="@string/title_feed"/>
 
     <item
+            android:id="@+id/navigation_discovery"
+            android:icon="@drawable/bvn_discovery"
+            android:title="@string/title_discovery"/>
+
+    <item
             android:id="@+id/navigation_notifications"
             android:icon="@drawable/bvn_bookmark"
             android:title="@string/title_bookmarks"/>

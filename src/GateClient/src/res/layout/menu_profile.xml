@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <android.support.constraint.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -86,7 +87,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.41"
             app:layout_constraintHorizontal_bias="0.35"
-            android:text="sesetset"
+            android:text=""
             android:textSize="15sp"
             android:textColor="@color/white"
             android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
@@ -120,7 +121,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.495"
             app:layout_constraintHorizontal_bias="0.35"
-            android:text="sesetset"
+            android:text=""
             android:textSize="15sp"
             android:textColor="@color/white"
             android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -153,7 +154,6 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.578"
             app:layout_constraintHorizontal_bias="0.35"
-            android:text="testetset"
             android:textSize="15sp"
             android:textColor="@color/white"
             android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -163,20 +163,6 @@
             android:singleLine="true"
             android:id="@+id/profileResearchUnitInput"/>
 
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.615"
-            app:layout_constraintHorizontal_bias="0.247"
-            android:text="@string/profileResearchCenter"
-            android:textSize="15sp"
-            android:textColor="@color/black"
-            android:id="@+id/profileResearchCenter"/>
-
     <EditText
             android:layout_width="275dp"
             android:layout_height="wrap_content"
@@ -184,9 +170,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.66"
-            app:layout_constraintHorizontal_bias="0.35"
-            android:text="tesetset"
+            app:layout_constraintVertical_bias="0.679"
+            app:layout_constraintHorizontal_bias="0.352"
             android:textSize="15sp"
             android:textColor="@color/white"
             android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -194,17 +179,30 @@
             android:focusable="false"
             android:maxLength="15"
             android:singleLine="true"
-            android:id="@+id/profileResearchCenterInput"/>
+            android:id="@+id/profileInterestSearch"/>
 
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+    <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.695"
-            app:layout_constraintHorizontal_bias="0.247"
+            app:layout_constraintHorizontal_bias="0.76"
+            app:layout_constraintVertical_bias="0.679"
+            app:srcCompat="@drawable/register_add"
+            android:visibility="invisible"
+            android:id="@+id/profileAddInterest"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.635"
+            app:layout_constraintHorizontal_bias="0.259"
             android:text="@string/profileResearchInterests"
             android:textSize="15sp"
             android:textColor="@color/black"

@@ -5,13 +5,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         xmlns:app="http://schemas.android.com/apk/res-auto"
-        tools:context=".Menus.Register_Page3"
+        tools:context=".Menus.Register"
         android:descendantFocusability="afterDescendants"
         android:clickable="true"
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:background="@drawable/register_background">
-
 
     <ImageView
             android:layout_width="50dp"
@@ -23,7 +22,7 @@
             app:layout_constraintVertical_bias="0.025"
             app:layout_constraintHorizontal_bias="0.065"
             app:srcCompat="@drawable/all_back"
-            android:onClick="registerP3OnClick"
+            android:onClick="OnClick"
             android:id="@+id/registerP3Back"/>
 
 
@@ -37,8 +36,8 @@
             app:layout_constraintVertical_bias="0.025"
             app:layout_constraintHorizontal_bias="0.935"
             app:srcCompat="@drawable/all_cancel"
-            android:onClick="registerP3OnClick"
-            android:id="@+id/registerP3Cancel"/>
+            android:onClick="OnClick"
+            android:id="@+id/registerCancel"/>
 
 
     <TextView
@@ -48,11 +47,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.125"
-            android:text="@string/registerAccInfoText"
+            app:layout_constraintVertical_bias="0.10"
+            android:text="@string/registerResearchInterText"
             android:textSize="35sp"
             android:textAlignment="center"
-            android:id="@+id/registerAccInfoText"/>
+            android:id="@+id/registerReshInterText"/>
 
     <android.support.design.widget.TextInputLayout
             android:layout_width="295dp"
@@ -61,60 +60,43 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.50"
-            android:id="@+id/registerUserName"
+            app:layout_constraintVertical_bias="0.20"
+            android:id="@+id/registerReshSearch"
             android:theme="@style/TextLabel">
 
         <android.support.design.widget.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="@string/registerUserNameHint"
+                android:hint="@string/registerResearchSearch"
+                android:drawableStart="@drawable/register_search"
                 android:singleLine="true"
-                android:drawableStart="@drawable/login_user"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:maxLength="15"
                 android:textSize="20sp"/>
     </android.support.design.widget.TextInputLayout>
 
-    <android.support.design.widget.TextInputLayout
-            android:layout_width="295dp"
-            android:layout_height="60dp"
+    <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.60"
-            android:id="@+id/registerPass"
-            android:theme="@style/TextLabel">
+            app:layout_constraintHorizontal_bias="0.825"
+            app:layout_constraintVertical_bias="0.215"
+            app:srcCompat="@drawable/register_add"
+            android:id="@+id/registerAddInterest"/>
 
-        <android.support.design.widget.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:hint="@string/registerPassHint"
-                android:singleLine="true"
-                android:inputType="textPassword"
-                android:drawableStart="@drawable/login_pass"
-                android:textSize="20sp"/>
-    </android.support.design.widget.TextInputLayout>
-
-    <android.support.design.widget.TextInputLayout
-            android:layout_width="295dp"
-            android:layout_height="60dp"
+    <android.support.v7.widget.RecyclerView
+            android:layout_width="wrap_content"
+            android:layout_height="375dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.70"
-            android:id="@+id/registerConfirmPass"
-            android:theme="@style/TextLabel">
+            app:layout_constraintVertical_bias="0.63"
+            android:id="@+id/registerRecyclerView"/>
 
-        <android.support.design.widget.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:hint="@string/registerConfirmPassHint"
-                android:singleLine="true"
-                android:inputType="textPassword"
-                android:drawableStart="@drawable/login_pass"
-                android:textSize="20sp"/>
-    </android.support.design.widget.TextInputLayout>
 
     <android.widget.Button
             android:layout_width="295dp"
@@ -123,37 +105,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.85"
+            app:layout_constraintVertical_bias="0.925"
             android:background="@drawable/button_white_outline"
             android:text="@string/registerButton"
             android:textSize="20sp"
-            android:onClick="registerP3OnClick"
             android:id="@+id/registerRegisterButton"/>
-
-    <ImageView
-            android:layout_width="125dp"
-            android:layout_height="125dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.25"
-            app:srcCompat="@drawable/bvn_profile"
-            android:id="@+id/registerUserPhoto"/>
-
-
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.41"
-            android:text="@string/registerUploadPhoto"
-            android:textSize="15sp"
-            android:onClick="registerP3OnClick"
-            android:id="@+id/registerUploadPhoto"/>
 
 
 </android.support.constraint.ConstraintLayout>

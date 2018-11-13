@@ -1,9 +1,11 @@
 package es.gate.DatabaseClasses;
 
 import io.realm.RealmObject;
+import io.realm.annotations.PrimaryKey;
 
 public class Bookmarks extends RealmObject {
 
+    @PrimaryKey
     private String bmName;
     private String bmUrl;
     private String bmTags;

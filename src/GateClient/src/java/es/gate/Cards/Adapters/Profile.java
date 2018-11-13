@@ -1,61 +1,68 @@
 package es.gate.Cards.Adapters;
 
+import android.support.annotation.NonNull;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import es.gate.Cards.Interests;
+import android.widget.TextView;
+import es.gate.DatabaseClasses.AccountInformation;
 import es.gate.R;
+import io.realm.Realm;
+import io.realm.RealmList;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Objects;
 
 public class Profile extends RecyclerView.Adapter<Profile.CardViewHolder>{
 
-    private static final String TAG = "MyActivity";
-    private View view;
-    private List<Interests> interests;
-    private ArrayList<Button> buttons = new ArrayList<>();
+    private RealmList<String> interests;
+    private Realm realm;
+    private Profile profileAdapter;
+    private es.gate.Fragments.Profile parent;
 
-    public Profile(List<Interests> interests){
-        this.interests = interests;
+    public Profile(es.gate.Fragments.Profile parent){
+
+        realm = Realm.getDefaultInstance();
+
+        interests = Objects.requireNonNull(realm.where(AccountInformation.class).findFirst()).getInterests();
+
+        profileAdapter = this;
+        this.parent = parent;
     }
 
     @Override
-    public void onAttachedToRecyclerView(RecyclerView recyclerView) {
+    public void onAttachedToRecyclerView(@NonNull RecyclerView recyclerView) {
         super.onAttachedToRecyclerView(recyclerView);
     }
 
     @Override
-    public void onBindViewHolder(final CardViewHolder profileCardView, int i) {
+    public void onBindViewHolder(@NonNull final CardViewHolder profileCardView, int i) {
         android.os.Handler h = new android.os.Handler();
         h.postDelayed(new Runnable() {
             @Override
             public void run() {
-                profileCardView.cardButton.setOnClickListener(new View.OnClickListener() {
+                profileCardView.cardView.setOnLongClickListener(new View.OnLongClickListener() {
                     @Override
-                    public void onClick(View view) {
-                        //registerActivity.registerInterestsOnClick(view);
-                        interests.get(profileCardView.getAdapterPosition()).setSelected();
-
-                        if(interests.get(profileCardView.getAdapterPosition()).isSelected()){
-                            profileCardView.cardButton.setBackgroundResource(R.drawable.button_white_center);
-                            profileCardView.cardButton.setTextColor(view.getResources().getColor(R.color.black, null));
-                        }else {
-                            profileCardView.cardButton.setBackgroundResource(R.drawable.button_white_outline);
-                            profileCardView.cardButton.setTextColor(view.getResources().getColor(R.color.white, null));
+                    public boolean onLongClick(View v){
+                        if(parent.isEditing()) {
+                            realm = Realm.getDefaultInstance();
+                            realm.beginTransaction();
+                            interests.remove(profileCardView.getAdapterPosition());
+                            realm.commitTransaction();
+                            realm.close();
+                            profileAdapter.notifyItemRemoved(profileCardView.getAdapterPosition());
                         }
-
+                        return true;
                     }
                 });
             }
         },100);
-        profileCardView.cardButton.setText(interests.get(i).getInterest());
-        profileCardView.cardButton.setBackgroundResource(R.color.transparent);
-        profileCardView.cardButton.setClickable(false);
-        buttons.add(profileCardView.cardButton);
+        profileCardView.cardText.setText(interests.get(i));
+        profileCardView.cardText.setBackgroundResource(R.color.transparent);
+        profileCardView.cardText.setClickable(false);
     }
 
     @Override
@@ -63,51 +70,22 @@ public class Profile extends RecyclerView.Adapter<Profile.CardViewHolder>{
         return interests.size();
     }
 
+    @NonNull
     @Override
-    public CardViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
+    public CardViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.card_profile, viewGroup, false);
-        this.view = view;
         return new CardViewHolder(view);
     }
 
     public static class CardViewHolder extends RecyclerView.ViewHolder {
         CardView cardView;
-        Button cardButton;
+        TextView cardText;
 
 
         CardViewHolder(View itemView) {
             super(itemView);
             cardView = itemView.findViewById(R.id.cardProfile);
-            cardButton = itemView.findViewById(R.id.cardProfileButton);
-        }
-    }
-
-    public void setButtonsInvisible(){
-
-        for(Button b : buttons){
-            b.setBackgroundResource(R.color.transparent);
-            b.setTextColor(view.getResources().getColor(R.color.white, null));
-            b.setClickable(false);
-            b.setFocusable(false);
-        }
-    }
-
-    public void setButtonsVisible(){
-
-        try {
-            for (Button b : buttons) {
-                if (interests.get(buttons.indexOf(b)).isSelected()) {
-                    b.setBackgroundResource(R.drawable.button_white_center);
-                    b.setTextColor(view.getResources().getColor(R.color.black, null));
-                } else {
-                    b.setBackgroundResource(R.drawable.button_white_outline);
-                    b.setTextColor(view.getResources().getColor(R.color.white, null));
-                }
-                b.setClickable(true);
-                b.setFocusableInTouchMode(true);
-            }
-        }catch (IndexOutOfBoundsException e){
-            //rip
+            cardText = itemView.findViewById(R.id.cardProfileView);
         }
     }
 

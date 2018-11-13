@@ -21,22 +21,13 @@
                 android:windowSoftInputMode="adjustNothing">
         </activity>
         <activity
-                android:name=".Menus.Register_Page1">
-        </activity>
-        <activity
-                android:name=".Menus.Register_Page3">
-        </activity>
-        <activity
-                android:name=".Menus.Register_Page2"
-                android:windowSoftInputMode="adjustNothing">
-        </activity>
-        <activity
                 android:name=".InitiationClass">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".Menus.Register"/>
     </application>
 
 </manifest>

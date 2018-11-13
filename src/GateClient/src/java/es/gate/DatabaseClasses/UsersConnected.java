@@ -1,11 +1,13 @@
 package es.gate.DatabaseClasses;
 
 import io.realm.RealmObject;
+import io.realm.annotations.PrimaryKey;
 
 import java.util.Date;
 
 public class UsersConnected extends RealmObject {
 
+    @PrimaryKey
     private long userORCID;
     private String userEmail;
     private String userName;

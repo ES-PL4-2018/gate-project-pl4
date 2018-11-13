@@ -46,6 +46,8 @@
                 android:layout_height="match_parent"
                 android:hint="@string/userHint"
                 android:singleLine="true"
+                android:inputType="number"
+                android:maxLength="16"
                 android:drawableStart="@drawable/login_user"
                 android:textSize="20sp"/>
     </android.support.design.widget.TextInputLayout>
@@ -82,7 +84,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.60"
             android:background="@drawable/button_white_center"
-            android:onClick="loginOnClick"
+            android:onClick="OnClick"
             android:text="@string/loginButton"
             android:textSize="20sp"
             android:textAllCaps="false"
@@ -97,26 +99,15 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.675"
+            android:paddingStart="55dp"
+            android:paddingEnd="55dp"
+            android:drawableStart="@drawable/login_orcid_icon"
             android:background="@drawable/button_white_center"
-            android:onClick="loginOnClick"
+            android:onClick="OnClick"
             android:text="@string/registerButton"
             android:textSize="20sp"
             android:textAllCaps="false"
-            android:id="@+id/loginRegisterButton"/>
-
-    <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.725"
-            android:text="@string/forgotPass"
-            android:textSize="12sp"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:id="@+id/loginForgetPassText"/>
+            android:id="@+id/loginRegisterButton" android:textAlignment="viewStart"/>
 
 
 </android.support.constraint.ConstraintLayout>

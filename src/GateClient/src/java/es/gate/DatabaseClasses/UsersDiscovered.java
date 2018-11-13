@@ -1,10 +1,13 @@
 package es.gate.DatabaseClasses;
 
 import io.realm.RealmObject;
+import io.realm.annotations.PrimaryKey;
+
 import java.util.Date;
 
 public class UsersDiscovered extends RealmObject {
 
+    @PrimaryKey
     private long userORCID;
     private String userName;
     private Date lastSeen;
