@@ -4,15 +4,15 @@
 ### Versão do artefacto: 2.3
 #### Data: 13/11/2018
 #### Presentes: 
-|Posição|Nome
-|:---:|---
-|Inspetor| Sergii Mykolyshyn
-|Moderador| Victor Carvalho
-|Autor| Catarina Pires e Victor Carvalho
-|Leitor| Catarina Pires
-​
+|Posição|Nome |
+|:---:|--- |
+|Inspetor| Sergii Mykolyshyn|
+|Moderador| Victor Carvalho| 
+|Autor| Catarina Pires e Victor Carvalho|
+|Leitor| Catarina Pires|
+
 </br>
-​
+
 #### Tabela para registo de defeitos
 |Pag|Linha|Tipo|Obervação|
 |:---:|:---:|:---:|---|
@@ -65,9 +65,9 @@
 |22|x|Moderado| fica -> "Lista de Marcadores: Ao clicar numa das bookmarks, o utilizador é redirecionado para essa página"|
 |23|x|Grave| Tem Bookmark Title em 3 caixas, deve ser alterado.|
 |25|x|Leve| Alterar "contato" para "contacto", em todas as caixas e na primeira linha -> Contact List.|
-​
+
 #### Outras observações
 Alterar o espaçamento no Diagrama de Navegação, página 6. Aumentar o feed, por ser o ponto central da aplicação. Alinhar as caixas
 </br>
-​
+
 Nota: Os defeitos podem ser classificados com 3 níveis, Grave, Moderado, Leve
