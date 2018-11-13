@@ -1,5 +1,6 @@
 package es.gate.Cards.Adapters;
 
+import android.support.annotation.NonNull;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -21,12 +22,12 @@ public class Register extends RecyclerView.Adapter<Register.CardViewHolder>{
     }
 
     @Override
-    public void onAttachedToRecyclerView(RecyclerView recyclerView) {
+    public void onAttachedToRecyclerView(@NonNull RecyclerView recyclerView) {
         super.onAttachedToRecyclerView(recyclerView);
     }
 
     @Override
-    public void onBindViewHolder(final CardViewHolder registerCardView, int i) {
+    public void onBindViewHolder(@NonNull final CardViewHolder registerCardView, int i) {
         android.os.Handler h = new android.os.Handler();
         h.postDelayed(new Runnable() {
             @Override
@@ -54,8 +55,9 @@ public class Register extends RecyclerView.Adapter<Register.CardViewHolder>{
         return interests.size();
     }
 
+    @NonNull
     @Override
-    public CardViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
+    public CardViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.card_register, viewGroup, false);
         return new CardViewHolder(view);
     }

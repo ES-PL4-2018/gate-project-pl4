@@ -1,35 +1,50 @@
 package es.gate.DatabaseClasses;
 
+import es.gate.Fragments.Bookmark;
 import io.realm.RealmList;
 import io.realm.RealmObject;
+import io.realm.annotations.PrimaryKey;
 
-public class AccountInformation extends RealmObject {
+import java.io.Serializable;
 
-    private long userORCID;
-    private String userPass;
+public class AccountInformation extends RealmObject implements Serializable {
+
+    @PrimaryKey
+    private String orcid;
+    private String password;
     private byte[] image; //TODO think about how to handle images
     private String userEmail;
-    private String userName;
+    private String userFirstName;
+    private String userLastName;
     private String institution;
-    private String researchUnits;
+    private String investigationUnits;
     private RealmList<String> interests;
-    private RealmList<Bookmarks> userBookmark = new RealmList<>();
+    private RealmList<Bookmarks> userBookmark;
+    private RealmList<Tweets> sessionTweets;
+    private RealmList<UsersDiscovered> usersDiscovered;
+    private RealmList<UsersConnected> usersConnected;
 
-
-    public long getUserORCID() {
-        return userORCID;
+    public AccountInformation() {
+        userBookmark = new RealmList<>();
+        sessionTweets = new RealmList<>();
+        usersDiscovered = new RealmList<>();
+        usersConnected = new RealmList<>();
     }
 
-    public void setUserORCID(long userORCID) {
-        this.userORCID = userORCID;
+    public String getOrcid() {
+        return orcid;
     }
 
-    public String getUserPass() {
-        return userPass;
+    public void setOrcid(String orcid) {
+        this.orcid = orcid;
     }
 
-    public void setUserPass(String userPass) {
-        this.userPass = userPass;
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getUserEmail() {
@@ -40,12 +55,20 @@ public class AccountInformation extends RealmObject {
         this.userEmail = userEmail;
     }
 
-    public String getUserName() {
-        return userName;
+    public String getUserFirstName() {
+        return userFirstName;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUserFirstName(String userFirstName) {
+        this.userFirstName = userFirstName;
+    }
+
+    public String getUserLastName() {
+        return userLastName;
+    }
+
+    public void setUserLastName(String userLastName) {
+        this.userLastName = userLastName;
     }
 
     public String getInstitution() {
@@ -56,12 +79,12 @@ public class AccountInformation extends RealmObject {
         this.institution = institution;
     }
 
-    public String getResearchUnits() {
-        return researchUnits;
+    public String getInvestigationUnits() {
+        return investigationUnits;
     }
 
-    public void setResearchUnits(String researchUnits) {
-        this.researchUnits = researchUnits;
+    public void setInvestigationUnits(String investigationUnits) {
+        this.investigationUnits = investigationUnits;
     }
 
     public RealmList<String> getInterests() {
@@ -78,5 +101,29 @@ public class AccountInformation extends RealmObject {
 
     public void setUserBookmark(RealmList<Bookmarks> userBookmark) {
         this.userBookmark = userBookmark;
+    }
+
+    public RealmList<Tweets> getSessionTweets() {
+        return sessionTweets;
+    }
+
+    public void setSessionTweets(RealmList<Tweets> sessionTweets) {
+        this.sessionTweets = sessionTweets;
+    }
+
+    public RealmList<UsersDiscovered> getUsersDiscovered() {
+        return usersDiscovered;
+    }
+
+    public void setUsersDiscovered(RealmList<UsersDiscovered> usersDiscovered) {
+        this.usersDiscovered = usersDiscovered;
+    }
+
+    public RealmList<UsersConnected> getUsersConnected() {
+        return usersConnected;
+    }
+
+    public void setUsersConnected(RealmList<UsersConnected> usersConnected) {
+        this.usersConnected = usersConnected;
     }
 }

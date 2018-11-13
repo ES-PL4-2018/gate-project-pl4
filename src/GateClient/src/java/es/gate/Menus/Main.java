@@ -9,6 +9,7 @@ import android.view.MenuItem;
 import com.twitter.sdk.android.core.Twitter;
 import es.gate.BottomViewNavigation.BottomBarAdapter;
 import es.gate.Fragments.Bookmark;
+import es.gate.Fragments.Discovery;
 import es.gate.Fragments.Feed;
 import es.gate.Fragments.Profile;
 import es.gate.R;
@@ -16,13 +17,8 @@ import es.gate.R;
 public class Main extends AppCompatActivity {
 
     private ViewPager viewPager;
-    private BottomBarAdapter barAdapter;
 
     private BottomNavigationView bottomNavView;
-
-    private Bookmark bookmarkFragment;
-    private Feed feedFragment;
-    private Profile profileFragment;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -32,13 +28,15 @@ public class Main extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
                     viewPager.setCurrentItem(0);
-
                     return true;
                 case R.id.navigation_dashboard:
                     viewPager.setCurrentItem(1);
                     return true;
-                case R.id.navigation_notifications:
+                case R.id.navigation_discovery:
                     viewPager.setCurrentItem(2);
+                    return true;
+                case R.id.navigation_notifications:
+                    viewPager.setCurrentItem(3);
                     return true;
             }
             return false;
@@ -50,7 +48,7 @@ public class Main extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.menu_main);
 
-        bottomNavView = (BottomNavigationView) findViewById(R.id.navigation);
+        bottomNavView = findViewById(R.id.navigation);
         bottomNavView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
         Twitter.initialize(this);
@@ -60,22 +58,23 @@ public class Main extends AppCompatActivity {
 
     private void setupViewPager(){
 
-        barAdapter = new BottomBarAdapter(getSupportFragmentManager());
+        BottomBarAdapter barAdapter = new BottomBarAdapter(getSupportFragmentManager());
         viewPager = findViewById(R.id.viewPager);
 
-        profileFragment = new Profile();
-        feedFragment = new Feed();
-        bookmarkFragment = new Bookmark();
+        Profile profileFragment = new Profile();
+        Feed feedFragment = new Feed();
+        Discovery discoveryFragment = new Discovery();
+        Bookmark bookmarkFragment = new Bookmark();
 
         barAdapter.addFragments(profileFragment);
         barAdapter.addFragments(feedFragment);
+        barAdapter.addFragments(discoveryFragment);
         barAdapter.addFragments(bookmarkFragment);
 
         viewPager.setAdapter(barAdapter);
 
         bottomNavView.setSelectedItemId(R.id.navigation_dashboard);
         viewPager.setCurrentItem(1);
-
     }
 
     @Override

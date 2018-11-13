@@ -2,15 +2,16 @@
 <android.support.constraint.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        tools:context=".Menus.Register_Page2"
-        android:descendantFocusability="afterDescendants"
+        tools:context=".Menus.Register"
+        android:descendantFocusability="beforeDescendants"
         android:clickable="true"
         android:focusable="true"
         android:focusableInTouchMode="true"
         android:background="@drawable/register_background">
+
 
     <ImageView
             android:layout_width="50dp"
@@ -22,7 +23,7 @@
             app:layout_constraintVertical_bias="0.025"
             app:layout_constraintHorizontal_bias="0.065"
             app:srcCompat="@drawable/all_back"
-            android:onClick="registerP2OnClick"
+            android:onClick="OnClick"
             android:id="@+id/registerP2Back"/>
 
 
@@ -36,8 +37,8 @@
             app:layout_constraintVertical_bias="0.025"
             app:layout_constraintHorizontal_bias="0.935"
             app:srcCompat="@drawable/all_cancel"
-            android:onClick="registerP2OnClick"
-            android:id="@+id/registerP2Cancel"/>
+            android:onClick="OnClick"
+            android:id="@+id/registerCancel"/>
 
 
     <TextView
@@ -48,11 +49,37 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.10"
-            android:text="@string/registerResearchInterText"
+            android:text="@string/registerPersInfoText"
             android:textSize="35sp"
             android:textAlignment="center"
-            android:id="@+id/registerReshInterText"/>
+            android:id="@+id/registerPersonalInfoText"/>
 
+    <!-- User Image -->
+    <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.225"
+            app:srcCompat="@drawable/bvn_profile"
+            android:id="@+id/registerUserPhoto"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.36"
+            android:text="@string/registerUploadPhoto"
+            android:textSize="15sp"
+            android:onClick="OnClick"
+            android:id="@+id/registerUploadPhoto"/>
+
+
+    <!-- Input First Name Field -->
     <android.support.design.widget.TextInputLayout
             android:layout_width="295dp"
             android:layout_height="60dp"
@@ -60,31 +87,119 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.25"
-            android:id="@+id/registerReshSearch"
+            app:layout_constraintVertical_bias="0.425"
+            android:id="@+id/registerFirstNameInput"
+            android:theme="@style/TextLabel"
+            app:errorEnabled="true">
+
+        <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/registerFirstNameHint"
+                android:inputType="textPersonName"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:maxLength="25"
+                android:visibility="visible"
+                android:singleLine="true"
+                android:textSize="20sp"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <!-- Input Last Name Field -->
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="295dp"
+            android:layout_height="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.525"
+            android:id="@+id/registerLastNameInput"
             android:theme="@style/TextLabel">
 
         <android.support.design.widget.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:hint="@string/registerResearchSearch"
-                android:drawableStart="@drawable/register_search"
-                android:singleLine="true"
+                android:hint="@string/registerLastNameHint"
+                android:inputType="textPersonName"
                 android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-                android:maxLength="15"
+                android:maxLength="25"
+                android:visibility="visible"
+                android:singleLine="true"
                 android:textSize="20sp"/>
     </android.support.design.widget.TextInputLayout>
 
 
-    <android.support.v7.widget.RecyclerView
-            android:layout_width="wrap_content"
-            android:layout_height="375dp"
+    <!-- Input Email Field -->
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="295dp"
+            android:layout_height="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.625"
+            android:id="@+id/registerEmailInput"
+            android:theme="@style/TextLabel">
+
+        <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/registerEmailHint"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ@._-0123456789"
+                android:maxLength="30"
+                android:visibility="visible"
+                android:singleLine="true"
+                android:textSize="20sp"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <!-- Input Institution Field -->
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="295dp"
+            android:layout_height="60dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.725"
-            android:id="@+id/registerRecyclerView"/>
+            android:id="@+id/registerInstitutionInput"
+            android:theme="@style/TextLabel">
+
+        <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/registerInstitutionHint"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                android:maxLength="25"
+                android:visibility="visible"
+                android:singleLine="true"
+                android:textSize="20sp"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <!-- Input Area of Investigation Field -->
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="295dp"
+            android:layout_height="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.825"
+            android:id="@+id/registerInvestigationInput"
+            android:theme="@style/TextLabel">
+
+        <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/registerInvestigationHint"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                android:maxLength="25"
+                android:visibility="visible"
+                android:singleLine="true"
+                android:textSize="20sp"/>
+    </android.support.design.widget.TextInputLayout>
 
     <TextView
             android:layout_width="wrap_content"
@@ -97,7 +212,7 @@
             app:layout_constraintHorizontal_bias="0.90"
             android:text="@string/registerNextPage"
             android:textSize="30sp"
-            android:onClick="registerP2OnClick"
+            android:onClick="registerP1OnClick"
             android:id="@+id/registerNextPage2"/>
 
 

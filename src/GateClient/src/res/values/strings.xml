@@ -3,18 +3,25 @@
 
     <string name="title_profile">Profile</string>
     <string name="title_feed">Feed</string>
+    <string name="title_discovery">Discovery</string>
     <string name="title_bookmarks">Bookmarks</string>
 
     <!--                Login                -->
 
-    <string name="userHint">Username</string>
+    <string name="userHint">ORCID</string>
     <string name="passHint">Password</string>
     <string name="loginButton">Login</string>
-    <string name="registerButton">Register</string>
+    <string name="registerButton">Register with orcid</string>
     <string name="forgotPass">Forgot your <b>password</b>?
     </string>
 
     <!--                Register_Page1            -->
+    <string name="registerOrcidText">ORCID Information</string>
+    <string name="registerUploadPhoto">Upload Picture</string>
+    <string name="registerORCIDHint">ORCID</string>
+    <string name="registerPassHint">Password</string>
+    <string name="registerConfirmPassHint">Confirm Password</string>
+
     <string name="registerPersInfoText">Personal Information</string>
     <string name="registerFirstNameHint">First Name</string>
     <string name="registerLastNameHint">Last Name</string>
@@ -22,7 +29,7 @@
     <string name="registerEmailHint">E-mail</string>
     <string name="registerInvestigationHint">Area of Investigation</string>
     <string name="registerResearchCenter">Research Center</string>
-    <string name="registerORCIDHint">ORCID</string>
+
     <string name="registerPage1of3">1/3</string>
     <string name="registerNextPage">NEXT</string>
 
@@ -30,11 +37,9 @@
     <string name="registerResearchSearch">Search</string>
     <string name="registerButtonPlaceholderText">Placeholder</string>
 
-    <string name="registerAccInfoText">Account Information</string>
+
     <string name="registerUserNameHint">Username</string>
-    <string name="registerPassHint">Password</string>
-    <string name="registerConfirmPassHint">Confirm Password</string>
-    <string name="registerUploadPhoto">Upload Picture</string>
+
 
 
     <!--            Profile                 -->
@@ -52,5 +57,16 @@
     <string name="bookmarkURL">URL</string>
     <string name="bookmarkTags">Tags</string>
 
+
+    <!--            Discovery               -->
+    <string name="discoveryContact">Contact List</string>
+    <string name="discoveryAdd">Add Contact</string>
+    <string name="discoverySearch">Search</string>
+
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">d6LPbblcvvauDjplDjlr7Rnha</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">mRY55iuOOCrSZOuAjkhTzi7U3hsMABOF94vHfR9Qg6xVXaqUCc</string>
+
     <string name="allPlaceholderText">[PH]toChange</string>
+
+
 </resources>

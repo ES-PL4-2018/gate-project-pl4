@@ -6,29 +6,17 @@ import java.util.Arrays;
 
 public class Interests implements Serializable {
 
-    private ArrayList<String> relevantWords;
     private String interest;
     private boolean selected;
 
 
-    public Interests(String interest, String... words) {
+    public Interests(String interest) {
         this.interest = interest;
-        this.relevantWords = new ArrayList<>();
-        /*for (String s : words) {
-            relevantWords.add(s);
-        }
-        */
-        relevantWords.addAll(Arrays.asList(words));
-
         selected = false;
     }
 
     public String getInterest(){
         return interest;
-    }
-
-    public ArrayList<String> getWords(){
-        return relevantWords;
     }
 
     public void setSelected() {

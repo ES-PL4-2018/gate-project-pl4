@@ -1,9 +1,11 @@
 package es.gate.DatabaseClasses;
 
 import io.realm.RealmObject;
+import io.realm.annotations.PrimaryKey;
 
 public class Tweets extends RealmObject {
 
+    @PrimaryKey
     private long tweetID;
     private String interest;
 

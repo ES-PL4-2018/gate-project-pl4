@@ -11,45 +11,58 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.Toast;
 import es.gate.*;
-import es.gate.Cards.Bookmark;
+import es.gate.DatabaseClasses.AccountInformation;
+import es.gate.DatabaseClasses.Bookmarks;
+import io.realm.Realm;
+import io.realm.RealmList;
 
 import java.util.HashMap;
 
 public class Bookmark_Create extends Fragment {
 
-    private View createFragment;
+    private Bookmark parent;
     private EditText name;
     private EditText link;
     private EditText tags;
-    es.gate.Fragments.Bookmark parent;
+    private Realm realm;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        createFragment = inflater.inflate(R.layout.menu_bookmark_create, container, false);
+        View createFragment = inflater.inflate(R.layout.menu_bookmark_create, container, false);
 
         name = createFragment.findViewById(R.id.createBookmarkNameImput);
         link = createFragment.findViewById(R.id.createBookmarkLinkInput);
         tags = createFragment.findViewById(R.id.createBookmarkTagsInput);
 
-        parent = (es.gate.Fragments.Bookmark) getParentFragment();
+        parent = (es.gate.Fragments.Bookmark)getParentFragment();
 
         createFragment.findViewById(R.id.createBookmarkConfirm).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                realm = Realm.getDefaultInstance();
 
+                AccountInformation accInfo = realm.where(AccountInformation.class).findFirst();
+                realm.beginTransaction();
+                assert accInfo != null;
+                RealmList<Bookmarks> bookmarks = accInfo.getUserBookmark();
+                Bookmarks newBookmark = new Bookmarks();
+                newBookmark.setBmName(name.getText().toString());
+                newBookmark.setBmTags(tags.getText().toString());
+                newBookmark.setBmUrl(link.getText().toString());
+                bookmarks.add(newBookmark);
+                accInfo.setUserBookmark(bookmarks);
+                realm.commitTransaction();
                 if(checkInputs()){
-                    Singleton_UserInformation.getInstance().getAccount().addUserBookmarks(new Bookmark(tags.getText().toString(), name.getText().toString(), link.getText().toString()));
-                    new Thread(new serverConnect()).start();
                     tags.setText("");
                     name.setText("");
                     link.setText("");
                     parent.bookmarkClick(1);
                 }else{
-                    Toast.makeText(getContext(), "All fields must have at least three chars", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getContext(), "Please fill up all fields", Toast.LENGTH_LONG).show();
                 }
-                //TODO add bookmark
+                realm.close();
 
             }
         });
@@ -75,25 +88,5 @@ public class Bookmark_Create extends Fragment {
             }
         }
         return false;
-    }
-
-    class serverConnect implements Runnable {
-
-        private static final String TAG = "Menu_LoginThread";
-
-        @Override
-        public void run() {
-
-            Singleton_ServerConnection srv = Singleton_ServerConnection.getInstance();
-            Singleton_UserInformation info = Singleton_UserInformation.getInstance();
-
-            Log.d(TAG, "Thread starting");
-
-            HashMap communication = Static_Functions.compileUserWrite(info.getAccount());
-
-            communication = srv.sendMessage(communication);
-
-            System.out.println(communication.get("writeResult"));
-        }
     }
 }
