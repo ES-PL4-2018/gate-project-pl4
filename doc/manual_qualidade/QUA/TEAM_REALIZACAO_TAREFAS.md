@@ -14,15 +14,21 @@
 |   0.2     |    03/10/2018  |    Sergii Mykolyshyn     |       Alterações    |
 |   0.3     |    20/10/2018  |    Pedro Fernandes     | Edição |
 |   1.0     |    24/10/2018  |    Sergii Mykolyshyn     | Edição |
+|   2.0     |    15/11/2018  | Maria Pereira | Incorporação do processo TEAM_WORKFLOW + alterações |
 
 #### DESCRIÇÃO DO PROCESSO
 
-Este processo é responsável por definir os procedimentos a tomar durante a realização de uma tarefa.
+Este processo é responsável por definir o procedimento a tomar pela equipa ao longo de uma sprint, tanto como a realização de uma tarefa.
+
+#### RESPONSÁVEIS
+
+Todos os elementos da equipa estão responsáveis pela execução deste processo.
 
 #### INPUTS
 
 * Descrição da tarefa;
-* Tempo estimado.
+* Tempo estimado;
+* Data limite.
 
 #### CRITÉRIO DE ENTRADA/ATIVAÇÃO
 
@@ -30,30 +36,40 @@ Este processo é ativado quando é necessária a realização de uma tarefa.
 
 #### DESCRIÇÃO DAS TAREFAS
 
+Ao longo de uma sprint são realizadas várias tarefas, enumeradas abaixo (de um ponto de vista geral):
+* REQ deve contactar o cliente, elaborando, primeiramente, a tabela de requisitos e os mockups. É muito importante que estas tarefas estejam concluídas, no máximo, até ao fim da primeira semana do sprint;
+* Assim, IMP pode começar a implementar o produto;
+* Ao longo do sprint, REQ deve elaborar o documento de requisitos;
+* Na fase final da implementação, são feitos testes unitários e o código é aprovado pelo team-lead;
+* Após ser aprovado, o código é testado pela unidade TST, e na fase final, aprovado pelo respetivo team-lead;
+* Depois de passar pela unidade TST, o produto é validado pela QUA, onde é verificada a correspondência entre os requisitos impostos pelo cliente e o produto apresentado. O team-lead de QUA dá o sinal a TST para fazer o deploy do produto.
+
+Para qualquer tarefa é necessário seguir os seguintes passos:
+* Criação de uma card no **Trello** com a sua descrição, tempo estimado e a data limite;
 * Cada membro da unidade associa-se a uma card do **Trello**, que corresponde a uma tarefa;
-* Quando uma tarefa estiver concluída, o seu responsável coloca a card correspondente na secção **Done** do **Trello**;
-* Cria-se um **pull request** para a **branch** da unidade QUA, que fica responsável pela aprovação/não aprovação da tarefa.
+* Quando uma tarefa estiver concluída, o seu responsável coloca a card correspondente na secção **Done** do **Trello** (da semana da sprint correta), é também necessário acrescentar qual o output e o tempo real.
+
 
 #### CICLO DE VIDA DOS ARTEFACTOS
 
 1. Realização da tarefa;
-2. Verificação por parte de um membro da equipa da QUA. (Caso o **pull request** não seja aprovado, é necessário corrigir as inconformidades e voltar a enviar o documento para a **branch** da QUA)
+2. Verificação por parte de um membro da equipa da QUA.
 
 #### OUTPUTS
 
-* Tarefa realizada e respetivo pull request;
-
+* Tarefa realizada e os seus documentos (caso tenham sido criados).
 
 #### CRITÉRIO DE SAÍDA
 
-* O processo acaba quando o **pull request** for aprovado.
+* O processo acaba quando os documentos, se existirem, forem validados.
 
 #### MÉTRICAS DE AVALIAÇÃO
 
-* Número de horas para realização da tarefa;
+* Número de horas para a realização da tarefa;
 * Número de alterações necessárias;
+* Número de tarefas;
 * Duração real.
 
 #### APROVAÇÃO E VALIDAÇÃO
 
-O relatório sobre a realização da tarefa deve ser revisto pela unidade de QUA de forma a confirmar a sua publicação na plataforma *GitHub*.
+A tarefa é colocada na secção **Done** e os documentos são validados.
