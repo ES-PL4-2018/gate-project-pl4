@@ -45,7 +45,14 @@ A ativação do processo em questão deve-se à necessidade de garantir que a un
   
 
 #### **OUTPUTS**
-Não há nenhum output.
+| UNIDADE | COORDENADOR | VICE-COORDENADOR |
+|---------|-------------|------------------|
+|GES|(Por preencher)|(Por preencher)|
+|REQ|(Por preencher)|(Por preencher)|
+|IMP|(Por preencher)|(Por preencher)|
+|TST|(Por preencher)|(Por preencher)|
+|QUA|(Por preencher)|(Por preencher)|
+|ENV|(Por preencher)|(Por preencher)|
 
 #### **CRITÉRIO DE SAÍDA**
 Reintegração total do Coordenador, que será marcada pela remoção do Vice-Coordenador do canal do Slack de Coordenação.
