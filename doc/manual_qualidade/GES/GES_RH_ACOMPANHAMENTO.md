@@ -1,3 +1,4 @@
+
 # Acompanhamento da equipa
 
 **DOC ID:** MQ_GES_RH_ACOMPANHAMENTO
@@ -11,8 +12,9 @@
 | Versão | Data | Autor(es) | Descrição
 |---|---|---|---|
 |0.1|24/09|João Mendes|Criação do processo|
-|0.2|22/10|João Mendes|Atualização do processo|
-|0.3|25/10|Madalena Santos|Simplificação de vários processos num só|
+|1.1|22/10|João Mendes|Atualização do processo|
+|1.2|25/10|Madalena Santos|Simplificação de vários processos num só|
+|2.1|14/11|João Mendes|Alteração tendo em conta recomendações de Qualidade|
 
 #### DESCRIÇÃO DO PROCESSO
 
@@ -34,14 +36,12 @@ A unidade de GES está responsável pela implementação do processo, embora tod
 #### DESCRIÇÃO DAS TAREFAS
 
 * Assim que o documento com os objetivos para a próxima sprint são dispoibilizados, a equipa deve começar a trabalhar:
-	* Na equipa da coordenação, são estipulados prazos para certos marcos ao longo do sprint (versão final dos mockups e da tabela de requisitos, produto final implementado, testes realizados, revisão de todo o manual de qualidade, etc.)
+	* Na equipa da coordenação, são estipulados prazos para certos marcos ao longo do sprint (versão final dos mockups e da tabela de requisitos, produto final implementado, testes realizados, revisão de todo o manual de qualidade, etc.) .
 	* Semanalmente, durante as reuniões de coordenação, é avaliado o estado do projeto relativamente aos prazos estipulados, e é tomado conhecimento de eventuais conflitos ou problemas.
 	* No conhecimento de algum conflito/problema, a unidade GES age falando diretamente com as pessoas envolvidas, tendo sempre como prioridade a integridade da equipa, o bem estar de todos os elementos e os objetivos a atingir para esse sprint.
 
-#### CICLO DE VIDA DOS ARTEFACTOS e OUTPUTS
-
-O acompanhamento feito é informal visto que esta é a estratégia que tem funcionado para manter a produtividade, boa dinâmica e boas relações dentro da equipa. Não são gerados nenhuns artefactos.
-
+#### OUTPUTS
+* Não são gerados nenhuns artefactos.
 
 #### CRITÉRIO DE SAÍDA
 
@@ -50,4 +50,7 @@ O acompanhamento feito é informal visto que esta é a estratégia que tem funci
 #### MÉTRICAS DE AVALIAÇÃO
 
 * Nota de avaliação da equipa em cada sprint;
-* Nº de membros descontentes/pouco produtivos (uma boa gestão do projeto e acompanhamento de equipa resulta em elementos satisfeitos e maior qualidade nas tarefas realizadas)
+* Nº de membros descontentes/pouco produtivos (uma boa gestão do projeto e acompanhamento de equipa resulta em elementos satisfeitos e maior qualidade nas tarefas realizadas).
+
+#### Aprovação e Validação
+* É aprovado e validade pelo líder da unidade de Gestão.
