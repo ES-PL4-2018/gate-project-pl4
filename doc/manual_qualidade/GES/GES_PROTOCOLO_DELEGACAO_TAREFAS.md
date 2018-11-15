@@ -49,8 +49,8 @@ A ativação do processo em questão deve-se à necessidade de garantir que a un
 |---------|-------------|------------------|
 |GES|Cláudio Gomes|Madalena Santos|
 |REQ|Catarina Pires|(Por preencher)|
-|IMP|(Por preencher|(Por preencher)|
-|TST|(Por preencher)|(Por preencher)|
+|IMP|João Montenegro|Alexandre Brito|
+|TST|Pedro Marques Sá|Jessica Mégane|
 |QUA|Maria Pereira|(Por preencher)|
 |ENV|José Henrique Pereira|Pedro Silva|
 
