@@ -58,6 +58,9 @@ O processo é ativado no início do Projeto, dado que a Gestão de Riscos é uma
 - **Criação de Processos relacionados com Riscos**
   - Sempre que o Gestor de Riscos, no estudo dos Riscos, considerar favorável a criação de um Processo a ser seguido pela Equipa, de forma a evitar Riscos ou a atenuar o impacto destes, deverá levar este assunto à Coordenação, de forma a que a criação deste processo seja aprovada.
 
+#### CICLO DE VIDA DOS ARTEFACTOS
+- O Relatório é um artefacto constantemente presente desde o início do processo até ao fim. Este artefacto é alvo de atualizações semanais e encontra-se num Google Spreadsheet na pasta do Google Drive da Unidade de Gestão.
+
 #### **OUTPUTS**
 - Relatório de Riscos.
 - Processos relacionados com Riscos.
