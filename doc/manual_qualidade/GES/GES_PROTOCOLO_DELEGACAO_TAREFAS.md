@@ -1,26 +1,32 @@
-# GES_PROTOCOLO_DELEGACAO_TAREFAS
+# Protocolo de Delegação de Tarefas
 
-### **TABELA DE VERSÕES**
+**DOC ID:** MQ_GES_PROTOCOLO_DELEGACAO_TAREFAS
+
+| UNIDADE | COORDENADOR |
+|---------|-------------|
+|GES|Madalena Santos|
+
+#### **TABELA DE VERSÕES**
 | VERSÃO | DATA | AUTORES | DESCRIÇÃO |
 |-|-|-|-|
-| v0.1 | 19/10/2018 | Cláudio Gomes | Criação do processo |
+| 0.1 | 19/10/2018 | Cláudio Gomes | Criação do processo |
 
-### **DESCRIÇÃO DO PROCESSO**
+#### **DESCRIÇÃO DO PROCESSO**
 Este processo descreve como os Coordenadores da Equipa e o Vice-Coordenador da unidade envolvida devem proceder em caso de ausência do Coordenador, pois é fulcral manter a unidade conectada à Coordenação, de forma a estarem cientes de eventuais decisões da Coordenação com eficácia. Para além disso, também descreve como se deve proceder em caso de desistência de um Colaborador.
 
-### **RESPONSÁVEIS**
+#### **RESPONSÁVEIS**
 
 Os Coordenadores e o Vice-Coordenador da unidade do Coordenador Ausentado são responsáveis por colocar este protocolo em prática.
 
-### **INPUTS**
+#### **INPUTS**
 Os únicos inputs serão as decisões de admitir a ausência do Coordenador ou de admitir a desistência do Colaborador.
 
-### **CRITÉRIO DE ATIVAÇÃO/TRIGGER**
+#### **CRITÉRIO DE ATIVAÇÃO/TRIGGER**
 A ativação do processo em questão deve-se à necessidade de garantir que a unidade envolvida mantenha: 
 - A comunicação direta com a Coordenação, através do Vice-Coordenador;
 - A sua capacidade de executar as suas competências, em caso de desistência de um Colaborador.
 
-### **DESCRIÇÃO DAS TAREFAS**
+#### **DESCRIÇÃO DAS TAREFAS**
 - **Em caso de Ausência do Coordenador:**
   - *Para o Vice-Coordenador:*
     - Cada unidade deverá ter um Vice-Coordenador, a ser nomeado pelo Coordenador da respetiva unidade. O Vice-Coordenador será responsável por assumir as funções do seu Coordenador em caso de ausência deste.
@@ -38,17 +44,17 @@ A ativação do processo em questão deve-se à necessidade de garantir que a un
     - A Coordenação deverá comunicar à unidade de Gestão a desistência, para motivos relacionados com Recursos Humanos e Riscos.
   
 
-### **OUTPUTS**
+#### **OUTPUTS**
 Não há nenhum output.
 
-### **CRITÉRIO DE SAÍDA**
+#### **CRITÉRIO DE SAÍDA**
 Reintegração total do Coordenador, que será marcada pela remoção do Vice-Coordenador do canal do Slack de Coordenação.
 
-### **Métricas:**
+#### **Métricas:**
 * Existência de Vice-Coordenadores nomeados.
 * Rapidez de Integração do Vice-Coordenador.
 * Rapidez de Reintegração do Coordenador.
 
-### **APROVAÇÃO E VALIDAÇÃO**
+#### **APROVAÇÃO E VALIDAÇÃO**
 
 Este processo é aprovado pela Coordenação e validado pela Unidade de Gestão.
