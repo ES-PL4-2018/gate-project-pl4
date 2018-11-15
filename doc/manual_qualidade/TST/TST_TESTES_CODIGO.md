@@ -13,7 +13,8 @@
 | 0.4    | 04/10/2018 | Maria Pereira | Alterações                                             |
 | 1.0    | 17/10/2018 | Jessica Cunha | Alteração de acordo com o novo método de trabalho      |
 | 1.1    | 20/10/2018 | Ricardo Paiva | Add info sobre métricas e ciclo de vida dos artefactos |
-| 2.0    | 26/10/2018 | Maria Pereira | Validação | 
+| 2.0    | 26/10/2018 | Maria Pereira | Validação |
+| 2.1    | 14/11/2019 | Jessica Cunha | Alteração do processo de acordo com as inspeções realizadas |
 
 ------
 
