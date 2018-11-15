@@ -52,5 +52,5 @@ A unidade de GES está responsável pela implementação do processo, embora tod
 * Nota de avaliação da equipa em cada sprint;
 * Nº de membros descontentes/pouco produtivos (uma boa gestão do projeto e acompanhamento de equipa resulta em elementos satisfeitos e maior qualidade nas tarefas realizadas).
 
-#### Aprovação e Validação
-* É aprovado e validade pelo líder da unidade de Gestão.
+#### APROVAÇÃO E VALIDAÇÃO
+* É aprovado e validado pelo líder da unidade de Gestão.
