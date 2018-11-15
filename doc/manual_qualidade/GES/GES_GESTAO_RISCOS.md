@@ -22,8 +22,7 @@ Este processo descreve o papel importante da Gestão de Riscos na Equipa. Existe
 - Os Coordenadores e Colaboradores deverão cumprir os conselhos e respeitarem os avisos do Gestor de Riscos. Também deverão notificar o Gestor de Riscos de qualquer situação desfavorável que esteja englobado no Relatório de Riscos atualizado ou a execução de qualquer processo relacionado com Riscos.
 
 #### **INPUTS**
-Este processo recebe continuamente os seguintes inputs:
-- Notificações de qualquer membro ao Gestor de Riscos.
+- Notificação de qualquer membro ao Gestor de Riscos.
 
 #### **CRITÉRIO DE ENTRADA/ATIVAÇÃO**
 O processo é ativado no início do Projeto, dado que a Gestão de Riscos é uma tarefa de carácter contínuo, estando sempre a receber inputs e a atuar em concordância com estes.
