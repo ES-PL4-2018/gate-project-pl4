@@ -21,7 +21,7 @@ Os Coordenadores e o Vice-Coordenador da unidade do Coordenador Ausentado são r
 #### **INPUTS**
 Os únicos inputs serão as decisões de admitir a ausência do Coordenador ou de admitir a desistência do Colaborador.
 
-#### **CRITÉRIO DE ATIVAÇÃO/TRIGGER**
+#### **CRITÉRIOS DE ENTRADA/ATIVAÇÃO**
 A ativação do processo em questão deve-se à necessidade de garantir que a unidade envolvida mantenha: 
 - A comunicação direta com a Coordenação, através do Vice-Coordenador;
 - A sua capacidade de executar as suas competências, em caso de desistência de um Colaborador.
@@ -42,9 +42,12 @@ A ativação do processo em questão deve-se à necessidade de garantir que a un
   - *Para a Coordenação:*
     - A Coordenação deverá estudar, juntamente com o Coordenador da Unidade envolvida, a necessidade de mobilizar membros de outra unidade e, caso necessário, a melhor altura para a mobilização, para equilibrar da melhor forma possível a carga de trabalho nas unidades.
     - A Coordenação deverá comunicar à unidade de Gestão a desistência, para motivos relacionados com Recursos Humanos e Riscos.
-  
+
+#### **CICLO DE VIDA DOS ARTEFACTOS**
+Não há nenhum artefacto gerado por este processo, para além do registo de Coordenadores e Vice-Coordenadores.
 
 #### **OUTPUTS**
+Como output, temos o registo de Coordenadores e Vice-Coordenadores:
 | UNIDADE | COORDENADOR | VICE-COORDENADOR |
 |---------|-------------|------------------|
 |GES|Cláudio Gomes|Madalena Santos|
