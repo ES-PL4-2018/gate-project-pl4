@@ -48,6 +48,7 @@ Não há nenhum artefacto gerado por este processo, para além do registo de Coo
 
 #### **OUTPUTS**
 Como output, temos o registo de Coordenadores e Vice-Coordenadores:
+
 | UNIDADE | COORDENADOR | VICE-COORDENADOR |
 |---------|-------------|------------------|
 |GES|Cláudio Gomes|Madalena Santos|
