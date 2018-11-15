@@ -47,12 +47,12 @@ A ativação do processo em questão deve-se à necessidade de garantir que a un
 #### **OUTPUTS**
 | UNIDADE | COORDENADOR | VICE-COORDENADOR |
 |---------|-------------|------------------|
-|GES|(Por preencher)|(Por preencher)|
-|REQ|(Por preencher)|(Por preencher)|
-|IMP|(Por preencher)|(Por preencher)|
+|GES|Cláudio Gomes|Madalena Santos|
+|REQ|Catarina Pires|(Por preencher)|
+|IMP|(Por preencher|(Por preencher)|
 |TST|(Por preencher)|(Por preencher)|
-|QUA|(Por preencher)|(Por preencher)|
-|ENV|(Por preencher)|(Por preencher)|
+|QUA|Maria Pereira|(Por preencher)|
+|ENV|José Henrique Pereira|Pedro Silva|
 
 #### **CRITÉRIO DE SAÍDA**
 Reintegração total do Coordenador, que será marcada pela remoção do Vice-Coordenador do canal do Slack de Coordenação.
