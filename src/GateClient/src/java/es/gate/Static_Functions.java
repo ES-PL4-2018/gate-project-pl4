@@ -2,8 +2,9 @@ package es.gate;
 
 import android.util.Log;
 import com.google.gson.Gson;
-import okhttp3.*;
-
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
 import java.io.IOException;
 import java.io.StringReader;
 import java.util.*;
@@ -11,24 +12,24 @@ import java.util.regex.Pattern;
 
 public class Static_Functions {
 
-                //---------Check Inputs---------\\
+    //---------Check Inputs---------\\
     private static final Pattern patternEMAIL = Pattern.compile(
             "[a-zA-Z0-9+._%-+]{1,256}" + "@" + "[a-zA-Z0-9][a-zA-Z0-9\\-]{0,64}" + "(" + "\\." + "[a-zA-Z0-9][a-zA-Z0-9\\-]{0,25}" + ")+");
 
-    public static boolean checkLength(String str, int length){
+    public static boolean checkLength(String str, int length) {
 
         return str.length() >= length;
     }
 
-    public static boolean checkEmail(String email){
+    public static boolean checkEmail(String email) {
 
         return email != null && patternEMAIL.matcher(email).matches();
     }
 
 
-                //---------Check ORCID---------\\
+    //---------Check ORCID---------\\
 
-    public static HashMap<String, String> loginORCID(String orcid){
+    public static HashMap<String, String> loginORCID(String orcid) {
 
 
         HashMap<String, String> loginResult = new HashMap<>();
@@ -38,28 +39,46 @@ public class Static_Functions {
 
         Gson gson = new Gson();
         HashMap responseMap = gson.fromJson(response, HashMap.class);
+        if (responseMap == null)
+            return null;
         HashMap<String, String> infoMap = createHash(responseMap.toString());
 
-        String name, lastName, institution, email;
+        String name = "", lastName = "", institution = "", email = "";
 
-        try{
+        try {
             name = infoMap.get("given-names");
             lastName = infoMap.get("family-name");
             institution = infoMap.get("organization");
-        }catch (NullPointerException e){
+        } catch (NullPointerException e) {
             loginResult.put("status", "There was a problem communicating with server");
             return loginResult;
         }
 
+        try {
+            name = name.replace("{value=", "").replace("}", "");
+        } catch (NullPointerException e) {
+            Log.d("ORCIDSearch", "Null first name");
+        }
+        try {
+            lastName = lastName.replace("{value=", "").replace("}", "");
+        } catch (NullPointerException e) {
+            Log.d("ORCIDSearch", "Null last name");
+        }
+        try {
+            institution = institution.replace("{name=", "");
+        } catch (NullPointerException e) {
+            Log.d("ORCIDSearch", "Null institution name");
+        }
+        try {
+            email = infoMap.get("email");
+        } catch (NullPointerException e) {
+            Log.d("ORCIDSearch", "Null email name");
+        }
 
-        name = name.replace("{value=", "").replace("}", "");
-        lastName = lastName.replace("{value=", "").replace("}", "");
-        institution = institution.replace("{name=","");
-        email = infoMap.get("email");
 
-        if(name == null){
+        if (name == null) {
             loginResult.put("status", "Not a valid orcid ID");
-        }else{
+        } else {
             loginResult.put("status", "Successful");
             loginResult.put("FirstName", name);
             loginResult.put("LastName", lastName);
@@ -71,18 +90,18 @@ public class Static_Functions {
 
     }
 
-    private static String formatORCID(String orcid){
+    public static String formatORCID(String orcid) {
         String orcidFormat = "";
         int size = orcid.length() / 4;
         int rest = orcid.length() % 4;
         int i;
 
-        for(i = 0; i < size; i++){
+        for (i = 0; i < size; i++) {
             orcidFormat = orcidFormat.concat(orcid.substring(4 * i, 4 + 4 * i) + "-");
         }
-        if(rest > 0){
-            orcidFormat = orcidFormat.concat(orcid.substring(4 * i,(4 * i) + rest));
-        }else{
+        if (rest > 0) {
+            orcidFormat = orcidFormat.concat(orcid.substring(4 * i, (4 * i) + rest));
+        } else {
             orcidFormat = orcidFormat.substring(0, orcidFormat.length() - 1);
         }
 
@@ -91,7 +110,7 @@ public class Static_Functions {
         return orcidFormat;
     }
 
-    private static String doGetRequest(String orcid){
+    private static String doGetRequest(String orcid) {
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder()
                 .get()
@@ -107,7 +126,7 @@ public class Static_Functions {
             return Objects.requireNonNull(response.body()).string();
         } catch (IOException e) {
             e.printStackTrace();
-        } catch(NullPointerException e){
+        } catch (NullPointerException e) {
             Log.d("StaticFunctions", "Response was null");
         }
         return null;
@@ -122,76 +141,10 @@ public class Static_Functions {
             e.printStackTrace();
         }
         Set<Map.Entry<Object, Object>> entrySet = properties.entrySet();
-        HashMap<String,String> hashMap = new HashMap<>();
+        HashMap<String, String> hashMap = new HashMap<>();
         for (Map.Entry<Object, Object> entry : entrySet) {
             hashMap.put((String) entry.getKey(), (String) entry.getValue());
         }
         return hashMap;
     }
-/*
-    private static boolean getORCIDInfo(String url){
-        try {
-            OkHttpClient client = new OkHttpClient();
-            Request request = new Request.Builder()
-                    .url(url)
-                    .build();
-            Response response = client.newCall(request).execute();
-            System.out.println("orcid " + response.code());
-            return response.code() == 200;
-        }catch(IOException e){
-
-        }
-        return false;
-    }
-
-
-    private static HashMap login(String orcid){
-
-
-        return null;
-    }
-
-    public static boolean checkORCID(String str){
-
-        if(str.length() == 0)
-            return false;
-
-        String orcid = "";
-        int size = str.length() / 4;
-        int rest = str.length() % 4;
-        int i;
-
-        for(i = 0; i < size; i++){
-            orcid = orcid.concat(str.substring(4 * i, 4 + 4 * i) + "-");
-        }
-        if(rest > 0){
-            orcid = orcid.concat(str.substring(4 * i,(4 * i) + rest));
-        }else{
-            orcid = orcid.substring(0, orcid.length() - 1);
-        }
-
-        System.out.println("orcid " + orcid);
-
-        return patternORCID.matcher(orcid).matches() && getORCIDInfo("https://pub.orcid.org/v2.0/" + orcid);//TODO url wrong
-    }
-
-    public static void orcidInfo(){
-
-
-
-        try {
-            OkHttpClient client = new OkHttpClient();
-            Request request = new Request.Builder()
-                    .url("https://sandbox.orcid.org/oauth/token")
-                    //.post(RequestBody.create(MediaType.parse("application/json", json)))
-                    .build();
-            Response response = client.newCall(request).execute();
-            System.out.println("orcid " + response.code());
-           // return response.code() == 200;
-        }catch(IOException e){
-
-        }
-
-    }
-    */
 }

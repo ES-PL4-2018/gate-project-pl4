@@ -41,23 +41,23 @@ public class Register extends AppCompatActivity {
         setupRegisterViewPager();
     }
 
-    public void registerPage(int event){
+    public void registerPage(int event) {
 
-        switch(event){
+        switch (event) {
             case 0: {
                 viewPager.setCurrentItem(0);
                 break;
             }
-            case 1:{
+            case 1: {
                 registerPage2.inputSetup();
                 viewPager.setCurrentItem(1);
                 break;
             }
-            case 2:{
+            case 2: {
                 viewPager.setCurrentItem(2);
                 break;
             }
-            case 3:{
+            case 3: {
                 Realm realm = Realm.getDefaultInstance();
                 realm.beginTransaction();
                 realm.copyToRealm(accInfo);
@@ -69,7 +69,7 @@ public class Register extends AppCompatActivity {
                 startActivity(openMain);
                 break;
             }
-            case -1:{
+            case -1: {
                 finish();
                 startActivity(openLogin);
                 break;
@@ -77,22 +77,22 @@ public class Register extends AppCompatActivity {
         }
     }
 
-    public void OnClick(View v){
+    public void OnClick(View v) {
 
-        switch(v.getId()){
+        switch (v.getId()) {
 
-            case R.id.registerCancel:{
+            case R.id.registerCancel: {
 
                 finish();
                 startActivity(openLogin);
                 break;
             }
-            case R.id.registerP2Back:{
+            case R.id.registerP2Back: {
 
                 viewPager.setCurrentItem(0);
                 break;
             }
-            case R.id.registerP3Back:{
+            case R.id.registerP3Back: {
 
                 viewPager.setCurrentItem(1);
                 break;
@@ -104,21 +104,21 @@ public class Register extends AppCompatActivity {
         }
     }
 
-    public AccountInformation getInfo(){
+    public AccountInformation getInfo() {
         return accInfo;
     }
 
-    public void setInfo(HashMap userInfo){
+    public void setInfo(HashMap userInfo) {
 
-        accInfo.setOrcid((String)userInfo.get("orcid"));
-        accInfo.setPassword((String)userInfo.get("password"));
-        accInfo.setUserFirstName((String)userInfo.get("FirstName"));
-        accInfo.setUserLastName((String)userInfo.get("LastName"));
-        accInfo.setInstitution((String)userInfo.get("Institution"));
-        accInfo.setUserEmail((String)userInfo.get("Email"));
+        accInfo.setOrcid((String) userInfo.get("orcid"));
+        accInfo.setPassword((String) userInfo.get("password"));
+        accInfo.setUserFirstName((String) userInfo.get("FirstName"));
+        accInfo.setUserLastName((String) userInfo.get("LastName"));
+        accInfo.setInstitution((String) userInfo.get("Institution"));
+        accInfo.setUserEmail((String) userInfo.get("Email"));
     }
 
-    private void setupRegisterViewPager(){
+    private void setupRegisterViewPager() {
 
         viewPager = findViewById(R.id.registerViewPager);
         BottomBarAdapter barAdapter = new BottomBarAdapter(getSupportFragmentManager());

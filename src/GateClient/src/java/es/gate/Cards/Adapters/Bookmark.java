@@ -20,15 +20,15 @@ import io.realm.RealmList;
 
 import java.util.Objects;
 
-public class Bookmark extends RecyclerView.Adapter<Bookmark.CardViewHolder>{
+public class Bookmark extends RecyclerView.Adapter<Bookmark.CardViewHolder> {
     private RealmList<Bookmarks> bookmarks;
     private Context context;
     private Bookmark bookmarkAdapter;
     private Realm realm;
 
-    public Bookmark(Context context){
+    public Bookmark(Context context, String curAccount) {
         realm = Realm.getDefaultInstance();
-        this.bookmarks = Objects.requireNonNull(realm.where(AccountInformation.class).findFirst()).getUserBookmark();
+        this.bookmarks = Objects.requireNonNull(realm.where(AccountInformation.class).equalTo("orcid", curAccount).findFirst()).getUserBookmark();
         this.context = context;
         this.bookmarkAdapter = this;
         realm.close();
@@ -52,9 +52,9 @@ public class Bookmark extends RecyclerView.Adapter<Bookmark.CardViewHolder>{
                         if (!url.startsWith("http://") && !url.startsWith("https://"))
                             url = "http://" + url;
                         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                        try{
+                        try {
                             context.startActivity(intent);
-                        }catch (ActivityNotFoundException e){
+                        } catch (ActivityNotFoundException e) {
                             Toast.makeText(context, "Invalid link", Toast.LENGTH_LONG).show();
                         }
                     }
@@ -74,7 +74,7 @@ public class Bookmark extends RecyclerView.Adapter<Bookmark.CardViewHolder>{
                     }
                 });
             }
-        },100);
+        }, 100);
         bookmarkCardView.tags.setText(Objects.requireNonNull(bookmarks.get(i)).getBmTags());
         bookmarkCardView.name.setText(Objects.requireNonNull(bookmarks.get(i)).getBmName());
     }

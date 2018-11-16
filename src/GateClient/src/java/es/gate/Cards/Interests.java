@@ -1,8 +1,6 @@
 package es.gate.Cards;
 
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Interests implements Serializable {
 
@@ -15,7 +13,7 @@ public class Interests implements Serializable {
         selected = false;
     }
 
-    public String getInterest(){
+    public String getInterest() {
         return interest;
     }
 
@@ -23,11 +21,11 @@ public class Interests implements Serializable {
         this.selected = !this.selected;
     }
 
-    public void setSelected(boolean selected){
-        this.selected = selected;
-    }
-
     public boolean isSelected() {
         return selected;
+    }
+
+    public void setSelected(boolean selected) {
+        this.selected = selected;
     }
 }

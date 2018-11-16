@@ -1,15 +1,12 @@
 package es.gate.Fragments;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,51 +14,39 @@ import android.widget.Toast;
 import com.google.android.flexbox.FlexWrap;
 import com.google.android.flexbox.FlexboxLayoutManager;
 import com.google.android.flexbox.JustifyContent;
-import com.twitter.sdk.android.core.TwitterAuthConfig;
-import com.twitter.sdk.android.core.TwitterConfig;
+import com.twitter.sdk.android.core.*;
+import com.twitter.sdk.android.core.models.Tweet;
+import com.twitter.sdk.android.tweetcomposer.TweetComposer;
+import com.twitter.sdk.android.tweetui.SearchTimeline;
+import com.twitter.sdk.android.tweetui.TimelineResult;
+import com.twitter.sdk.android.tweetui.TweetTimelineRecyclerViewAdapter;
 import es.gate.DatabaseClasses.AccountInformation;
-import es.gate.DatabaseClasses.Tweets;
+import es.gate.Menus.Main;
 import es.gate.R;
 import io.realm.Realm;
 import io.realm.RealmList;
-import io.realm.exceptions.RealmPrimaryKeyConstraintException;
-import twitter4j.*;
-import twitter4j.conf.ConfigurationBuilder;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.Objects;
 import java.util.Properties;
 
-public class Feed extends Fragment implements Runnable, SwipeRefreshLayout.OnRefreshListener{
+public class Feed extends Fragment implements SwipeRefreshLayout.OnRefreshListener {
 
     private View feedView;
     private SwipeRefreshLayout swipeLayoutView;
     private RecyclerView recyclerView;
-    private Twitter twitter;
-
-    @SuppressLint("HandlerLeak")
-    private Handler cardAdapterHandler = new Handler() {
-        @Override
-        public void handleMessage(Message message) {
-
-            es.gate.Cards.Adapters.Feed cardAdapter = new es.gate.Cards.Adapters.Feed(getContext());
-            recyclerView.setAdapter(cardAdapter);
-            cardAdapter.notifyDataSetChanged();
-            swipeLayoutView.setRefreshing(false);
-        }
-    };
-
+    private String query;
+    private String curAccount;
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         super.onCreateView(inflater, container, savedInstanceState);
 
+        curAccount = ((Main) Objects.requireNonNull(getActivity())).getCurAccount();
+
         View view = inflater.inflate(R.layout.menu_feed, container, false);
-
-
         Properties props = new Properties();
         try {
             props.load(Objects.requireNonNull(getActivity()).getBaseContext().getAssets().open("twitter.properties"));
@@ -70,7 +55,7 @@ public class Feed extends Fragment implements Runnable, SwipeRefreshLayout.OnRef
         }
         String twitterInfo[] = new String[4];
         for (Enumeration<?> e = props.propertyNames(); e.hasMoreElements(); ) {
-            String name = (String)e.nextElement();
+            String name = (String) e.nextElement();
             String value = props.getProperty(name);
             // now you have name and value
             if (name.startsWith("ConsumerKey")) {
@@ -87,21 +72,29 @@ public class Feed extends Fragment implements Runnable, SwipeRefreshLayout.OnRef
             }
         }
 
-        ConfigurationBuilder cb = new ConfigurationBuilder();
-        cb.setDebugEnabled(true)
-                .setOAuthConsumerKey(twitterInfo[0])
-                .setOAuthConsumerSecret(twitterInfo[1])
-                .setOAuthAccessToken(twitterInfo[2])
-                .setOAuthAccessTokenSecret(twitterInfo[3]);
-        TwitterFactory tf = new TwitterFactory(cb.build());
-        twitter = tf.getInstance();
-
         TwitterConfig config = new TwitterConfig.Builder(Objects.requireNonNull(getContext()))
                 .twitterAuthConfig(new TwitterAuthConfig(twitterInfo[0], twitterInfo[1]))
                 .debug(true)
                 .build();
         com.twitter.sdk.android.core.Twitter.initialize(config);
 
+        FloatingActionButton postTwitter = view.findViewById(R.id.postTwitter);
+
+        postTwitter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                final TwitterSession session = TwitterCore.getInstance().getSessionManager()
+                        .getActiveSession();
+                if (session == null) {
+                    Toast.makeText(getContext(), "Please login to post", Toast.LENGTH_LONG).show();
+                    return;
+                }
+                TweetComposer.Builder builder = new TweetComposer.Builder(Objects.requireNonNull(getContext()));
+                builder.show();
+            }
+
+        });
 
         swipeLayoutView = view.findViewById(R.id.feedSwipeRefresh);
         swipeLayoutView.setOnRefreshListener(this);
@@ -114,15 +107,57 @@ public class Feed extends Fragment implements Runnable, SwipeRefreshLayout.OnRef
         layoutManager.setJustifyContent(JustifyContent.SPACE_BETWEEN);
         recyclerView.setLayoutManager(layoutManager);
 
-        swipeLayoutView.setRefreshing(true);
+        updateQuery();
 
-        new Thread(this).start();
+        final SearchTimeline timeline = new SearchTimeline.Builder()
+                .query(query)
+                //.resultType(SearchTimeline.ResultType.POPULAR)
+                .build();
+        final TweetTimelineRecyclerViewAdapter adapter = new TweetTimelineRecyclerViewAdapter.Builder(getContext())
+                .setTimeline(timeline)
+                .setViewStyle(R.style.tw__TweetDarkWithActionsStyle)
+                .build();
 
+        recyclerView.setAdapter(adapter);
+
+        swipeLayoutView.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                swipeLayoutView.setRefreshing(true);
+                if (updateQuery()) {
+                    final SearchTimeline timeline = new SearchTimeline.Builder()
+                            .query(query)
+                            //.resultType(SearchTimeline.ResultType.POPULAR)
+                            .build();
+                    final TweetTimelineRecyclerViewAdapter adapter = new TweetTimelineRecyclerViewAdapter.Builder(getContext())
+                            .setTimeline(timeline)
+                            .setViewStyle(R.style.tw__TweetDarkWithActionsStyle)
+                            .build();
+
+                    recyclerView.setAdapter(adapter);
+                    swipeLayoutView.setRefreshing(false);
+                } else {
+                    adapter.refresh(new Callback<TimelineResult<Tweet>>() {
+                        @Override
+                        public void success(Result<TimelineResult<Tweet>> result) {
+                            swipeLayoutView.setRefreshing(false);
+                        }
+
+                        @Override
+                        public void failure(com.twitter.sdk.android.core.TwitterException exception) {
+                            Toast.makeText(getContext(), "There was a problem fetching tweets", Toast.LENGTH_LONG).show();
+                        }
+                    });
+                }
+            }
+        });
         feedView = view;
         return view;
+
+
     }
 
-    public View getView(){
+    public View getView() {
         return feedView;
     }
 
@@ -130,61 +165,32 @@ public class Feed extends Fragment implements Runnable, SwipeRefreshLayout.OnRef
     public void onRefresh() {
 
         swipeLayoutView.setRefreshing(true);
-
-        new Thread(this).start();
     }
 
-    @Override
-    public void run() {
+    private boolean updateQuery() {
 
         Realm realm = Realm.getDefaultInstance();
-        AccountInformation accInfo = realm.where(AccountInformation.class).findFirst();
-
-        realm.beginTransaction();
-        realm.where(Tweets.class).findAll().deleteAllFromRealm();
-        realm.commitTransaction();
+        AccountInformation accInfo = realm.where(AccountInformation.class).equalTo("orcid", curAccount).findFirst();
 
         assert accInfo != null;
         RealmList<String> interests = accInfo.getInterests();
-        RealmList<Tweets> sessionTweets = new RealmList<>();
 
-        for(String interest : interests) {
-            Query query = new Query("#" + interest + " -filter:retweets");
-            query.count(5);
-            query.setResultType(Query.POPULAR);
-            query.lang("en");
-            QueryResult result = null;
-            try {
-                result = twitter.search(query);
-            } catch (TwitterException e) {
-                e.printStackTrace();
-            }try {
-                assert result != null;
-                for (Status status : result.getTweets()) {
-                    realm.beginTransaction();
-                    Tweets tweet;
-                    try {
-                        tweet = realm.createObject(Tweets.class, status.getId());
-                        sessionTweets.add(tweet);
-                    }catch(RealmPrimaryKeyConstraintException e){
-                        Log.d("Feed", "Tweet already in list");
-                    }
-                    realm.commitTransaction();
+        String newQuery = "";
 
-                }
-            }catch(NullPointerException e){
-                Toast.makeText(getContext(), "There was an error fetching tweets", Toast.LENGTH_LONG).show();
-                return;
+        for (String s : interests) {
+            newQuery = newQuery.concat("#" + s);
+            if (!Objects.equals(interests.last(), s)) {
+                newQuery = newQuery.concat(" OR ");
             }
         }
-        realm.beginTransaction();
-        accInfo.setSessionTweets(sessionTweets);
-        realm.commitTransaction();
-        realm.close();
 
-        Message message = cardAdapterHandler.obtainMessage();
-        message.setData(new Bundle());
-        cardAdapterHandler.sendMessage(message);
+        System.out.println(query);
+        System.out.println(newQuery);
+        if (!newQuery.equals(query)) {
+            query = newQuery;
+            return true;
+        }
+        return false;
     }
 
 }

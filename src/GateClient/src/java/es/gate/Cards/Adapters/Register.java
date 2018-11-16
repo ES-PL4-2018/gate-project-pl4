@@ -12,12 +12,12 @@ import es.gate.R;
 
 import java.util.List;
 
-public class Register extends RecyclerView.Adapter<Register.CardViewHolder>{
+public class Register extends RecyclerView.Adapter<Register.CardViewHolder> {
 
     private static final String TAG = "MyActivity";
     private List<Interests> interests;
 
-    public Register(List<Interests> interests){
+    public Register(List<Interests> interests) {
         this.interests = interests;
     }
 
@@ -38,15 +38,15 @@ public class Register extends RecyclerView.Adapter<Register.CardViewHolder>{
                         //registerActivity.registerInterestsOnClick(view);
                         interests.get(registerCardView.getAdapterPosition()).setSelected();
 
-                        if(interests.get(registerCardView.getAdapterPosition()).isSelected()){
+                        if (interests.get(registerCardView.getAdapterPosition()).isSelected()) {
                             registerCardView.cardButton.setBackgroundResource(R.drawable.button_white_center);
-                        }else{
+                        } else {
                             registerCardView.cardButton.setBackgroundResource(R.drawable.button_white_outline);
                         }
                     }
                 });
             }
-        },100);
+        }, 100);
         registerCardView.cardButton.setText(interests.get(i).getInterest());
     }
 
