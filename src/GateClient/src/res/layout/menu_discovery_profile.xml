@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/discovery"
+        android:descendantFocusability="beforeDescendants"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/discovery_background">
+
+    <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.05"
+            app:layout_constraintHorizontal_bias="0.90"
+            android:src="@drawable/all_back_right"
+            android:id="@+id/discoveryRightImage"
+            tools:ignore="ContentDescription"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/discovery_image"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.075"
+            android:src="@drawable/bvn_profile"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#FFFFFF"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.31"
+            android:text="@string/discoveryUserName"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:id="@+id/discoveryName"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.425"
+            app:layout_constraintHorizontal_bias="0.2"
+            android:text="@string/discoveryName"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:id="@+id/discoveryUserName"/>
+
+    <EditText
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.46"
+            app:layout_constraintHorizontal_bias="0.35"
+            android:text=""
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:inputType="textPersonName"
+            android:focusable="false"
+            android:maxLength="25"
+            android:singleLine="true"
+            android:id="@+id/discoveryUserNameInput"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.525"
+            app:layout_constraintHorizontal_bias="0.2"
+            android:text="@string/discoveryUserEmail"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:id="@+id/discoveryUserEmail"/>
+
+    <EditText
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.56"
+            app:layout_constraintHorizontal_bias="0.35"
+            android:text=""
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:inputType="textEmailAddress"
+            android:focusable="false"
+            android:maxLength="25"
+            android:singleLine="true"
+            android:id="@+id/discoveryUserEmailInput"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.625"
+            app:layout_constraintHorizontal_bias="0.215"
+            android:text="@string/discoveryInstitution"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:id="@+id/discoveryInstitution"/>
+
+    <EditText
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.66"
+            app:layout_constraintHorizontal_bias="0.35"
+            android:text=""
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:focusable="false"
+            android:maxLength="30"
+            android:singleLine="true"
+            android:id="@+id/discoveryInstitutionInput"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.725"
+            app:layout_constraintHorizontal_bias="0.232"
+            android:text="@string/discoveryResearchUnit"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:id="@+id/discoveryResearchUnit"/>
+
+    <EditText
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.76"
+            app:layout_constraintHorizontal_bias="0.35"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:focusable="false"
+            android:maxLength="30"
+            android:singleLine="true"
+            android:id="@+id/discoveryResearchUnitInput"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.825"
+            app:layout_constraintHorizontal_bias="0.246"
+            android:text="@string/discoveryLastSeen"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:id="@+id/discoveryLastSeen"/>
+
+    <EditText
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.87"
+            app:layout_constraintHorizontal_bias="0.35"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:focusable="false"
+            android:singleLine="true"
+            android:id="@+id/discoveryLastSeenInput"/>
+
+</android.support.constraint.ConstraintLayout>

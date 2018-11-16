@@ -1,6 +1,5 @@
 package es.gate.DatabaseClasses;
 
-import es.gate.Fragments.Bookmark;
 import io.realm.RealmList;
 import io.realm.RealmObject;
 import io.realm.annotations.PrimaryKey;

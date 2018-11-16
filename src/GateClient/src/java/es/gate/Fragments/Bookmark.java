@@ -9,10 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import es.gate.BottomViewNavigation.BottomBarAdapter;
-import es.gate.DatabaseClasses.AccountInformation;
-import es.gate.Menus.Main;
 import es.gate.R;
-import io.realm.Realm;
 
 public class Bookmark extends Fragment {
 
@@ -32,30 +29,30 @@ public class Bookmark extends Fragment {
         return bookmarkView;
     }
 
-    public View getView(){
+    public View getView() {
         return bookmarkView;
     }
 
-    public void bookmarkClick(int event){
+    public void bookmarkClick(int event) {
 
-        switch(event){
+        switch (event) {
             case 0: {
                 viewPager.setCurrentItem(1);
                 break;
             }
-            case 1:{
+            case 1: {
                 viewPager.setCurrentItem(0);
                 bookmarkListFragment.updateData();
                 break;
             }
-            case -1:{
+            case -1: {
                 viewPager.setCurrentItem(0);
                 break;
             }
         }
     }
 
-    private void setupBookmarkViewPager(){
+    private void setupBookmarkViewPager() {
 
         BottomBarAdapter barAdapter = new BottomBarAdapter(getChildFragmentManager());
         viewPager = bookmarkView.findViewById(R.id.bookmarkViewPager);

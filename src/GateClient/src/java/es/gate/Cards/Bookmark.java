@@ -21,20 +21,20 @@ public class Bookmark implements Serializable {
         return name;
     }
 
-    public String getTags() {
-        return tags;
-    }
-
-    public String getUrl() {
-        return url;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
 
+    public String getTags() {
+        return tags;
+    }
+
     public void setTags(String tags) {
         this.tags = tags;
+    }
+
+    public String getUrl() {
+        return url;
     }
 
     public void setUrl(String url) {

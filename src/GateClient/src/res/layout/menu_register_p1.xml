@@ -12,21 +12,6 @@
         android:focusableInTouchMode="true"
         android:background="@drawable/register_background">
 
-<!--
-    <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.025"
-            app:layout_constraintHorizontal_bias="0.065"
-            app:srcCompat="@drawable/all_back"
-            android:onClick="OnClick"
-            android:id="@+id/registerP1Back"/>
--->
-
     <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"

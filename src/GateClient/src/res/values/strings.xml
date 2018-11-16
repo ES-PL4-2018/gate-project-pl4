@@ -62,6 +62,14 @@
     <string name="discoveryContact">Contact List</string>
     <string name="discoveryAdd">Add Contact</string>
     <string name="discoverySearch">Search</string>
+    <string name="discoveryUserName">Username</string>
+    <string name="discoveryUserEmail">Email</string>
+    <string name="discoveryLastSeen">Last Seen Online</string>
+    <string name="discoveryName">Name</string>
+    <string name="discoveryInstitution">Institution</string>
+    <string name="discoveryResearchUnit">Research Unit</string>
+    <string name="discoveryResearchCenter">Research Center</string>
+    <string name="discoveryResearchInterests">Research Interests</string>
 
     <string name="com.twitter.sdk.android.CONSUMER_KEY">d6LPbblcvvauDjplDjlr7Rnha</string>
     <string name="com.twitter.sdk.android.CONSUMER_SECRET">mRY55iuOOCrSZOuAjkhTzi7U3hsMABOF94vHfR9Qg6xVXaqUCc</string>

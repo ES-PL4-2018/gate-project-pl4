@@ -6,28 +6,26 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TextView;
 import es.gate.DatabaseClasses.AccountInformation;
 import es.gate.R;
 import io.realm.Realm;
 import io.realm.RealmList;
 
-import java.util.ArrayList;
 import java.util.Objects;
 
-public class Profile extends RecyclerView.Adapter<Profile.CardViewHolder>{
+public class Profile extends RecyclerView.Adapter<Profile.CardViewHolder> {
 
     private RealmList<String> interests;
     private Realm realm;
     private Profile profileAdapter;
     private es.gate.Fragments.Profile parent;
 
-    public Profile(es.gate.Fragments.Profile parent){
+    public Profile(es.gate.Fragments.Profile parent, String curAccount) {
 
         realm = Realm.getDefaultInstance();
 
-        interests = Objects.requireNonNull(realm.where(AccountInformation.class).findFirst()).getInterests();
+        interests = Objects.requireNonNull(realm.where(AccountInformation.class).equalTo("orcid", curAccount).findFirst()).getInterests();
 
         profileAdapter = this;
         this.parent = parent;
@@ -46,8 +44,8 @@ public class Profile extends RecyclerView.Adapter<Profile.CardViewHolder>{
             public void run() {
                 profileCardView.cardView.setOnLongClickListener(new View.OnLongClickListener() {
                     @Override
-                    public boolean onLongClick(View v){
-                        if(parent.isEditing()) {
+                    public boolean onLongClick(View v) {
+                        if (parent.isEditing()) {
                             realm = Realm.getDefaultInstance();
                             realm.beginTransaction();
                             interests.remove(profileCardView.getAdapterPosition());
@@ -59,7 +57,7 @@ public class Profile extends RecyclerView.Adapter<Profile.CardViewHolder>{
                     }
                 });
             }
-        },100);
+        }, 100);
         profileCardView.cardText.setText(interests.get(i));
         profileCardView.cardText.setBackgroundResource(R.color.transparent);
         profileCardView.cardText.setClickable(false);
