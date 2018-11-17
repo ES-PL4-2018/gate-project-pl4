@@ -13,7 +13,7 @@
 |0.1 | 25/09/2018 | Pedro Fernandes | Criação processo|
 |1.0|03/10/2018|Madalena Santos|Alterações + validação|
 |2.0|20/10/2018|Pedro Fernandes|Revisão, edição e aprovação|
-|3.0|14/11/2018|Pedro Fernandes|Edição conforme o relatório da inspecção elaborada pela unidade de Qualidade (incorporação dos processos de tomada de decisões e atas neste processo)|
+|3.0|14/11/2018|Pedro Fernandes|Edição conforme o relatório da inspecção|
 
 #### DESCRIÇÃO DO PROCESSO
 
