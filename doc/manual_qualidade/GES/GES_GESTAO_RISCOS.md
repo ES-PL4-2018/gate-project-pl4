@@ -11,6 +11,7 @@
 |-|-|-|-|
 | 0.1 | 23/10/2018 | Cláudio Gomes | Criação do processo |
 | 0.2 | 14/11/2018 | Alexandre Marques | Adição do Relatório de Riscos|
+| 1.0 | 15/11/2018 | Cláudio Gomes | Alteração tendo em conta recomendações de Qualidade|
 
 #### **DESCRIÇÃO DO PROCESSO**
 Este processo descreve o papel importante da Gestão de Riscos na Equipa. Existe um Gestor de Riscos responsável por rever semanalmente a importância e probabilidade dos Riscos merecedores de atenção, num documento chamado Relatório de Riscos. O mesmo Gestor é ainda responsável por elaborar os processos necessários para evitar Riscos ou atenuar o impacto de Problemas que os Coordenadores ou Colaboradores terão de cumprir. Para finalizar, os Coordenadores e os Gestores de Recursos Humanos devem notificar o Gestor de Riscos sempre que reconhecerem uma situação desfavorável para a Equipa - Por exemplo: a desmotivação de um membro, que tem vindo a ausentar-se cada vez mais; A falha no Cumprimento de Prazos, entre outros que constam no Relatório de Riscos atualizado.
