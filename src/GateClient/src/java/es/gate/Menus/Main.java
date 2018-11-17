@@ -21,8 +21,11 @@ import java.util.Objects;
 public class Main extends AppCompatActivity {
 
     private ViewPager viewPager;
-    private Profile profileFragment;
+
     private BottomNavigationView bottomNavView;
+    private Discovery discoveryFragment;
+    private Profile profileFragment;
+    private Bookmark bookmarkFragment;
     private String curAccount;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -38,9 +41,11 @@ public class Main extends AppCompatActivity {
                     viewPager.setCurrentItem(1);
                     return true;
                 case R.id.navigation_discovery:
+                    discoveryFragment.discoveryEvent(1);
                     viewPager.setCurrentItem(2);
                     return true;
                 case R.id.navigation_notifications:
+                    bookmarkFragment.bookmarkClick(1);
                     viewPager.setCurrentItem(3);
                     return true;
             }
@@ -84,8 +89,8 @@ public class Main extends AppCompatActivity {
 
         profileFragment = new Profile();
         Feed feedFragment = new Feed();
-        Discovery discoveryFragment = new Discovery();
-        Bookmark bookmarkFragment = new Bookmark();
+        discoveryFragment = new Discovery();
+        bookmarkFragment = new Bookmark();
 
         barAdapter.addFragments(profileFragment);
         barAdapter.addFragments(feedFragment);
@@ -108,11 +113,6 @@ public class Main extends AppCompatActivity {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-
-        System.out.println("???????????");
-
-        // Pass the activity result to the fragment, which will then pass the result to the login
-        // button.
         Fragment fragment = getSupportFragmentManager().findFragmentById(Objects.requireNonNull(profileFragment.getFragmentID()));
         if (fragment != null) {
             fragment.onActivityResult(requestCode, resultCode, data);

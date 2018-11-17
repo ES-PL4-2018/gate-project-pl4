@@ -38,7 +38,7 @@ public class Discovery_Add extends Fragment {
         recyclerView.setLayoutManager(layoutManager);
 
         adapter = new es.gate.Cards.Adapters.Discovery_Add(((Main) Objects.requireNonNull(parent.getActivity())).getCurAccount(), (Discovery) getParentFragment());
-
+        recyclerView.setAdapter(adapter);
         createFragment.findViewById(R.id.discoveryBack).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

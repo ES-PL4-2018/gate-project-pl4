@@ -147,4 +147,12 @@ public class Static_Functions {
         }
         return hashMap;
     }
+
+
+
+    //-----------Usefull-----------\\
+
+    public static String padOrcid(String orcid){
+        return ("0000000000000000" + orcid).substring(orcid.length());
+    }
 }

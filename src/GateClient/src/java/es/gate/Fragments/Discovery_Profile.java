@@ -57,7 +57,7 @@ public class Discovery_Profile extends Fragment {
 
         UsersConnected user = realm.where(UsersConnected.class).equalTo("userORCID", Long.parseLong(accountOrcid)).findFirst();
 
-        userOrcid.setText(Static_Functions.formatORCID(String.valueOf(Objects.requireNonNull(user).getUserORCID())));
+        userOrcid.setText(Static_Functions.formatORCID(Static_Functions.padOrcid(String.valueOf(Objects.requireNonNull(user).getUserORCID()))));
         inputName.setText(user.getUserName());
         inputInstitution.setText(user.getInstitution());
         inputInvestigation.setText(user.getResearchUnits());

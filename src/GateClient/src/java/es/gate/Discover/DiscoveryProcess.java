@@ -34,7 +34,7 @@ public class DiscoveryProcess {
         //User info
         AccountInformation userAccount = realm.where(AccountInformation.class).equalTo("orcid", curAccount).findFirst();
         new Thread(new DiscoverPacket()).start();
-        new Thread(new ReceivePacket(userAccount.getOrcid(), userAccount.getUserFirstName() + userAccount.getUserLastName())).start();
+        new Thread(new ReceivePacket(userAccount.getOrcid(), userAccount.getUserFirstName() + " " + userAccount.getUserLastName())).start();
         realm.close();
     }
 
@@ -96,6 +96,8 @@ public class DiscoveryProcess {
             byte[] buffer;
             DatagramPacket packet;
             Map<String, Object> map;
+
+            Realm realm;
 
             Log.d("Receive", "Startup");
             try {
@@ -212,7 +214,7 @@ public class DiscoveryProcess {
 
                             Message message = discoveryInstance.getDiscoveryHandler().obtainMessage();
                             Bundle bundle = new Bundle();
-                            bundle.putInt("clickEvent", 3);
+                            bundle.putInt("clickEvent", 4);
                             message.setData(bundle);
                             discoveryInstance.getDiscoveryHandler().sendMessage(message);
 
@@ -295,7 +297,7 @@ public class DiscoveryProcess {
                 }
 
                 map.put("userOrcid", curAccount);
-                map.put("userName", account.getUserFirstName() + account.getUserLastName());
+                map.put("userName", account.getUserFirstName() + " " + account.getUserLastName());
                 map.put("usersDiscovered", contacts);
                 map.put("destination", destination);
                 map.put("type", "usersDiscovered");
