@@ -1,5 +1,5 @@
 # GATE
-## Relatório inspeção artefacto
+## Relatório reunião inspeção artefacto
 ### Codificação do artefacto: GES_GESTAO_RISCOS
 ### Versão do artefacto: 0.1
 #### Data: 10/11/18
