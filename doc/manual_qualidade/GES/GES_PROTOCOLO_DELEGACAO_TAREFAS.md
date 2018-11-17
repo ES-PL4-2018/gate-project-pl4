@@ -10,6 +10,7 @@
 | VERSÃO | DATA | AUTORES | DESCRIÇÃO |
 |-|-|-|-|
 | 0.1 | 19/10/2018 | Cláudio Gomes | Criação do processo |
+| 1.0 | 15/11/2018 | Cláudio Gomes | Alteração tendo em conta recomendações de Qualidade|
 
 #### **DESCRIÇÃO DO PROCESSO**
 Este processo descreve como os Coordenadores da Equipa e o Vice-Coordenador da unidade envolvida devem proceder em caso de ausência do Coordenador, pois é fulcral manter a unidade conectada à Coordenação, de forma a estarem cientes de eventuais decisões da Coordenação com eficácia. Para além disso, também descreve como se deve proceder em caso de desistência de um Colaborador.
