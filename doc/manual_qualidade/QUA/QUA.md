@@ -1,6 +1,6 @@
 ## Qualidade (QUA)
 
-A equipa de Quality Assurqualidaed é responsável pela gestão e verificação de processos e standarts de forma a minimizar a presença de defeitos no produto, garantindo simultaneamente que toda a equipa trabalha com base nos processos que se encontram publicados no manual de qualidade.
+A equipa de Qualidade é responsável pela gestão e verificação de processos e standarts de forma a minimizar a presença de defeitos no produto, garantindo simultaneamente que toda a equipa trabalha com base nos processos que se encontram publicados no manual de qualidade.
 É também uma responsabilidade a elaboração e manutenção do manual de qualidade, a verificação e interpretação de métricas acerca do produto e processos para report á gestão do projeto de forma a apoiar na decisão.
 
 Unidade | Data | Lead | Co-Lead
