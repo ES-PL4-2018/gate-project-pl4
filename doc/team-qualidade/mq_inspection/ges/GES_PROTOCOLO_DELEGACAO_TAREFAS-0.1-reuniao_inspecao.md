@@ -1,11 +1,16 @@
 # GATE
-## Relatório inspeção artefacto
+## Relatório reunião inspeção artefacto
 ### Codificação do artefacto: GES_PROTOCOLO_DELEGACAO_TAREFAS
 ### Versão do artefacto: 0.1
-#### Nome: Sergii Mykolyshyn	
 #### Data: 10/11/18
+#### Presentes: 
+|Posição|Nome
+|:---:|---
+|Inspetor| Sergii Mykolyshyn
+|Moderador| Maria Pereira
+|Autor| Cláudio Gomes
+|Leitor| Todos
 
-</br>
 
 #### Tabela para registo de defeitos
 |Pag|Linha|Tipo|Obervação
