@@ -9,6 +9,7 @@ import android.widget.Toast;
 import es.gate.DatabaseClasses.AccountInformation;
 import es.gate.DatabaseClasses.UsersConnected;
 import es.gate.Fragments.Discovery;
+import es.gate.Static_Functions;
 import io.realm.Realm;
 
 import java.io.IOException;
@@ -35,7 +36,7 @@ public class ContactProfile implements Runnable {
     public ContactProfile(String curAccount, String userProfile, Discovery discoveryInstance, Context context) {
         this.context = context;
         this.curAccount = curAccount;
-        this.userProfile = userProfile;
+        this.userProfile = Static_Functions.padOrcid(userProfile);
         this.discoveryInstance = discoveryInstance;
 
         new Thread(this).start();
@@ -83,7 +84,7 @@ public class ContactProfile implements Runnable {
                 map = (Map<String, Object>) Serializer.deserialize(packet.getData());
 
                 if (map.get("type").equals("profileSend")) {
-                    if (map.get("destination").equals(curAccount)) {
+                    if (!map.get("destination").equals(curAccount)) {
                         break;
                     }
 
@@ -109,7 +110,7 @@ public class ContactProfile implements Runnable {
 
                     Message message = discoveryInstance.getDiscoveryHandler().obtainMessage();
                     Bundle bundle = new Bundle();
-                    bundle.putInt("clickEvent", 2);
+                    bundle.putInt("clickEvent", 3);
                     message.setData(bundle);
                     discoveryInstance.getDiscoveryHandler().sendMessage(message);
                     return;
