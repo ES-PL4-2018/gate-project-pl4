@@ -1,10 +1,15 @@
 # GATE
-## Relatório inspeção artefacto
+## Relatório reunião inspeção artefacto
 ### Codificação do artefacto: GES_FUNCIONAMENTO_TRELLO
 ### Versão do artefacto: 1.0
-#### Nome: Sergii Mykolyshyn	
 #### Data: 10/11/18
-
+#### Presentes:
+|Posição|Nome
+|:---:|---
+|Inspetor|Sergii Mykolyshyn
+|Moderador|Maria Pereira
+|Autor|Madalena Santos
+|Leitor|Todos
 </br>
 
 #### Tabela para registo de defeitos
