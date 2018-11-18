@@ -18,6 +18,7 @@ IMP | 16/11/2018 | João Montenegro | Alexandre Brito
 |   0.3     |    Alexandre Brito     |  25/10/2018  |               Revisão            |
 |   1.0     |    Vítor Ribeiro       |  26/10/2018  |            Revisão e Aprovação   |
 |   1.1     |    Flávio Fernandes    |  16/11/2018  |     Revisão de acordo com a inspeção  |
+|   2.0     |    Vítor Ribeiro       |  18/11/2018  |     Revisão e Aprovação após as revisões pedidas na inspeção  |
 
 
 ##### Membros
