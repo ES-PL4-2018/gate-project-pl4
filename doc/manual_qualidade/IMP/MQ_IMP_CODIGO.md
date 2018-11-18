@@ -15,6 +15,7 @@
 | 1.1 | 25/10/2018 | Alexandre Brito | Revisão |
 | 2.0 | 26/10/2018 | Maria Pereira | Validação |
 | 2.1 | 16/11/2018 | Flávio Fernandes | Revisão de acordo com a inspeção |
+| 3.0 | 18/11/2018 | Vítor Ribeiro    | Revisão e aprovação de acordo com a inspeção |
 
 #### DESCRIÇÃO DO PROCESSO
 
