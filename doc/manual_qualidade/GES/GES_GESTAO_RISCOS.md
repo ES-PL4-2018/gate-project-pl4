@@ -80,4 +80,4 @@ O processo só termina no fim do projeto.
 Este processo é aprovado pelo Gestor de Riscos e validado pela Unidade de Gestão.
 
 #### **RELATÓRIO DE RISCOS**
-![](https://user-images.githubusercontent.com/34454795/48516431-43164100-e85b-11e8-9f06-19e697ccf39c.png)
+https://github.com/ES-PL4-2018/gate-project-pl4/blob/QUA_DOC/doc/team-gestao/Relat%C3%B3rio%20de%20Riscos%20Sprint%233.pdf
