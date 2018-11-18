@@ -14,6 +14,7 @@
 | ----- | ------------- | -------------------- | ----- |
 | 0.1   | Pedro Sá      | Redação do documento | 16/11 |
 | 0.2   | Jessica Cunha | Revisão do documento | 17/11 |
+| 0.3   | Pedro Sá      | Revisão do documento | 18/11 |
 
 ### Descrição:
 
