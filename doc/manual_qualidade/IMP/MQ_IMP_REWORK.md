@@ -13,6 +13,8 @@
 |---|---|---|---
 | 0.1 | 25/10/2018 | Alexandre Brito | Criação do processo |
 | 0.2 | 16/11/2018 | Flávio Fernandes|  Revisão de acordo com a inspeção |
+| 1.0 | 18/11/2018 | Vítor Ribeiro    | Revisão e aprovação de acordo com a revisão da inspeção |
+
 
 #### DESCRIÇÃO DO PROCESSO
 
