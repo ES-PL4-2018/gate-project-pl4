@@ -43,10 +43,7 @@ Identificação pelos membros da equipa da ocorrencia repetida de se gerarem doc
 
 #### CICLO DE VIDA DOS ARTEFACTOS
 
-1. O documento é redigido;
-2. O documento é aprovado pela equipa (caso existam modificações a fazer, seguir passo 1);
-3. O documento é validado pela QUA (caso existam modificações a fazer, seguir passo 1);
-4. O documento é arquivado.
+O documento tem de seguir o ciclo de vida do artefacto.
 
 #### OUTPUTS
 
