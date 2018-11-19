@@ -96,7 +96,7 @@ Principal branch de redação de documentos. Todas os documentos são redigidos 
 ![O Workflow do Git](images/pull-request.png)
 Aqui podemos fazer o merge entre branches. Pull requests têm o objetivo de informar outros sobre as mudanças que foram feitas por si para uma branch num repositório no Github. Assim que um Pull request é aberto, pode-se revisar e discutir as mudanças feitas por cada colaborador e podemos adicionar _commits_ antes das mudanças serem aceitas e _merged_ para a _branch_ de base.
 
-Pull requests também têm o benefício de serem verificados automaticamente a nível de código pela qualidade de código e os serviços de integração contínua que foram integrados ao repositório, que dão a segurança extra de sabermos que as mudanças feitas seguem um padrão de qualidade esperado e não possuem mudanças com defeitos.
+Pull requests também têm o benefício de serem verificados automaticamente a nível de código e os serviços de integração contínua que foram integrados ao repositório, que dão a segurança extra de sabermos que as mudanças feitas seguem um padrão de qualidade esperado e não possuem mudanças com defeitos.
 
 Para além disto, as Pull resquests são uma extensão de vários processos definidos por cada equipa e ajudam a formaliza-los.
 
