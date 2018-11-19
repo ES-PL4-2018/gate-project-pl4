@@ -43,4 +43,4 @@ O processo termina quando houver uma solução escolhida e esta estiver em confo
 * Satisfação da equipa requerente, avaliado de 1 a 5.
 
 ### **APROVAÇÃO e VALIDAÇÃO
-Validação do documento pela parte da unidade de qualidade
+* Validação do documento pela parte da unidade de qualidade
