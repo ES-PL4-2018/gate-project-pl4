@@ -15,6 +15,7 @@ QUA | 26/10/2018 | João Soares | Maria Pereira
 |1.0|João Soares|26/10/2018|Update estrutura
 |1.1|João Soares|04/11/2018|Correção dos membros da unidade
 |1.2|João Soares|14/11/2018|Correção de typo's e tabela revisões
+|1.3|João Soares|19/11/2018|Atualização da lista de processos especificos da unidade
 
 ### Membros
 
@@ -35,11 +36,6 @@ Vitor Hugo Machado Ribeiro | LEI | vitorribeiro98@gmail.com
 
 ### Processos
 
-Descrição | Nome
---- | ---
-Criação processos | [QUA_CRIACAO_PROCESSO](https://github.com/ES-PL4-2018/gate-project-pl4/wiki/QUA_CRIACAO_PROCESSO)
-Descrição unidade manual qualidade | [QUA_MQ_UNIT_DESC](https://github.com/ES-PL4-2018/gate-project-pl4/wiki/QUA_MQ_UNIT_DESC)
-Gestão de nomes artefactos e versões | [QUA_NOMES_VERSOES](https://github.com/ES-PL4-2018/gate-project-pl4/wiki/QUA_NOMES_VERSOES)
-Redação documentos | [QUA_PRC_RedDoc](https://github.com/ES-PL4-2018/gate-project-pl4/wiki/QUA_PRC_RedDoc)
-Criação template | [QUA_TEMPLATE_BUILD](https://github.com/ES-PL4-2018/gate-project-pl4/wiki/QUA_TEMPLATE_BUILD)
-Validação documentos | [QUA_VALIDACAO_DOCS](https://github.com/ES-PL4-2018/gate-project-pl4/wiki/QUA_VALIDACAO_DOCS)
+Nome | Descrição
+:---: | ---
+QUA_MONITORIZACAO_PROCESSOS | Processo para monitorização do trabalho da equipa segundo o manual de qualidade, recolha e tratamento das métricas recolhidas

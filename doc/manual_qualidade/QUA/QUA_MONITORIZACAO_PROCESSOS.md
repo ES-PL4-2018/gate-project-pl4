@@ -14,7 +14,7 @@
 | 0.5 | 22/10/2018 | Carlos Poiares | Alterações, Revisão e Aprovação|
 | 0.6 | 13/11/2018 | Vítor Ribeiro  | Alteração e Revisão|
 | 0.7 | 19/11/2018 | Vítor Ribeiro  | Alteração e Revisão|
-|0.8|19/11/2018|Maria Pereira|Alterações
+|1.0|19/11/2018|Maria Pereira|Alterações
 
 
 #### DESCRIÇÃO DO PROCESSO
