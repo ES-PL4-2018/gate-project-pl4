@@ -8,6 +8,7 @@
 | - | - |
 | 1.0 | Victor Carvalho | 
 | 2.0 | Victor Carvalho |
+| 2.1 | Pedro Silva |
 
 
 ## **Setup**
@@ -27,7 +28,7 @@
 Alguns IDE e editores de texto possuem integração. Verifique o website da ferramenta de sua escolha.
 
 ## **Introdução**
-O `Git` é um VCS, _Version Control System_, poderoso que permite ver as mudanças que foram feitas, ver quem as fez, quando foram feitas e porquê. O `Git` permite poupar tempo, trabalhar _offline_, desfazer erros e realizar mudanças rápidas. É uma ferramenta completa e muito útil enquanto desenvolvimento de software.
+O `Git` é um poderoso VCS (Version Control Software) que permite ver as mudanças que foram feitas, ver quem as fez, quando foram feitas e porquê. O `Git` permite poupar tempo, trabalhar _offline_, desfazer erros e realizar mudanças rápidas. É uma ferramenta completa e muito útil enquanto desenvolvimento de software.
 
 ## **Sobrevivência no Git**
 ### **Clonar o repositório**
@@ -53,14 +54,14 @@ Você pode propor mudanças (adicioná-las ao index) usando
 
 `git add *`
 
-Este é o primeiro paço num workflow básico de git. Para realmente cometer essas mudanças use
+Este é o primeiro passo num workflow básico de git. Para efetuar essas mudanças use
 
 `git commit -m "Mensagem do Commit"`
 
 Agora o arquivo foi _committed_ para a `HEAD` mas ainda não está no repositório remoto.
 
 ### **Enviando mudanças**
-Suas mudanças agora estão na _HEAD_ da sua cópia local. Para mandar essas mudanças para o repositório remoto, execute
+As suas mudanças estão agora na _HEAD_ da sua cópia local. Para mandar essas mudanças para o repositório remoto, execute
 
 ` git push origin master`
 
@@ -95,7 +96,7 @@ Principal branch de redação de documentos. Todas os documentos são redigidos 
 ![O Workflow do Git](images/pull-request.png)
 Aqui podemos fazer o merge entre branches. Pull requests têm o objetivo de informar outros sobre as mudanças que foram feitas por si para uma branch num repositório no Github. Assim que um Pull request é aberto, pode-se revisar e discutir as mudanças feitas por cada colaborador e podemos adicionar _commits_ antes das mudanças serem aceitas e _merged_ para a _branch_ de base.
 
-Pull requests também têm o benefício de serem automaticamente checadas pela qualidade de código e os serviços de integração contínua que foram integrados ao repositório, que dão a segurança extra de sabermos que as mudanças feitas seguem um padrão de qualidade esperado e não possuem mudanças com defeitos.
+Pull requests também têm o benefício de serem verificados automaticamente a nível de código pela qualidade de código e os serviços de integração contínua que foram integrados ao repositório, que dão a segurança extra de sabermos que as mudanças feitas seguem um padrão de qualidade esperado e não possuem mudanças com defeitos.
 
 Para além disto, as Pull resquests são uma extensão de vários processos definidos por cada equipa e ajudam a formaliza-los.
 
