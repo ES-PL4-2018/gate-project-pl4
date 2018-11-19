@@ -33,6 +33,7 @@ Vitor Hugo Machado Ribeiro | LEI | vitorribeiro98@gmail.com
 * Criação e manutenção do manual de qualidade;
 * Verificação de documentação conforme processos em prática na equipa;
 * Reunião de métricas relacionadas com trabalho das diferentes unidades e ao produto;
+* Monitorização dos processos gerais á equipa;
 
 ### Processos
 
