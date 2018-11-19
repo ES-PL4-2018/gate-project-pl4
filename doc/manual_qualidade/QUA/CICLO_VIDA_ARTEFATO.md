@@ -16,7 +16,7 @@
 
 #### DESCRIÇÃO DO PROCESSO
 
-Este processo é responsável por descrever o ciclo de vida de um artefacto e defenir guide lines para a sua criação, sendo ortogonal a toda a equipa, exceptuando-se o código fonte que não tem template defenido e a sua validação formal passa pelas ferramentas de análise de código integradas no *GitHub* que fazem análise automática
+Este processo é responsável por descrever o ciclo de vida de um artefacto e definir guide lines para a sua criação, sendo ortogonal a toda a equipa, exceptuando-se o código fonte que não tem template definido e a sua validação formal passa pelas ferramentas de análise de código integradas no *GitHub* que fazem análise automática
 
 #### RESPONSÁVEIS
 
@@ -61,8 +61,8 @@ Necessidade de criar um artefacto
 
 - Número de horas envolvidas no processo.
 - Número de reprovações na validação técnica
-- Número de reprovações na na validação formal.
-- Número de erros total de todas as reprovações (equivalente ao numero de linhas assinaladas para correção no *Pull Request*).
+- Número de reprovações na validação formal.
+- Número de erros total de todas as reprovações (equivalente ao número de linhas assinaladas para correção no *Pull Request*).
 
 #### APROVAÇÃO E VALIDAÇÃO
 
