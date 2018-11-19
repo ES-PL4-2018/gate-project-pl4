@@ -36,17 +36,17 @@ Artefactos:
 
 |Nomenclatura|Descrição
 |:---:|---
-ATA_GERAL_W2_S3|Ata de uma reunião geral "Aula" da equipa na 2ª semana da 3ª sprint
-QUA_ATA_W1_S2|Ata de reunião da QUA da semana 1 da sprint 2
-GES_REL_ACOMPAHAMENTO|Relatorio de acompanhamento elaborado pela GES
+|ATA_GERAL_W2_S3 | Ata de uma reunião geral "Aula" da equipa na 2ª semana da 3ª sprint
+|QUA_ATA_W1_S2 | Ata de reunião da QUA da semana 1 da sprint 2
+|GES_REL_ACOMPAHAMENTO | Relatorio de acompanhamento elaborado pela GES
 
 *Branches* e *Pull Requests*:
 
 |Nomenclatura|Descrição
 |:---:|---
-TST_REL_TESTES_XYZ|*Branch* ou *Pull Request* de TST para integração da 
-REQ_ACT_MockUps|*Branch* ou *Pull Request* de REQ da atualização de mockups 
-GES_REL_ACOMPANHAMENTO|*Branch* ou *Pull Request* de GES para elaboração de um relatório de acompanhamento
+|TST_REL_TESTES_XYZ|*Branch* ou *Pull Request* de TST para integração da 
+|REQ_ACT_MockUps|*Branch* ou *Pull Request* de REQ da atualização de mockups 
+|GES_REL_ACOMPANHAMENTO|*Branch* ou *Pull Request* de GES para elaboração de um relatório de acompanhamento
 
 
 ###### Tabela Acrónimos

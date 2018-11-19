@@ -4,7 +4,7 @@
 |Versão|Autor|Desc|Data
 |---|---|---|---
 |0.1|Vitor Ribeiro|Versão inicial|18 Nov 2018
-|1.0|João Soares|Edição da lista de processos, formatação documento
+|1.0|João Soares|Edição da lista de processos, formatação documento|19/11/2018
 
 
 ## Processos Gerais da Equipa

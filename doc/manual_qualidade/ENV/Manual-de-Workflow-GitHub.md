@@ -46,7 +46,6 @@ Finalmente, a `HEAD` que aponta para o último commit que foi feito por si.
 
 ![O Workflow do Git](images/trees.png)
 
-
 ### **Add e Commit**
 Você pode propor mudanças (adicioná-las ao index) usando
 
@@ -77,7 +76,6 @@ _Branches_ são usadas para desenvolver funcionalidades (ou documentação) isol
 Usar **_feature branches_** não é só mais fiável que editar diretamente código de produção mas também proporciona benefícios organizacionais. Elas permitem representar o trabalho de desenvolvimento com a mesma granularidade do acúmulo do trabalho feito em técnicas de desenvolvimento _agile_.
 
 ![O Workflow do Git](images/branches.png)
-
 
 ### **Como as _branches_ do projeto estão organizadas?**
 #### **Master**
