@@ -1,6 +1,6 @@
-# QUA_VALIDACAO_PROCESSOS
+# QUA_MONITORIZACAO_PROCESSOS
 
-**DOC ID:** QUA_VALIDACAO_PROCESSOS
+**DOC ID:** QUA_MONITORIZACAO_PROCESSOS
 
 | UNIDADE | COORDENADOR |
 |---------|-------------|
@@ -54,7 +54,6 @@ Possíveis pareceres, referidos na descrição de tarefas.
 Final da sprint.
 
 #### MÉTRICAS DE AVALIAÇÃO
-* Quantidade de dados recolhidos.
 * Número de inconformidades encontradas.
 * Número de recomendações produzidas.
 * Número de horas dispendidas em cada processo.
