@@ -1,6 +1,6 @@
 # REUNIÕES
 
-**DOC ID:** EQUIPA_REUNIOES
+**DOC ID:** REUNIOES
 
 | UNIDADE | COORDENADOR |
 |---------|-------------|
