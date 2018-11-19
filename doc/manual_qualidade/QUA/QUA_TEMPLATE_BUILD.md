@@ -38,15 +38,15 @@ Identificação pelos membros da equipa da ocorrencia repetida de se gerarem doc
 1. Discussão da estrutura mais indicada de suporte aos dados e seu enquadramento (listas, tabelas, esquemas, criação de estatística, etc);
 2. Deverá ser criado um *template* utilizando o modelo de estrutura base com a codificação TEMPLATE_STRUCT, com "dummy data" para prova de conceito;
 3. Aprovação do *template* pela QUA (Se não aprovado volta ao ponto 1);
-4. Caso seja considerado necessário pela QUA, deverá ser criado igualmente um processo para normalizar a utilização do *template*, referir ao processo QA_TEMPLATE_ProcessDesc;
+4. Caso seja considerado necessário pela equipa de QUA, deverá ser criado um processo para normalizar a utilização do *template*, que deve estar de acordo com QUA_CRIACAO_PROCESSO;
 5. Codificação do *template* pela QUA.
 
 #### CICLO DE VIDA DOS ARTEFACTOS
 
-1. Novo *template* criado (*Draft*);
-2. Verificação pela QUA (Se não aprovado volta ao ponto 1);
-3. *Template* aprovado pela QUA é codificado;
-4. Arquivo no *github* para utilização pela equipa.
+1. O documento é redigido;
+2. O documento é aprovado pela equipa (caso existam modificações a fazer, seguir passo 1);
+3. O documento é validado pela QUA (caso existam modificações a fazer, seguir passo 1);
+4. O documento é arquivado.
 
 #### OUTPUTS
 
@@ -59,7 +59,7 @@ Aprovação do *template* pela equipa de QUA.
 #### MÉTRICAS DE AVALIAÇÃO
 
 * Nº de revisões a que o *template* foi sujeito para aprovação;
-* Nº horas esforço para conclusão da tarefa.
+* Nº horas de esforço para a conclusão da tarefa.
 
 #### VALIDAÇÃO E APROVAÇÃO
 Os *templates* são validados e aprovados pela equipa de qualidade através da plataforma *github*.
