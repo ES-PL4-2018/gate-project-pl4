@@ -1,16 +1,14 @@
 # **Unidade de Ambiente (ENV)**
-| Disciplina: ENV | Data: 24/09/2018 | Coordenador: Victor Carvalho |
+| Disciplina: ENV | Data: 15/11/2018 | Coordenador: Pedro Silva|    
 | - | - | - |
-| **Estado:** Incompleto | **Versão** v0.1 |
+| **Estado:** Incompleto | **Versão** v0.3 |    Vice: José Henrique
 
 ## **Lista de membros:**
 | Nome | Curso | Função | Contacto |
 | -    | -     | -      | -        |
-| Victor Carvalho       | LEI | Coordenador |contato@victorcarvalho.pt|
-| José Henrique Pereira | LEI | Ambiente    |jhdpereira@gmail.com |
-| Pedro Silva           | LEI | Ambiente    |pmsilva1@gmail.com  |
+| Pedro Silva           | LEI | Coordenador    |pmsilva1@gmail.com  |
+| José Henrique Pereira | LEI | Vice-Coordenador    |jhdpereira@gmail.com |
 | Roman Walls           | LEI | Ambiente    |nsake@hotmail.com  |
-| Vitor Ribeiro         | LEI | Ambiente    |vitorribeiro98@gmail.com |
 
 ## **Descrição da unidade:**
 O principal objetivo da unidade de ambiente é proporcionar e manter as plataformas escolhidas para o bom desenvolvimento do projeto, permitindo um fluxo de trabalho a base de revisões e constante colaboração tanto intra-unidade como inter-unidades.
@@ -27,15 +25,7 @@ Além disso, a unidade é responsável pelas formações do resto da equipa no q
 3. Pesquisa e Execução de Soluções.
 
 ## **Processos utilizados por esta unidade:**
-|1 - Ferramentas base | MQ_ENV_FB |
-| - | - |
-|1.1 - Manutenção de Ferramentas | MQ_ENV_FB_MF |
 
-|2 - Formação da Equipa | MQ_ENV_FE |
-| - | - |
-| 2.1 - Formulação de manuais      | MQ_ENV_FE_MAN  |
+### 1 - Ferramentas base  **MQ_ENV_FB** 
 
-|3 - Diversos                    | MQ_ENV_DIV |
-| - | - |
-|3.1 - Reunião Semanal           | MQ_ENV_DIV_REU |
-|3.2 - Documentação Interna      | MQ_ENV_DIV_DI|
+
