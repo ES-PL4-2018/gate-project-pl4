@@ -12,6 +12,7 @@
 |---|---|---|---|
 |0.1|24/09|?|?|
 |0.2|25/10|Madalena Santos|Alteração de pontos fulcrais do processo, adição de novas métricas e estratégias|
+|0.3|14/11|Alexandre Marques|Adição de exemplos de formulários|
 
 #### DESCRIÇÃO DO PROCESSO
 
@@ -77,3 +78,10 @@ A seguir à aula PL, o PowerPoint é arquivado no repositório da equipa, e o pr
 #### APROVAÇÃO E VALIDAÇÃO
 
 Antes de ser apresentado na aula, o documento é revisto por todos os elementos da unidade GES e colocado num canal público para toda a equipa, de forma a obter a aprovação do mesmo.
+
+#### FORMULÁRIO DE AVALIAÇÃO SEMANAL
+
+![screenshot_4](https://user-images.githubusercontent.com/34454795/48517486-5d055300-e85e-11e8-9096-4faf3608ee12.png)
+![screenshot_5](https://user-images.githubusercontent.com/34454795/48517495-60004380-e85e-11e8-9056-42f67980c9f7.png)
+![screenshot_6](https://user-images.githubusercontent.com/34454795/48517500-64c4f780-e85e-11e8-911c-2ecdf4eb622a.png)
+

@@ -26,7 +26,7 @@ unit acronym | date | team lead | team co-lead
 
 ##### Tabela Revisões 
 
-|Versão|Autor|Desc|Data
+|Versão|Autor|Data|Descrição
 |---|---|---|---
 |0.xxx|Who|What|When
 
