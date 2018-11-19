@@ -16,10 +16,6 @@
 | 0.2   | Jessica Cunha | Revisão do documento | 17/11 |
 | 0.3   | Pedro Sá      | Revisão do documento | 18/11 |
 
-### Descrição:
-
-Este documento é destinado à descrição dos testes e resultados dos mesmos na aplicação disponibilizada pela equipa WeSearchers, relativamente à sua versão da aplicação da sprint 2.
-
 ### Responsáveis
 
 | Nome            | Curso | Cargo          |
