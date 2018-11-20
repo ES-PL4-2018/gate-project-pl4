@@ -44,7 +44,7 @@ A segunda é o `Index` que age como a área de _Staging_.
 
 Finalmente, a `HEAD` que aponta para o último commit que foi feito por si.
 
-![O Workflow do Git](doc/manual_qualidade/images/trees.png)
+![O Workflow do Git](../images/trees.png)
 
 ### **Add e Commit**
 Você pode propor mudanças (adicioná-las ao index) usando
@@ -75,7 +75,7 @@ _Branches_ são usadas para desenvolver funcionalidades (ou documentação) isol
 
 Usar **_feature branches_** não é só mais fiável que editar diretamente código de produção mas também proporciona benefícios organizacionais. Elas permitem representar o trabalho de desenvolvimento com a mesma granularidade do acúmulo do trabalho feito em técnicas de desenvolvimento _agile_.
 
-![O Workflow do Git](doc/manual_qualidade/images/branches.png)
+![O Workflow do Git](../images/branches.png)
 
 ### **Como as _branches_ do projeto estão organizadas?**
 #### **Master**
@@ -91,7 +91,7 @@ Principal branch de testes. A branch `nightly` é merged para a branch `testing`
 Principal branch de redação de documentos. Todas os documentos são redigidos em uma branch do modo que melhor couber a cada unidade. Quando os documentos redigidos estiverem prontos abre-se um **Pull request** para a branch de QA validar e aprovar os documentos criados de acordo com os processos da unidade e o Manual de Qualidade.
 
 ### **Pull Requests and Merging Branches**
-![O Workflow do Git](doc/manual_qualidade/images/pull-request.png)
+![O Workflow do Git](../images/pull-request.png)
 Aqui podemos fazer o merge entre branches. Pull requests têm o objetivo de informar outros sobre as mudanças que foram feitas por si para uma branch num repositório no Github. Assim que um Pull request é aberto, pode-se revisar e discutir as mudanças feitas por cada colaborador e podemos adicionar _commits_ antes das mudanças serem aceitas e _merged_ para a _branch_ de base.
 
 Pull requests também têm o benefício de serem verificados automaticamente a nível de código e os serviços de integração contínua que foram integrados ao repositório, que dão a segurança extra de sabermos que as mudanças feitas seguem um padrão de qualidade esperado e não possuem mudanças com defeitos.
