@@ -46,7 +46,7 @@ Necessidade de criar um artefacto
 
 ###### Diagrama:
 
-![cva](EQUIPA/ciclo_vida_artefacto.png)
+![cva](ciclo_vida_artefacto.png)
 
 #### OUTPUTS
 
