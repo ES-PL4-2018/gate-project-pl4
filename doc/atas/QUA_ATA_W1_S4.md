@@ -133,3 +133,4 @@ insert:
 -follow ups das inspeções -> verificar processo
 -alterar processo de monitorização -> acompanhamento continuo (varios processos) output -> registo da info na gsheet 
 -remover wflow do git de env
+-rever processo team_workflow -> falar com leads p/ criar gtrabalho
