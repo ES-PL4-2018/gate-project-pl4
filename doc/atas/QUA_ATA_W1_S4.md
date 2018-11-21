@@ -1,0 +1,107 @@
+# GATE - QUA
+
+## ATA Reunião
+
+### Ref: QUA_ATA_W1_S4
+
+### Data & Hora: 21 Novembro 2018 @ 1230
+
+### Duração: ?
+ 
+ <br/>
+
+### # páginas: 1
+
+<br/> 
+<br/>
+
+#### ASSIDUIDADE
+
+Maria Pereira, Sergii Mykolyshyn, Vitor Ribeiro, João Soares, Carlos Poiares, Pedro Fernandes
+
+#### TABELA DE REVISÕES
+
+Rev # | Autor|  Descrição | Data
+--- | --- | --- | ---
+0.1 | João Soares | Edição inicial | 21/11/2018
+
+<br/>
+
+#### ORDEM DE TRABALHOS
+
+* Balanço da Sprint #3
+* Decidir que registo será utilizado para ver se os processos do MQ estão a ser compridos
+* Debate sobre todas as notas do professor em relação ao MQ
+* Discutir os novos processos e se os mesmos precisam de alguma alteração
+* Discussão de outras possíveis alterações ao MQ
+
+<br/> 
+<br/>
+
+#### Balanço da Sprint #3
+
+##### DISCUSSÃO
+
+things discussed about point x
+
+##### DECISÕES
+
+things decided about point x
+
+<br/>
+
+#### Decidir que registo será utilizado para ver se os processos do MQ estão a ser compridos
+
+##### DISCUSSÃO
+
+things discussed about point y
+
+##### DECISÕES
+
+things decided about point y
+
+<br/>
+
+#### Debate sobre todas as notas do professor em relação ao MQ
+
+##### DISCUSSÃO
+
+things discussed about point x
+
+##### DECISÕES
+
+things decided about point x
+
+<br/>
+
+#### Discutir os novos processos e se os mesmos precisam de alguma alteração
+
+##### DISCUSSÃO
+
+things discussed about point x
+
+##### DECISÕES
+
+things decided about point x
+
+<br/>
+
+#### Discussão de outras possíveis alterações ao MQ
+
+##### DISCUSSÃO
+
+things discussed about point x
+
+##### DECISÕES
+
+things decided about point x
+
+
+<br/> 
+<br/>
+
+#### MÉTRICAS PARA A REUNIÃO
+Assiduidade -> 6 / 6<br/>
+Duração -> 1h:xx<br/>
+Nº de tópicos discutidos -> <br/>
+Avaliação global -> <br/>
