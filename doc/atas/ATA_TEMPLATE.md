@@ -1,16 +1,16 @@
-#TEMPLATE PARA REDAÇÃO DE ATA DE REUNIÃO
+# TEMPLATE PARA REDAÇÃO DE ATA DE REUNIÃO
 
 Este documento serve como modelo para todas as atas redigidas pela equipa. Deve ser copiado, preenchido e colocado na pasta "startup-atas"
 
 A nomenclatura das atas e como funciona todo o seu processo está descrito no manual de qualidade
 
-###TABELA DE VERSÕES
+### TABELA DE VERSÕES
 
 |**Versão**|**Autor**|**Data**|**Notas**
 |---|---|---|---
-|0.1|Madalena|18/09|Versão inicial inglesa|
-|0.2|Madalena|1/10|Versão portuguesa + tabela de versões|
-|0.3|Maria Pereira|16/10|Alteração ao modelo|
+|0.1|Madalena|18/09|Versão inicial inglesa
+|0.2|Madalena|1/10|Versão portuguesa + tabela de versões
+|0.3|Maria Pereira|16/10|Alteração ao modelo
 |1.0|João Soares|16/10|Revisão e Aprovação
 
 
@@ -38,7 +38,6 @@ A nomenclatura das atas e como funciona todo o seu processo está descrito no ma
 
 
 #### TABELA DE REVISÕES
-
 Rev # | Autor|  Descrição | Data
 --- | --- | --- | ---
 rev | author | things donne on revision | when
