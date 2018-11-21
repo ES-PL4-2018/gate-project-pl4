@@ -38,15 +38,27 @@ Rev # | Autor|  Descrição | Data
 <br/> 
 <br/>
 
+#### Eleição do Co-lead da unidade
+
+##### DISCUSSÃO
+
+random org sorteio por falta de candidatos
+
+##### DECISÕES
+
+Eleito por sorteio , pedro fernandes
+
+<br/>
+
 #### Balanço da Sprint #3
 
 ##### DISCUSSÃO
 
-things discussed about point x
+balanço, fim menos bom, melhorias
 
 ##### DECISÕES
 
-things decided about point x
+melhor organização de trabalho
 
 <br/>
 
@@ -105,3 +117,19 @@ Assiduidade -> 6 / 6<br/>
 Duração -> 1h:xx<br/>
 Nº de tópicos discutidos -> <br/>
 Avaliação global -> <br/>
+
+
+
+
+
+insert:
+
+-Alterar processo ciclo vida artefacto -> tags pull requests - linha abaixo
+-estudar integração do git na app metricas (reworks etc)
+-remover template de acompanhamento e criar sheet com metricas de acompannhamento, git e processos
+-env fazer script para converter sheet para md
+-req alterar capa da unidade
+-review (in)formal de todo o mq 
+-follow ups das inspeções -> verificar processo
+-alterar processo de monitorização -> acompanhamento continuo (varios processos) output -> registo da info na gsheet 
+-remover wflow do git de env
