@@ -28,6 +28,7 @@
 ## [Ferramentas](MQ_ENV_FB.md)
 ## [Workflow GitHub](Manual-de-Workflow-GitHub.md)
 # [TEMPLATES](TEMPLATES.md)
+## [Ata](ATA_TEMPLATE.md)
 ## [Relatorio/Ata Reunião Inspeção](fagan_inspection_meeting_report.md)
 ## [Relatório Inspeção Inspector](fagan_inspection_solo_report.md)
 ## [Template QUA Acompanhamento Unidade](QUA_TEMPLATE_AcompUnid.md)
