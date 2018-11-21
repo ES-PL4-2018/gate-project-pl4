@@ -114,9 +114,9 @@ things decided about point x
 
 #### MÉTRICAS PARA A REUNIÃO
 Assiduidade -> 6 / 6<br/>
-Duração -> 1h:xx<br/>
+Duração -> 1:15<br/>
 Nº de tópicos discutidos -> <br/>
-Avaliação global -> <br/>
+Avaliação global -> 4,5<br/>
 
 
 
