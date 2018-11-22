@@ -144,5 +144,5 @@ Foram debatidas algumas gralhas no manual detectadas pós entrega e também troc
 #### MÉTRICAS PARA A REUNIÃO
 Assiduidade -> 6 / 6<br/>
 Duração -> 1:15<br/>
-Nº de tópicos discutidos -> <br/>
+Nº de tópicos discutidos -> 6<br/>
 Avaliação global -> 4,5<br/>
