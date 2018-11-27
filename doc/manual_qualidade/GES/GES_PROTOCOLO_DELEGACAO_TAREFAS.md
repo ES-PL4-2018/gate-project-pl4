@@ -11,6 +11,7 @@
 |-|-|-|-|
 | 0.1 | 19/10/2018 | Cláudio Gomes | Criação do processo |
 | 1.0 | 15/11/2018 | Cláudio Gomes | Alteração tendo em conta recomendações de Qualidade|
+| 1.1 | 27/11/2018 | Cláudio Gomes | Atualização dos Vice-Coordenadores|
 
 #### **DESCRIÇÃO DO PROCESSO**
 Este processo descreve como os Coordenadores da Equipa e o Vice-Coordenador da unidade envolvida devem proceder em caso de ausência do Coordenador, pois é fulcral manter a unidade conectada à Coordenação, de forma a estarem cientes de eventuais decisões da Coordenação com eficácia. Para além disso, também descreve como se deve proceder em caso de desistência de um Colaborador.
@@ -53,11 +54,11 @@ Como output, temos o registo de Coordenadores e Vice-Coordenadores:
 | UNIDADE | COORDENADOR | VICE-COORDENADOR |
 |---------|-------------|------------------|
 |GES|Cláudio Gomes|Madalena Santos|
-|REQ|Catarina Pires|(Por preencher)|
+|REQ|Catarina Pires|Tiago Brito|
 |IMP|João Montenegro|Alexandre Brito|
 |TST|Pedro Marques Sá|Jessica Mégane|
-|QUA|Maria Pereira|(Por preencher)|
-|ENV|José Henrique Pereira|Pedro Silva|
+|QUA|Maria Pereira|Pedro Fernandes|
+|ENV|José Henrique Pereira|Guilherme Tavares|
 
 #### **CRITÉRIO DE SAÍDA**
 Reintegração total do Coordenador, que será marcada pela remoção do Vice-Coordenador do canal do Slack de Coordenação.
