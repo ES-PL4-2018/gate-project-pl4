@@ -14,7 +14,8 @@
 | 0.5 | 22/10/2018 | Carlos Poiares | Alterações, Revisão e Aprovação|
 | 0.6 | 13/11/2018 | Vítor Ribeiro  | Alteração e Revisão|
 | 0.7 | 19/11/2018 | Vítor Ribeiro  | Alteração e Revisão|
-|1.0|19/11/2018|Maria Pereira|Alterações
+| 1.0 | 19/11/2018 | Maria Pereira |Alterações
+| 2.0 | 28/11/2018 | Sergii Mykolyshyn | Adição de acompanhamento contínuo
 
 
 #### DESCRIÇÃO DO PROCESSO
@@ -40,6 +41,16 @@ No início de cada sprint (sendo realizada numa base diária).
 * Alterações na equipa relativamente às conclusões obtidas após a análise e interpretação dos dados relativos às métricas;
 * Possíveis revisões do Manual de Qualidade, ao nível de processos, após um parecer do team-lead de Qualidade e da unidade em questão;
 * Possível revisão de artefactos por parte das unidades, depois de um parecer do team-lead de Qualidade e da unidade em questão.
+* Acompanhamento contínuo de processos, isto é, após a revisão de um *pull request*, é necessário o preenchimento de Google Sheet partilhado pelos membros da equipa de qualidade, onde terá de ser especificado:
+	* Unidade à qual o *pull request* pertence;
+	* DOC ID;
+	* Número do *pull request*;
+	* Nome do artefacto;
+	* Autor do *pull request*;
+	* Inspetor (membro da qualidade responsável pela revisão do *pull request*);
+	* Data da inspeção;
+	* Observações, no caso da reprovação do PR, especificar a razão para isso ter acontecido. Outras observações relevantes, se necessárias;
+	* Estado - Aprovado (artefacto está de acordo com templates fornecidos)/ Reprovado (artefacto não está de acordo com templates fornecidos).
 
 
 #### CICLO DE VIDA DOS ARTEFACTOS
@@ -48,7 +59,8 @@ A informação recolhida e todos os documentos produzidos são armazenados no Gi
 
 #### OUTPUTS
 * Métricas recolhidas, analisadas, interpretadas e incluídas na apresentação semanal;
-* Possíveis pareceres, referidos na descrição de tarefas.
+* Possíveis pareceres, referidos na descrição de tarefas;
+* Google Sheet com métricas recolhidas.
 
 
 #### CRITÉRIO DE SAÍDA
