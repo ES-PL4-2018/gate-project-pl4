@@ -14,8 +14,9 @@
 | 0.5 | 22/10/2018 | Carlos Poiares | Alterações, Revisão e Aprovação|
 | 0.6 | 13/11/2018 | Vítor Ribeiro  | Alteração e Revisão|
 | 0.7 | 19/11/2018 | Vítor Ribeiro  | Alteração e Revisão|
-| 1.0 | 19/11/2018 | Maria Pereira |Alterações
-| 2.0 | 28/11/2018 | Sergii Mykolyshyn | Adição de acompanhamento contínuo
+| 1.0 | 19/11/2018 | Maria Pereira |Alterações|
+| 2.0 | 28/11/2018 | Sergii Mykolyshyn | Adição de acompanhamento contínuo|
+| 2.1 | 01/12/2018 | Sergii Mykolyshyn | Alteração de acompanhamento contínuo|
 
 
 #### DESCRIÇÃO DO PROCESSO
@@ -43,15 +44,14 @@ No início de cada sprint (sendo realizada numa base diária).
 * Possível revisão de artefactos por parte das unidades, depois de um parecer do team-lead de Qualidade e da unidade em questão.
 * Acompanhamento contínuo de processos, isto é, após a revisão de um *pull request*, é necessário o preenchimento de Google Sheet partilhado pelos membros da equipa de qualidade, onde terá de ser especificado:
 	* Unidade à qual o *pull request* pertence;
-	* DOC ID;
 	* Número do *pull request*;
 	* Nome do artefacto;
 	* Autor do *pull request*;
-	* Inspetor (membro da qualidade responsável pela revisão do *pull request*);
 	* Data da inspeção;
+	* Número de inconformidades técnicas (conteúdo do artefacto);
+	* Número de inconformidades formais (artefacto de acordo com TEMPLATE_ProcessDesc presente em gate-project-pl4/doc/manual_qualidade/TEMPLATES);
 	* Observações, no caso da reprovação do PR, especificar a razão para isso ter acontecido. Outras observações relevantes, se necessárias;
-	* Estado - Aprovado (artefacto está de acordo com templates fornecidos)/ Reprovado (artefacto não está de acordo com templates fornecidos).
-
+	
 
 #### CICLO DE VIDA DOS ARTEFACTOS
 A informação recolhida e todos os documentos produzidos são armazenados no GitHub e integrados na apresentação semanal.
