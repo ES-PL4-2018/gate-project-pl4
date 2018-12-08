@@ -1,25 +1,41 @@
-# **Unidade de Requisitos (REQ)**
-| Disciplina: REQ | Data: 25/09/2018 | Coordenador: Pedro Marcelino |
-| - | - | - |
-| **Estado:** Incompleto | **Versão** v0.1 |
+## Requisitos (REQ)
 
-## **Lista de membros:**
-| Nome | Curso | Função | Contacto |
-| -    | -     | -      | -        |
-| Carlos Poiares       | LEI | Colaborador |cpoiares@student.uc.pt|
-| Catarina Pires | LEI | Colaborador    |cjrpires@student.uc.pt |
-| Duarte Silva           | LEI | Colaborador    |dpjcsilva@gmail.com  |
-| Pedro Marcelino          | LDM |  Coordenador   |marcelino@student.dei.uc.pt  |
-| Tiago Brito        | LEI | Colaborador    |tiagobrito@student.dei.uc.pt |
+A equipa de Requisitos é responsável pela comunicação entre a equipa e o cliente, escrever o documento de Requisitos, criar os mockups pretendidos e organizar a tabela de requisitos de modo que, posteriormente, seja usada como base na criação do software pelos restantes membros.
 
-## Objetivos da unidade de REQ:
-  A unidade de Requisitos é responsável pela comunicação entre a equipa e o cliente, por produzir mockups, organizar a tabela de requisitos, que será utilizada como base na criação do software e redigir o documento de Requisitos.
-  
+| Unidade | Data | Lead | Co-Lead |
+:---: | :---: | --- | --- |
+REQ | 26/11/2018 | Catarina Pires | Tiago Brito |
+
+<br/>
+
+|Versão|Autor|Data|Descrição
+|:---:|:---:|:---:|---
+|1.0|Carlos Poiares, Catarina Pires |25/09/2018|Adição dos 4 processos
+|1.1|Duarte Silva, Victor Carvalho|25/10/2018|Junção dos 4 processos num só processo
+|2.0|Victor Carvalho|16/11/2018|Revisão e validação do processo
+|2.1|Catarina Pires, Duarte, Tiago Brito|04/12/2018|Correção dos membros da unidade
 
 
-## Processos utilizados por esta unidade:
+### Membros
 
-1. Preenchimento da Tabela de Requisitos
-2. Desenvolvimento de mockups
-3. Construção do Documento de Requisitos
-4. Reuniões com o Cliente
+Nome | Curso | e-mail
+:---:| :---: | ---
+Catarina Pires | LEI | cjrpires@student.dei.uc.pt
+Duarte Silva | LEI | dpjusto@student.dei.uc.pt
+Gonçalo Correia | LDM | goncalo.correia@student.uc.pt
+Pedro Marcelino | LDM | marcelino@student.dei.uc.pt
+Tiago Brito | LEI | tiagobrito@student.dei.uc.pt
+
+
+### Objetivos
+
+* Reunir e registar todas condições propostas pelo cliente;
+* Manter toda a equipa atualizada sobre todas as opiniões do cliente;
+* Integrar requisitos não solicitados pelo cliente mas de carácter essencial para o desenvolvimento do produto.
+
+
+### Processos
+
+|Descrição|Nome|
+|---|:---:|
+|Informação detalhada acerca do processo de Requisitos|MQ_REQ_Requisitos|
