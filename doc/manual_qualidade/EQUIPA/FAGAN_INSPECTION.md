@@ -4,7 +4,7 @@
 
 | UNIDADE | COORDENADOR |
 |:---:|:---:|
-| QUA | João Soares|
+| QUA | Maria Pereira|
 
 #### TABELA DE VERSÕES
 
@@ -13,12 +13,13 @@
 | 0.1 | 10/11/2018 | João Soares | Rascunho inicial |
 | 1.0 | 12/11/2018 | João Soares | Alteração da descrição + critério entrada |
 | 1.1 | 15/11/2018 | Maria Pereira | Alterações |
+| 1.2 | 09/12/2018 | Sergii Mykolyshyn | Alterações de acordo com indicações do coordenador
 
 #### DESCRIÇÃO DO PROCESSO
 
 Este processo regula a realização de inspeções formais aos artefactos com o intuito de diminuir o número de defeitos no produto final, como, tão breve quanto possivel, encontrar os defeitos perto da sua criação de forma a dimuir o seu impacto no produto ou produtos relacionados.
 
-Para a execução deste processo deve ser definido um grupo de trabalho constituido no mínimo por 4 inspectores (1 moderador, 1 narrador, 1 secretário e o autor ou 1 autor do documento (um representante, nas situações em que existem vários autores)), no entanto caso seja tido como necessário podem ser convidados mais inspectores a integrar o grupo.
+Para a execução deste processo deve ser definido um grupo de trabalho constituido no mínimo por 3 elementos (moderador, inspetor e  autor do documento (um representante, nas situações em que existam vários autores)), no entanto caso seja tido como necessário podem ser convidados mais inspectores a integrar o grupo.
 
 Todos os inspectores do grupo, independemente do seu papel são considerados pares durante o processo de inspeção.
 
@@ -30,11 +31,10 @@ O objetivo de cada papel:
   - Durante a reunião:
     - Moderar a reunião garantindo que a mesma mantém a sua objetividade;
   - Após a reunião:
-    - Registar a decição da inspeção ao artefacto no relatório da reunião;
-    - Efetuar follow up ás correções / alterações no artefacto tendo em conta as anotações produzidas durante a reunião;
-- Narrador: Lê o documento durante a reunião de forma a que todos sigam o mesmo ponto de análise e contexto;
-- Secretário: Regista durante a reunião todas as observações que sejam levantadas pelos inspetores para correção/análise por parte do autor do artefacto;
-- Autor: está presente na reunião por ter criado o artefacto, para o contextualizar/apresentar;
+    - Registar a descrição da inspeção ao artefacto no relatório da reunião;
+    - Efetuar follow up às correções / alterações no artefacto tendo em conta as anotações produzidas durante a reunião;
+- Inspetor: Prepara a reunião e regista todas as observações que considere importantes para correção/análise por parte do autor do artefacto e moderador;
+- Autor: Prepara igualmente a reunião, apontando as observações que achar pertinentes e é convidado para ajudar a contextualizar;
 
 #### RESPONSÁVEIS
 
@@ -53,21 +53,18 @@ A inicialização deste processo ocorre quando seja definida a necessidade de re
 - Antes da reunião:
   - Criação do grupo de trabalho;
   - Atribuição dos papéis a cada inspector do grupo;
-  - Moderador garante que todos os inspetores têm acesso ou na sua posse cópia do artefacto / versão a ser analisado;
-  - Todos os inspectores devem ler o documento e preparar a inspeção, registando todas as anotações no template existente para o efeito (encontra-se publicado no manual de qualidade na secção de templates com a codificação fagan_inspection_solo_report);
+  - Moderador garante que todos os elementos têm acesso ou na sua posse cópia do artefacto / versão a ser analisado;
+  - Todos os elementos devem ler o documento e preparar a inspeção, registando as anotações no template existente para o efeito (encontra-se publicado no manual de qualidade na secção de templates com a codificação fagan_inspection_solo_report);
   - Moderador marca a reunião de inspeção tendo em conta a disponibilidade de todos os elementos;
     - A marcação da reunião de inspeção deve seguir os pontos defenidos na escolha de data, hora e sitio descritos no processo de reuniões da equipa;
-  - Moderador deve garantir que a reunião só deve ser realizada se todos os inspetores tiverem efectuado a devida preparação, caso contrário deve reagendar;
+  - Moderador deve garantir que a reunião só deve ser realizada se todos os elementos tiverem efectuado a devida preparação, caso contrário deve reagendar;
 - Durante a reunião:
-  - O narrador vai lendo o artefacto em análise parando sempre que algum dos inspectores presentes informe um defeito na secção que está a ser narrada;
+  - Cada elemento presente informa os defeitos que encontrou;
     - Caso não fique esclarecido se se trata efetivamente ou não de um defeito, o mesmo deve ser registado para futura verificação por parte do autor;
-  - O secretário regista todas os defeitos/dúvidas encontradas no artefacto no template existente para o efeito (encontra-se publicado no manual de qualidade na secção de templates com a codificação fagan_inspection_meeting_report);
+  - O moderador regista os defeitos/dúvidas encontradas no artefacto no template existente para o efeito (encontra-se publicado no manual de qualidade na secção de templates com a codificação fagan_inspection_meeting_report);
 - Após a reunião:
-  - Moderador valida o documento criado pelo secretário, colocando a sua avaliação tendo em conta o que se verificou na reunião de inspeção:
-    - Aprovado: Caso o artefacto tenha sido aceite e não seja necessária nenhuma alteração;
-    - Aprovado com defeitos: Caso o artefacto tenha sido aceite, mas contenha pequenos defeitos que impliquem pequenas alterações (erros ortográficos, etc), e não implique uma nova inspeção, no entanto o moderador deve efetuar follow up das alterações;
-    - Reprovado: O artefacto contem defeitos graves / críticos e irá necessitar de nova inspeção após a sua alteração conforme as recomendações;
-  - Autor procede ás alterações necessárias ao artefacto caso seja necessário e conforme o relatório da reunião de inspeção, notificando o moderador através de uma mensagem direta no slack quando tenha concluido o rework de forma a permitir o follow up do moderador ás alterações produzidas;
+  - Autor procede às alterações necessárias ao artefacto caso seja necessário e conforme o relatório da reunião de inspeção, notificando o moderador através de uma mensagem direta no slack quando tenha concluido o rework de forma a permitir o follow up do moderador ás alterações produzidas;
+  - Moderador valida o documento alterado pelo autor.
 
 #### CICLO DE VIDA DOS ARTEFACTOS
 
@@ -75,7 +72,7 @@ Todos os artefactos gerados devem seguir o processo de gestão do ciclo de vida 
 
 #### OUTPUTS
 
-- Relatórios de inspeção individuais de cada inspector;
+- Relatórios de inspeção individuais de cada elemento;
 - Relatório da reunião de inspeção.
 
 #### CRITÉRIO DE SAÍDA
@@ -90,7 +87,6 @@ Este processo é finalizado quando se verifica uma das seguintes condições:
 - Nº de elementos do grupo de trabalho;
 - Duração da reunião de inspeção;
 - Nº defeitos encontrados por classificação;
-- Resultado atribuído após reunião de inspeção;
 - Nº de inspecções a que o artefacto foi sujeito sem ter obtido pelo menos 1 aprovação até ao momento.
 
 #### APROVAÇÃO E VALIDAÇÃO
