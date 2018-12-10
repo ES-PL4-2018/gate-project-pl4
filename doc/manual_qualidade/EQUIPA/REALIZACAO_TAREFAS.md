@@ -16,6 +16,7 @@
 |   1.0     |    24/10/2018  |    Sergii Mykolyshyn     | Edição |
 |   2.0     |    15/11/2018  | Maria Pereira | Incorporação do processo TEAM_WORKFLOW + alterações |
 |3.0|19/11/2018|Pedro Fernandes|Edição do processo, incorporando com o processo GES_FUNCIONAMENTO_TRELLO
+|3.1|10/12/2018|Pedro Fernandes|Revisão e actualização do processo
 
 #### DESCRIÇÃO DO PROCESSO
 
@@ -38,7 +39,7 @@ Este processo está sempre ativo.
 * Todas as tarefas merecem uma _card_ na _board_ da equipa (tarefa = *card*);
 * Cada coordenador é responsável de verificar que as diretrizes descritas estão a ser cumpridas pela sua unidade;
 * A _board_ deve estar sempre atualizada e aquilo que não estiver na _board_, na prática, não existe;
-* Qualquer elemento é livre para criar novas cards e colocá-las na lista respetiva (por exemplo, após a redação de uma ata, é necessária a sua validação por parte da unidade QUA - a pessoa que redigiu a ata pode criar uma nova _card_ para a validação da mesma, colocando-a na lista da Qualidade);
+* Qualquer elemento é livre para criar novas cards e colocá-las na lista respetiva;
 * Uma _card_ deve ser explícita para que qualquer outro elemento da equipa consiga perceber o que está a ser feito;
 * A unidade GES irá recolher informações do Trello para a realização da avaliação/apresentação semanal.
 
@@ -53,7 +54,6 @@ Este processo está sempre ativo.
 * **Descrição da tarefa**;
 * **_Inputs_** para a tarefa (documentos/informações que sejam necessários à sua realização);
 * **_Due date_**;
-* **Integração com o _TeamGantt_** - este _plug-in_ permite a criação de um diagrama de *Gantt* através das *cards* adicionadas. Para isso, cada *card* deve ter associada uma **data de início**, **data de fim** e as **dependências** da tarefa;
 * **Duração estimada para a tarefa** e **duração real da mesma**;
 * **_Members_** - todas as pessoas envolvidas na tarefa devem estar associadas à _card_ respetiva;
 * **_Outputs_** da tarefa - documentos gerados;
@@ -67,7 +67,6 @@ Este processo está sempre ativo.
 
 #### OUTPUTS
 
-* Diagrama de *Gantt*;
 * Métricas de avaliação das tarefas realizadas.
 
 #### CRITÉRIO DE SAÍDA
