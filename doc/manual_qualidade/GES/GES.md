@@ -29,11 +29,9 @@ João Silva | LEI | jmbds@student.dei.uc.pt
 
 ### Objetivos
 
-O foco principal da unidade de Gestão de Projeto é a gestão ágil e versátil das diferentes unidades da equipa, permitindo uma coordenação saudável entre as atividades de cada uma.
+O foco principal da unidade de Gestão de Projeto é a gestão ágil e versátil das diferentes unidades da equipa, permitindo uma coordenação saudável entre as atividades de cada uma. Todas as semanas, recolhe dados estatísticos e de opinião que compila numa apresentação na aula PL da respetiva semana. A compilação permite "julgar" e expôr aquilo que está a acontecer, dando à unidade informação suficiente para agir de acordo com o contexto da equipa. Por esta razão, compete à unidade de Gestão de Projeto a realização de apresentações semanais à equipa, nas quais são divulgados os progressos realizados na respetiva semana.
 
 A unidade é responsável pelo planeamento dos passos do projeto, servindo como um ponto de consulta para as outras unidades, para que estas possam saber o estado do projeto, os próximos passos e o progresso de cada equipa. A unidade assegura que os prazos são cumpridos através do planeamento e da delegação das tarefas para os objetivos estabelecidos.
-
-Compete à unidade de Gestão de Projeto a realização de apresentações semanais à equipa, nas quais são divulgados os progressos realizados na respetiva semana.
 
 É também responsável pela Gestão de Recursos Humanos e Gestão de Riscos, que têm como objetivo principal evitar a desmoralização da equipa e evitar ou minimizar situações indesejáveis.
 Esta unidade deve estar pronta e disponível para intervir e resolver eventuais situações sempre que necessário.
