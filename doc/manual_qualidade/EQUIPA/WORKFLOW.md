@@ -13,6 +13,7 @@
 |0.1|30/09/2018|Madalena|Rascunho inicial|
 |0.2|04/10/2018|Sergii|Revisão|
 |1.0|20/10/2018|Pedro Fernandes|Revisão, edição e aprovação|
+|2.0|12/12/2018|Maria Pereira| Alteração do processo|
 
 #### DESCRIÇÃO DO PROCESSO
 
@@ -28,13 +29,15 @@ Todos os elementos da equipa estão responsáveis pela execução deste processo
 
 #### DESCRIÇÃO DAS TAREFAS
 
-* Começa o sprint;
 * REQ deve contactar o cliente, elaborando, primeiramente, a **tabela de requisitos** e os **mockups**. É muito importante que estas tarefas estejam concluídas, no máximo, até ao fim da primeira semana do sprint;
 * Assim, IMP pode começar a implementar o produto;
-* Ao longo do sprint, REQ deve elaborar o **documento de requisitos**;
-* Na fase final da implementação, são feitos testes unitários e o código é aprovado pelo *team-lead*;
-* Após ser aprovado, o código é testado pela unidade TST, e na fase final, aprovado pelo respetivo *team-lead*;
-* Depois de passar pela unidade TST, o produto é validado pela QUA, onde é verificada a correspondência entre os requisitos impostos pelo cliente e o produto apresentado. O *team-lead* de QUA dá o sinal a TST para fazer o *deploy* do produto.
+* REQ deve elaborar o **documento de requisitos**;
+* IMP e REQ comunicam para modificar ou esclarecer algum requisito definido;
+* Assim que um ou mais requisitos estejam implementados são testados por TST e na fase final o produto é aprovado pelo respetivo *team-lead*;
+* Posteriormente à aprovação do produto, REQ analisa o documento final de TST e atualiza a tabela de requisitos com os que foram aprovados.
+* QUA faz a reunião das métricas e analisa as mesmas para ver se todos os processos estão a ser compridos como deveriam, caso os resultados sejam positivos o *team-lead* de QUA dá o sinal a TST para fazer o *deploy* do produto;
+* Em qualquer altura do sprint caso sejam necessárias novas ferramentas essa necessidade é comunicada a ENV para esta ser desenvolvida.
+* GES tem como função assegurar o workflow da equipa, ou seja, supervisionar o cumprimento de prazos e avaliar e gerir os colaboradores.
 
 #### OUTPUTS
 
@@ -46,6 +49,4 @@ Todos os elementos da equipa estão responsáveis pela execução deste processo
 
 #### MÉTRICAS DE AVALIAÇÃO
 
-* Quantidade de trabalho produzida no espaço de tempo do sprint;
-* Qualidade do trabalho produzido;
-* Facilidade de comunicação entre as várias unidades.
+* Recolha de métricas dos variadas processos (acompanhamento contínuo), que permitem avaliar o workflow da equipa.
