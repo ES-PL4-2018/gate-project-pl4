@@ -36,7 +36,7 @@ Todos os elementos da equipa estão responsáveis pela execução deste processo
 * Assim que um ou mais requisitos estejam implementados, são testados por TST e, na fase final, o produto é aprovado pelo respetivo *team-lead*;
 * Posteriormente à aprovação do produto, REQ analisa o documento final de TST e atualiza a tabela de requisitos com os que foram aprovados.
 * QUA faz a reunião das métricas e analisa as mesmas para ver se todos os processos estão a ser cumpridos como deveriam. Caso os resultados sejam positivos, o *team-lead* de QUA dá o sinal a TST para fazer o *deploy* do produto;
-* Em qualquer altura do sprint caso sejam necessárias novas ferramentas essa necessidade é comunicada a ENV para esta ser desenvolvida.
+* Em qualquer altura do sprint, caso sejam necessárias novas ferramentas, essa necessidade é comunicada a ENV para ser desenvolvida.
 * GES tem como função assegurar o workflow da equipa, ou seja, supervisionar o cumprimento de prazos e avaliar e gerir os colaboradores.
 
 #### OUTPUTS
