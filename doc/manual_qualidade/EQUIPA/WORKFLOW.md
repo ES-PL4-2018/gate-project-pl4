@@ -49,4 +49,4 @@ Todos os elementos da equipa estão responsáveis pela execução deste processo
 
 #### MÉTRICAS DE AVALIAÇÃO
 
-* Recolha de métricas dos variadas processos (acompanhamento contínuo), que permitem avaliar o workflow da equipa.
+* Recolha de métricas dos variados processos (acompanhamento contínuo), que permitem avaliar o workflow da equipa.
