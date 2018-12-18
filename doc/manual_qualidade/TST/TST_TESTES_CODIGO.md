@@ -16,6 +16,8 @@
 |2.0|26/10/2018|Maria Pereira | Validação|
 | 2.1 | 14/11/2018 | Jessica Cunha | Alteração de acordo com a inspeção realizada |
 | 2.2 | 15/11/2018 | Jessica Cunha | Alteração do ID de acordo com a QA |
+| 2.3 | 18/12/2018 | Pedro Sá | Correção de erros de acordo com a QA |
+
 
 ------
 
