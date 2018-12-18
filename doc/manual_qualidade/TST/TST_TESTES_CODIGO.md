@@ -20,7 +20,7 @@
 ------
 
 ### DESCRIÇÃO DE PROCESSOS
-Este processo descreve a verificação e validação do código através da descoberta de erros/bugs. A implementação, após ter terminado uma tarefa, avisará através do slack e colocará a respetiva card do trello na parte dos testes,  para estes iniciarem continuous testing.
+Este processo descreve a verificação e validação do código através da descoberta de defeitos. A implementação, após ter terminado uma tarefa, avisará através do slack e colocará a respetiva card do trello na parte dos testes,  para estes iniciarem continuous testing.
 
 Sempre que os testes forem terminados, o respetivo elemento, irá escrever na descrição da card quais os testes realizados, a sua duração, e se foi ou não aprovado. No caso de ser aprovado, essa tarefa passará para o "Done", e a implementação será avisada através do slack. No caso de ser reprovado, essa tarefa passará para o "Done", criando uma nova e colocando-a na board da implementação, com os erros encontrados na descrição.
 
@@ -37,6 +37,7 @@ Durante a sprint, um dos elementos irá colocar num documento (TST_REVISAO_SPRIN
 | Ricardo Paiva   | LEI   | rjpaiva@student.dei.uc.pt    |
 
 ### INPUTS
+- Documento de requisitos
 - Código fornecido pela equipa de Implementação sujeito a teste
 
 ### CRITÉRIO DE ENTRADA/ATIVAÇÃO
@@ -54,6 +55,7 @@ Durante a sprint, um dos elementos irá colocar num documento (TST_REVISAO_SPRIN
 - Escrita dos resultados na card do trello;
 - Caso seja aprovada coloca-se card em done e a implementação é avisada;
 - Caso seja reprovada, coloca-se card em done e cria uma card nova para a implementação com a descrição de todos os erros (Volta ao ponto 1);
+- Redação do documento TST_REVISAO_SPRINT#n.md após todos os testes serem finalizados.
 
 ### OUTPUTS
 - Documento TST_REVISAO_SPRINT#.md que contém o resumo do trabalho feito e das conclusões chegadas.
@@ -65,3 +67,6 @@ Após conclusão de todas as tarefas estipuladas na reunião e realização do r
 - Número de testes feitos;
 - Número de aprovações obtidas em função do número total de revisões;
 - Número de reprovações obtidas em função do número total de revisões;
+
+### APROVAÇÃO E VALIDAÇÃO
+- Aprovação do relatório de revisão de testes pelo coordenador. Validação pela equipa de qualidade. 
