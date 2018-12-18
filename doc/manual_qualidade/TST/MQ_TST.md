@@ -18,6 +18,7 @@ O objetivo final desta unidade é a certificação do cumprimento dos requisitos
 |1.0|Joao Soares|Aprovado|25/10/2018
 |1.1|Jessica Cunha | Correção de erros conforme a inspeção|14/11/2018
 |1.2|Pedro Sa | Correção de erros |17/12/2018
+|1.3|Jessica Cunha | Revisão do documento| 18/12/2018
 
 
 ##### Lista de membros:
