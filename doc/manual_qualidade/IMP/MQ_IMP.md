@@ -19,6 +19,7 @@ IMP | 16/11/2018 | João Montenegro | Alexandre Brito
 |   1.0     |    Vítor Ribeiro       |  26/10/2018  |            Revisão e Aprovação   |
 |   1.1     |    Flávio Fernandes    |  16/11/2018  |     Revisão de acordo com a inspeção  |
 |   2.0     |    Vítor Ribeiro       |  18/11/2018  |     Revisão e Aprovação após as revisões pedidas na inspeção  |
+|2.1 | Flávio Fernandes | 18/12/2018    | Revisão das alterações dos elementos da equipa |
 
 
 ##### Membros
@@ -29,12 +30,12 @@ Alexandre Brito  | LEI |alex_brito_97@hotmail.com
 Flávio Fernandes | LEI |flavio98.fernandes@gmail.com
 João Montenegro  | LEI |jpmontenegro67@gmail.com
 João Gonçalves   | LEI |jpmg411@gmail.com
-Guilherme Tavares| LEI |guilhermeditavares@gmail.com
+Victor Carvalho  | LEI |contato@victorcarvalho.pt
 
 ### Objetivos
 
 1. Análise do documento de requisitos e divisão em pequenas tarefas.
-2. Implementação, em código, dos aspectos requisitados.
+2. Implementação, em código, dos aspectos requisitados e, posteriormente, avisar através do Trello a unidade de Testes quando as funcionalidades estiverem prontas a ser testadas.
 3. Correção de erros encontrados pela equipa de testes.
 
 ### Processos
