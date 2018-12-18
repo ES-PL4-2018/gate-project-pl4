@@ -2,7 +2,7 @@
 
 A equipa de Testes é responsável por testar e validar o produto, de acordo com os requisitos, durante o seu desenvolvimento.
 Cabe à unidade interagir com a equipa de Implementação (IMP) de forma a garantir que este processo seja o mais otimizado possível, enumerar e distribuir os mesmos por cada elemento da equipa, sendo cada um encarregue de realizar estes atendendo aos requisitos delineados pela equipa de Requisitos (RQ).
-O objetivo final desta unidade é a certificação do seu cumprimento dos requisitos sendo também responsável pelo deployment do mesmo.
+O objetivo final desta unidade é a certificação do cumprimento dos requisitos sendo também responsável pelo deployment do mesmo.
 
 
 |Unidade | Data | Lead | Co-Lead |
@@ -17,6 +17,7 @@ O objetivo final desta unidade é a certificação do seu cumprimento dos requis
 |0.1|Jessica|Elaboração inicial|25/10/2018
 |1.0|Joao Soares|Aprovado|25/10/2018
 |1.1|Jessica Cunha | Correção de erros conforme a inspeção|14/11/2018
+|1.2|Pedro Sa | Correção de erros |17/12/2018
 
 
 ##### Lista de membros:
