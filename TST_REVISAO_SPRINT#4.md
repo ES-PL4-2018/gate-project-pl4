@@ -102,6 +102,10 @@ Número de requisitos reprovados: 2
 - Prioridade baixa: 0
 - Prioridade média: 1
 
+De destacar que o requisito de alta prioridade reprovado deve se ao facto de existir um limite associado ao nível de conexões e que foram aprovados 10 de 12 requisitos finais. 
 
+Podemos comprovar a qualidade do produto pela certificação do cumprimento dos requisitos e a implementação e seguimento restrito dos mockups acordados entre a unidade de requistos e o cliente.
+A aplicação mostra se fluida e responsiva ao utlizador, de fácil utilização e intuitiva, exemplo disso é a fácil edição das Bookmarks tal como os parâmetros na página de perfil, como os interesses.
+O registo com a plataforma do ORCID é fácil e rápido, tal como a associação com a conta do twitter e sua integração no sentido em que é possível e se torna básico para o utilizador a criação de tweets e o filtro dos mesmos.
 
-De destacar que o requisito de alta prioridade reprovado deve se ao facto de existir um limite associado ao nível de conexões e que foram aprovados 10 de 12 requisitos finais. Com isto, podemos afirmar que a aplicação está pronta para o deploy, sendo aprovada pela nossa equipa.
+Com isto, podemos afirmar que a aplicação está pronta para o deploy, sendo aprovada pela nossa unidade.
