@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/profile"
+        android:descendantFocusability="beforeDescendants"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/profile_background">
+
+    <ImageView
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.05"
+            app:layout_constraintHorizontal_bias="0.10"
+            android:src="@drawable/profile_logout"
+            android:id="@+id/profileLeftImage"
+            tools:ignore="ContentDescription"/>
+
+    <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.05"
+            app:layout_constraintHorizontal_bias="0.90"
+            android:src="@drawable/profile_edit"
+            android:id="@+id/profileRightImage"
+            tools:ignore="ContentDescription"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.075"
+            android:src="@drawable/bvn_profile"
+            app:civ_border_width="1dp"
+            app:civ_border_color="#FFFFFF"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.29000002"
+            android:text="@string/profileUserName"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:id="@+id/profileOrcid"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.425"
+            app:layout_constraintHorizontal_bias="0.2"
+            android:text="@string/profileName"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:id="@+id/profileUserName"/>
+
+    <EditText
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.46"
+            app:layout_constraintHorizontal_bias="0.35"
+            android:text=""
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:inputType="textPersonName"
+            android:focusable="false"
+            android:maxLength="25"
+            android:singleLine="true"
+            android:id="@+id/profileUserNameInput"/>
+    <!--android:backgroundTint="@color/transparent"-->
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.505"
+            app:layout_constraintHorizontal_bias="0.215"
+            android:text="@string/profileInstitution"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:id="@+id/profileInstitution"/>
+
+    <EditText
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.545"
+            app:layout_constraintHorizontal_bias="0.35"
+            android:text=""
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:focusable="false"
+            android:maxLength="30"
+            android:singleLine="true"
+            android:id="@+id/profileInstitutionInput"/>
+    <!--android:backgroundTint="@color/transparent"-->
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.585"
+            app:layout_constraintHorizontal_bias="0.232"
+            android:text="@string/profileResearchUnit"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:id="@+id/profileResearchUnit"/>
+
+    <EditText
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.628"
+            app:layout_constraintHorizontal_bias="0.35"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:focusable="false"
+            android:maxLength="30"
+            android:singleLine="true"
+            android:id="@+id/profileResearchUnitInput"/>
+    <!--android:backgroundTint="@color/transparent"-->
+
+    <EditText
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.729"
+            app:layout_constraintHorizontal_bias="0.352"
+            android:backgroundTint="@color/transparent"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:focusable="false"
+            android:maxLength="30"
+            android:singleLine="true"
+            android:id="@+id/profileInterestSearch"/>
+
+
+    <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.81"
+            app:layout_constraintVertical_bias="0.709"
+            app:srcCompat="@drawable/register_add"
+            android:visibility="invisible"
+            android:id="@+id/profileAddInterest"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.685"
+            app:layout_constraintHorizontal_bias="0.259"
+            android:text="@string/profileResearchInterests"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:id="@+id/profileResearchInterests"/>
+
+    <android.support.v7.widget.RecyclerView
+            android:layout_width="315dp"
+            android:layout_height="145dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.945"
+            android:id="@+id/profileRecyclerView"/>
+
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+            android:id="@+id/login_button"
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.35"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.35"
+            android:text="@string/profileUserName"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:id="@+id/profileTwitterName"
+            android:visibility="invisible"/>
+
+</android.support.constraint.ConstraintLayout>
